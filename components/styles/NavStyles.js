@@ -6,6 +6,16 @@ const NavStyles = styled.div`
     width: 100%;
     font-size: 1rem;
     max-width: 1200px;
+    display: grid;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    .navContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
     a,
     button {
         position: relative;
@@ -14,15 +24,23 @@ const NavStyles = styled.div`
         font-size: 1.4rem;
         background: none;
         border: 0;
-        color: var(--grey);
+        color: var(--darkGrey);
         cursor: pointer;
         @media (max-width: 700px) {
             font-size: 10px;
             padding: 0 10px;
         }
     }
+    .bookNow {
+        background-color: var(--aquaGreen);
+        padding: 1.5rem 2.5rem;
+        border-radius: 3px;
+        margin-left: 3rem;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
     .navRight {
-        float: right;
+        display: flex;
+        align-items: center;
         a {
             margin-left: 3rem;
         }
