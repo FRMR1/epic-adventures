@@ -38,10 +38,15 @@ const GlobalStyles = createGlobalStyle`
         font-family: "Futura";
         letter-spacing: -6px;
         color: var(--black);
+        text-transform: uppercase;
     }
     a {
         text-decoration: none;
         color: var(--black);
+    }
+    p, li {
+        font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
     }
     a:hover {
         text-decoration: underline;
