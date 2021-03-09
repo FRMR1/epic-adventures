@@ -44,7 +44,7 @@ const GlobalStyles = createGlobalStyle`
         text-decoration: none;
         color: var(--black);
     }
-    p, li {
+    p, li, a {
         font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 300;
     }
@@ -53,6 +53,9 @@ const GlobalStyles = createGlobalStyle`
     }
     button {
         font-family: Roboto Mono, --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    main {
+        min-height: 600px;
     }
 `
 export default GlobalStyles

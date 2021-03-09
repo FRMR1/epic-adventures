@@ -1,13 +1,13 @@
 import Head from "next/head"
 
-export default function Adventures() {
+export default function Contact() {
     return (
         <>
             <Head>
-                <title>Epic Adventures | Adventures</title>
+                <title>Epic Adventures | Contact</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h3>Adventures</h3>
+            <h3>Contact</h3>
         </>
     )
 }

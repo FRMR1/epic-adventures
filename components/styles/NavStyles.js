@@ -6,10 +6,12 @@ const NavStyles = styled.div`
     width: 100%;
     font-size: 1rem;
     max-width: 1200px;
+
     display: grid;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
+    z-index: 99;
     .navContainer {
         display: flex;
         align-items: center;
@@ -20,6 +22,7 @@ const NavStyles = styled.div`
     button {
         position: relative;
         text-transform: uppercase;
+        font-family: Roboto Mono;
         font-weight: 400;
         font-size: 1.4rem;
         background: none;

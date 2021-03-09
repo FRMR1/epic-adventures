@@ -1,8 +1,9 @@
 import styled from "styled-components"
 
 export const CardSectionStyles = styled.div`
+    margin-bottom: 15rem;
     h3 {
-        font-size: 5rem;
+        font-size: 4.5rem;
         letter-spacing: -3px;
         text-align: center;
         position: relative;
@@ -27,7 +28,7 @@ export const CardSectionStyles = styled.div`
         gap: 10rem;
         .card {
             background-color: #fff;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
             border-radius: 20px;
             height: 700px;
             padding: 2rem;
