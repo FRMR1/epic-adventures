@@ -4,7 +4,6 @@ export const CardSectionStyles = styled.div`
     margin-bottom: 15rem;
     h3 {
         font-size: 4.5rem;
-        letter-spacing: -3px;
         text-align: center;
         position: relative;
         top: -15rem;
@@ -30,20 +29,28 @@ export const CardSectionStyles = styled.div`
             background-color: #fff;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
             border-radius: 20px;
-            height: 700px;
-            padding: 2rem;
+            height: 900px;
+            .cardDesc {
+                padding: 2rem;
+                position: relative;
+                top: -12px;
+            }
+            .cardImage {
+                img {
+                    border-radius: 20px 20px 0 0;
+                }
+            }
             h4 {
                 font-size: 4rem;
-                letter-spacing: -2px;
                 text-align: center;
+                margin: 3rem 0;
             }
             h5 {
-                letter-spacing: -4px;
+                letter-spacing: -0.4rem;
                 color: #5c5c5c;
                 font-size: 6rem;
                 text-align: center;
-                position: relative;
-                top: -6rem;
+                margin: 0;
                 font-weight: 800;
                 font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
                     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
@@ -60,20 +67,26 @@ export const CardSectionStyles = styled.div`
                 top: 0;
                 font-size: 1.4rem;
                 color: #707070;
+                margin-bottom: 4rem;
             }
             ul {
                 list-style: none;
                 li {
                     font-size: 1.3rem;
                     color: #707070;
+                    img {
+                        margin-right: 1.6rem;
+                        position: relative;
+                        top: 0.3rem;
+                    }
                 }
             }
             .button {
                 text-align: center;
                 cursor: pointer;
-                position: relative;
+                /* position: relative; */
                 margin: 0 auto;
-                top: -15rem;
+                /* top: -12rem; */
                 background-color: #4a4a4a;
                 border-radius: 3px;
                 width: 12rem;

@@ -18,8 +18,10 @@ export const FooterStyles = styled.div`
             }
             p {
                 color: #747474;
-                font-size: 1.3rem;
+                font-size: 1.2rem;
                 margin: 0;
+                letter-spacing: 0.07rem;
+                font-weight: 300;
             }
         }
         .navigation,
@@ -45,12 +47,19 @@ export const FooterStyles = styled.div`
                     a {
                         color: #7b7b7b;
                         font-size: 1.3rem;
-                        font-family: Roboto Mono;
+                        font-family: --apple-system, BlinkMacSystemFont,
+                            "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+                            "Open Sans", "Helvetica Neue", sans-serif;
+                        font-weight: 200;
+                        letter-spacing: 0.15rem;
                     }
                 }
             }
         }
         .policies {
+            img {
+                margin-right: 2rem;
+            }
             .policyLinks {
                 ul {
                     list-style: none;
@@ -63,6 +72,7 @@ export const FooterStyles = styled.div`
                             font-size: 1rem;
                             color: #7b7b7b;
                             text-transform: uppercase;
+                            letter-spacing: 0.1rem;
                         }
                     }
                 }

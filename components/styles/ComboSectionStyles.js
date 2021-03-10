@@ -4,7 +4,6 @@ export const ComboSectionStyles = styled.div`
     margin-bottom: 15rem;
     h3 {
         font-size: 4.5rem;
-        letter-spacing: -3px;
         text-align: center;
         position: relative;
         top: -15rem;
@@ -24,6 +23,7 @@ export const ComboSectionStyles = styled.div`
         max-width: 1000px;
         grid-template-columns: 1fr 1fr;
         position: relative;
+        align-items: center;
         top: -10rem;
         gap: 10rem;
         .number {
@@ -37,7 +37,6 @@ export const ComboSectionStyles = styled.div`
         }
         h4 {
             font-size: 4rem;
-            letter-spacing: -2px;
             position: relative;
             top: -7rem;
             color: #5c5c5c;
@@ -58,6 +57,11 @@ export const ComboSectionStyles = styled.div`
             li {
                 font-size: 1.3rem;
                 color: #707070;
+                img {
+                    margin-right: 1.6rem;
+                    position: relative;
+                    top: 0.3rem;
+                }
             }
         }
         .button {
@@ -76,6 +80,9 @@ export const ComboSectionStyles = styled.div`
                 text-transform: uppercase;
                 font-size: 1.3rem;
             }
+        }
+        .comboImage {
+            align-items: center;
         }
     }
 `

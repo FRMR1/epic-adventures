@@ -46,9 +46,12 @@ const Footer = ({ year }) => {
                 </div>
                 <div className="policies">
                     <div className="social">
-                        <span>In</span>
-                        <span>Fb</span>
-                        <span>Tw</span>
+                        <a href="#" target="_blank">
+                            <img src="/svg/facebook.svg" width="22" />
+                        </a>
+                        <a href="#" target="_blank">
+                            <img src="/svg/instagram.svg" width="22" />
+                        </a>
                     </div>
                     <div className="policyLinks">
                         <ul>

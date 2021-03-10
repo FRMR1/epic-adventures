@@ -17,11 +17,12 @@ export const ReadyToBookStyles = styled.div`
         font-size: 3rem;
         margin: 0;
         padding: 0;
-        letter-spacing: -2px;
+        letter-spacing: -0.1rem;
         line-height: 33px;
     }
     p {
         color: #b2b2b2;
+        letter-spacing: 0.04rem;
         margin: 0;
         padding: 0;
     }
@@ -30,6 +31,7 @@ export const ReadyToBookStyles = styled.div`
     }
     .bookNow {
         background-color: var(--aquaGreen);
+        color: #555;
         padding: 1.2rem 3rem;
         justify-self: end;
         align-self: center;

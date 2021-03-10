@@ -88,6 +88,18 @@ export default function Home() {
                 <img src="/svg/divider-top2.svg" width="100%" />
             </TopDividerStyles>
             <SectionStyles>
+                <div className="locationLogos">
+                    <img
+                        src="/svg/epicbanff.svg"
+                        width="150"
+                        alt="Epic Banff"
+                    />
+                    <img
+                        src="/svg/epicgolden.svg"
+                        width="150"
+                        alt="Epic Golden"
+                    />
+                </div>
                 <h3>Serving Banff and Golden</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -119,18 +131,45 @@ export default function Home() {
                             dolore magna aliqua.
                         </p>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
                         </ul>
                         <div className="button">
                             <span>More Info</span>
                         </div>
                     </div>
-                    <div></div>
+                    <div className="comboImage">
+                        <Image
+                            src="/images/epicsummer.png"
+                            layout="responsive"
+                            width="100%"
+                            height="auto"
+                            objectFit="contain"
+                            alt="Epic Summer Pass"
+                        />
+                    </div>
                 </div>
                 <div className="comboSection">
-                    <div></div>
+                    <div className="comboImage">
+                        <Image
+                            src="/images/epicsummer.png"
+                            layout="responsive"
+                            width="100%"
+                            height="auto"
+                            objectFit="contain"
+                            alt="Epic Summer Pass"
+                        />
+                    </div>
                     <div>
                         <span className="number">02</span>
                         <h4>Rafting/Skydiving</h4>
@@ -140,9 +179,18 @@ export default function Home() {
                             dolore magna aliqua.
                         </p>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
                         </ul>
                         <div className="button">
                             <span>More Info</span>
@@ -159,18 +207,45 @@ export default function Home() {
                             dolore magna aliqua.
                         </p>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
                         </ul>
                         <div className="button">
                             <span>More Info</span>
                         </div>
                     </div>
-                    <div></div>
+                    <div className="comboImage">
+                        <Image
+                            src="/images/epicsummer.png"
+                            layout="responsive"
+                            width="100%"
+                            height="auto"
+                            objectFit="contain"
+                            alt="Epic Summer Pass"
+                        />
+                    </div>
                 </div>
                 <div className="comboSection">
-                    <div></div>
+                    <div className="comboImage">
+                        <Image
+                            src="/images/epicsummer.png"
+                            layout="responsive"
+                            width="100%"
+                            height="auto"
+                            objectFit="contain"
+                            alt="Epic Summer Pass"
+                        />
+                    </div>
                     <div>
                         <span className="number">04</span>
                         <h4>Skydiving/Swing</h4>
@@ -180,9 +255,18 @@ export default function Home() {
                             dolore magna aliqua.
                         </p>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
-                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet
+                            </li>
                         </ul>
                         <div className="button">
                             <span>More Info</span>
@@ -191,7 +275,16 @@ export default function Home() {
                 </div>
             </ComboSectionStyles>
             <PhotoPackageStyles>
-                <div></div>
+                <div className="photoPackageImg">
+                    <Image
+                        src="/images/epicsummer.png"
+                        layout="responsive"
+                        width="100%"
+                        height="auto"
+                        objectFit="contain"
+                        alt="Epic Photo/Video Package"
+                    />
+                </div>
                 <div className="photoPackageDesc">
                     <h3>Epic Photo/Video Package</h3>
                     <p>

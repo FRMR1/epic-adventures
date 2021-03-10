@@ -36,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
     }
     h1, h2, h3, h4, h5, h6 {
         font-family: "Futura";
-        letter-spacing: -6px;
+        letter-spacing: -.1rem;
         color: var(--black);
         text-transform: uppercase;
     }
@@ -47,6 +47,7 @@ const GlobalStyles = createGlobalStyle`
     p, li, a {
         font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 300;
+        letter-spacing: .05rem;
     }
     a:hover {
         text-decoration: underline;

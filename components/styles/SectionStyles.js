@@ -10,14 +10,23 @@ export const SectionStyles = styled.div`
         margin: 0;
         font-size: 5rem;
         color: #f0f0f0;
-        letter-spacing: -3px;
+        letter-spacing: -0.1rem;
         text-align: center;
     }
     p {
         max-width: 70rem;
         margin: 1rem auto;
         font-size: 1.7rem;
-        color: #fff;
+        color: #848484;
         text-align: center;
+    }
+    .locationLogos {
+        margin: 0 auto;
+        text-align: center;
+        grid-template-columns: auto auto;
+        max-width: 350px;
+        display: grid;
+        gap: 3rem;
+        margin-bottom: 4rem;
     }
 `
