@@ -3,12 +3,16 @@ import Footer from "../Footer"
 import GlobalStyles from "../styles/GlobalStyles"
 
 const Layout = ({ children }) => {
+    // Get current year
+    const date = new Date()
+    const year = date.getFullYear()
+
     return (
         <div>
             <GlobalStyles />
             <Nav />
             <main>{children}</main>
-            <Footer />
+            <Footer year={year} />
         </div>
     )
 }

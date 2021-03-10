@@ -3,7 +3,7 @@ import styled, { createGlobalStyle } from "styled-components"
 const GlobalStyles = createGlobalStyle`
     @font-face {
         font-family: 'Futura';
-        src: url('/fonts/FuturaPRO-CondExtraBoldObl.woff2') format('woff2');
+        src: url('/fonts/FuturaPRO-CondensedBoldObl.woff2') format('woff2');
         font-weight: normal;
         font-style: normal;
     }

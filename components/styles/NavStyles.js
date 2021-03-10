@@ -6,7 +6,6 @@ const NavStyles = styled.div`
     width: 100%;
     font-size: 1rem;
     max-width: 1200px;
-
     display: grid;
     position: absolute;
     left: 50%;

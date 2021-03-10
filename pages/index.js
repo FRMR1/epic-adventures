@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Epic Adventures</title>
+                <title>Epic Adventures | Banff & Golden</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroImageStyles>
