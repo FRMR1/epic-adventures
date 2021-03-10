@@ -23,7 +23,7 @@ const NavStyles = styled.div`
         text-transform: uppercase;
         font-family: Roboto Mono;
         font-weight: 400;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         background: none;
         border: 0;
         color: var(--darkGrey);
@@ -44,7 +44,7 @@ const NavStyles = styled.div`
         display: flex;
         align-items: center;
         a {
-            margin-left: 3rem;
+            margin-left: 4rem;
         }
     }
     @media (max-width: 1300px) {

@@ -2,11 +2,17 @@ import styled from "styled-components"
 
 export const ComboSectionStyles = styled.div`
     margin-bottom: 15rem;
+    padding: 0 3rem;
     h3 {
         font-size: 4.5rem;
         text-align: center;
         position: relative;
         top: -15rem;
+        @media (max-width: 800px) {
+            font-size: 3.5rem;
+            margin-bottom: 7rem;
+            line-height: 4rem;
+        }
     }
     p {
         position: relative;
@@ -16,6 +22,14 @@ export const ComboSectionStyles = styled.div`
         font-size: 1.7rem;
         color: #b2b2b2;
         max-width: 70rem;
+        @media (max-width: 800px) {
+            font-size: 1.5rem;
+        }
+    }
+    @media (max-width: 800px) {
+        .reverse {
+            flex-direction: column-reverse;
+        }
     }
     .comboSection {
         display: grid;
@@ -26,6 +40,10 @@ export const ComboSectionStyles = styled.div`
         align-items: center;
         top: -10rem;
         gap: 10rem;
+        @media (max-width: 800px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
         .number {
             font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                 Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
@@ -83,6 +101,7 @@ export const ComboSectionStyles = styled.div`
         }
         .comboImage {
             align-items: center;
+            width: 100%;
         }
     }
 `

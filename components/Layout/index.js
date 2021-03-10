@@ -11,7 +11,9 @@ const Layout = ({ children }) => {
         <div>
             <GlobalStyles />
             <Nav />
-            <main>{children}</main>
+            <main>
+                <div className="mainContainer">{children}</div>
+            </main>
             <Footer year={year} />
         </div>
     )

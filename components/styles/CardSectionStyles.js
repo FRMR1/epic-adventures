@@ -2,11 +2,16 @@ import styled from "styled-components"
 
 export const CardSectionStyles = styled.div`
     margin-bottom: 15rem;
+    padding: 0 3rem;
     h3 {
         font-size: 4.5rem;
         text-align: center;
         position: relative;
         top: -15rem;
+        @media (max-width: 800px) {
+            font-size: 3rem;
+            margin-bottom: 5rem;
+        }
     }
     p {
         position: relative;
@@ -16,6 +21,10 @@ export const CardSectionStyles = styled.div`
         font-size: 1.7rem;
         color: #b2b2b2;
         max-width: 70rem;
+        @media (max-width: 800px) {
+            font-size: 1.4rem;
+            /* margin-bottom: 5rem; */
+        }
     }
     .cards {
         display: grid;
@@ -24,12 +33,18 @@ export const CardSectionStyles = styled.div`
         grid-template-columns: 1fr 1fr 1fr;
         position: relative;
         top: -10rem;
-        gap: 10rem;
+        gap: 7%;
+        @media (max-width: 800px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
         .card {
             background-color: #fff;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
             border-radius: 20px;
-            height: 900px;
+            padding-bottom: 3rem;
+            min-width: 200px;
+            margin-bottom: 3rem;
             .cardDesc {
                 padding: 2rem;
                 position: relative;
@@ -50,7 +65,7 @@ export const CardSectionStyles = styled.div`
                 color: #5c5c5c;
                 font-size: 6rem;
                 text-align: center;
-                margin: 0;
+                margin: 2rem 0 0;
                 font-weight: 800;
                 font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
                     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
@@ -71,6 +86,9 @@ export const CardSectionStyles = styled.div`
             }
             ul {
                 list-style: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
                 li {
                     font-size: 1.3rem;
                     color: #707070;

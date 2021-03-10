@@ -121,7 +121,7 @@ export default function Home() {
                     elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
                 </p>
-                <div className="comboSection">
+                <div className="comboSection reverse">
                     <div>
                         <span className="number">01</span>
                         <h4>Epic Summer Pass</h4>
@@ -197,7 +197,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="comboSection">
+                <div className="comboSection reverse">
                     <div>
                         <span className="number">03</span>
                         <h4>Swing/Rafting</h4>
