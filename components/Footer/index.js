@@ -14,16 +14,16 @@ const Footer = ({ year }) => {
                     <h4>Navigation</h4>
                     <ul>
                         <li>
-                            <Link href="#">Home</Link>
+                            <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <Link href="#">About</Link>
+                            <Link href="/about">About</Link>
                         </li>
                         <li>
-                            <Link href="#">Adventures</Link>
+                            <Link href="/adventures">Adventures</Link>
                         </li>
                         <li>
-                            <Link href="#">Contact</Link>
+                            <Link href="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -31,16 +31,16 @@ const Footer = ({ year }) => {
                     <h4>Adventures</h4>
                     <ul>
                         <li>
-                            <Link href="#">Rafting</Link>
+                            <Link href="/adventures/rafting">Rafting</Link>
                         </li>
                         <li>
-                            <Link href="#">Skydiving</Link>
+                            <Link href="/adventures/skydiving">Skydiving</Link>
                         </li>
                         <li>
-                            <Link href="#">Swing</Link>
+                            <Link href="/adventures/swing">Swing</Link>
                         </li>
                         <li>
-                            <Link href="#">Combos</Link>
+                            <Link href="/adventures/combos">Combos</Link>
                         </li>
                     </ul>
                 </div>
@@ -56,17 +56,17 @@ const Footer = ({ year }) => {
                     <div className="policyLinks">
                         <ul>
                             <li>
-                                <Link href="#">
+                                <Link href="/about/refunds">
                                     <a>Refund Policy</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/privacy">
                                     <a>Privacy Policy</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/terms">
                                     <a>Terms and Conditions</a>
                                 </Link>
                             </li>

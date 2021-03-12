@@ -9,8 +9,8 @@ import { ReadyToBookStyles } from "../components/styles/ReadyToBookStyles"
 import { CardSectionStyles } from "../components/styles/CardSectionStyles"
 import { PhotoPackageStyles } from "../components/styles/PhotoPackageStyles"
 import { ComboSectionStyles } from "../components/styles/ComboSectionStyles"
-import Card from "../components/Card"
 import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
+import Card from "../components/Card"
 
 export default function Home() {
     return (
