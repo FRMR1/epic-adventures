@@ -1,0 +1,66 @@
+import styled from "styled-components"
+
+export const AboutSectionStyles = styled.div`
+    background-color: #fafafa;
+    padding: 5rem 3rem 5rem;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: -18rem;
+    h3 {
+        margin: 0;
+        font-size: 5rem;
+        color: #6a6a6a;
+        letter-spacing: -0.1rem;
+        @media (max-width: 800px) {
+            font-size: 3.5rem;
+            margin-bottom: 5rem;
+            line-height: 4rem;
+        }
+    }
+    p {
+        max-width: 70rem;
+        margin: 1rem auto;
+        font-size: 1.7rem;
+        color: #a3a3a3;
+        @media (max-width: 800px) {
+            font-size: 1.5rem;
+        }
+    }
+    .twoCol {
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 12rem;
+        ul {
+            list-style: none;
+            text-align: left;
+            li {
+                font-size: 1.5rem;
+                color: #a3a3a3;
+                margin-bottom: 2rem;
+                display: grid;
+                grid-template-columns: auto auto;
+                line-height: 4rem;
+                img {
+                    margin-right: 1.6rem;
+                    position: relative;
+                    top: 1.3rem;
+                }
+            }
+        }
+        .left,
+        .right {
+            align-self: center;
+        }
+        .left {
+            padding: 0 7rem;
+        }
+        .right {
+            padding: 0 7rem;
+            h3 {
+                color: #6a6a6a;
+            }
+        }
+    }
+`
