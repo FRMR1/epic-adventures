@@ -33,6 +33,10 @@ const NavStyles = styled.div`
             padding: 0 10px;
         }
     }
+    a:hover {
+        text-decoration: none;
+        color: #747474;
+    }
     .bookNow {
         background-color: var(--aquaGreen);
         padding: 1.5rem 2.5rem;
@@ -46,6 +50,32 @@ const NavStyles = styled.div`
         a {
             margin-left: 4rem;
         }
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdownContent {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        padding-top: 1rem;
+    }
+    .dropdownContent a {
+        padding: 0.5rem 0 0;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        color: #9b9b9b;
+    }
+    .dropdown:hover .dropdownContent {
+        display: block;
+    }
+    .dropdown:hover a {
+        color: #747474;
+    }
+    .dropdownContent a:hover {
+        color: #555;
     }
     @media (max-width: 1300px) {
         /* width: 100%; */

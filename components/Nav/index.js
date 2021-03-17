@@ -18,7 +18,15 @@ const Nav = () => {
                 </Link>
                 <div className="navRight">
                     <Link href="/about">About</Link>
-                    <Link href="/adventures">Adventures</Link>
+                    <div className="dropdown">
+                        <Link href="/adventures">Adventures</Link>
+                        <div className="dropdownContent">
+                            <Link href="/adventures/rafting">Rafting</Link>
+                            <Link href="/adventures/skydiving">Skydiving</Link>
+                            <Link href="/adventures/swing">Swing</Link>
+                            <Link href="/adventures/combos">Combos</Link>
+                        </div>
+                    </div>
                     <Link href="/contact">Contact</Link>
                     <Link href="/bookings">
                         <button className="bookNow"> Book Now</button>
