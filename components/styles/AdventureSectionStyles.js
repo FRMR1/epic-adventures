@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const AboutSectionStyles = styled.div`
+export const AdventureSectionStyles = styled.div`
     background-color: #fafafa;
     padding: 5rem 3rem 5rem;
     margin: 0;
@@ -31,7 +31,7 @@ export const AboutSectionStyles = styled.div`
         margin-top: 8rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 12rem;
+        margin-bottom: 3rem;
         h3 {
             font-size: 4rem;
             text-align: left;

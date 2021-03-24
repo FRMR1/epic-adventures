@@ -144,9 +144,11 @@ export default function Home() {
                                 Lorem ipsum dolor sit amet
                             </li>
                         </ul>
-                        <div className="button">
-                            <span>More Info</span>
-                        </div>
+                        <Link href="/adventures/combos/epic-summer-pass">
+                            <div className="button">
+                                <span>More Info</span>
+                            </div>
+                        </Link>
                     </div>
                     <div className="comboImage">
                         <Image
@@ -192,9 +194,11 @@ export default function Home() {
                                 Lorem ipsum dolor sit amet
                             </li>
                         </ul>
-                        <div className="button">
-                            <span>More Info</span>
-                        </div>
+                        <Link href="/adventures/combos/rafting-skydiving">
+                            <div className="button">
+                                <span>More Info</span>
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="comboSection reverse">
@@ -220,9 +224,11 @@ export default function Home() {
                                 Lorem ipsum dolor sit amet
                             </li>
                         </ul>
-                        <div className="button">
-                            <span>More Info</span>
-                        </div>
+                        <Link href="/adventures/combos/swing-rafting">
+                            <div className="button">
+                                <span>More Info</span>
+                            </div>
+                        </Link>
                     </div>
                     <div className="comboImage">
                         <Image
@@ -268,9 +274,11 @@ export default function Home() {
                                 Lorem ipsum dolor sit amet
                             </li>
                         </ul>
-                        <div className="button">
-                            <span>More Info</span>
-                        </div>
+                        <Link href="/adventures/combos/skydiving-swing">
+                            <div className="button">
+                                <span>More Info</span>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </ComboSectionStyles>

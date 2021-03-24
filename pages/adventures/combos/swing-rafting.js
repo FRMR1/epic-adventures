@@ -10,19 +10,19 @@ import { AdventureHeadingStyles } from "../../../components/styles/AdventureHead
 import { AdventureSectionStyles } from "../../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../../components/styles/BookAdventureStyles"
 
-const SkydivingSwing = () => {
+const SwingRafting = () => {
     return (
         <>
             <Head>
-                <title>Epic Adventures | Skydiving & Swing</title>
+                <title>Epic Adventures | Swing & Rafting</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroImageStyles>
                 <div className="heroText">
-                    <h2>Skydiving & Swing.</h2>
+                    <h2>Swing & Rafting.</h2>
                 </div>
                 <div className="heroText">
-                    <h2 className="bg">Skydiving & Swing.</h2>
+                    <h2 className="bg">Swing & Rafting.</h2>
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
@@ -40,7 +40,7 @@ const SkydivingSwing = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>Skydiving & Swing Combo</h2>
+                    <h2>Swing & Rafting Combo</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -168,4 +168,4 @@ const SkydivingSwing = () => {
     )
 }
 
-export default SkydivingSwing
+export default SwingRafting

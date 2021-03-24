@@ -40,12 +40,12 @@ const Bookings = () => {
                     "https://epicadventuregroup.rezdy.com/catalog/427160/tours?iframe=true"
                 }
                 width="100%"
-                height="800px"
+                height="1000px"
                 id="myId"
                 className="myClassname"
                 display="initial"
                 position="relative"
-                styles={{ border: 0 }}
+                styles={{ border: "none" }}
             />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />

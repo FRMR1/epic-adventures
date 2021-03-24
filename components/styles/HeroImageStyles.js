@@ -25,7 +25,7 @@ export const HeroImageStyles = styled.div`
         font-size: 12rem;
     }
     .bg {
-        font-size: 17rem;
+        font-size: 14rem;
         opacity: 0.2;
     }
 `

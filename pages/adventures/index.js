@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
+import Link from "next/link"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -39,7 +40,7 @@ const Adventures = () => {
                 <div className="adventureSection reverse">
                     <div>
                         <span className="number">01</span>
-                        <h4>Epic Summer Pass</h4>
+                        <h4>Rafting</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -59,9 +60,11 @@ const Adventures = () => {
                                 Lorem ipsum dolor sit amet
                             </li>
                         </ul>
-                        <div className="button">
-                            <span>More Info</span>
-                        </div>
+                        <Link href="/adventures/rafting">
+                            <div className="button">
+                                <span>More Info</span>
+                            </div>
+                        </Link>
                     </div>
                     <div className="adventuresImage">
                         <Image
@@ -87,7 +90,7 @@ const Adventures = () => {
                     </div>
                     <div>
                         <span className="number">02</span>
-                        <h4>Rafting/Skydiving</h4>
+                        <h4>Skydiving</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -107,15 +110,17 @@ const Adventures = () => {
                                 Lorem ipsum dolor sit amet
                             </li>
                         </ul>
-                        <div className="button">
-                            <span>More Info</span>
-                        </div>
+                        <Link href="/adventures/skydiving">
+                            <div className="button">
+                                <span>More Info</span>
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="adventureSection reverse">
                     <div>
                         <span className="number">03</span>
-                        <h4>Swing/Rafting</h4>
+                        <h4>Swing</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -135,9 +140,11 @@ const Adventures = () => {
                                 Lorem ipsum dolor sit amet
                             </li>
                         </ul>
-                        <div className="button">
-                            <span>More Info</span>
-                        </div>
+                        <Link href="/adventures/swing">
+                            <div className="button">
+                                <span>More Info</span>
+                            </div>
+                        </Link>
                     </div>
                     <div className="adventuresImage">
                         <Image
@@ -148,44 +155,6 @@ const Adventures = () => {
                             objectFit="contain"
                             alt="Epic Summer Pass"
                         />
-                    </div>
-                </div>
-                <div className="adventureSection">
-                    <div className="adventuresImage">
-                        <Image
-                            src="/images/epicsummer.png"
-                            layout="responsive"
-                            width="100%"
-                            height="auto"
-                            objectFit="contain"
-                            alt="Epic Summer Pass"
-                        />
-                    </div>
-                    <div>
-                        <span className="number">04</span>
-                        <h4>Skydiving/Swing</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
-                        </p>
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                        </ul>
-                        <div className="button">
-                            <span>More Info</span>
-                        </div>
                     </div>
                 </div>
             </AdventuresStyles>
@@ -195,12 +164,15 @@ const Adventures = () => {
             <TextSectionStyles>
                 <h3>Do more, pay less.</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Learn about our combos. Learn about our combos. Learn about
+                    our combos. Learn about our combos. Learn about our combos.
+                    Learn about our combos. Learn about our combos.
                 </p>
+                <Link href="/adventures/combos">
+                    <div className="button">
+                        <span>More Info</span>
+                    </div>
+                </Link>
             </TextSectionStyles>
             <ReadyToBookStyles>
                 <div>
