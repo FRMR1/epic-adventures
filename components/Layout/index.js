@@ -3,8 +3,12 @@ import Nav from "../Nav"
 import Footer from "../Footer"
 import tawkTo from "tawkto-react"
 import GlobalStyles from "../styles/GlobalStyles"
+import { useMobileMenuState } from "../../lib/mobileMenuState"
 
 const Layout = ({ children }) => {
+    // Get mobile menu open state
+    const { isOpen } = useMobileMenuState()
+
     // Get current year
     const date = new Date()
     const year = date.getFullYear()
@@ -19,7 +23,7 @@ const Layout = ({ children }) => {
 
     return (
         <div>
-            <GlobalStyles />
+            <GlobalStyles isMobileMenuOpen={isOpen} />
             <Nav />
             <main>
                 <div className="mainContainer">{children}</div>

@@ -1,10 +1,13 @@
 import Layout from "../components/Layout"
+import { MobileMenuStateProvider } from "../lib/mobileMenuState"
 
 function MyApp({ Component, pageProps }) {
     return (
-        <Layout>
-            <Component {...pageProps} />
-        </Layout>
+        <MobileMenuStateProvider>
+            <Layout>
+                <Component {...pageProps} />
+            </Layout>
+        </MobileMenuStateProvider>
     )
 }
 

@@ -82,6 +82,39 @@ const NavStyles = styled.div`
         /* justify-content: center; */
         font-size: 1.5rem;
     }
+    .hamburgerMenu {
+        :hover {
+            cursor: pointer;
+        }
+        span {
+            display: block;
+            width: 2.9rem;
+            height: 0.3rem;
+            margin-bottom: 0.7rem;
+            position: relative;
+            background: #666;
+            border-radius: 0.2rem;
+            z-index: 9999;
+            transform-origin: top left;
+            transition: transform 0.4s cubic-bezier(0.77, 0.2, 0.05, 1),
+                opacity 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
+            :nth-child(1) {
+                transform: ${({ isOpen }) =>
+                    isOpen
+                        ? "rotate(45deg) translate(0, -1px)"
+                        : "rotate(0) translate(0, 0)"};
+            }
+            :nth-child(2) {
+                opacity: ${({ isOpen }) => isOpen && "0"};
+            }
+            :nth-child(3) {
+                transform: ${({ isOpen }) =>
+                    isOpen
+                        ? "rotate(-45deg) translate(0, -1px)"
+                        : "rotate(0) translate(0, 0)"};
+            }
+        }
+    }
 `
 
 export default NavStyles

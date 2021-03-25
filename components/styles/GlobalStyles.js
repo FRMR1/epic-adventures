@@ -33,6 +33,8 @@ const GlobalStyles = createGlobalStyle`
         font-size: 1.5rem;
         line-height:2;
         background-color: #fafafa;
+        height: 100%;
+        overflow: ${({ isMobileMenuOpen }) => isMobileMenuOpen && "hidden"};
     }
     h1, h2, h3, h4, h5, h6 {
         font-family: "Futura";
