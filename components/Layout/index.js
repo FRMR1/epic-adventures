@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { createContext, useEffect } from "react"
 import Nav from "../Nav"
 import Footer from "../Footer"
 import tawkTo from "tawkto-react"
@@ -22,14 +22,12 @@ const Layout = ({ children }) => {
     }, [])
 
     return (
-        <div>
+        <>
             <GlobalStyles isMobileMenuOpen={isOpen} />
             <Nav />
-            <main>
-                <div className="mainContainer">{children}</div>
-            </main>
+            <main>{children}</main>
             <Footer year={year} />
-        </div>
+        </>
     )
 }
 
