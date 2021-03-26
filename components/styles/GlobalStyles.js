@@ -1,11 +1,10 @@
 import styled, { createGlobalStyle } from "styled-components"
+import Futura from "../../public/fonts/FuturaPRO-CondensedBoldObl.woff2"
 
 const GlobalStyles = createGlobalStyle`
     @font-face {
         font-family: 'Futura';
-        src: url('/fonts/FuturaPRO-CondensedBoldObl.woff2') format('woff2');
-        font-weight: normal;
-        font-style: normal;
+        src: url(${Futura}) format('woff2');
     }
     html {
         --red: #ff0000;

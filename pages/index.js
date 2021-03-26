@@ -176,7 +176,7 @@ export default function Home() {
                     </div>
                     <div>
                         <span className="number">02</span>
-                        <h4>Rafting/Skydiving</h4>
+                        <h4>Rafting & Skydiving</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -206,7 +206,7 @@ export default function Home() {
                 <div className="comboSection reverse">
                     <div>
                         <span className="number">03</span>
-                        <h4>Swing/Rafting</h4>
+                        <h4>Swing & Rafting</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -256,7 +256,7 @@ export default function Home() {
                     </div>
                     <div>
                         <span className="number">04</span>
-                        <h4>Skydiving/Swing</h4>
+                        <h4>Skydiving & wing</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -296,7 +296,7 @@ export default function Home() {
                     />
                 </div>
                 <div className="photoPackageDesc">
-                    <h3>Epic Photo/Video Package</h3>
+                    <h3>Epic Photo & Video Package</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
