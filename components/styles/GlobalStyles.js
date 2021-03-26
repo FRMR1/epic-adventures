@@ -60,5 +60,229 @@ const GlobalStyles = createGlobalStyle`
     main {
         min-height: 600px;
     }
+    .footer {
+        height: 750px;
+        background-color: #303030;
+        .footerInner {
+            display: grid;
+            grid-template-columns: 4fr 2fr 2fr 3fr;
+            grid-template-rows: auto auto;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding-top: 25rem;
+            .logoCopyright {
+                position: relative;
+                top: -8.5rem;
+                img {
+                    margin-bottom: 2rem;
+                }
+                p {
+                    color: #747474;
+                    font-size: 1.2rem;
+                    margin: 0;
+                    letter-spacing: 0.07rem;
+                    font-weight: 300;
+                }
+            }
+            .navigation,
+            .adventures {
+                h4 {
+                    letter-spacing: 0.5px;
+                    color: #dbdbdb;
+                    text-transform: none;
+                    font-size: 1.4rem;
+                    font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
+                        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+                        "Helvetica Neue", sans-serif;
+                    font-weight: 400;
+                    margin: 0;
+                }
+                ul {
+                    list-style: none;
+                    margin: 0;
+                    margin-top: 1rem;
+                    padding: 0;
+                    li {
+                        line-height: 2.6rem;
+                        a {
+                            color: #7b7b7b;
+                            font-size: 1.3rem;
+                            font-family: --apple-system, BlinkMacSystemFont,
+                                "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+                                "Open Sans", "Helvetica Neue", sans-serif;
+                            font-weight: 200;
+                            letter-spacing: 0.15rem;
+                        }
+                    }
+                }
+            }
+            .policies {
+                img {
+                    margin-right: 2rem;
+                }
+                .policyLinks {
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        margin-top: 1rem;
+                        li {
+                            line-height: 2.5rem;
+                            a {
+                                font-size: 1rem;
+                                color: #7b7b7b;
+                                text-transform: uppercase;
+                                letter-spacing: 0.1rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .getInTouch {
+                margin-top: 8rem;
+                grid-column: 2 / 5;
+                h3 {
+                    letter-spacing: 0.5px;
+                    color: #7b7b7b;
+                    text-transform: none;
+                    font-size: 1.6rem;
+                    font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
+                        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+                        "Helvetica Neue", sans-serif;
+                    font-weight: 400;
+                    margin: 0;
+                }
+                a,
+                span {
+                    text-decoration: underline;
+                    font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
+                        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+                        "Helvetica Neue", sans-serif;
+                    color: #fff;
+                    font-size: 1.9rem;
+                }
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+    .header {
+        margin: 0 auto;
+        padding: 4rem 3rem;
+        width: 100%;
+        font-size: 1rem;
+        max-width: 1200px;
+        display: grid;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 99;
+        .navContainer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+        }
+        a,
+        button {
+            position: relative;
+            text-transform: uppercase;
+            font-family: Roboto Mono;
+            font-weight: 400;
+            font-size: 1.3rem;
+            background: none;
+            border: 0;
+            color: var(--darkGrey);
+            cursor: pointer;
+            @media (max-width: 700px) {
+                font-size: 10px;
+                padding: 0 10px;
+            }
+        }
+        a:hover {
+            text-decoration: none;
+            color: #747474;
+        }
+        .bookNow {
+            background-color: var(--aquaGreen);
+            padding: 1.5rem 2.5rem;
+            border-radius: 3px;
+            margin-left: 3rem;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+        }
+        .navRight {
+            display: flex;
+            align-items: center;
+            a {
+                margin-left: 4rem;
+            }
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdownContent {
+            display: none;
+            position: absolute;
+            z-index: 1;
+            padding-top: 1rem;
+        }
+        .dropdownContent a {
+            padding: 0.5rem 0 0;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            color: #9b9b9b;
+        }
+        .dropdown:hover .dropdownContent {
+            display: block;
+        }
+        .dropdown:hover a {
+            color: #747474;
+        }
+        .dropdownContent a:hover {
+            color: #555;
+        }
+        @media (max-width: 1300px) {
+            /* width: 100%; */
+            /* justify-content: center; */
+            font-size: 1.5rem;
+        }
+        .hamburgerMenu {
+            :hover {
+                cursor: pointer;
+            }
+            span {
+                display: block;
+                width: 2.9rem;
+                height: 0.3rem;
+                margin-bottom: 0.7rem;
+                position: relative;
+                background: #666;
+                border-radius: 0.2rem;
+                z-index: 9999;
+                transform-origin: top left;
+                transition: transform 0.4s cubic-bezier(0.77, 0.2, 0.05, 1),
+                    opacity 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
+                :nth-child(1) {
+                    transform: ${({ isMobileMenuOpen }) =>
+                        isMobileMenuOpen
+                            ? "rotate(45deg) translate(0, -1px)"
+                            : "rotate(0) translate(0, 0)"};
+                }
+                :nth-child(2) {
+                    opacity: ${({ isMobileMenuOpen }) =>
+                        isMobileMenuOpen && "0"};
+                }
+                :nth-child(3) {
+                    transform: ${({ isMobileMenuOpen }) =>
+                        isMobileMenuOpen
+                            ? "rotate(-45deg) translate(0, -1px)"
+                            : "rotate(0) translate(0, 0)"};
+                }
+            }
+        }
+    }
 `
 export default GlobalStyles

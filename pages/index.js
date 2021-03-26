@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
+import Nav from "../components/Nav"
 import { HeroImageStyles } from "../components/styles/HeroImageStyles"
 import { SectionStyles } from "../components/styles/SectionStyles"
 import { TopDividerStyles } from "../components/styles/TopDividerStyles"
@@ -19,6 +20,7 @@ export default function Home() {
                 <title>Epic Adventures | Banff & Golden</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <Nav />
             <HeroImageStyles>
                 <div className="heroText">
                     <h2>Live epic.</h2>

@@ -1,9 +1,8 @@
 import Link from "next/link"
-import { FooterStyles } from "../styles/FooterStyles"
 
 const Footer = ({ year }) => {
     return (
-        <FooterStyles>
+        <div className="footer">
             <div className="footerInner">
                 <div className="logoCopyright">
                     <img src="/svg/logo-outline.svg" width="100" />
@@ -80,7 +79,7 @@ const Footer = ({ year }) => {
                     <span>+1 800 555 EPIC</span>
                 </div>
             </div>
-        </FooterStyles>
+        </div>
     )
 }
 
