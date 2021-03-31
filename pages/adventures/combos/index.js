@@ -101,7 +101,7 @@ const Combos = () => {
                     </div>
                     <div>
                         <span className="number">02</span>
-                        <h4>Rafting/Skydiving</h4>
+                        <h4>Rafting & Skydiving</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -131,7 +131,7 @@ const Combos = () => {
                 <div className="adventureSection reverse">
                     <div>
                         <span className="number">03</span>
-                        <h4>Swing/Rafting</h4>
+                        <h4>Swing & Rafting</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -181,7 +181,7 @@ const Combos = () => {
                     </div>
                     <div>
                         <span className="number">04</span>
-                        <h4>Skydiving/Swing</h4>
+                        <h4>Skydiving & Swing</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
