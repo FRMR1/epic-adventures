@@ -13,25 +13,35 @@ export const ReadyToBookStyles = styled.div`
     margin: 0 auto;
     padding: 4rem 6rem;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+    @media (max-width: 800px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
     h4 {
         font-size: 3rem;
         margin: 0;
         padding: 0;
         letter-spacing: -0.1rem;
-        line-height: 33px;
+        line-height: 6rem;
+        @media (max-width: 800px) {
+            text-align: center;
+        }
     }
     p {
         color: #b2b2b2;
         letter-spacing: 0.04rem;
         margin: 0;
         padding: 0;
+        @media (max-width: 800px) {
+            text-align: center;
+        }
     }
     a:hover {
         text-decoration: none;
     }
     .bookNow {
-        background-color: var(--aquaGreen);
-        color: #555;
+        background-color: var(--purple);
+        color: #fff;
         padding: 1.2rem 3rem;
         justify-self: end;
         align-self: center;
@@ -39,8 +49,11 @@ export const ReadyToBookStyles = styled.div`
         border-radius: 3px;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
         font-family: Roboto Mono;
-        font-weight: 400;
+        font-weight: 300;
         text-transform: uppercase;
         cursor: pointer;
+        @media (max-width: 800px) {
+            margin: 2rem auto 0;
+        }
     }
 `

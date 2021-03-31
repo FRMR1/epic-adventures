@@ -6,4 +6,7 @@ export const TopDividerStyles = styled.div`
     position: relative;
     top: -17rem;
     z-index: 2;
+    @media (max-width: 800px) {
+        top: -6rem;
+    }
 `

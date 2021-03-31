@@ -11,10 +11,12 @@ const GlobalStyles = createGlobalStyle`
         --black: #393939;
         --grey: #a0a0a0;
         --gray: var(--grey);
-        --darkGrey: #454545;
+        --lightGrey: #c8c8c8;
+        --darkGrey: #4d4d4d;
         --darkGray: var(--darkGrey);
         --offWhite: #ededed;
-        --aquaGreen: #2AFEC5;
+        --purple: #9d5aff;
+        --teal: #60f0ff;
         --maxWidth: 1000px;
         --bs: 0 12px 24px 0 rgba(0,0,0,0.09);
         box-sizing: border-box;
@@ -38,12 +40,12 @@ const GlobalStyles = createGlobalStyle`
     h1, h2, h3, h4, h5, h6 {
         font-family: "Futura";
         letter-spacing: -.1rem;
-        color: var(--black);
+        color: #9d5aff;
         text-transform: uppercase;
     }
     a {
         text-decoration: none;
-        color: var(--black);
+        color: #9d5aff;
     }
     p, li, a {
         font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -60,8 +62,11 @@ const GlobalStyles = createGlobalStyle`
         min-height: 600px;
     }
     .footer {
-        height: 750px;
-        background-color: #303030;
+        padding-bottom: 20rem;
+        background-color: var(--purple);
+        @media (max-width: 800px) {
+            padding-top: 4rem;
+    }
         .footerInner {
             display: grid;
             grid-template-columns: 4fr 2fr 2fr 3fr;
@@ -69,14 +74,22 @@ const GlobalStyles = createGlobalStyle`
             max-width: 1000px;
             margin: 0 auto;
             padding-top: 25rem;
+            @media (max-width: 800px) {
+                display: flex;
+                flex-wrap: wrap;
+            }
             .logoCopyright {
                 position: relative;
                 top: -8.5rem;
+                @media (max-width: 800px) {
+                    width: 100%;
+                    text-align: center;
+                }
                 img {
                     margin-bottom: 2rem;
                 }
                 p {
-                    color: #747474;
+                    color: #fff;
                     font-size: 1.2rem;
                     margin: 0;
                     letter-spacing: 0.07rem;
@@ -85,9 +98,14 @@ const GlobalStyles = createGlobalStyle`
             }
             .navigation,
             .adventures {
+                @media (max-width: 800px) {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 5rem;
+                }
                 h4 {
                     letter-spacing: 0.5px;
-                    color: #dbdbdb;
+                    color: var(--teal);
                     text-transform: none;
                     font-size: 1.4rem;
                     font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -104,7 +122,7 @@ const GlobalStyles = createGlobalStyle`
                     li {
                         line-height: 2.6rem;
                         a {
-                            color: #7b7b7b;
+                            color: #fff;
                             font-size: 1.3rem;
                             font-family: --apple-system, BlinkMacSystemFont,
                                 "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
@@ -116,8 +134,15 @@ const GlobalStyles = createGlobalStyle`
                 }
             }
             .policies {
+                @media (max-width: 800px) {
+                    width: 100%;
+                    text-align: center;
+                }
                 img {
                     margin-right: 2rem;
+                    @media (max-width: 800px) {
+                        margin: 0 1rem;
+                    }
                 }
                 .policyLinks {
                     ul {
@@ -129,7 +154,7 @@ const GlobalStyles = createGlobalStyle`
                             line-height: 2.5rem;
                             a {
                                 font-size: 1rem;
-                                color: #7b7b7b;
+                                color: #fff;
                                 text-transform: uppercase;
                                 letter-spacing: 0.1rem;
                             }
@@ -140,9 +165,13 @@ const GlobalStyles = createGlobalStyle`
             .getInTouch {
                 margin-top: 8rem;
                 grid-column: 2 / 5;
+                @media (max-width: 800px) {
+                    width: 100%;
+                    text-align: center;
+                }
                 h3 {
                     letter-spacing: 0.5px;
-                    color: #7b7b7b;
+                    color: var(--teal);
                     text-transform: none;
                     font-size: 1.6rem;
                     font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -199,12 +228,15 @@ const GlobalStyles = createGlobalStyle`
                 padding: 0 10px;
             }
         }
+        button {
+            color: #fff;
+        }
         a:hover {
             text-decoration: none;
             color: #747474;
         }
         .bookNow {
-            background-color: var(--aquaGreen);
+            background-color: var(--purple);
             padding: 1.5rem 2.5rem;
             border-radius: 3px;
             margin-left: 3rem;

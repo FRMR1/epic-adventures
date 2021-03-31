@@ -29,12 +29,25 @@ export const LightSectionStyles = styled.div`
     .twoCol {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        @media (max-width: 800px) {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
         .left {
             padding: 0 7rem;
+            @media (max-width: 800px) {
+                padding: 0;
+                width: 100%;
+            }
         }
         .right {
             padding: 0 7rem;
             align-self: center;
+            @media (max-width: 800px) {
+                padding: 0;
+                width: 100%;
+            }
         }
     }
     .center {

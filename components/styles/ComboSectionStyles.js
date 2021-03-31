@@ -3,6 +3,9 @@ import styled from "styled-components"
 export const ComboSectionStyles = styled.div`
     margin-bottom: 15rem;
     padding: 0 3rem;
+    @media (max-width: 800px) {
+        margin-top: 15rem;
+    }
     h3 {
         font-size: 4.5rem;
         text-align: center;
@@ -51,17 +54,18 @@ export const ComboSectionStyles = styled.div`
             font-style: oblique;
             font-size: 2.5rem;
             font-weight: 600;
-            color: #d0d0d0;
+            color: #e3e3e3;
         }
         h4 {
             font-size: 4rem;
             position: relative;
-            top: -7rem;
-            color: #5c5c5c;
+            top: -5rem;
+            color: var(--purple);
+            line-height: 4rem;
         }
         p {
             position: relative;
-            top: -12rem;
+            top: -8rem;
             font-size: 1.4rem;
             color: #b2b2b2;
             text-align: left;
@@ -69,7 +73,7 @@ export const ComboSectionStyles = styled.div`
         ul {
             list-style: none;
             position: relative;
-            top: -10rem;
+            top: -6rem;
             padding: 0;
             margin: 0;
             li {
@@ -87,8 +91,8 @@ export const ComboSectionStyles = styled.div`
             cursor: pointer;
             position: relative;
             /* margin: 0 auto; */
-            top: -7rem;
-            background-color: #4a4a4a;
+            top: -3rem;
+            background-color: var(--purple);
             border-radius: 3px;
             width: 12rem;
             padding: 1rem;
@@ -102,6 +106,9 @@ export const ComboSectionStyles = styled.div`
         .comboImage {
             align-items: center;
             width: 100%;
+            @media (max-width: 800px) {
+                margin-bottom: -10rem;
+            }
         }
     }
 `

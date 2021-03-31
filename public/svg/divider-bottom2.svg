@@ -1,1 +1,16 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312.44 31.88"><defs><style>.cls-1{fill:#515151;}.cls-2{fill:#303030;}</style></defs><title>Artboard 1</title><g id="Group_31" data-name="Group 31"><path id="Path_28" data-name="Path 28" class="cls-1" d="M0-110V6.64L115.24,31.91l65.32-11.4,131.88,9.86V-124.5l-24.34,2.41-34.51-16L125.44-101.7l-53-16Z"/><path id="Path_29" data-name="Path 29" class="cls-2" d="M0-91.53V6.64L115.24,31.91l62.2-20.64,135-5.55V-109.09l-24.34,5.55-34.51-34.55L125.44-101.7l-53-16Z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 312.4 31.9" style="enable-background:new 0 0 312.4 31.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.44;fill:#9D5AFF;}
+	.st1{fill:#9D5AFF;}
+</style>
+<title>Artboard 1</title>
+<g id="Group_31">
+	<path id="Path_28" class="st0" d="M0-110V6.6l115.2,25.3l65.3-11.4l131.9,9.9v-154.9l-24.3,2.4l-34.5-16l-128.2,36.4l-53-16L0-110z
+		"/>
+	<path id="Path_29" class="st1" d="M0-91.5V6.6l115.2,25.3l62.2-20.6l135-5.6v-114.8l-24.3,5.6l-34.5-34.6l-128.2,36.4l-53-16
+		L0-91.5z"/>
+</g>
+</svg>

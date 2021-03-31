@@ -8,6 +8,7 @@ import { FooterDividerStyles } from "../../../components/styles/FooterDividerSty
 import { AdventuresStyles } from "../../../components/styles/AdventuresStyles"
 import { TextSectionStyles } from "../../../components/styles/TextSectionStyles"
 import { ReadyToBookStyles } from "../../../components/styles/ReadyToBookStyles"
+import { SectionStyles } from "../../../components/styles/SectionStyles"
 
 const Combos = () => {
     return (
@@ -25,9 +26,9 @@ const Combos = () => {
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
-                <img src="/svg/divider-top-light.svg" width="100%" />
+                <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
-            <AdventuresStyles>
+            <SectionStyles>
                 <h3>Epic Combos.</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -35,6 +36,17 @@ const Combos = () => {
                     aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
+                </p>
+            </SectionStyles>
+            <BottomDividerStyles>
+                <img src="/svg/divider-bottom.svg" width="100%" />
+            </BottomDividerStyles>
+            <AdventuresStyles>
+                <h3>Do more with epic combos</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
                 </p>
                 <div className="adventureSection reverse">
                     <div>
@@ -197,11 +209,8 @@ const Combos = () => {
                     </div>
                 </div>
             </AdventuresStyles>
-            <BottomDividerStyles>
-                <img src="/svg/divider-bottom-light.svg" width="100%" />
-            </BottomDividerStyles>
             <TextSectionStyles>
-                <h3>Do more, pay less.</h3>
+                <h3>Epic photo & video package</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -209,6 +218,11 @@ const Combos = () => {
                     elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
                 </p>
+                <Link href="#">
+                    <div className="button">
+                        <span>More Info</span>
+                    </div>
+                </Link>
             </TextSectionStyles>
             <ReadyToBookStyles>
                 <div>

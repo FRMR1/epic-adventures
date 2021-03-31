@@ -26,9 +26,9 @@ const Adventures = () => {
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
-                <img src="/svg/divider-top-light.svg" width="100%" />
+                <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
-            <AdventuresStyles>
+            <SectionStyles>
                 <h3>Adventures.</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -36,6 +36,17 @@ const Adventures = () => {
                     aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
+                </p>
+            </SectionStyles>
+            <BottomDividerStyles>
+                <img src="/svg/divider-bottom.svg" width="100%" />
+            </BottomDividerStyles>
+            <AdventuresStyles>
+                <h3>Experience Epic Adventures</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
                 </p>
                 <div className="adventureSection reverse">
                     <div>
@@ -158,15 +169,14 @@ const Adventures = () => {
                     </div>
                 </div>
             </AdventuresStyles>
-            <BottomDividerStyles>
-                <img src="/svg/divider-bottom-light.svg" width="100%" />
-            </BottomDividerStyles>
             <TextSectionStyles>
-                <h3>Do more, pay less.</h3>
+                <h3>Do more with epic combos</h3>
                 <p>
-                    Learn about our combos. Learn about our combos. Learn about
-                    our combos. Learn about our combos. Learn about our combos.
-                    Learn about our combos. Learn about our combos.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
                 </p>
                 <Link href="/adventures/combos">
                     <div className="button">

@@ -2,14 +2,17 @@ import styled from "styled-components"
 
 export const AdventuresStyles = styled.div`
     margin-bottom: -5rem;
-    background-color: #f4f4f4;
     position: relative;
-    top: -23rem;
+    top: -20rem;
     padding: 0 3rem;
+    @media (max-width: 800px) {
+        margin-top: 15rem;
+    }
     h3 {
         font-size: 4.5rem;
         text-align: center;
-        padding-top: 10rem;
+        padding-top: 6rem;
+        margin-bottom: 2rem;
         @media (max-width: 800px) {
             font-size: 3.5rem;
             margin-bottom: 7rem;
@@ -22,7 +25,7 @@ export const AdventuresStyles = styled.div`
         font-size: 1.7rem;
         color: #b2b2b2;
         max-width: 70rem;
-        margin-bottom: 10rem;
+        margin-bottom: 7rem;
         @media (max-width: 800px) {
             font-size: 1.5rem;
         }
@@ -50,13 +53,13 @@ export const AdventuresStyles = styled.div`
             font-style: oblique;
             font-size: 2.5rem;
             font-weight: 600;
-            color: #d0d0d0;
+            color: #e3e3e3;
         }
         h4 {
             font-size: 4rem;
             position: relative;
             top: -7rem;
-            color: #5c5c5c;
+            color: var(--purple);
         }
         p {
             position: relative;
@@ -88,7 +91,7 @@ export const AdventuresStyles = styled.div`
             position: relative;
             /* margin: 0 auto; */
             top: -7rem;
-            background-color: #4a4a4a;
+            background-color: var(--purple);
             border-radius: 3px;
             width: 12rem;
             padding: 1rem;
@@ -102,6 +105,9 @@ export const AdventuresStyles = styled.div`
         .adventuresImage {
             align-items: center;
             width: 100%;
+            @media (max-width: 800px) {
+                margin-bottom: -10rem;
+            }
         }
     }
 `

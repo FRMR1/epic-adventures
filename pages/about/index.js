@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Head from "next/head"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
-import { LightSectionStyles } from "../../components/styles/LightSectionStyles"
+import { SectionStyles } from "../../components/styles/SectionStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
@@ -24,42 +24,30 @@ const About = () => {
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
-                <img src="/svg/divider-top-light.svg" width="100%" />
+                <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
-            <LightSectionStyles>
-                <div className="twoCol">
-                    <div className="left">
-                        <Image
-                            src="/images/epicsummer.png"
-                            layout="responsive"
-                            width="100%"
-                            height="auto"
-                            objectFit="contain"
-                            alt="Epic Adventures"
-                        />
-                    </div>
-                    <div className="right">
-                        <h3>Some cool tagline</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                </div>
-            </LightSectionStyles>
-            <BottomDividerStyles>
-                <img src="/svg/divider-bottom-light.svg" width="100%" />
-            </BottomDividerStyles>
-            <AboutSectionStyles>
-                <h3>Bla bla bla bla.</h3>
+            <SectionStyles>
+                <h3>We're the best</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
                 </p>
+            </SectionStyles>
+            <BottomDividerStyles>
+                <img src="/svg/divider-bottom.svg" width="100%" />
+            </BottomDividerStyles>
+            <AboutSectionStyles>
+                <div>
+                    <h3>Bla bla bla bla.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                    </p>
+                </div>
                 <div className="twoCol">
                     <div className="left">
                         <ul>
@@ -94,14 +82,30 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <h3 className="center">Some cool tagline</h3>
-                <p className="center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                </p>
+                <div className="bottomSection">
+                    <h3 className="center">We want you to be epic.</h3>
+                    <p className="center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                    <p className="center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                    <p className="center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                </div>
             </AboutSectionStyles>
             <ReadyToBookStyles>
                 <div>

@@ -4,14 +4,13 @@ export const BookAdventureStyles = styled.div`
     background-color: #fafafa;
     padding: 5rem 3rem 5rem;
     margin: 0;
-    text-align: center;
-    position: relative;
-    top: -18rem;
+    margin-bottom: 25rem;
     h3 {
         margin: 5rem 0 7rem;
         font-size: 5rem;
-        color: #6a6a6a;
+        color: var(--purple);
         letter-spacing: -0.1rem;
+        text-align: center;
         @media (max-width: 800px) {
             font-size: 3.5rem;
             margin-bottom: 5rem;
@@ -23,7 +22,7 @@ export const BookAdventureStyles = styled.div`
         text-align: left;
         margin: 1rem auto 3rem;
         font-size: 1.4rem;
-        color: #a3a3a3;
+        color: #b2b2b2;
         @media (max-width: 800px) {
             font-size: 1.5rem;
         }
@@ -33,6 +32,10 @@ export const BookAdventureStyles = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: -8rem;
+        @media (max-width: 800px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
         h3 {
             font-size: 4rem;
             text-align: left;
@@ -43,7 +46,7 @@ export const BookAdventureStyles = styled.div`
             padding-left: 0;
             li {
                 font-size: 1.3rem;
-                color: #a3a3a3;
+                color: #707070;
                 margin-bottom: 2rem;
                 line-height: 1rem;
                 img {
@@ -59,9 +62,20 @@ export const BookAdventureStyles = styled.div`
         }
         .left {
             padding: 0 7rem;
+            @media (max-width: 800px) {
+                padding: 0;
+                width: 100%;
+            }
         }
         .right {
             padding: 0 7rem;
+            @media (max-width: 800px) {
+                padding: 0;
+                p,
+                li {
+                    text-align: center;
+                }
+            }
             h3 {
                 color: #6a6a6a;
             }
@@ -71,6 +85,9 @@ export const BookAdventureStyles = styled.div`
         }
         .priceContainer {
             text-align: left;
+            @media (max-width: 800px) {
+                text-align: center;
+            }
             span {
                 font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
                     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
@@ -98,13 +115,16 @@ export const BookAdventureStyles = styled.div`
             cursor: pointer;
             position: relative;
             top: -2rem;
-            background-color: #2afec5;
+            background-color: var(--purple);
             border-radius: 3px;
             width: 12rem;
             padding: 1rem;
+            @media (max-width: 800px) {
+                margin: 0 auto;
+            }
             span {
-                color: #555;
-                font-weight: 400;
+                color: #fff;
+                font-weight: 300;
                 text-transform: uppercase;
                 font-size: 1.3rem;
             }

@@ -4,13 +4,17 @@ export const AdventureSectionStyles = styled.div`
     background-color: #fafafa;
     padding: 5rem 3rem 5rem;
     margin: 0;
+    margin-bottom: -30rem;
     text-align: center;
     position: relative;
     top: -18rem;
+    @media (max-width: 800px) {
+        top: -12rem;
+    }
     h3 {
         margin: 0;
         font-size: 5rem;
-        color: #6a6a6a;
+        color: var(--purple);
         letter-spacing: -0.1rem;
         @media (max-width: 800px) {
             font-size: 3.5rem;
@@ -32,6 +36,11 @@ export const AdventureSectionStyles = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 3rem;
+        @media (max-width: 800px) {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
         h3 {
             font-size: 4rem;
             text-align: left;
@@ -60,9 +69,16 @@ export const AdventureSectionStyles = styled.div`
         }
         .left {
             padding: 0 7rem;
+            @media (max-width: 800px) {
+                padding: 0;
+            }
         }
         .right {
             padding: 0 7rem;
+            @media (max-width: 800px) {
+                padding: 0;
+                width: 100%;
+            }
             h3 {
                 color: #6a6a6a;
             }

@@ -14,7 +14,6 @@ export const HeroImageStyles = styled.div`
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
         width: 100%;
     }
     h2 {
@@ -23,9 +22,16 @@ export const HeroImageStyles = styled.div`
         text-align: center;
         display: block;
         font-size: 12rem;
+        color: #424242;
+        @media (max-width: 800px) {
+            font-size: 5rem;
+        }
     }
     .bg {
         font-size: 14rem;
         opacity: 0.2;
+        @media (max-width: 800px) {
+            font-size: 6rem;
+        }
     }
 `

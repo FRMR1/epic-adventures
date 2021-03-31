@@ -3,14 +3,18 @@ import styled from "styled-components"
 export const CardSectionStyles = styled.div`
     margin-bottom: 15rem;
     padding: 0 3rem;
+    @media (max-width: 800px) {
+        margin-top: 15rem;
+    }
     h3 {
         font-size: 4.5rem;
         text-align: center;
         position: relative;
         top: -15rem;
+        line-height: 4rem;
+        margin-bottom: 8rem;
         @media (max-width: 800px) {
             font-size: 3rem;
-            margin-bottom: 5rem;
         }
     }
     p {
@@ -39,7 +43,7 @@ export const CardSectionStyles = styled.div`
             flex-wrap: wrap;
         }
         .card {
-            background-color: #fff;
+            background-color: var(--purple);
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
             border-radius: 20px;
             padding-bottom: 3rem;
@@ -59,10 +63,11 @@ export const CardSectionStyles = styled.div`
                 font-size: 4rem;
                 text-align: center;
                 margin: 3rem 0;
+                color: #fff;
             }
             h5 {
                 letter-spacing: -0.4rem;
-                color: #5c5c5c;
+                color: #fff;
                 font-size: 6rem;
                 text-align: center;
                 margin: 2rem 0 0;
@@ -81,7 +86,7 @@ export const CardSectionStyles = styled.div`
             p {
                 top: 0;
                 font-size: 1.4rem;
-                color: #707070;
+                color: var(--darkGrey);
                 margin-bottom: 4rem;
             }
             ul {
@@ -91,7 +96,7 @@ export const CardSectionStyles = styled.div`
                 text-align: center;
                 li {
                     font-size: 1.3rem;
-                    color: #707070;
+                    color: #fff;
                     img {
                         margin-right: 1.6rem;
                         position: relative;
@@ -105,12 +110,12 @@ export const CardSectionStyles = styled.div`
                 /* position: relative; */
                 margin: 0 auto;
                 /* top: -12rem; */
-                background-color: #4a4a4a;
+                background-color: var(--teal);
                 border-radius: 3px;
                 width: 12rem;
                 padding: 1rem;
                 span {
-                    color: #fff;
+                    color: var(--darkGrey);
                     font-weight: 300;
                     text-transform: uppercase;
                     font-size: 1.3rem;

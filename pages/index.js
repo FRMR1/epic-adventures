@@ -11,9 +11,13 @@ import { CardSectionStyles } from "../components/styles/CardSectionStyles"
 import { PhotoPackageStyles } from "../components/styles/PhotoPackageStyles"
 import { ComboSectionStyles } from "../components/styles/ComboSectionStyles"
 import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
+import { useMediaQuery } from "react-responsive"
 import Card from "../components/Card"
 
 export default function Home() {
+    // Responsive
+    const isMobile = useMediaQuery({ query: "(max-width: 800px)" })
+
     return (
         <>
             <Head>
@@ -37,7 +41,9 @@ export default function Home() {
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
@@ -93,12 +99,12 @@ export default function Home() {
                 <div className="locationLogos">
                     <img
                         src="/svg/epicbanff.svg"
-                        width="150"
+                        width={isMobile ? "110" : "150"}
                         alt="Epic Banff"
                     />
                     <img
                         src="/svg/epicgolden.svg"
-                        width="150"
+                        width={isMobile ? "110" : "150"}
                         alt="Epic Golden"
                     />
                 </div>
@@ -292,7 +298,7 @@ export default function Home() {
                         width="100%"
                         height="auto"
                         objectFit="contain"
-                        alt="Epic Photo/Video Package"
+                        alt="Epic Summer Pass"
                     />
                 </div>
                 <div className="photoPackageDesc">
@@ -305,7 +311,9 @@ export default function Home() {
                         labore et dolore magna aliqua.
                     </p>
                     <Link href="#">
-                        <a>Learn more</a>
+                        <div className="button">
+                            <span>Learn More</span>
+                        </div>
                     </Link>
                 </div>
             </PhotoPackageStyles>

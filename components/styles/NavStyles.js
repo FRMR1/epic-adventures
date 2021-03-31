@@ -26,19 +26,24 @@ const NavStyles = styled.div`
         font-size: 1.3rem;
         background: none;
         border: 0;
-        color: var(--darkGrey);
         cursor: pointer;
         @media (max-width: 700px) {
             font-size: 10px;
             padding: 0 10px;
         }
     }
+    a {
+        color: var(--darkGrey);
+    }
+    button {
+        color: #fff;
+    }
     a:hover {
         text-decoration: none;
         color: #747474;
     }
     .bookNow {
-        background-color: var(--aquaGreen);
+        background-color: var(--purple);
         padding: 1.5rem 2.5rem;
         border-radius: 3px;
         margin-left: 3rem;

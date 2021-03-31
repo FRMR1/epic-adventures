@@ -9,6 +9,7 @@ import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
+import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
 
 const Skydiving = () => {
     return (
@@ -26,7 +27,7 @@ const Skydiving = () => {
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
-                <img src="/svg/divider-top-light.svg" width="100%" />
+                <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
             <AdventureHeadingStyles>
                 <div className="imageContainer">
@@ -51,65 +52,7 @@ const Skydiving = () => {
                 </div>
             </AdventureHeadingStyles>
             <BottomDividerStyles>
-                <img src="/svg/divider-bottom-light.svg" width="100%" />
-            </BottomDividerStyles>
-            <AdventureSectionStyles>
-                <div className="twoCol">
-                    <div className="left">
-                        <h3>What's Included</h3>
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="right">
-                        <div className="imageRotate">
-                            <Image
-                                src="/images/epicsummer.png"
-                                layout="responsive"
-                                width="100%"
-                                height="auto"
-                                objectFit="contain"
-                                alt="Epic Adventures"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </AdventureSectionStyles>
-            <TopDividerStyles>
-                <img src="/svg/divider-top-light.svg" width="100%" />
-            </TopDividerStyles>
-            <TestimonialStyles>
-                <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua."
-                </p>
-                <div className="faceContainer">
-                    <img src="/svg/face.svg" width="30px" />
-                </div>
-                <p className="customerName">
-                    Satisfied Epic Adventures Customer
-                </p>
-            </TestimonialStyles>
-            <BottomDividerStyles>
-                <img src="/svg/divider-bottom-light.svg" width="100%" />
+                <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles>
                 <h3>Ready to book your adventure?</h3>
@@ -161,6 +104,71 @@ const Skydiving = () => {
                     </div>
                 </div>
             </BookAdventureStyles>
+            <TopDividerStyles>
+                <img src="/svg/divider-top.svg" width="100%" />
+            </TopDividerStyles>
+            <TestimonialStyles>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua."
+                </p>
+                <div className="faceContainer">
+                    <img src="/svg/face.svg" width="30px" />
+                </div>
+                <p className="customerName">
+                    Satisfied Epic Adventures Customer
+                </p>
+            </TestimonialStyles>
+            <BottomDividerStyles>
+                <img src="/svg/divider-bottom.svg" width="100%" />
+            </BottomDividerStyles>
+            <AdventureSectionStyles>
+                <div className="twoCol">
+                    <div className="left">
+                        <h3>What's Included</h3>
+                        <ul>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="right">
+                        <div className="imageRotate">
+                            <Image
+                                src="/images/epicsummer.png"
+                                layout="responsive"
+                                width="100%"
+                                height="auto"
+                                objectFit="contain"
+                                alt="Epic Adventures"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </AdventureSectionStyles>
+            <ReadyToBookStyles>
+                <div>
+                    <h4>Ready to book?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+                <a className="bookNow">Book Now</a>
+            </ReadyToBookStyles>
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
             </FooterDividerStyles>

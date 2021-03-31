@@ -1,15 +1,18 @@
 import styled from "styled-components"
 
 export const SectionStyles = styled.div`
-    background-color: #303030;
+    background-color: var(--purple);
     padding: 10rem 3rem 11rem;
     margin: 0;
     position: relative;
     top: -18rem;
+    @media (max-width: 800px) {
+        top: -7rem;
+    }
     h3 {
         margin: 0;
         font-size: 5rem;
-        color: #f0f0f0;
+        color: #fff;
         letter-spacing: -0.1rem;
         text-align: center;
         @media (max-width: 800px) {
@@ -22,7 +25,7 @@ export const SectionStyles = styled.div`
         max-width: 70rem;
         margin: 1rem auto;
         font-size: 1.7rem;
-        color: #848484;
+        color: var(--lightGrey);
         text-align: center;
         @media (max-width: 800px) {
             font-size: 1.5rem;
@@ -36,5 +39,6 @@ export const SectionStyles = styled.div`
         display: grid;
         gap: 3rem;
         margin-bottom: 4rem;
+        justify-items: center;
     }
 `
