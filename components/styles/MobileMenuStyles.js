@@ -22,7 +22,7 @@ export const MobileMenuStyles = styled.div`
             line-height: 6rem;
             a {
                 font-size: 4.3rem;
-                font-family: "Futura";
+                font-family: "Futura Bold";
                 color: #eee;
                 &:hover {
                     color: var(--teal);

@@ -1,6 +1,13 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
+    @font-face {
+        font-family: 'Futura Bold';
+        src: url('/fonts/Futura LT Condensed Bold Oblique.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
     html {
         --red: #ff0000;
         --black: #393939;
@@ -33,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
         overflow: ${({ isMobileMenuOpen }) => isMobileMenuOpen && "hidden"};
     }
     h1, h2, h3, h4, h5, h6 {
-        font-family: "Futura";
+        font-family: "Futura Bold";
         letter-spacing: -.1rem;
         color: #9d5aff;
         text-transform: uppercase;

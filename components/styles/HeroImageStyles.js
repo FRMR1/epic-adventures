@@ -17,7 +17,7 @@ export const HeroImageStyles = styled.div`
         width: 100%;
     }
     h2 {
-        font-family: "Futura";
+        font-family: "Futura Bold";
         text-transform: uppercase;
         text-align: center;
         display: block;

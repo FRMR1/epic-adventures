@@ -1,20 +1,77 @@
 {
-  "name": "epic-adventures",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.0.5",
-    "next-fonts": "^1.5.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-iframe": "^1.8.0",
-    "react-responsive": "^8.2.0",
-    "styled-components": "^5.2.1",
-    "tawkto-react": "^2.0.3"
-  }
+    "name": "epic-adventures",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "babel-plugin-styled-components": "^1.12.0",
+        "next": "10.0.5",
+        "next-fonts": "^1.5.1",
+        "react": "17.0.1",
+        "react-dom": "17.0.1",
+        "react-iframe": "^1.8.0",
+        "react-responsive": "^8.2.0",
+        "styled-components": "^5.2.1",
+        "tawkto-react": "^2.0.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.14"
+    },
+    "babel": {
+        "env": {
+            "development": {
+                "presets": [
+                    "next/babel"
+                ],
+                "plugins": [
+                    [
+                        "styled-components",
+                        {
+                            "ssr": true,
+                            "displayName": true
+                        }
+                    ]
+                ]
+            },
+            "production": {
+                "presets": [
+                    "next/babel"
+                ],
+                "plugins": [
+                    [
+                        "styled-components",
+                        {
+                            "ssr": true,
+                            "displayName": true
+                        }
+                    ]
+                ]
+            },
+            "test": {
+                "presets": [
+                    [
+                        "next/babel",
+                        {
+                            "preset-env": {
+                                "modules": "commonjs"
+                            }
+                        }
+                    ]
+                ],
+                "plugins": [
+                    [
+                        "styled-components",
+                        {
+                            "ssr": true,
+                            "displayName": true
+                        }
+                    ]
+                ]
+            }
+        }
+    }
 }
