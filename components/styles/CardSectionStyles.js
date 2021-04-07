@@ -13,6 +13,7 @@ export const CardSectionStyles = styled.div`
         top: -15rem;
         line-height: 4rem;
         margin-bottom: 8rem;
+        color: var(--mainColor);
         @media (max-width: 800px) {
             font-size: 3rem;
         }
@@ -43,7 +44,7 @@ export const CardSectionStyles = styled.div`
             flex-wrap: wrap;
         }
         .card {
-            background-color: var(--purple);
+            background-color: #eaeaea;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
             border-radius: 20px;
             padding-bottom: 3rem;
@@ -63,11 +64,11 @@ export const CardSectionStyles = styled.div`
                 font-size: 4rem;
                 text-align: center;
                 margin: 3rem 0;
-                color: #fff;
+                color: #555;
             }
             h5 {
                 letter-spacing: -0.4rem;
-                color: #fff;
+                color: #555;
                 font-size: 6rem;
                 text-align: center;
                 margin: 2rem 0 0;
@@ -86,7 +87,7 @@ export const CardSectionStyles = styled.div`
             p {
                 top: 0;
                 font-size: 1.4rem;
-                color: var(--darkGrey);
+                color: #aaa;
                 margin-bottom: 4rem;
             }
             ul {
@@ -96,7 +97,7 @@ export const CardSectionStyles = styled.div`
                 text-align: center;
                 li {
                     font-size: 1.3rem;
-                    color: #fff;
+                    color: #555;
                     img {
                         margin-right: 1.6rem;
                         position: relative;
@@ -110,7 +111,7 @@ export const CardSectionStyles = styled.div`
                 /* position: relative; */
                 margin: 0 auto;
                 /* top: -12rem; */
-                background-color: var(--teal);
+                background-color: var(--secColor);
                 border-radius: 3px;
                 width: 12rem;
                 padding: 1rem;

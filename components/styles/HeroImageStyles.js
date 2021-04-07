@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const HeroImageStyles = styled.div`
-    background-image: linear-gradient(grey, grey), url("/images/bg.jpg");
+    background-image: linear-gradient(grey, grey);
     background-blend-mode: screen;
     width: 100%;
     min-height: 100vh;
@@ -33,5 +33,19 @@ export const HeroImageStyles = styled.div`
         @media (max-width: 800px) {
             font-size: 6rem;
         }
+    }
+    .video-responsive {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+
+    .video-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
     }
 `

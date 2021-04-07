@@ -23,6 +23,7 @@ export const ReadyToBookStyles = styled.div`
         padding: 0;
         letter-spacing: -0.1rem;
         line-height: 6rem;
+        color: var(--mainColor);
         @media (max-width: 800px) {
             text-align: center;
         }
@@ -40,8 +41,8 @@ export const ReadyToBookStyles = styled.div`
         text-decoration: none;
     }
     .bookNow {
-        background-color: var(--purple);
-        color: #fff;
+        background-color: var(--secColor);
+        color: #555;
         padding: 1.2rem 3rem;
         justify-self: end;
         align-self: center;

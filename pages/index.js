@@ -13,6 +13,12 @@ import { ComboSectionStyles } from "../components/styles/ComboSectionStyles"
 import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
 import { useMediaQuery } from "react-responsive"
 import Card from "../components/Card"
+// import { YoutubeEmbed } from "../components/YoutubeEmbed"
+import dynamic from "next/dynamic"
+
+const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
+    ssr: false,
+})
 
 export default function Home() {
     // Responsive
@@ -26,12 +32,13 @@ export default function Home() {
             </Head>
             <Nav />
             <HeroImageStyles>
-                <div className="heroText">
+                <YoutubeEmbed />
+                {/* <div className="heroText">
                     <h2>Live epic.</h2>
                 </div>
                 <div className="heroText">
                     <h2 className="bg">Live epic.</h2>
-                </div>
+                </div> */}
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

@@ -9,7 +9,7 @@ export const TextSectionStyles = styled.div`
         text-align: center;
         font-size: 5rem;
         margin-bottom: 2rem;
-        color: var(--purple);
+        color: var(--mainColor);
         @media (max-width: 800px) {
             font-size: 3.5rem;
             margin-bottom: 5rem;
@@ -32,7 +32,7 @@ export const TextSectionStyles = styled.div`
         cursor: pointer;
         position: relative;
         margin: 4rem auto 0;
-        background-color: var(--purple);
+        background-color: var(--mainColor);
         border-radius: 3px;
         width: 12rem;
         padding: 1rem;

@@ -6,7 +6,7 @@ export const MobileMenuStyles = styled.div`
     z-index: 9998;
     width: 100vw;
     height: 100vh;
-    background-color: var(--purple);
+    background-color: var(--mainColor);
     left: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
     transition: left 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
     top: 0;
@@ -25,7 +25,7 @@ export const MobileMenuStyles = styled.div`
                 font-family: "Futura Bold";
                 color: #eee;
                 &:hover {
-                    color: var(--teal);
+                    color: var(--secColor);
                 }
             }
         }

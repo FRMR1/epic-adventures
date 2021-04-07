@@ -11,6 +11,7 @@ export const ComboSectionStyles = styled.div`
         text-align: center;
         position: relative;
         top: -15rem;
+        color: var(--mainColor);
         @media (max-width: 800px) {
             font-size: 3.5rem;
             margin-bottom: 7rem;
@@ -60,7 +61,7 @@ export const ComboSectionStyles = styled.div`
             font-size: 4rem;
             position: relative;
             top: -5rem;
-            color: var(--purple);
+            color: var(--mainColor);
             line-height: 4rem;
         }
         p {
@@ -92,12 +93,12 @@ export const ComboSectionStyles = styled.div`
             position: relative;
             /* margin: 0 auto; */
             top: -3rem;
-            background-color: var(--purple);
+            background-color: var(--secColor);
             border-radius: 3px;
             width: 12rem;
             padding: 1rem;
             span {
-                color: #fff;
+                color: #555;
                 font-weight: 300;
                 text-transform: uppercase;
                 font-size: 1.3rem;

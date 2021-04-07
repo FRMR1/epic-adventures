@@ -8,7 +8,7 @@ export const BookAdventureStyles = styled.div`
     h3 {
         margin: 5rem 0 7rem;
         font-size: 5rem;
-        color: var(--purple);
+        color: var(--mainColor);
         letter-spacing: -0.1rem;
         text-align: center;
         @media (max-width: 800px) {
@@ -115,7 +115,7 @@ export const BookAdventureStyles = styled.div`
             cursor: pointer;
             position: relative;
             top: -2rem;
-            background-color: var(--purple);
+            background-color: var(--mainColor);
             border-radius: 3px;
             width: 12rem;
             padding: 1rem;

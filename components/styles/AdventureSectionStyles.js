@@ -14,7 +14,7 @@ export const AdventureSectionStyles = styled.div`
     h3 {
         margin: 0;
         font-size: 5rem;
-        color: var(--purple);
+        color: var(--mainColor);
         letter-spacing: -0.1rem;
         @media (max-width: 800px) {
             font-size: 3.5rem;

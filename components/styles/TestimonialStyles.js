@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const TestimonialStyles = styled.div`
     margin-bottom: -5rem;
-    background-color: var(--purple);
+    background-color: var(--mainColor);
     position: relative;
     top: -18rem;
     padding: 10rem 5rem;

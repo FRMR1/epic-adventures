@@ -43,7 +43,7 @@ const NavStyles = styled.div`
         color: #747474;
     }
     .bookNow {
-        background-color: var(--purple);
+        background-color: var(--mainColor);
         padding: 1.5rem 2.5rem;
         border-radius: 3px;
         margin-left: 3rem;

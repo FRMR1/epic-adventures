@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const SectionStyles = styled.div`
-    background-color: var(--purple);
+    background-color: var(--mainColor);
     padding: 10rem 3rem 11rem;
     margin: 0;
     position: relative;
@@ -12,7 +12,7 @@ export const SectionStyles = styled.div`
     h3 {
         margin: 0;
         font-size: 5rem;
-        color: #fff;
+        color: var(--secColor);
         letter-spacing: -0.1rem;
         text-align: center;
         @media (max-width: 800px) {

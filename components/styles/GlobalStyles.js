@@ -17,8 +17,8 @@ const GlobalStyles = createGlobalStyle`
         --darkGrey: #4d4d4d;
         --darkGray: var(--darkGrey);
         --offWhite: #ededed;
-        --purple: #9d5aff;
-        --teal: #60f0ff;
+        --mainColor: #303030;
+        --secColor: #2afec5;
         --maxWidth: 1000px;
         --bs: 0 12px 24px 0 rgba(0,0,0,0.09);
         box-sizing: border-box;
@@ -42,12 +42,12 @@ const GlobalStyles = createGlobalStyle`
     h1, h2, h3, h4, h5, h6 {
         font-family: "Futura Bold";
         letter-spacing: -.1rem;
-        color: #9d5aff;
+        color: var(--secColor);
         text-transform: uppercase;
     }
     a {
         text-decoration: none;
-        color: #9d5aff;
+        color: var(--secColor);
     }
     p, li, a {
         font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -65,7 +65,7 @@ const GlobalStyles = createGlobalStyle`
     }
     .footer {
         padding-bottom: 20rem;
-        background-color: var(--purple);
+        background-color: var(--mainColor);
         @media (max-width: 800px) {
             padding-top: 4rem;
     }
@@ -107,7 +107,7 @@ const GlobalStyles = createGlobalStyle`
                 }
                 h4 {
                     letter-spacing: 0.5px;
-                    color: var(--teal);
+                    color: var(--secColor);
                     text-transform: none;
                     font-size: 1.4rem;
                     font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -173,7 +173,7 @@ const GlobalStyles = createGlobalStyle`
                 }
                 h3 {
                     letter-spacing: 0.5px;
-                    color: var(--teal);
+                    color: var(--secColor);
                     text-transform: none;
                     font-size: 1.6rem;
                     font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -231,18 +231,18 @@ const GlobalStyles = createGlobalStyle`
             }
         }
         button {
-            color: #fff;
+            color: #555;
         }
         a:hover {
             text-decoration: none;
             color: #747474;
         }
         .bookNow {
-            background-color: var(--purple);
+            background-color: var(--secColor);
             padding: 1.5rem 2.5rem;
             border-radius: 3px;
             margin-left: 3rem;
-            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
         }
         .navRight {
             display: flex;

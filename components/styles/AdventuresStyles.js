@@ -59,7 +59,7 @@ export const AdventuresStyles = styled.div`
             font-size: 4rem;
             position: relative;
             top: -7rem;
-            color: var(--purple);
+            color: var(--mainColor);
         }
         p {
             position: relative;
@@ -91,7 +91,7 @@ export const AdventuresStyles = styled.div`
             position: relative;
             /* margin: 0 auto; */
             top: -7rem;
-            background-color: var(--purple);
+            background-color: var(--mainColor);
             border-radius: 3px;
             width: 12rem;
             padding: 1rem;

@@ -15,7 +15,7 @@ export const PhotoPackageStyles = styled.div`
         font-size: 3.5rem;
         letter-spacing: -1.5px;
         margin: 0;
-        color: var(--purple);
+        color: var(--mainColor);
         line-height: 4rem;
         margin-bottom: 3rem;
         @media (max-width: 800px) {
@@ -36,12 +36,12 @@ export const PhotoPackageStyles = styled.div`
         cursor: pointer;
         position: relative;
         margin-top: 3rem;
-        background-color: var(--purple);
+        background-color: var(--secColor);
         border-radius: 3px;
         width: 12rem;
         padding: 1rem;
         span {
-            color: #fff;
+            color: #555;
             font-weight: 300;
             text-transform: uppercase;
             font-size: 1.3rem;

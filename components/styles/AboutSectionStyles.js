@@ -12,7 +12,7 @@ export const AboutSectionStyles = styled.div`
     h3 {
         margin: 0;
         font-size: 5rem;
-        color: var(--purple);
+        color: var(--mainColor);
         letter-spacing: -0.1rem;
         text-align: center;
         @media (max-width: 800px) {
