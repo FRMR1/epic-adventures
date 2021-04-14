@@ -20,7 +20,11 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <HeroVideoStyles>{!isMobile && <YoutubeEmbed />}</HeroVideoStyles>
+            {!isMobile && (
+                <HeroVideoStyles>
+                    <YoutubeEmbed />
+                </HeroVideoStyles>
+            )}
             <HeroImageStyles>
                 {isMobile && (
                     <div className="heroText">
