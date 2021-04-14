@@ -10,7 +10,6 @@ export const HeroVideoStyles = styled.div`
     background-size: cover;
     margin: 0;
     pointer-events: none;
-
     .heroText {
         text-align: center;
         position: absolute;

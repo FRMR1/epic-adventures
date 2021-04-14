@@ -5,7 +5,7 @@ export const HeroImageStyles = styled.div`
     background-blend-mode: screen;
     width: 100%;
     min-height: 100vh;
-    z-index: -1;
+    z-index: 1;
     background-size: cover;
     margin: 0;
     .heroText {
@@ -35,19 +35,5 @@ export const HeroImageStyles = styled.div`
         @media (max-width: 800px) {
             font-size: 6rem;
         }
-    }
-    .video-responsive {
-        overflow: hidden;
-        padding-bottom: 56.25%;
-        position: relative;
-        height: 0;
-    }
-
-    .video-responsive iframe {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
     }
 `
