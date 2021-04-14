@@ -2,7 +2,7 @@ import Head from "next/head"
 import Nav from "../components/Nav"
 import { HeroVideoStyles } from "../components/styles/HeroVideoStyles"
 import { HeroImageStyles } from "../components/styles/HeroImageStyles"
-import { useMediaQuery } from "react-responsive"
+import MediaQuery from "react-responsive"
 import dynamic from "next/dynamic"
 
 const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
@@ -10,9 +10,6 @@ const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
 })
 
 export default function Home() {
-    // Responsive
-    const isMobile = useMediaQuery({ query: "(max-width: 800px)" })
-
     return (
         <>
             <Head>
@@ -20,18 +17,18 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            {!isMobile && (
+            <MediaQuery minWidth={801}>
                 <HeroVideoStyles>
                     <YoutubeEmbed />
                 </HeroVideoStyles>
-            )}
-            <HeroImageStyles>
-                {isMobile && (
+            </MediaQuery>
+            <MediaQuery maxWidth={800}>
+                <HeroImageStyles>
                     <div className="heroText">
                         <h2>The journey begins summer 2021</h2>
                     </div>
-                )}
-            </HeroImageStyles>
+                </HeroImageStyles>
+            </MediaQuery>
         </>
     )
 }
