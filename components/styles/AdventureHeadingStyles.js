@@ -29,7 +29,7 @@ export const AdventureHeadingStyles = styled.div`
     h2 {
         font-size: 10rem;
         line-height: 9rem;
-        color: #2bfec5;
+        color: var(--secColor);
         position: relative;
         margin: 0 0 4rem;
         @media (max-width: 800px) {

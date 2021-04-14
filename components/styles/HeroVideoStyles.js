@@ -1,13 +1,16 @@
 import styled from "styled-components"
 
-export const HeroImageStyles = styled.div`
-    background-image: linear-gradient(grey, grey), url("/images/bg.jpg");
+export const HeroVideoStyles = styled.div`
+    background-image: linear-gradient(grey, grey);
     background-blend-mode: screen;
     width: 100%;
     min-height: 100vh;
+    position: relative;
     z-index: -1;
     background-size: cover;
     margin: 0;
+    pointer-events: none;
+
     .heroText {
         text-align: center;
         position: absolute;
@@ -22,11 +25,9 @@ export const HeroImageStyles = styled.div`
         text-align: center;
         display: block;
         font-size: 12rem;
-        line-height: 13rem;
         color: #424242;
         @media (max-width: 800px) {
             font-size: 5rem;
-            line-height: 5rem;
         }
     }
     .bg {
@@ -46,8 +47,7 @@ export const HeroImageStyles = styled.div`
     .video-responsive iframe {
         left: 0;
         top: 0;
-        height: 100%;
-        width: 100%;
+        min-width: 1024px;
         position: absolute;
     }
 `

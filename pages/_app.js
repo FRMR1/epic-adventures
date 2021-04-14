@@ -1,5 +1,6 @@
 import Layout from "../components/Layout"
 import { MobileMenuStateProvider } from "../lib/mobileMenuState"
+import "../components/styles/youtubeEmbed.css"
 
 function MyApp({ Component, pageProps }) {
     return (

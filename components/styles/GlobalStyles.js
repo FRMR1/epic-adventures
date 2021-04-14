@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
         --darkGray: var(--darkGrey);
         --offWhite: #ededed;
         --mainColor: #303030;
-        --secColor: #2afec5;
+        --secColor: #1CC2FF;
         --maxWidth: 1000px;
         --bs: 0 12px 24px 0 rgba(0,0,0,0.09);
         box-sizing: border-box;

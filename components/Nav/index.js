@@ -20,7 +20,7 @@ const Nav = () => {
                         />
                     </a>
                 </Link>
-                <MediaQuery maxWidth={768}>
+                {/* <MediaQuery maxWidth={768}>
                     <div
                         className="hamburgerMenu"
                         onClick={() => setIsOpen(!isOpen)}
@@ -50,7 +50,7 @@ const Nav = () => {
                             <button className="bookNow"> Book Now</button>
                         </Link>
                     </div>
-                </MediaQuery>
+                </MediaQuery> */}
             </div>
         </div>
     )
