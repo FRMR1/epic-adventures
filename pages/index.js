@@ -20,18 +20,14 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            {!isMobile && (
-                <HeroVideoStyles>
-                    <YoutubeEmbed />
-                </HeroVideoStyles>
-            )}
-            {isMobile && (
-                <HeroImageStyles>
+            <HeroVideoStyles>{!isMobile && <YoutubeEmbed />}</HeroVideoStyles>
+            <HeroImageStyles>
+                {isMobile && (
                     <div className="heroText">
                         <h2>The journey begins summer 2021</h2>
                     </div>
-                </HeroImageStyles>
-            )}
+                )}
+            </HeroImageStyles>
         </>
     )
 }
