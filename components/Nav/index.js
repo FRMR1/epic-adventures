@@ -15,8 +15,8 @@ const Nav = () => {
                         <Image
                             src="/svg/logo.svg"
                             alt="Epic Adventures"
-                            width={100}
-                            height={50}
+                            width={120}
+                            height={60}
                         />
                     </a>
                 </Link>
@@ -35,14 +35,20 @@ const Nav = () => {
                     <div className="navRight">
                         <Link href="/about">About</Link>
                         <div className="dropdown">
-                            <Link href="/adventures">Adventures</Link>
+                            <Link href="/summer">Summer</Link>
                             <div className="dropdownContent">
-                                <Link href="/adventures/rafting">Rafting</Link>
-                                <Link href="/adventures/skydiving">
-                                    Skydiving
+                                <Link href="/summer/combos">Combos</Link>
+                                <Link href="/summer/rafting">Rafting</Link>
+                                <Link href="/summer/skydiving">Skydiving</Link>
+                                <Link href="/summer/atvoffroad">
+                                    ATV Off Road
                                 </Link>
-                                <Link href="/adventures/swing">Swing</Link>
-                                <Link href="/adventures/combos">Combos</Link>
+                                <Link href="/summer/kickinghorse">
+                                    Kicking Horse Resort
+                                </Link>
+                                <Link href="/summer/goldenskybridge">
+                                    Golden Sky Bridge
+                                </Link>
                             </div>
                         </div>
                         <Link href="/contact">Contact</Link>

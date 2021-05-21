@@ -14,7 +14,7 @@ const Adventures = () => {
     return (
         <>
             <Head>
-                <title>Epic Adventures | Adventures</title>
+                <title>Epic Adventures | Summer Adventures</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroImageStyles>
@@ -22,14 +22,14 @@ const Adventures = () => {
                     <h2>Adventures.</h2>
                 </div>
                 <div className="heroText">
-                    <h2 className="bg">Adventures.</h2>
+                    <h2 className="bg">Summer Adventures.</h2>
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
             <SectionStyles>
-                <h3>Adventures.</h3>
+                <h3>Summer Adventures.</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna

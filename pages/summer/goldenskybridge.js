@@ -1,26 +1,29 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
-import { HeroImageStyles } from "../../../components/styles/HeroImageStyles"
-import { TestimonialStyles } from "../../../components/styles/TestimonialStyles"
-import { TopDividerStyles } from "../../../components/styles/TopDividerStyles"
-import { BottomDividerStyles } from "../../../components/styles/BottomDividerStyles"
-import { FooterDividerStyles } from "../../../components/styles/FooterDividerStyles"
-import { AdventureHeadingStyles } from "../../../components/styles/AdventureHeadingStyles"
-import { AdventureSectionStyles } from "../../../components/styles/AdventureSectionStyles"
-import { BookAdventureStyles } from "../../../components/styles/BookAdventureStyles"
-import { ReadyToBookStyles } from "../../../components/styles/ReadyToBookStyles"
+import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
+import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
+import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
+import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
+import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
+import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
+import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
+import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
+import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
 
-const EpicSummerPass = () => {
+const Rafting = () => {
     return (
         <>
             <Head>
-                <title>Epic Adventures | Rafting & Skydiving</title>
+                <title>Epic Adventures | Golden Sky Bridge</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroImageStyles>
                 <div className="heroText">
-                    <h2>Rafting & Skydiving.</h2>
+                    <h2>Golden Sky Bridge.</h2>
+                </div>
+                <div className="heroText">
+                    <h2 className="bg">Golden Sky Bridge.</h2>
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
@@ -38,7 +41,7 @@ const EpicSummerPass = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>Rafting & Skydiving Combo</h2>
+                    <h2>Golden Sky Bridge</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -173,4 +176,4 @@ const EpicSummerPass = () => {
     )
 }
 
-export default EpicSummerPass
+export default Rafting
