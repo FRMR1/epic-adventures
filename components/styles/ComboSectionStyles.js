@@ -35,6 +35,14 @@ export const ComboSectionStyles = styled.div`
             flex-direction: column-reverse;
         }
     }
+    @media (min-width: 801px) {
+        .reverse {
+            direction: rtl;
+            > * {
+                direction: ltr;
+            }
+        }
+    }
     .comboSection {
         display: grid;
         margin: 0 auto;
@@ -97,11 +105,13 @@ export const ComboSectionStyles = styled.div`
             border-radius: 3px;
             width: 12rem;
             padding: 1rem;
-            span {
+            span,
+            a {
                 color: #555;
                 font-weight: 300;
                 text-transform: uppercase;
                 font-size: 1.3rem;
+                font-family: Roboto Mono;
             }
         }
         .comboImage {

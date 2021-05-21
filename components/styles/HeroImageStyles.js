@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const HeroImageStyles = styled.div`
-    background-image: linear-gradient(grey, grey), url("/images/bg.jpg");
+    background-image: linear-gradient(grey, grey),
+        url("/images/${({ image }) => image}.jpg");
     background-blend-mode: screen;
     width: 100%;
     min-height: 100vh;

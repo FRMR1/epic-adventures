@@ -76,7 +76,8 @@ const Footer = ({ year }) => {
                 <div className="getInTouch">
                     <h3>Get in touch</h3>
                     <a href="#">hello@epicadventuregroup.com</a>
-                    <span>+1 800 555 EPIC</span>
+                    <br />
+                    <a href="tel:+12509398820">+1 250 939 8820</a>
                 </div>
             </div>
         </div>

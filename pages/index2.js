@@ -2,6 +2,7 @@ import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
 import Nav from "../components/Nav"
+import Combo from "../components/Combo"
 import { HeroVideoStyles } from "../components/styles/HeroVideoStyles"
 import { SectionStyles } from "../components/styles/SectionStyles"
 import { TopDividerStyles } from "../components/styles/TopDividerStyles"
@@ -136,166 +137,62 @@ export default function Home() {
                     elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
                 </p>
-                <div className="comboSection reverse">
-                    <div>
-                        <span className="number">01</span>
-                        <h4>Epic Summer Pass</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
-                        </p>
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                        </ul>
-                        <Link href="/adventures/combos/epic-summer-pass">
-                            <div className="button">
-                                <span>More Info</span>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="comboImage">
-                        <Image
-                            src="/images/epicsummer.png"
-                            layout="responsive"
-                            width="100%"
-                            height="auto"
-                            objectFit="contain"
-                            alt="Epic Summer Pass"
-                        />
-                    </div>
-                </div>
-                <div className="comboSection">
-                    <div className="comboImage">
-                        <Image
-                            src="/images/epicsummer.png"
-                            layout="responsive"
-                            width="100%"
-                            height="auto"
-                            objectFit="contain"
-                            alt="Epic Summer Pass"
-                        />
-                    </div>
-                    <div>
-                        <span className="number">02</span>
-                        <h4>Rafting & Skydiving</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
-                        </p>
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                        </ul>
-                        <Link href="/adventures/combos/rafting-skydiving">
-                            <div className="button">
-                                <span>More Info</span>
-                            </div>
-                        </Link>
-                    </div>
-                </div>
-                <div className="comboSection reverse">
-                    <div>
-                        <span className="number">03</span>
-                        <h4>Swing & Rafting</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
-                        </p>
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                        </ul>
-                        <Link href="/adventures/combos/swing-rafting">
-                            <div className="button">
-                                <span>More Info</span>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="comboImage">
-                        <Image
-                            src="/images/epicsummer.png"
-                            layout="responsive"
-                            width="100%"
-                            height="auto"
-                            objectFit="contain"
-                            alt="Epic Summer Pass"
-                        />
-                    </div>
-                </div>
-                <div className="comboSection">
-                    <div className="comboImage">
-                        <Image
-                            src="/images/epicsummer.png"
-                            layout="responsive"
-                            width="100%"
-                            height="auto"
-                            objectFit="contain"
-                            alt="Epic Summer Pass"
-                        />
-                    </div>
-                    <div>
-                        <span className="number">04</span>
-                        <h4>Skydiving & wing</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
-                        </p>
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                        </ul>
-                        <Link href="/adventures/combos/skydiving-swing">
-                            <div className="button">
-                                <span>More Info</span>
-                            </div>
-                        </Link>
-                    </div>
-                </div>
+                <Combo
+                    number="01"
+                    title="Epic Golden Pass"
+                    description="Lorem ipsum delor, Lorem ipsum delor, Lorem ipsum delor, Lorem ipsum delor"
+                    reverse={false}
+                    price="656"
+                    save=""
+                    image="/images/epicsummer.png"
+                    bullets={[
+                        "Lorem ipsum delor",
+                        "Lorem ipsum delor",
+                        "Lorem ipsum delor",
+                    ]}
+                />
+                <Combo
+                    number="02"
+                    title="ATV & Rafting"
+                    description="Lorem ipsum delor, Lorem ipsum delor, Lorem ipsum delor, Lorem ipsum delor"
+                    reverse={true}
+                    price="292"
+                    save=""
+                    image="/images/epicsummer.png"
+                    bullets={[
+                        "Lorem ipsum delor",
+                        "Lorem ipsum delor",
+                        "Lorem ipsum delor",
+                    ]}
+                />
+                <Combo
+                    number="03"
+                    title="Skydiving & Rafting Express"
+                    description="Lorem ipsum delor, Lorem ipsum delor, Lorem ipsum delor, Lorem ipsum delor"
+                    reverse={false}
+                    price="367"
+                    save=""
+                    image="/images/epicsummer.png"
+                    bullets={[
+                        "Lorem ipsum delor",
+                        "Lorem ipsum delor",
+                        "Lorem ipsum delor",
+                    ]}
+                />
+                <Combo
+                    number="04"
+                    title="ATV & Skydiving"
+                    description="Lorem ipsum delor, Lorem ipsum delor, Lorem ipsum delor, Lorem ipsum delor"
+                    reverse={true}
+                    price="509"
+                    save=""
+                    image="/images/epicsummer.png"
+                    bullets={[
+                        "Lorem ipsum delor",
+                        "Lorem ipsum delor",
+                        "Lorem ipsum delor",
+                    ]}
+                />
             </ComboSectionStyles>
             <PhotoPackageStyles>
                 <div className="photoPackageImg">

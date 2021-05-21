@@ -18,7 +18,7 @@ const Rafting = () => {
                 <title>Epic Adventures | Rafting</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles>
+            <HeroImageStyles image="rafting2">
                 <div className="heroText">
                     <h2>Rafting.</h2>
                 </div>
@@ -43,11 +43,10 @@ const Rafting = () => {
                 <div className="pContainer">
                     <h2>Rafting Adventure</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        Half floating, half big white water in the upper and
+                        middle canyons. If you're looking for Rocky Mountain
+                        scenery and boat swamping rapids, this is the perfect
+                        balance.
                     </p>
                 </div>
             </AdventureHeadingStyles>

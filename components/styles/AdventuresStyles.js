@@ -35,6 +35,14 @@ export const AdventuresStyles = styled.div`
             flex-direction: column-reverse;
         }
     }
+    @media (min-width: 801px) {
+        .reverse {
+            direction: rtl;
+            > * {
+                direction: ltr;
+            }
+        }
+    }
     .adventureSection {
         display: grid;
         margin: 0 auto;

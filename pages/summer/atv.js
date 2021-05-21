@@ -15,15 +15,15 @@ const Swing = () => {
     return (
         <>
             <Head>
-                <title>Epic Adventures | ATV Off Road</title>
+                <title>Epic Adventures | ATV Off-Road</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles>
+            <HeroImageStyles image="atv">
                 <div className="heroText">
-                    <h2>Swing.</h2>
+                    <h2>ATV Off-Road</h2>
                 </div>
                 <div className="heroText">
-                    <h2 className="bg">ATV Off Road.</h2>
+                    <h2 className="bg">ATV Off-Road.</h2>
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
@@ -43,11 +43,12 @@ const Swing = () => {
                 <div className="pContainer">
                     <h2>ATV Off Road</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        Good for adventurous beginners to advanced riders. This
+                        trip takes you through dense forests and up into the
+                        mountains, passing glacier fed streams and oceans of
+                        wildflowers mid-season. You may even spot some local
+                        wildlife (deer, bear, moose, marmots and more) if the
+                        timing is right.
                     </p>
                 </div>
             </AdventureHeadingStyles>

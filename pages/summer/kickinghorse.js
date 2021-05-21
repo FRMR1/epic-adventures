@@ -18,9 +18,9 @@ const Rafting = () => {
                 <title>Epic Adventures | Kicking Horse Resort</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles>
+            <HeroImageStyles image="kickinghorse">
                 <div className="heroText">
-                    <h2>Golden Sky Bridge.</h2>
+                    <h2>Kicking Horse Resort.</h2>
                 </div>
                 <div className="heroText">
                     <h2 className="bg">Kicking Horse Resort.</h2>
@@ -43,11 +43,11 @@ const Rafting = () => {
                 <div className="pContainer">
                     <h2>Kicking Horse Resort</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        Take a trip above the clouds as you ascend to 7,700
+                        feet. Take in panoramic views of the Rocky Mountains,
+                        the Columbia River Wetlands and the town of Golden.
+                        During the journey, spot wildlife and even a glimpse of
+                        Kicking Horse Mountain Resorts resident grizzly bear!
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -71,11 +71,12 @@ const Rafting = () => {
                     </div>
                     <div className="right">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
+                            Once at the summit, go for a hike or simply soak up
+                            the endless mountain vistas from on top of the world
+                            or visit the Eagle’s Eye Restaurant for Lunch or a
+                            snack and keep your eye out for wildlife in the
+                            alpine terrain. After all, the end of the gondola
+                            ride is simply the start of your next adventure.
                         </p>
                         <ul>
                             <li>
