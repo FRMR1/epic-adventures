@@ -34,12 +34,12 @@ const Skydiving = () => {
             <AdventureHeadingStyles>
                 <div className="imageContainer">
                     <Image
-                        src="/images/skydiving2.jpg"
+                        src="/images/skydiving2.JPG"
                         layout="responsive"
                         width="100%"
                         height="auto"
                         objectFit="contain"
-                        alt="Rafting"
+                        alt="Skydiving"
                     />
                 </div>
                 <div className="pContainer">
@@ -63,7 +63,7 @@ const Skydiving = () => {
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/skydiving3.jpg"
+                                src="/images/skydiving3.JPG"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
@@ -156,7 +156,7 @@ const Skydiving = () => {
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/skydiving4.jpg"
+                                src="/images/skydiving4.JPG"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
