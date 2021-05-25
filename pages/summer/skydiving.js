@@ -18,7 +18,7 @@ const Skydiving = () => {
                 <title>Epic Adventures | Skydiving</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles>
+            <HeroImageStyles image="skydiving">
                 <div className="heroText">
                     <h2>Skydiving.</h2>
                 </div>
@@ -32,7 +32,7 @@ const Skydiving = () => {
             <AdventureHeadingStyles>
                 <div className="imageContainer">
                     <Image
-                        src="/images/rafting.jpg"
+                        src="/images/skydiving2.jpg"
                         layout="responsive"
                         width="100%"
                         height="auto"
@@ -41,13 +41,14 @@ const Skydiving = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>Skydiving Adventure</h2>
+                    <h2>Skydiving</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        Experience the thrill of free falling at over 120 MPH
+                        and a view of the Rocky Mountains from 10,000 ft! Expect
+                        sensory overload as your mind, body and soul fight
+                        against every natural self-preserving urge. Fit for
+                        anyone with the will to say yes, from the beginner ready
+                        to confront their fear to the experienced thrill seeker.
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -55,51 +56,53 @@ const Skydiving = () => {
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles>
-                <h3>Ready to book your adventure?</h3>
+                <h3>Skydive Extreme Yeti</h3>
                 <div className="twoCol">
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/skydiving3.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="Skydiving"
                             />
                         </div>
                     </div>
                     <div className="right">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
+                            After a 20-minute scenic flight to altitude, you’ll
+                            nudge towards the edge of the plane and make the
+                            jump with an experienced tandem instructor. Keep
+                            your head up, smile at your personal hand cam and
+                            take in the stunning surroundings. After an
+                            exhilarating freefall, the five-minute canopy ride
+                            to earth will give you indescribable 360° views of
+                            glacier-capped mountain ranges and intersecting
+                            rivers.
                         </p>
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
+                                Duration: 2 hours (approx.)
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
+                                9AM, 11AM, 1PM, 3PM, 5PM
                             </li>
                         </ul>
                         <div className="priceContainer">
                             <span className="dollarSign">$</span>
-                            <span className="amount">99</span>
+                            <span className="amount">320</span>
                             <span className="currency">CAD</span>
                         </div>
-                        <Link href="/bookings">
-                            <div className="button">
-                                <span>Book Now</span>
-                            </div>
+                        <Link href="https://epicadventuregroup.rezdy.com/catalog/433392/skydive">
+                            <a target="_blank" rel="noreferrer">
+                                <div className="button">
+                                    <span>Book Now</span>
+                                </div>
+                            </a>
                         </Link>
                     </div>
                 </div>
@@ -109,16 +112,15 @@ const Skydiving = () => {
             </TopDividerStyles>
             <TestimonialStyles>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua."
+                    “I had an incredible time skydiving! I reccommend this to
+                    anyone looking to skydive for the first time! It was one of
+                    the best life experiences! The staff were very knowledgeable
+                    and knew what they were doing! Made us all feel safe.”
                 </p>
                 <div className="faceContainer">
                     <img src="/svg/face.svg" width="30px" />
                 </div>
-                <p className="customerName">
-                    Satisfied Epic Adventures Customer
-                </p>
+                <p className="customerName">Juan G, July 2020</p>
             </TestimonialStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
@@ -126,37 +128,38 @@ const Skydiving = () => {
             <AdventureSectionStyles>
                 <div className="twoCol">
                     <div className="left">
-                        <h3>What's Included</h3>
+                        <h3>Additional Details</h3>
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                You will be provided with goggles, optional
+                                gloves,hat and jumpsuit. Make sure to wear warm
+                                layers and flat closed-toed shoes. If you wear
+                                glasses, we have goggles that fit over the top.
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Skydiving is a very weather dependent activity
+                                and cancellations due to unsuitable weather
+                                conditions may occur. Full refunds will be
+                                provided if your time slot cannot be
+                                rescheduled.
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Must be at least 19 Years old and under 230 lbs.
                             </li>
                         </ul>
                     </div>
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/skydiving4.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="Skydiving"
                             />
                         </div>
                     </div>
@@ -165,7 +168,7 @@ const Skydiving = () => {
             <ReadyToBookStyles>
                 <div>
                     <h4>Ready to book?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <p>Book your next epic adventure now!</p>
                 </div>
                 <a className="bookNow">Book Now</a>
             </ReadyToBookStyles>

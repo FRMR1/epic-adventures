@@ -29,7 +29,7 @@ const Card = ({ title, description, price, bullets, slug }) => {
                     <span>$</span>
                     {price}
                 </h5>
-                <Link href={`/adventures/${slug}`}>
+                <Link href={`/summer/${slug}`}>
                     <div className="button">
                         <span>More Info</span>
                     </div>

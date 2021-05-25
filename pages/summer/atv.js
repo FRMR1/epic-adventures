@@ -32,23 +32,23 @@ const Swing = () => {
             <AdventureHeadingStyles>
                 <div className="imageContainer">
                     <Image
-                        src="/images/rafting.jpg"
+                        src="/images/atv4.jpg"
                         layout="responsive"
                         width="100%"
                         height="auto"
                         objectFit="contain"
-                        alt="Rafting"
+                        alt="ATV Off-Road"
                     />
                 </div>
                 <div className="pContainer">
                     <h2>ATV Off Road</h2>
                     <p>
-                        Good for adventurous beginners to advanced riders. This
-                        trip takes you through dense forests and up into the
-                        mountains, passing glacier fed streams and oceans of
-                        wildflowers mid-season. You may even spot some local
-                        wildlife (deer, bear, moose, marmots and more) if the
-                        timing is right.
+                        Venture off the beaten path and experience Golden’s back
+                        country up close on your own all-terrain vehicle. Led by
+                        a seasoned adventure tour guide, you’ll come across
+                        winding rivers and streams, grand expanses of native
+                        wildflowers, stunning mountain vistas and the chance to
+                        spot local wildlife in their natural environment.
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -56,36 +56,42 @@ const Swing = () => {
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles>
-                <h3>Ready to book your adventure?</h3>
+                <h3>Canadian Off-Road Adventures</h3>
                 <div className="twoCol">
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/atv3.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="ATV Off-Road"
                             />
                         </div>
                     </div>
                     <div className="right">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
+                            Good for adventurous beginners, with single track
+                            trails for the more advanced riders. This trip takes
+                            you through dense forests and up into the mountains,
+                            passing glacier fed streams and oceans of
+                            wildflowers mid-season. You may even spot some local
+                            wildlife (deer, bear, moose, marmots and more). No
+                            prior ATV experience is necessary; guides will cater
+                            to each driver and passenger to make a fun and safe
+                            backcountry experience for every skill level. Ride
+                            as either a driver or a passenger, and expect to be
+                            dusty, dirty and happy upon your return.
                         </p>
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
+                                Duration: 3 hours (approx.)
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
+                                10AM – 1PM or 2PM – 5PM
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
@@ -94,7 +100,7 @@ const Swing = () => {
                         </ul>
                         <div className="priceContainer">
                             <span className="dollarSign">$</span>
-                            <span className="amount">99</span>
+                            <span className="amount">219</span>
                             <span className="currency">CAD</span>
                         </div>
                         <Link href="/bookings">
@@ -110,16 +116,15 @@ const Swing = () => {
             </TopDividerStyles>
             <TestimonialStyles>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua."
+                    “Had a blast! This trip was so much fun and the views were
+                    incredible. The guides are excellent and know their stuff
+                    and all the places to take you for the most memorable day.
+                    We will be back!”
                 </p>
                 <div className="faceContainer">
                     <img src="/svg/face.svg" width="30px" />
                 </div>
-                <p className="customerName">
-                    Satisfied Epic Adventures Customer
-                </p>
+                <p className="customerName">Allison P, August 2020</p>
             </TestimonialStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
@@ -127,37 +132,34 @@ const Swing = () => {
             <AdventureSectionStyles>
                 <div className="twoCol">
                     <div className="left">
-                        <h3>What's Included</h3>
+                        <h3>Additional Details</h3>
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Please note that you must bring with you a valid
+                                ID and a major credit card.
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Trip durations include shuttle time, gear up and
+                                machine orientation.
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Dress for the weather – extra layers and
+                                appropriate footwear (no sandals or flip-flops).
                             </li>
                         </ul>
                     </div>
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/atv2.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="ATV Off-Road"
                             />
                         </div>
                     </div>

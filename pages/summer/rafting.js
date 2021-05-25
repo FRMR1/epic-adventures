@@ -18,7 +18,7 @@ const Rafting = () => {
                 <title>Epic Adventures | Rafting</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="rafting2">
+            <HeroImageStyles image="rafting">
                 <div className="heroText">
                     <h2>Rafting.</h2>
                 </div>
@@ -32,7 +32,7 @@ const Rafting = () => {
             <AdventureHeadingStyles>
                 <div className="imageContainer">
                     <Image
-                        src="/images/rafting.jpg"
+                        src="/images/rafting3.jpg"
                         layout="responsive"
                         width="100%"
                         height="auto"
@@ -41,12 +41,14 @@ const Rafting = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>Rafting Adventure</h2>
+                    <h2>Rafting</h2>
                     <p>
-                        Half floating, half big white water in the upper and
-                        middle canyons. If you're looking for Rocky Mountain
-                        scenery and boat swamping rapids, this is the perfect
-                        balance.
+                        Rafting on the mighty Kicking Horse River, Western
+                        Canada’s best rafting day trip is an experience you
+                        can’t miss. This Canadian classic will take you down
+                        exhilarating rapids through unforgettable scenery and
+                        gives you the chance to spot local wildlife as you
+                        travel down the Kicking Horse.
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -54,45 +56,47 @@ const Rafting = () => {
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles>
-                <h3>Ready to book your adventure?</h3>
+                <h3>White Water Discovery</h3>
                 <div className="twoCol">
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/rafting4.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="Rafting"
                             />
                         </div>
                     </div>
                     <div className="right">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
+                            The Discovery trip takes you on a full-day journey
+                            from the calm upper canyon in the morning into big
+                            crashing whitewater in the middle canyon. Accessible
+                            and fun for the whole family, this popular trip
+                            includes a riverside BBQ lunch of juicy burgers and
+                            sizzling smokies – with options for veggie and GF
+                            rafters too.
                         </p>
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
+                                Duration: 5 hours (approx.)
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
+                                9AM – 2PM
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
+                                Lunch included
                             </li>
                         </ul>
                         <div className="priceContainer">
                             <span className="dollarSign">$</span>
-                            <span className="amount">99</span>
+                            <span className="amount">159</span>
                             <span className="currency">CAD</span>
                         </div>
                         <Link href="/bookings">
@@ -102,22 +106,72 @@ const Rafting = () => {
                         </Link>
                     </div>
                 </div>
+                <h3>White Water Express</h3>
+                <div className="twoCol">
+                    <div className="left">
+                        <div className="imageRotate">
+                            <Image
+                                src="/images/rafting4.jpg"
+                                layout="responsive"
+                                width="100%"
+                                height="auto"
+                                objectFit="contain"
+                                alt="Rafting"
+                            />
+                        </div>
+                    </div>
+                    <div className="right">
+                        <p>
+                            Skip the easy waters and get right to it with an
+                            exhilarating half-day of whitewater rapids. The
+                            Express is a quick fix of excitement down the most
+                            lively stretch of the Kicking Horse river and the
+                            perfect option if you are just passing through or
+                            want to fit in more adventures before day’s end.
+                        </p>
+                        <ul>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Duration: 3 hours (approx.)
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                11AM – 2PM or 3:30PM – 6:15PM
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Lunch not included
+                            </li>
+                        </ul>
+                        <div className="priceContainer">
+                            <span className="dollarSign">$</span>
+                            <span className="amount">99</span>
+                            <span className="currency">CAD</span>
+                        </div>
+                        <Link href="https://epicadventuregroup.rezdy.com/catalog/433391/rafting">
+                            <a target="_blank" rel="noreferrer">
+                                <div className="button">
+                                    <span>Book Now</span>
+                                </div>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
             </BookAdventureStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
             <TestimonialStyles>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua."
+                    “The guides were so knowledgeable and fun. The views were
+                    fantastic. The whole experience was a blast. Being on the
+                    water was thrilling and safe. It was one of the highlights
+                    of our trip to the Canadian Rockies.”
                 </p>
                 <div className="faceContainer">
                     <img src="/svg/face.svg" width="30px" />
                 </div>
-                <p className="customerName">
-                    Satisfied Epic Adventures Customer
-                </p>
+                <p className="customerName">Braeden, August 2020</p>
             </TestimonialStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
@@ -125,37 +179,36 @@ const Rafting = () => {
             <AdventureSectionStyles>
                 <div className="twoCol">
                     <div className="left">
-                        <h3>What's Included</h3>
+                        <h3>Additional Details</h3>
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                No experience required. Our guides will let you
+                                know exactly what to do!
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                <span>
+                                    Please make sure to bring facemask/covering,
+                                    swimsuit and towel.
+                                </span>
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Must be at least 12 years old and at least 90
+                                lbs.
                             </li>
                         </ul>
                     </div>
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/rafting2.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="Rafting"
                             />
                         </div>
                     </div>
@@ -164,7 +217,7 @@ const Rafting = () => {
             <ReadyToBookStyles>
                 <div>
                     <h4>Ready to book?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <p>Book your next epic adventure now!</p>
                 </div>
                 <a className="bookNow">Book Now</a>
             </ReadyToBookStyles>

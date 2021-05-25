@@ -41,6 +41,9 @@ export const AdventuresStyles = styled.div`
             > * {
                 direction: ltr;
             }
+            .adventuresImage {
+                transform: rotate(3deg) !important;
+            }
         }
     }
     .adventureSection {
@@ -108,11 +111,13 @@ export const AdventuresStyles = styled.div`
                 font-weight: 300;
                 text-transform: uppercase;
                 font-size: 1.3rem;
+                font-family: Roboto Mono;
             }
         }
         .adventuresImage {
             align-items: center;
             width: 100%;
+            transform: rotate(-3deg);
             @media (max-width: 800px) {
                 margin-bottom: -10rem;
             }

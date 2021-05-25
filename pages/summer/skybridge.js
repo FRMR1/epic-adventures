@@ -32,24 +32,21 @@ const Rafting = () => {
             <AdventureHeadingStyles>
                 <div className="imageContainer">
                     <Image
-                        src="/images/rafting.jpg"
+                        src="/images/skybridge4.jpg"
                         layout="responsive"
                         width="100%"
                         height="auto"
                         objectFit="contain"
-                        alt="Rafting"
+                        alt="Golden Skybridge"
                     />
                 </div>
                 <div className="pContainer">
                     <h2>Golden Sky Bridge</h2>
                     <p>
-                        As you perch 426 feet above an expansive canyon,
-                        engulfed by the Columbia Valley, the epic views from
-                        Golden’s newest, must-visit attraction will take your
-                        breath away. The Golden Skybridge rewards with views of
-                        the Rocky and Purcell mountain ranges like you’ve never
-                        seen before, while a crashing river and 200-foot
-                        waterfall thunders below.
+                        Golden’s newest, must-visit attraction includes a
+                        Treetop Village play park for families, an outdoor BBQ
+                        and entertainment plaza at the Village Grill, and a
+                        bungee swing and ziplines across the canyon coming soon!
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -57,46 +54,36 @@ const Rafting = () => {
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles>
-                <h3>Ready to book your adventure?</h3>
+                <h3>Golden Skybridge</h3>
                 <div className="twoCol">
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/skybridge2.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="Golden Skybridge"
                             />
                         </div>
                     </div>
                     <div className="right">
                         <p>
-                            Slow down and experience the wonder of this untamed
-                            wilderness as you wander along the canyon ridge on
-                            our three kilometres of nature trails. As you make
-                            your way through the silent forest, stop to enjoy a
-                            moment of awe at each of the viewing platforms, Tree
-                            top village and refuel at the Village Grill.
+                            Take in the Columbia Valley at 426’ from two of
+                            Canada’s highest suspension bridges while a crashing
+                            river and 200-foot waterfall thunder in the
+                            expansive canyon below your feet. The epic views
+                            will take your breath away with sights of the Rocky
+                            and Purcell mountain ranges like you’ve never seen
+                            before. Wander the canyon ridge on three kilometres
+                            of nature trails through silent forest and untamed
+                            wilderness and take a moment to breathe and enjoy
+                            the stillness at each of the viewing platforms.
                         </p>
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                        </ul>
                         <div className="priceContainer">
                             <span className="dollarSign">$</span>
-                            <span className="amount">99</span>
+                            <span className="amount">37</span>
                             <span className="currency">CAD</span>
                         </div>
                         <Link href="/bookings">
@@ -154,12 +141,12 @@ const Rafting = () => {
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/skybridge3.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="Golden Skybridge"
                             />
                         </div>
                     </div>

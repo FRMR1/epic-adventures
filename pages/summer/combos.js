@@ -17,7 +17,7 @@ const Combos = ({}) => {
                 <title>Epic Adventures | Epic Combos</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles>
+            <HeroImageStyles image="combo1">
                 <div className="heroText">
                     <h2>Epic Combos.</h2>
                 </div>
@@ -50,12 +50,12 @@ const Combos = ({}) => {
                 </p>
                 <Combo
                     number="01"
-                    title="Golden Shower"
+                    title="Epic Golden Pass"
                     description="Got a couple days? Why not do it all! Raft the Kicking Horse River, experience human flight and get dusty off-road on your own ATV!"
                     reverse={false}
                     price="656"
                     save="42"
-                    image="/images/epicsummer.png"
+                    image="/images/combo1.jpg"
                     bullets={[
                         "Includes rafting, skydiving and ATV off-road (2 days)",
                         "8 hours (approx.)",
@@ -69,7 +69,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="292"
                     save="26"
-                    image="/images/epicsummer.png"
+                    image="/images/combo2.jpg"
                     bullets={[
                         "Includes rafting express and ATV off-road",
                         "8 hours (approx.)",
@@ -83,7 +83,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="509"
                     save="30"
-                    image="/images/epicsummer.png"
+                    image="/images/combo3.jpg"
                     bullets={[
                         "Includes ATV off-road and skydiving",
                         "6 hours (approx.)",
@@ -97,7 +97,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="250"
                     save="14"
-                    image="/images/epicsummer.png"
+                    image="/images/combo4.jpg"
                     bullets={[
                         "Includes ATV off-road and Kicking Horse gondola",
                         "6 hours (approx.)",
@@ -111,7 +111,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="242"
                     save="14"
-                    image="/images/epicsummer.png"
+                    image="/images/combo5.jpg"
                     bullets={[
                         "Includes ATV off-road and Golden Skybridge",
                         "6 hours (approx.)",
@@ -125,7 +125,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="387"
                     save="32"
-                    image="/images/epicsummer.png"
+                    image="/images/combo6.jpg"
                     bullets={[
                         "Includes skydiving and rafting express",
                         "6 hours (approx.)",
@@ -139,7 +139,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="351"
                     save="15"
-                    image="/images/epicsummer.png"
+                    image="/images/combo8.jpg"
                     bullets={[
                         "Includes skydiving and Kicking Horse gondola",
                         "6 hours (approx.)",
@@ -153,7 +153,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="342"
                     save="15"
-                    image="/images/epicsummer.png"
+                    image="/images/combo7.jpg"
                     bullets={[
                         "Includes skydiving and Golden Skybridge",
                         "6 hours (approx.)",
@@ -167,7 +167,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="445"
                     save="34"
-                    image="/images/epicsummer.png"
+                    image="/images/combo9.jpg"
                     bullets={[
                         "Includes rafting (full day) and skydiving",
                         "Full day",
@@ -181,9 +181,9 @@ const Combos = ({}) => {
                     reverse={true}
                     price="141"
                     save="14"
-                    image="/images/epicsummer.png"
+                    image="/images/combo10.jpg"
                     bullets={[
-                        "Includes rafing express and Kicking Horse gondola",
+                        "Includes rafting express and Kicking Horse gondola",
                         "6 hours (approx.)",
                         "Must be 12 years or older",
                     ]}
@@ -195,7 +195,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="182"
                     save="14"
-                    image="/images/epicsummer.png"
+                    image="/images/combo11.jpg"
                     bullets={[
                         "Includes rafting (full day) and Golden Skybridge",
                         "6 hours (approx.)",
@@ -209,7 +209,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="78"
                     save="5"
-                    image="/images/epicsummer.png"
+                    image="/images/combo12.jpg"
                     bullets={[
                         "Includes Golden Skybridge and Kicking Horse gondola",
                         "6 hours (approx.)",

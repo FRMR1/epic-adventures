@@ -41,6 +41,9 @@ export const ComboSectionStyles = styled.div`
             > * {
                 direction: ltr;
             }
+            .comboImage {
+                transform: rotate(3deg) !important;
+            }
         }
     }
     .comboSection {
@@ -117,6 +120,7 @@ export const ComboSectionStyles = styled.div`
         .comboImage {
             align-items: center;
             width: 100%;
+            transform: rotate(-3deg);
             @media (max-width: 800px) {
                 margin-bottom: -10rem;
             }

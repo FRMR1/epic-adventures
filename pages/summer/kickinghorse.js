@@ -32,12 +32,12 @@ const Rafting = () => {
             <AdventureHeadingStyles>
                 <div className="imageContainer">
                     <Image
-                        src="/images/rafting.jpg"
+                        src="/images/kickinghorse2.jpg"
                         layout="responsive"
                         width="100%"
                         height="auto"
                         objectFit="contain"
-                        alt="Rafting"
+                        alt="Kicking Horse Resort"
                     />
                 </div>
                 <div className="pContainer">
@@ -55,28 +55,33 @@ const Rafting = () => {
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles>
-                <h3>Ready to book your adventure?</h3>
+                <h3>Golden Eagle Express Gondola</h3>
                 <div className="twoCol">
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/kickinghorse3.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="Kicking Horse Resort"
                             />
                         </div>
                     </div>
                     <div className="right">
                         <p>
-                            Once at the summit, go for a hike or simply soak up
-                            the endless mountain vistas from on top of the world
-                            or visit the Eagle’s Eye Restaurant for Lunch or a
-                            snack and keep your eye out for wildlife in the
-                            alpine terrain. After all, the end of the gondola
-                            ride is simply the start of your next adventure.
+                            The Golden Eagle Express Gondola takes you on an
+                            18-minute climb to a ridge overlooking 3 mountain
+                            ranges. During the journey, you’ll spot wildlife and
+                            may even get a glimpse of Kicking Horse Mountain
+                            Resort’s resident grizzly bear! Once at the summit,
+                            you can explore the many ridges and bowls by foot or
+                            by bike, each providing stunning views of the
+                            surrounding Purcell and Rocky Mountains. Don’t worry
+                            about packing a lunch! Soak in the views from the
+                            Eagle’s Eye Restaurant, Canada’s Most Elevated
+                            Dining Experience. Reservations are recommended.
                         </p>
                         <ul>
                             <li>
@@ -110,16 +115,14 @@ const Rafting = () => {
             </TopDividerStyles>
             <TestimonialStyles>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua."
+                    “Gondola ride up the mountain was amazing! We got to see Boo
+                    the bear. Views were incredible. Staff is amazing. Highly
+                    recommend doing this while in Golden.”
                 </p>
                 <div className="faceContainer">
                     <img src="/svg/face.svg" width="30px" />
                 </div>
-                <p className="customerName">
-                    Satisfied Epic Adventures Customer
-                </p>
+                <p className="customerName">Becky, June 2020</p>
             </TestimonialStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
@@ -152,12 +155,12 @@ const Rafting = () => {
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/epicsummer.png"
+                                src="/images/kickinghorse4.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
                                 objectFit="contain"
-                                alt="Epic Adventures"
+                                alt="Kicking Horse Resort"
                             />
                         </div>
                     </div>

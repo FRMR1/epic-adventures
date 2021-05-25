@@ -13,7 +13,7 @@ const Combo = ({
 }) => {
     return (
         <div className={`${"comboSection"} ${reverse && "reverse"}`}>
-            <div className="adventuresImage">
+            <div className="comboImage">
                 <Image
                     src={image}
                     layout="responsive"

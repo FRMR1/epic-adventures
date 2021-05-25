@@ -14,7 +14,6 @@ import { ComboSectionStyles } from "../components/styles/ComboSectionStyles"
 import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
 import { useMediaQuery } from "react-responsive"
 import Card from "../components/Card"
-// import { YoutubeEmbed } from "../components/YoutubeEmbed"
 import dynamic from "next/dynamic"
 
 const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
@@ -88,7 +87,7 @@ export default function Home() {
                         slug="skydiving"
                     />
                     <Card
-                        title="Swing"
+                        title="ATV Off-Road"
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         bullets={[
                             "Loreum ipsum dolor",
@@ -96,7 +95,7 @@ export default function Home() {
                             "Loreum ipsum dolor",
                         ]}
                         price="99"
-                        slug="swing"
+                        slug="atv"
                     />
                 </div>
             </CardSectionStyles>

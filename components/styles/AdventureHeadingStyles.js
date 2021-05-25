@@ -11,12 +11,13 @@ export const AdventureHeadingStyles = styled.div`
     @media (max-width: 800px) {
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 0rem;
+        /* margin-bottom: 0rem; */
         top: -7rem;
     }
     .imageContainer {
         transform: rotate(-7deg);
         width: 100%;
+        padding: 3em;
     }
     .pContainer {
         align-self: center;

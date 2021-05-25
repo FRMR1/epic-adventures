@@ -48,6 +48,8 @@ const GlobalStyles = createGlobalStyle`
     a {
         text-decoration: none;
         color: var(--secColor);
+        font-family: Roboto Mono;
+
     }
     p, li, a {
         font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

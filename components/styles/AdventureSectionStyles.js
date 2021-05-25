@@ -54,7 +54,7 @@ export const AdventureSectionStyles = styled.div`
                 color: #a3a3a3;
                 margin-bottom: 2rem;
                 display: grid;
-                grid-template-columns: auto auto;
+                grid-template-columns: 25px auto;
                 line-height: 4rem;
                 img {
                     margin-right: 1.6rem;

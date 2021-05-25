@@ -40,13 +40,11 @@ const Nav = () => {
                                 <Link href="/summer/combos">Combos</Link>
                                 <Link href="/summer/rafting">Rafting</Link>
                                 <Link href="/summer/skydiving">Skydiving</Link>
-                                <Link href="/summer/atvoffroad">
-                                    ATV Off Road
-                                </Link>
+                                <Link href="/summer/atv">ATV Off Road</Link>
                                 <Link href="/summer/kickinghorse">
                                     Kicking Horse Resort
                                 </Link>
-                                <Link href="/summer/goldenskybridge">
+                                <Link href="/summer/skybridge">
                                     Golden Sky Bridge
                                 </Link>
                             </div>

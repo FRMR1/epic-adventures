@@ -2,15 +2,18 @@ import styled from "styled-components"
 
 export const BookAdventureStyles = styled.div`
     background-color: #fafafa;
-    padding: 5rem 3rem 5rem;
+    padding: 0 3rem;
     margin: 0;
-    margin-bottom: 25rem;
+    margin-bottom: -3rem;
+    position: relative;
+    top: -20rem;
     h3 {
-        margin: 5rem 0 7rem;
+        margin: 5rem 0 3rem;
         font-size: 5rem;
         color: var(--mainColor);
         letter-spacing: -0.1rem;
         text-align: center;
+        padding-top: 12rem;
         @media (max-width: 800px) {
             font-size: 3.5rem;
             margin-bottom: 5rem;
@@ -31,7 +34,7 @@ export const BookAdventureStyles = styled.div`
         margin-top: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: -8rem;
+        margin-bottom: 8rem;
         @media (max-width: 800px) {
             display: flex;
             flex-wrap: wrap;
@@ -110,6 +113,9 @@ export const BookAdventureStyles = styled.div`
                 top: -5.5rem;
             }
         }
+        a:hover {
+            text-decoration: none;
+        }
         .button {
             text-align: center;
             cursor: pointer;
@@ -122,11 +128,13 @@ export const BookAdventureStyles = styled.div`
             @media (max-width: 800px) {
                 margin: 0 auto;
             }
-            span {
+            span,
+            a {
                 color: #fff;
                 font-weight: 300;
                 text-transform: uppercase;
                 font-size: 1.3rem;
+                font-family: Roboto Mono;
             }
         }
     }
