@@ -72,7 +72,7 @@ export default function Home() {
                             "Full day and half-day trips",
                             "No experience required",
                         ]}
-                        price="129"
+                        price="99"
                         slug="rafting"
                     />
                     <Card
@@ -83,7 +83,7 @@ export default function Home() {
                             "Goggles will be provided",
                             "Duration: 2 hours (approx.)",
                         ]}
-                        price="199"
+                        price="320"
                         slug="skydiving"
                     />
                     <Card
@@ -94,7 +94,7 @@ export default function Home() {
                             "Fun for all skill levels",
                             "Drive or ride as passenger",
                         ]}
-                        price="99"
+                        price="219"
                         slug="atv"
                     />
                 </div>
