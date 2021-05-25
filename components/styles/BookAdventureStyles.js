@@ -106,6 +106,7 @@ export const BookAdventureStyles = styled.div`
             }
             .amount {
                 font-size: 10rem;
+                letter-spacing: -0.3rem;
             }
             .currency {
                 font-size: 1.5rem;
