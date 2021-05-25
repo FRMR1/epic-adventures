@@ -20,7 +20,7 @@ const Nav = () => {
                         />
                     </a>
                 </Link>
-                {/* <MediaQuery maxWidth={768}>
+                <MediaQuery maxWidth={768}>
                     <div
                         className="hamburgerMenu"
                         onClick={() => setIsOpen(!isOpen)}
@@ -35,7 +35,9 @@ const Nav = () => {
                     <div className="navRight">
                         <Link href="/about">About</Link>
                         <div className="dropdown">
-                            <Link href="/summer">Summer</Link>
+                            <Link href="/summer">
+                                <a className="dropDownLink">Summer</a>
+                            </Link>
                             <div className="dropdownContent">
                                 <Link href="/summer/combos">Combos</Link>
                                 <Link href="/summer/rafting">Rafting</Link>
@@ -45,16 +47,18 @@ const Nav = () => {
                                     Kicking Horse Resort
                                 </Link>
                                 <Link href="/summer/skybridge">
-                                    Golden Sky Bridge
+                                    Golden Skybridge
                                 </Link>
                             </div>
                         </div>
                         <Link href="/contact">Contact</Link>
-                        <Link href="/bookings">
-                            <button className="bookNow"> Book Now</button>
+                        <Link href="https://epicadventuregroup.rezdy.com/">
+                            <a target="_blank" rel="noreferrer">
+                                <button className="bookNow">Book Now</button>
+                            </a>
                         </Link>
                     </div>
-                </MediaQuery> */}
+                </MediaQuery>
             </div>
         </div>
     )

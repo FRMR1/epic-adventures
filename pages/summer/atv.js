@@ -1,6 +1,8 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import GoogleMap from "../../components/GoogleMap"
+import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -41,7 +43,7 @@ const Swing = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>ATV Off Road</h2>
+                    <h2>ATV Off-Road</h2>
                     <p>
                         Venture off the beaten path and experience Golden’s back
                         country up close on your own all-terrain vehicle. Led by
@@ -93,10 +95,6 @@ const Swing = () => {
                                 <img src="/svg/checkmark.svg" width="15" />
                                 10AM – 1PM or 2PM – 5PM
                             </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
                         </ul>
                         <div className="priceContainer">
                             <span className="dollarSign">$</span>
@@ -146,7 +144,7 @@ const Swing = () => {
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Dress for the weather – extra layers and
+                                Dress for the weather. Bring extra layers and
                                 appropriate footwear (no sandals or flip-flops).
                             </li>
                         </ul>
@@ -165,13 +163,8 @@ const Swing = () => {
                     </div>
                 </div>
             </AdventureSectionStyles>
-            <ReadyToBookStyles>
-                <div>
-                    <h4>Ready to book?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                </div>
-                <a className="bookNow">Book Now</a>
-            </ReadyToBookStyles>
+            <GoogleMap location={{ lat: 51.3049, lng: -116.97798 }} zoom={15} />
+            <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
             </FooterDividerStyles>

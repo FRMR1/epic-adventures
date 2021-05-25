@@ -2,6 +2,8 @@ import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import Adventure from "../../components/Adventure"
+import ReadyToBook from "../../components/ReadyToBook"
+
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -119,27 +121,20 @@ const Adventures = () => {
                 />
             </AdventuresStyles>
             <TextSectionStyles>
-                <h3>Do more with epic combos</h3>
+                <h3>Experience more with epic combos</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Experience more and take advantage of our exclusive products
+                    and savings! We have put together some unforgettable moments
+                    and memories for you to take advantage of during your trip
+                    to Canada’s Adventure Capital.
                 </p>
-                <Link href="/adventures/combos">
+                <Link href="/summer/combos">
                     <div className="button">
                         <span>More Info</span>
                     </div>
                 </Link>
             </TextSectionStyles>
-            <ReadyToBookStyles>
-                <div>
-                    <h4>Ready to book?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                </div>
-                <a className="bookNow">Book Now</a>
-            </ReadyToBookStyles>
+            <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
             </FooterDividerStyles>

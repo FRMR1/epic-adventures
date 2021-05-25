@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
             <GlobalStyles isMobileMenuOpen={isOpen} />
             <Nav />
             <main>{children}</main>
-            {/* <Footer year={year} /> */}
+            <Footer year={year} />
         </>
     )
 }

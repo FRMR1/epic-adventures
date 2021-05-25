@@ -1,6 +1,8 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import GoogleMap from "../../components/GoogleMap"
+import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -21,9 +23,6 @@ const Rafting = () => {
             <HeroImageStyles image="kickinghorse">
                 <div className="heroText">
                     <h2>Kicking Horse Resort.</h2>
-                </div>
-                <div className="heroText">
-                    <h2 className="bg">Kicking Horse Resort.</h2>
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
@@ -71,35 +70,103 @@ const Rafting = () => {
                     </div>
                     <div className="right">
                         <p>
-                            The Golden Eagle Express Gondola takes you on an
-                            18-minute climb to a ridge overlooking 3 mountain
-                            ranges. During the journey, you’ll spot wildlife and
-                            may even get a glimpse of Kicking Horse Mountain
-                            Resort’s resident grizzly bear! Once at the summit,
-                            you can explore the many ridges and bowls by foot or
-                            by bike, each providing stunning views of the
-                            surrounding Purcell and Rocky Mountains. Don’t worry
-                            about packing a lunch! Soak in the views from the
-                            Eagle’s Eye Restaurant, Canada’s Most Elevated
-                            Dining Experience. Reservations are recommended.
+                            Take a trip above the clouds as you ascend to 7,700
+                            feet. Take in panoramic views of the Rocky
+                            Mountains, the Columbia River Wetlands and the town
+                            of Golden.
                         </p>
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet
+                                Listed price is for adult ticket
                             </li>
                         </ul>
                         <div className="priceContainer">
                             <span className="dollarSign">$</span>
-                            <span className="amount">99</span>
+                            <span className="amount">46</span>
+                            <span className="currency">CAD</span>
+                        </div>
+                        <Link href="/bookings">
+                            <div className="button">
+                                <span>Book Now</span>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+            </BookAdventureStyles>
+            <BookAdventureStyles>
+                <h3>Avdventure Pass</h3>
+                <div className="twoCol">
+                    <div className="left">
+                        <div className="imageRotate">
+                            <Image
+                                src="/images/kickinghorse6.jpg"
+                                layout="responsive"
+                                width="100%"
+                                height="auto"
+                                objectFit="contain"
+                                alt="Kicking Horse Resort"
+                            />
+                        </div>
+                    </div>
+                    <div className="right">
+                        <p>
+                            Take a trip above the clouds as you ascend to 7,700
+                            feet take in panoramic views of the Rocky Mountains,
+                            the Columbia River Wetlands and get a guided tour to
+                            the home of local celebrity Boo the Bear at his
+                            Grizzly Bear Refuge.
+                        </p>
+                        <ul>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Listed price is for adult ticket
+                            </li>
+                        </ul>
+                        <div className="priceContainer">
+                            <span className="dollarSign">$</span>
+                            <span className="amount">51</span>
+                            <span className="currency">CAD</span>
+                        </div>
+                        <Link href="/bookings">
+                            <div className="button">
+                                <span>Book Now</span>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+            </BookAdventureStyles>
+            <BookAdventureStyles>
+                <h3>Mountain Bike Pass</h3>
+                <div className="twoCol">
+                    <div className="left">
+                        <div className="imageRotate">
+                            <Image
+                                src="/images/kickinghorse5.jpg"
+                                layout="responsive"
+                                width="100%"
+                                height="auto"
+                                objectFit="contain"
+                                alt="Kicking Horse Resort"
+                            />
+                        </div>
+                    </div>
+                    <div className="right">
+                        <p>
+                            Take in panoramic views of the Rocky Mountains and
+                            bike some of Canada&#39;s most Epic trails! This
+                            mountain caters for all riders. Optional Bike and
+                            Gear Rental can be arranged on site.
+                        </p>
+                        <ul>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Listed price is for adult ticket
+                            </li>
+                        </ul>
+                        <div className="priceContainer">
+                            <span className="dollarSign">$</span>
+                            <span className="amount">62</span>
                             <span className="currency">CAD</span>
                         </div>
                         <Link href="/bookings">
@@ -166,13 +233,11 @@ const Rafting = () => {
                     </div>
                 </div>
             </AdventureSectionStyles>
-            <ReadyToBookStyles>
-                <div>
-                    <h4>Ready to book?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                </div>
-                <a className="bookNow">Book Now</a>
-            </ReadyToBookStyles>
+            <GoogleMap
+                location={{ lat: 51.299869537353516, lng: -117.05529022216797 }}
+                zoom={15}
+            />
+            <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
             </FooterDividerStyles>

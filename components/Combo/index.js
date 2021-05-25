@@ -10,6 +10,8 @@ const Combo = ({
     image,
     price,
     bullets,
+    cents,
+    url,
 }) => {
     return (
         <div className={`${"comboSection"} ${reverse && "reverse"}`}>
@@ -22,6 +24,14 @@ const Combo = ({
                     objectFit="contain"
                     alt={title}
                 />
+                <img src="/images/star.svg" width="100" class="star" />
+                <div className="save">
+                    <span>Save</span>
+                    <br />
+                    <span class="dollarSign">$</span>
+                    <span class="amount">{save}</span>
+                    {cents && <span class="cents">{cents}</span>}
+                </div>
             </div>
             <div>
                 <span className="number">{number}</span>
@@ -35,10 +45,12 @@ const Combo = ({
                         </li>
                     ))}
                 </ul>
-                <Link
-                    href="https://epicadventuregroup.rezdy.com/"
-                    rel="noreferrer"
-                >
+                <div className="priceContainer">
+                    <span className="dollarSign">$</span>
+                    <span className="amount">{price}</span>
+                    <span className="currency">CAD</span>
+                </div>
+                <Link href={url} rel="noreferrer">
                     <a target="_blank" rel="noreferrer">
                         <div className="button">
                             <span>Book Now</span>

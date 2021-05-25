@@ -199,6 +199,14 @@ const GlobalStyles = createGlobalStyle`
             }
         }
     }
+    .map {
+        position: relative;
+        top: 10rem;
+        padding: 0 8rem;
+        @media (max-width: 800px) {
+            padding: 0 3rem;
+        }
+    }
     .header {
         margin: 0 auto;
         padding: 4rem 3rem;
@@ -220,12 +228,11 @@ const GlobalStyles = createGlobalStyle`
         button {
             position: relative;
             text-transform: uppercase;
-            font-family: Roboto Mono;
             font-weight: 400;
             font-size: 1.3rem;
             background: none;
             border: 0;
-            color: var(--darkGrey);
+            color: #fff;
             cursor: pointer;
             @media (max-width: 700px) {
                 font-size: 10px;
@@ -233,11 +240,19 @@ const GlobalStyles = createGlobalStyle`
             }
         }
         button {
-            color: #555;
+            font-family: Roboto Mono;
+            font-weight: 400;
         }
-        a:hover {
+        a {
+            font-family: "Futura Bold";
+            font-size: 1.8rem;
+        }
+        a:hover, .dropDownLink:hover {
             text-decoration: none;
-            color: #747474;
+            color: var(--secColor);
+        }
+        .active {
+            color: var(--secColor);
         }
         .bookNow {
             background-color: var(--secColor);
@@ -275,10 +290,11 @@ const GlobalStyles = createGlobalStyle`
             display: block;
         }
         .dropdown:hover a {
-            color: #747474;
+            color: #fff;
         }
+        .dropdown:hover .dropDownLink,
         .dropdownContent a:hover {
-            color: #555;
+            color: var(--secColor);
         }
         @media (max-width: 1300px) {
             /* width: 100%; */

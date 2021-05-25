@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const CardSectionStyles = styled.div`
-    margin-bottom: 15rem;
+    margin-bottom: 25rem;
     padding: 0 3rem;
     @media (max-width: 800px) {
         margin-top: 15rem;
@@ -116,12 +116,31 @@ export const CardSectionStyles = styled.div`
                 width: 12rem;
                 padding: 1rem;
                 span {
-                    color: var(--darkGrey);
-                    font-weight: 300;
+                    color: #fff;
+                    font-weight: 400;
                     text-transform: uppercase;
                     font-size: 1.3rem;
                 }
             }
         }
+    }
+    .button {
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        /* top: -6rem; */
+        background-color: var(--secColor);
+        border-radius: 3px;
+        width: 12rem;
+        padding: 1rem;
+        span {
+            color: #fff;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+        }
+    }
+    .viewAll {
+        margin: -4rem auto;
     }
 `

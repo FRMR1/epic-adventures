@@ -17,10 +17,11 @@ export const AdventureHeadingStyles = styled.div`
     .imageContainer {
         transform: rotate(-7deg);
         width: 100%;
-        padding: 3em;
+        padding: 5em;
     }
     .pContainer {
         align-self: center;
+        padding: 3rem;
         @media (max-width: 800px) {
             position: relative;
             top: -5rem;
@@ -46,7 +47,7 @@ export const AdventureHeadingStyles = styled.div`
         margin: 0 auto;
         font-size: 1.7rem;
         max-width: 20%;
-        color: var(--lightGrey);
+        color: #afafaf;
         max-width: 70rem;
         margin-bottom: 10rem;
         @media (max-width: 800px) {

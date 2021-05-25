@@ -32,13 +32,13 @@ export const TextSectionStyles = styled.div`
         cursor: pointer;
         position: relative;
         margin: 4rem auto 0;
-        background-color: var(--mainColor);
+        background-color: var(--secColor);
         border-radius: 3px;
         width: 12rem;
         padding: 1rem;
         span {
             color: #fff;
-            font-weight: 300;
+            font-weight: 400;
             text-transform: uppercase;
             font-size: 1.3rem;
         }

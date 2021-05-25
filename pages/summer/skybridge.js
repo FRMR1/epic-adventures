@@ -1,6 +1,8 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import GoogleMap from "../../components/GoogleMap"
+import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -32,7 +34,7 @@ const Rafting = () => {
             <AdventureHeadingStyles>
                 <div className="imageContainer">
                     <Image
-                        src="/images/skybridge4.jpg"
+                        src="/images/skybridge2.jpg"
                         layout="responsive"
                         width="100%"
                         height="auto"
@@ -59,7 +61,7 @@ const Rafting = () => {
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/skybridge2.jpg"
+                                src="/images/skybridge3.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
@@ -141,7 +143,7 @@ const Rafting = () => {
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/skybridge3.jpg"
+                                src="/images/skybridge4.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
@@ -152,13 +154,11 @@ const Rafting = () => {
                     </div>
                 </div>
             </AdventureSectionStyles>
-            <ReadyToBookStyles>
-                <div>
-                    <h4>Ready to book?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                </div>
-                <a className="bookNow">Book Now</a>
-            </ReadyToBookStyles>
+            <GoogleMap
+                location={{ lat: 51.469390869140625, lng: -117.10696411132812 }}
+                zoom={15}
+            />
+            <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
             </FooterDividerStyles>

@@ -9,6 +9,33 @@ const Footer = ({ year }) => {
                     <p>© {year} Epic Adventure Group Ltd.</p>
                     <p>All rights reserved.</p>
                 </div>
+                <div className="adventures">
+                    <h4>Adventures</h4>
+                    <ul>
+                        <li>
+                            <Link href="/summer/combos">Combos</Link>
+                        </li>
+                        <li>
+                            <Link href="/summer/rafting">Rafting</Link>
+                        </li>
+                        <li>
+                            <Link href="/summer/skydiving">Skydiving</Link>
+                        </li>
+                        <li>
+                            <Link href="/summer/atv">ATV Off-Road</Link>
+                        </li>
+                        <li>
+                            <Link href="/summer/kickinghorse">
+                                Kicking Horse
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/summer/skybridge">
+                                Golden Skybridge
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
                 <div className="navigation">
                     <h4>Navigation</h4>
                     <ul>
@@ -19,27 +46,7 @@ const Footer = ({ year }) => {
                             <Link href="/about">About</Link>
                         </li>
                         <li>
-                            <Link href="/adventures">Adventures</Link>
-                        </li>
-                        <li>
-                            <Link href="/contact">Contact</Link>
-                        </li>
-                    </ul>
-                </div>
-                <div className="adventures">
-                    <h4>Adventures</h4>
-                    <ul>
-                        <li>
-                            <Link href="/adventures/rafting">Rafting</Link>
-                        </li>
-                        <li>
-                            <Link href="/adventures/skydiving">Skydiving</Link>
-                        </li>
-                        <li>
-                            <Link href="/adventures/swing">Swing</Link>
-                        </li>
-                        <li>
-                            <Link href="/adventures/combos">Combos</Link>
+                            <Link href="/summer">Adventures</Link>
                         </li>
                     </ul>
                 </div>
@@ -77,7 +84,7 @@ const Footer = ({ year }) => {
                     <h3>Get in touch</h3>
                     <a href="#">hello@epicadventuregroup.com</a>
                     <br />
-                    <a href="tel:+12509398820">+1 250 939 8820</a>
+                    <a href="tel:+12509398820">+1 250 939 9589</a>
                 </div>
             </div>
         </div>

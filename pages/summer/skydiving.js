@@ -1,6 +1,8 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import GoogleMap from "../../components/GoogleMap"
+import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -165,13 +167,11 @@ const Skydiving = () => {
                     </div>
                 </div>
             </AdventureSectionStyles>
-            <ReadyToBookStyles>
-                <div>
-                    <h4>Ready to book?</h4>
-                    <p>Book your next epic adventure now!</p>
-                </div>
-                <a className="bookNow">Book Now</a>
-            </ReadyToBookStyles>
+            <GoogleMap
+                location={{ lat: 51.30054, lng: -116.98498 }}
+                zoom={15}
+            />
+            <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
             </FooterDividerStyles>

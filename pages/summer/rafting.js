@@ -1,6 +1,8 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import ReadyToBook from "../../components/ReadyToBook"
+import GoogleMap from "../../components/GoogleMap"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -9,11 +11,10 @@ import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
-import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
 
 const Rafting = () => {
     return (
-        <>
+        <div>
             <Head>
                 <title>Epic Adventures | Rafting</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -99,13 +100,17 @@ const Rafting = () => {
                             <span className="amount">159</span>
                             <span className="currency">CAD</span>
                         </div>
-                        <Link href="/bookings">
-                            <div className="button">
-                                <span>Book Now</span>
-                            </div>
+                        <Link href="https://epicadventuregroup.rezdy.com/catalog/433391/rafting">
+                            <a target="_blank" rel="noreferrer">
+                                <div className="button">
+                                    <span>Book Now</span>
+                                </div>
+                            </a>
                         </Link>
                     </div>
                 </div>
+            </BookAdventureStyles>
+            <BookAdventureStyles>
                 <h3>White Water Express</h3>
                 <div className="twoCol">
                     <div className="left">
@@ -214,17 +219,15 @@ const Rafting = () => {
                     </div>
                 </div>
             </AdventureSectionStyles>
-            <ReadyToBookStyles>
-                <div>
-                    <h4>Ready to book?</h4>
-                    <p>Book your next epic adventure now!</p>
-                </div>
-                <a className="bookNow">Book Now</a>
-            </ReadyToBookStyles>
+            <GoogleMap
+                location={{ lat: 51.30307, lng: -116.94781 }}
+                zoom={15}
+            />
+            <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
             </FooterDividerStyles>
-        </>
+        </div>
     )
 }
 

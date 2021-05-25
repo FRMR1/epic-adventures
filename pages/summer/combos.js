@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 import Combo from "../../components/Combo"
+import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
@@ -31,11 +32,10 @@ const Combos = ({}) => {
             <SectionStyles>
                 <h3>Epic Combos.</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Experience more and take advantage of our exclusive products
+                    and savings! We have put together some unforgettable moments
+                    and memories for you to take advantage of during your trip
+                    to Canada’s Adventure Capital.
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
@@ -55,6 +55,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="656"
                     save="42"
+                    url="https://epicadventuregroup.rezdy.com/443894/epic-golden-pass-raft-skydive-atv-2day"
                     image="/images/combo1.jpg"
                     bullets={[
                         "Includes rafting, skydiving and ATV off-road (2 days)",
@@ -69,6 +70,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="292"
                     save="26"
+                    url="https://epicadventuregroup.rezdy.com/443893/mud-express-atv-raft-express-combo"
                     image="/images/combo2.jpg"
                     bullets={[
                         "Includes rafting express and ATV off-road",
@@ -84,6 +86,7 @@ const Combos = ({}) => {
                     price="509"
                     save="30"
                     image="/images/combo3.jpg"
+                    url="https://epicadventuregroup.rezdy.com/443897/dirt-dive-atv-skydive-combo"
                     bullets={[
                         "Includes ATV off-road and skydiving",
                         "6 hours (approx.)",
@@ -98,6 +101,7 @@ const Combos = ({}) => {
                     price="250"
                     save="14"
                     image="/images/combo4.jpg"
+                    url="https://epicadventuregroup.rezdy.com/444963/the-mountaineer-atv-gondola-kicking-horse-resort"
                     bullets={[
                         "Includes ATV off-road and Kicking Horse gondola",
                         "6 hours (approx.)",
@@ -111,6 +115,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="242"
                     save="14"
+                    url="https://epicadventuregroup.rezdy.com/444981/ridge-rider-atv-golden-skybridge"
                     image="/images/combo5.jpg"
                     bullets={[
                         "Includes ATV off-road and Golden Skybridge",
@@ -125,6 +130,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="387"
                     save="32"
+                    url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
                     image="/images/combo6.jpg"
                     bullets={[
                         "Includes skydiving and rafting express",
@@ -139,6 +145,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="351"
                     save="15"
+                    url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
                     image="/images/combo8.jpg"
                     bullets={[
                         "Includes skydiving and Kicking Horse gondola",
@@ -153,6 +160,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="342"
                     save="15"
+                    url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
                     image="/images/combo7.jpg"
                     bullets={[
                         "Includes skydiving and Golden Skybridge",
@@ -167,6 +175,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="445"
                     save="34"
+                    url="https://epicadventuregroup.rezdy.com/444202/dont-tell-mom-raft-full-day-skydive-combo"
                     image="/images/combo9.jpg"
                     bullets={[
                         "Includes rafting (full day) and skydiving",
@@ -181,6 +190,7 @@ const Combos = ({}) => {
                     reverse={true}
                     price="141"
                     save="14"
+                    url="https://epicadventuregroup.rezdy.com/444960/espresso-raft-express-gondola-kicking-horse-resort"
                     image="/images/combo10.jpg"
                     bullets={[
                         "Includes rafting express and Kicking Horse gondola",
@@ -195,6 +205,7 @@ const Combos = ({}) => {
                     reverse={false}
                     price="182"
                     save="14"
+                    url="https://epicadventuregroup.rezdy.com/444975/canyon-fever-raft-full-day-golden-skybridge"
                     image="/images/combo11.jpg"
                     bullets={[
                         "Includes rafting (full day) and Golden Skybridge",
@@ -209,6 +220,8 @@ const Combos = ({}) => {
                     reverse={true}
                     price="78"
                     save="5"
+                    url="https://epicadventuregroup.rezdy.com/443916/the-sights-golden-skybridge-and-gondola"
+                    cents=".00"
                     image="/images/combo12.jpg"
                     bullets={[
                         "Includes Golden Skybridge and Kicking Horse gondola",
@@ -216,28 +229,7 @@ const Combos = ({}) => {
                     ]}
                 />
             </ComboSectionStyles>
-            <TextSectionStyles>
-                <h3>Epic photo & video package</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                </p>
-                <Link href="#">
-                    <div className="button">
-                        <span>More Info</span>
-                    </div>
-                </Link>
-            </TextSectionStyles>
-            <ReadyToBookStyles>
-                <div>
-                    <h4>Ready to book?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                </div>
-                <a className="bookNow">Book Now</a>
-            </ReadyToBookStyles>
+            <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
             </FooterDividerStyles>

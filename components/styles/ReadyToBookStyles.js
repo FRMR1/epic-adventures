@@ -42,7 +42,7 @@ export const ReadyToBookStyles = styled.div`
     }
     .bookNow {
         background-color: var(--secColor);
-        color: #555;
+        color: #fff;
         padding: 1.2rem 3rem;
         justify-self: end;
         align-self: center;
@@ -50,7 +50,7 @@ export const ReadyToBookStyles = styled.div`
         border-radius: 3px;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
         font-family: Roboto Mono;
-        font-weight: 300;
+        font-weight: 400;
         text-transform: uppercase;
         cursor: pointer;
         @media (max-width: 800px) {

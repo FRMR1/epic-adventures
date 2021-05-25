@@ -121,7 +121,7 @@ export const BookAdventureStyles = styled.div`
             cursor: pointer;
             position: relative;
             top: -2rem;
-            background-color: var(--mainColor);
+            background-color: var(--secColor);
             border-radius: 3px;
             width: 12rem;
             padding: 1rem;
@@ -131,7 +131,7 @@ export const BookAdventureStyles = styled.div`
             span,
             a {
                 color: #fff;
-                font-weight: 300;
+                font-weight: 400;
                 text-transform: uppercase;
                 font-size: 1.3rem;
                 font-family: Roboto Mono;
