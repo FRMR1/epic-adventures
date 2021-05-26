@@ -109,7 +109,16 @@ const Skydiving = () => {
                 <div className="faceContainer">
                     <img src="/svg/face.svg" width="30px" />
                 </div>
-                <p className="customerName">Juan G, July 2020</p>
+                <p className="customerName">Juan G., July 2020</p>
+                <p>
+                    “Amazing views, amazing weather, amazing staff. Everybody
+                    there went out of their way to make our experience
+                    memorable. Couldn't say enough good things. 5 stars”
+                </p>
+                <div className="faceContainer">
+                    <img src="/svg/face.svg" width="30px" />
+                </div>
+                <p className="customerName">Mikey O., August 2020</p>
             </TestimonialStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
