@@ -137,13 +137,15 @@ const Swing = () => {
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Trip durations include shuttle time, gear up and
-                                machine orientation.
+                                Dress for the weather. Bring extra layers and
+                                appropriate footwear (no sandals or flip-flops).
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Dress for the weather. Bring extra layers and
-                                appropriate footwear (no sandals or flip-flops).
+                                Schueduled closures of the Trans-Canada Highway
+                                are planned through the late spring. Visit
+                                drivebc.ca for more information and for the
+                                latest road reports and conditions.
                             </li>
                         </ul>
                     </div>

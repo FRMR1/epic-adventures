@@ -129,10 +129,7 @@ const Skydiving = () => {
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                You will be provided with goggles, optional
-                                gloves,hat and jumpsuit. Make sure to wear warm
-                                layers and flat closed-toed shoes. If you wear
-                                glasses, we have goggles that fit over the top.
+                                Must be at least 19 Years old and under 230 lbs.
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
@@ -144,7 +141,10 @@ const Skydiving = () => {
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Must be at least 19 Years old and under 230 lbs.
+                                Schueduled closures of the Trans-Canada Highway
+                                are planned through the late spring. Visit
+                                drivebc.ca for more information and for the
+                                latest road reports and conditions.
                             </li>
                         </ul>
                     </div>

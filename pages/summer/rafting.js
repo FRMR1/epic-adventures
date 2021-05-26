@@ -204,15 +204,15 @@ const Rafting = () => {
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                <span>
-                                    Please make sure to bring facemask/covering,
-                                    swimsuit and towel.
-                                </span>
+                                Must be at least 12 years old and at least 90
+                                lbs.
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Must be at least 12 years old and at least 90
-                                lbs.
+                                Schueduled closures of the Trans-Canada Highway
+                                are planned through the late spring. Visit
+                                drivebc.ca for more information and for the
+                                latest road reports and conditions.
                             </li>
                         </ul>
                     </div>

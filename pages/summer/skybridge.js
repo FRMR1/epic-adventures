@@ -126,17 +126,14 @@ const Rafting = () => {
             <AdventureSectionStyles>
                 <div className="twoCol">
                     <div className="left">
-                        <h3>What's Included</h3>
+                        <h3>Additional Details</h3>
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
                                 Schueduled closures of the Trans-Canada Highway
-                                are planned through the late spring.
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Visit drivebc.ca for more information and for
-                                the latest road reports and conditions.
+                                are planned through the late spring. Visit
+                                drivebc.ca for more information and for the
+                                latest road reports and conditions.
                             </li>
                         </ul>
                     </div>

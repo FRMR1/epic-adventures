@@ -78,11 +78,10 @@ const Rafting = () => {
                     </div>
                     <div className="right">
                         <p>
-                            Get a guided tour to the home of local celebrity Boo
-                            the Bear at his Grizzly Bear Refuge and scale the
-                            mountain on the Golden Eagle Express Gondola for
-                            epic views of the Columbia wetland, the town of
-                            Golden and surrounding Rocky Mountains.
+                            Take a trip above the clouds as you ascend to 7,700
+                            feet. Take in panoramic views of the Rocky
+                            Mountains, the Columbia River Wetlands and the town
+                            of Golden.
                         </p>
                         <ul>
                             <li>
@@ -121,11 +120,11 @@ const Rafting = () => {
                     </div>
                     <div className="right">
                         <p>
-                            Take a trip above the clouds as you ascend to 7,700
-                            feet take in panoramic views of the Rocky Mountains,
-                            the Columbia River Wetlands and get a guided tour to
-                            the home of local celebrity Boo the Bear at his
-                            Grizzly Bear Refuge.
+                            Get a guided tour to the home of local celebrity Boo
+                            the Bear at his Grizzly Bear Refuge and scale the
+                            mountain on the Golden Eagle Express Gondola for
+                            epic views of the Columbia wetland, the town of
+                            Golden and surrounding Rocky Mountains.
                         </p>
                         <ul>
                             <li>
@@ -206,6 +205,34 @@ const Rafting = () => {
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
+            <AdventureSectionStyles>
+                <div className="twoCol">
+                    <div className="left">
+                        <h3>Additional Details</h3>
+                        <ul>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Schueduled closures of the Trans-Canada Highway
+                                are planned through the late spring. Visit
+                                drivebc.ca for more information and for the
+                                latest road reports and conditions.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="right">
+                        <div className="imageRotate">
+                            <Image
+                                src="/images/kickinghorse4.jpg"
+                                layout="responsive"
+                                width="100%"
+                                height="auto"
+                                objectFit="contain"
+                                alt="Golden Skybridge"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </AdventureSectionStyles>
             <GoogleMap
                 location={{ lat: 51.299869537353516, lng: -117.05529022216797 }}
                 zoom={15}
