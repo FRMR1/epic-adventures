@@ -41,7 +41,7 @@ const Swing = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>ATV Off-Road</h2>
+                    <h2>Explore</h2>
                     <p>
                         Venture off the beaten path and experience Golden’s back
                         country up close on your own all-terrain vehicle. Led by
@@ -56,7 +56,7 @@ const Swing = () => {
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles>
-                <h3>Canadian Off-Road Adventures</h3>
+                <h3>ATV Half Day Trip</h3>
                 <div className="twoCol">
                     <div className="left">
                         <div className="imageRotate">

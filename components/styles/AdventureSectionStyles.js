@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const AdventureSectionStyles = styled.div`
-    background-color: ${({ grey }) => (grey ? "#fafafa" : "#fff")};
+    background-color: ${({ grey }) => (grey ? "#f3f3f3" : "#fafafa")};
     padding: 5rem 3rem 5rem;
     margin: 0;
     margin-bottom: -30rem;

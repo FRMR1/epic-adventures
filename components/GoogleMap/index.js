@@ -1,7 +1,7 @@
 import GoogleMapReact from "google-map-react"
 import Marker from "./Marker"
 
-const GoogleMap = ({ location, zoom }) => {
+const GoogleMap = ({ location, zoom, negMargin }) => {
     // Destructure props
     const { lat, lng } = location
 
@@ -9,16 +9,18 @@ const GoogleMap = ({ location, zoom }) => {
     const center = { lat: lat, lng: lng }
 
     return (
-        <div className="map" style={{ height: "400px", width: "100%" }}>
-            <GoogleMapReact
-                bootstrapURLKeys={{
-                    key: "AIzaSyBa3x7LRSVxUF_i3doAGlWdhwroHlYB9DQ",
-                }}
-                defaultCenter={center}
-                defaultZoom={zoom}
-            >
-                <Marker lat={lat} lng={lng} />
-            </GoogleMapReact>
+        <div className={`${negMargin && "negMargin"}`}>
+            <div className="map" style={{ height: "400px", width: "100%" }}>
+                <GoogleMapReact
+                    bootstrapURLKeys={{
+                        key: "AIzaSyBa3x7LRSVxUF_i3doAGlWdhwroHlYB9DQ",
+                    }}
+                    defaultCenter={center}
+                    defaultZoom={zoom}
+                >
+                    <Marker lat={lat} lng={lng} />
+                </GoogleMapReact>
+            </div>
         </div>
     )
 }

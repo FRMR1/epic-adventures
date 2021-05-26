@@ -42,12 +42,15 @@ const Rafting = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>Golden Sky Bridge</h2>
+                    <h2>Epicly Golden</h2>
                     <p>
                         Golden’s newest, must-visit attraction includes a
                         Treetop Village play park for families, an outdoor BBQ
-                        and entertainment plaza at the Village Grill, and a
-                        bungee swing and ziplines across the canyon coming soon!
+                        and entertainment plaza at the Village Grill, trails and
+                        viewing platforms throughout the park and two of
+                        Canada's highest suspension bridges. This experience is
+                        as Golden as it gets and will be home to a bungee swing
+                        and ziplines across the canyon coming soon!
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -82,6 +85,12 @@ const Rafting = () => {
                             wilderness and take a moment to breathe and enjoy
                             the stillness at each of the viewing platforms.
                         </p>
+                        <ul>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                Listed price is for adult ticket
+                            </li>
+                        </ul>
                         <div className="priceContainer">
                             <span className="dollarSign">$</span>
                             <span className="amount">37</span>
@@ -121,21 +130,13 @@ const Rafting = () => {
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Schueduled closures of the Trans-Canada Highway
+                                are planned through the late spring.
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                Visit drivebc.ca for more information and for
+                                the latest road reports and conditions.
                             </li>
                         </ul>
                     </div>

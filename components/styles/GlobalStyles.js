@@ -375,5 +375,8 @@ const GlobalStyles = createGlobalStyle`
     .custom-shape-divider-bottom-1622061969 .shape-fill {
         fill: #fafafa;
     }
+    .negMargin {
+        margin-top: -18rem;
+    }
 `
 export default GlobalStyles

@@ -43,14 +43,12 @@ const Rafting = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>Rafting</h2>
+                    <h2>Kicking Horse River</h2>
                     <p>
-                        Rafting on the mighty Kicking Horse River, Western
-                        Canada’s best rafting day trip is an experience you
-                        can’t miss. This Canadian classic will take you down
-                        exhilarating rapids through unforgettable scenery and
-                        gives you the chance to spot local wildlife as you
-                        travel down the Kicking Horse.
+                        With rapids like Shot Gun, Rollercoaster and Man Eater,
+                        your raft guide will teach you everything you need to
+                        know to get you and your team down the river safely,
+                        with all the laughs!
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -63,7 +61,7 @@ const Rafting = () => {
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/rafting4.jpg"
+                                src="/images/rafting6.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
@@ -118,7 +116,7 @@ const Rafting = () => {
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/rafting4.jpg"
+                                src="/images/rafting7.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
@@ -180,6 +178,16 @@ const Rafting = () => {
                     <img src="/svg/face.svg" width="30px" />
                 </div>
                 <p className="customerName">Braeden, August 2020</p>
+                <p>
+                    “Guides were so knowledgeable and fun. Views were fantastic.
+                    Whole experience was a blast. Being on the water was
+                    thrilling and safe. It was one of the highlights of our trip
+                    to the Canadian Rockies.”
+                </p>
+                <div className="faceContainer">
+                    <img src="/svg/face.svg" width="30px" />
+                </div>
+                <p className="customerName">David, September 2020</p>
             </TestimonialStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />

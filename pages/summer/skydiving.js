@@ -22,7 +22,7 @@ const Skydiving = () => {
                 <title>Epic Adventures | Skydiving</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="skydiving">
+            <HeroImageStyles image="skydiving4">
                 <div className="heroText">
                     <h2>Skydiving.</h2>
                 </div>
@@ -42,7 +42,7 @@ const Skydiving = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>Skydiving</h2>
+                    <h2>Experience Human Flight</h2>
                     <p>
                         Experience the thrill of free falling at over 120 MPH
                         and a view of the Rocky Mountains from 10,000 ft! Expect
@@ -57,12 +57,12 @@ const Skydiving = () => {
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles>
-                <h3>Skydive Extreme Yeti</h3>
+                <h3>Tandem Skydive</h3>
                 <div className="twoCol">
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/skydiving3.JPG"
+                                src="/images/skydiving6.JPG"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
@@ -93,18 +93,6 @@ const Skydiving = () => {
                                 9AM, 11AM, 1PM, 3PM, 5PM
                             </li>
                         </ul>
-                        <div className="priceContainer">
-                            <span className="dollarSign">$</span>
-                            <span className="amount">320</span>
-                            <span className="currency">CAD</span>
-                        </div>
-                        <Link href="https://epicadventuregroup.rezdy.com/catalog/433392/skydive">
-                            <a target="_blank" rel="noreferrer">
-                                <div className="button">
-                                    <span>Book Now</span>
-                                </div>
-                            </a>
-                        </Link>
                     </div>
                 </div>
             </BookAdventureStyles>
@@ -155,7 +143,7 @@ const Skydiving = () => {
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/skydiving4.JPG"
+                                src="/images/skydiving5.JPG"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"

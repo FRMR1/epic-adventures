@@ -28,24 +28,18 @@ const Combos = ({}) => {
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
             <SectionStyles>
-                <h3>Epic Combos.</h3>
+                <h3>Experience More.</h3>
                 <p>
-                    Experience more and take advantage of our exclusive products
-                    and savings! We have put together some unforgettable moments
-                    and memories for you to take advantage of during your trip
-                    to Canada’s Adventure Capital.
+                    Take advantage of our exclusive products and savings! We
+                    have put together some unforgettable moments and memories
+                    for you to take advantage of during your trip to Canada’s
+                    Adventure Capital.
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <ComboSectionStyles>
-                <h3>Do more with epic combos</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                </p>
                 <Combo
                     number="01"
                     title="Epic Golden Pass"

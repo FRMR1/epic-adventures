@@ -28,7 +28,7 @@ export const TestimonialStyles = styled.div`
         text-align: center;
         font-size: 2rem;
         max-width: 20%;
-        color: #fff;
+        color: #999;
         max-width: 70rem;
         margin-bottom: 3rem;
         @media (max-width: 800px) {
@@ -42,5 +42,7 @@ export const TestimonialStyles = styled.div`
     .customerName {
         font-size: 1.5rem;
         margin-top: 1rem;
+        margin-bottom: 6rem;
+        color: #fff;
     }
 `

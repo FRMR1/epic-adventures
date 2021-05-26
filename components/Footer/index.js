@@ -6,7 +6,7 @@ const Footer = ({ year }) => {
             <div className="footerInner">
                 <div className="logoCopyright">
                     <img src="/svg/logo-outline.svg" width="100" />
-                    <p>© {year} Epic Adventure Group Ltd.</p>
+                    <p>© {year} Epic Adventure Group Inc.</p>
                     <p>All rights reserved.</p>
                 </div>
                 <div className="adventures">
@@ -82,7 +82,9 @@ const Footer = ({ year }) => {
                 <div className="spacer"></div>
                 <div className="getInTouch">
                     <h3>Get in touch</h3>
-                    <a href="#">hello@epicadventuregroup.com</a>
+                    <a href="mailto:contact@epicadventuregroup.com">
+                        contact@epicadventuregroup.com
+                    </a>
                     <br />
                     <a href="tel:+12509398820">+1 250 939 9589</a>
                 </div>

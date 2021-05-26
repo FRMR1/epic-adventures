@@ -44,13 +44,17 @@ const Rafting = () => {
                     />
                 </div>
                 <div className="pContainer">
-                    <h2>Kicking Horse Resort</h2>
+                    <h2>Mountain Magic</h2>
                     <p>
-                        Take a trip above the clouds as you ascend to 7,700
-                        feet. Take in panoramic views of the Rocky Mountains,
-                        the Columbia River Wetlands and the town of Golden.
-                        During the journey, spot wildlife and even a glimpse of
-                        Kicking Horse Mountain Resorts resident grizzly bear!
+                        The Golden Eagle Express Gondola takes you on a climb to
+                        a ridge overlooking 3 mountain ranges. You’ll spot
+                        wildlife and may even get a glimpse of Kicking Horse
+                        Mountain Resort’s resident grizzly bear! Once at the
+                        summit, you can explore the many ridges and bowls by
+                        foot providing stunning views of the surrounding Purcell
+                        and Rocky Mountains. If your feeling the need for speed,
+                        try your skills on some of Canada's most spectacular
+                        downhill tracks operated by the resort.
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -74,10 +78,11 @@ const Rafting = () => {
                     </div>
                     <div className="right">
                         <p>
-                            Take a trip above the clouds as you ascend to 7,700
-                            feet. Take in panoramic views of the Rocky
-                            Mountains, the Columbia River Wetlands and the town
-                            of Golden.
+                            Get a guided tour to the home of local celebrity Boo
+                            the Bear at his Grizzly Bear Refuge and scale the
+                            mountain on the Golden Eagle Express Gondola for
+                            epic views of the Columbia wetland, the town of
+                            Golden and surrounding Rocky Mountains.
                         </p>
                         <ul>
                             <li>
@@ -159,10 +164,11 @@ const Rafting = () => {
                     </div>
                     <div className="right">
                         <p>
-                            Take in panoramic views of the Rocky Mountains and
-                            bike some of Canada&#39;s most Epic trails! This
-                            mountain caters for all riders. Optional Bike and
-                            Gear Rental can be arranged on site.
+                            Take on the Rocky Mountains and bike some of
+                            Canada's most epic trails! This mountain caters for
+                            all riders, includes Golden Eagle Gondola and
+                            Catamount Chair. Optional bike and gear rental can
+                            be arranged on site.
                         </p>
                         <ul>
                             <li>
@@ -200,48 +206,10 @@ const Rafting = () => {
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
-            <AdventureSectionStyles>
-                <div className="twoCol">
-                    <div className="left">
-                        <h3>What's Included</h3>
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="right">
-                        <div className="imageRotate">
-                            <Image
-                                src="/images/kickinghorse4.jpg"
-                                layout="responsive"
-                                width="100%"
-                                height="auto"
-                                objectFit="contain"
-                                alt="Kicking Horse Resort"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </AdventureSectionStyles>
             <GoogleMap
                 location={{ lat: 51.299869537353516, lng: -117.05529022216797 }}
                 zoom={15}
+                negMargin={true}
             />
             <SuggestedCombosStyles>
                 <h3>Suggested Combos</h3>
