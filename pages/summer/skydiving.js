@@ -13,7 +13,6 @@ import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosSt
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
-import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
 
 const Skydiving = () => {
     return (
@@ -33,7 +32,7 @@ const Skydiving = () => {
             <AdventureHeadingStyles>
                 <div className="imageContainer">
                     <Image
-                        src="/images/skydiving2.JPG"
+                        src="/images/skydiving2.jpg"
                         layout="responsive"
                         width="100%"
                         height="auto"
@@ -62,7 +61,7 @@ const Skydiving = () => {
                     <div className="left">
                         <div className="imageRotate">
                             <Image
-                                src="/images/skydiving6.JPG"
+                                src="/images/skydiving6.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
@@ -152,7 +151,7 @@ const Skydiving = () => {
                     <div className="right">
                         <div className="imageRotate">
                             <Image
-                                src="/images/skydiving5.JPG"
+                                src="/images/skydiving5.jpg"
                                 layout="responsive"
                                 width="100%"
                                 height="auto"
