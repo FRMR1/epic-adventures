@@ -34,7 +34,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <MediaQuery minWidth={801}>
+            {/* <MediaQuery minWidth={801}>
                 <HeroVideoStyles>
                     <YoutubeEmbed />
                 </HeroVideoStyles>
@@ -246,7 +246,7 @@ export default function Home() {
             <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />
-            </FooterDividerStyles>
+            </FooterDividerStyles> */}
         </>
     )
 }
