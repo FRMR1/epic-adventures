@@ -22,9 +22,6 @@ const Combos = ({}) => {
                 <div className="heroText">
                     <h2>Epic Combos.</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">Epic Combos.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

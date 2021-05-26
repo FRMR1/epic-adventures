@@ -26,9 +26,6 @@ const Swing = () => {
                 <div className="heroText">
                     <h2>ATV Off-Road</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">ATV Off-Road.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

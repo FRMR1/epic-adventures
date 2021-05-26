@@ -16,9 +16,6 @@ const Refunds = () => {
                 <div className="heroText">
                     <h2>Refund policy.</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">Refund policy.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

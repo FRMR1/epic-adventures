@@ -16,9 +16,6 @@ const Privacy = () => {
                 <div className="heroText">
                     <h2>Privacy policy.</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">Privacy policy.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

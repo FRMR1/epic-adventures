@@ -20,9 +20,6 @@ const About = () => {
                 <div className="heroText">
                     <h2>About Epic.</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">About Epic.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

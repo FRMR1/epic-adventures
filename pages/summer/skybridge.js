@@ -26,9 +26,6 @@ const Rafting = () => {
                 <div className="heroText">
                     <h2>Golden Skybridge.</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">Golden Skybridge.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

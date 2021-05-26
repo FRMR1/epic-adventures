@@ -24,21 +24,19 @@ const Adventures = () => {
                 <div className="heroText">
                     <h2>Summer Adventures.</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">Summer Adventures.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
             <SectionStyles>
-                <h3>Summer Adventures.</h3>
+                <h3>A Playground Awaits</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    A Canadian summer in the mountains is like no other:
+                    spectacular views, glacier fed rivers and lakes, majestic
+                    wildlife, wetlands and steep canyons! Add human creativity,
+                    personality and a sense of adventure, you get a wild
+                    opportunity to experience one of the world's most beautiful
+                    locations in a very unique way!
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
@@ -47,9 +45,8 @@ const Adventures = () => {
             <AdventuresStyles>
                 <h3>Experience Epic Adventures</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    We have teamed up with Canada's best local talent for
+                    quality, service, safety and value. Check them out!
                 </p>
                 <Adventure
                     number="01"

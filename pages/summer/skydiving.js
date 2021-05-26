@@ -26,9 +26,6 @@ const Skydiving = () => {
                 <div className="heroText">
                     <h2>Skydiving.</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">Skydiving.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

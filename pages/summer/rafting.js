@@ -25,9 +25,6 @@ const Rafting = () => {
                 <div className="heroText">
                     <h2>Rafting.</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">Rafting.</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />

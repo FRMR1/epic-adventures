@@ -16,9 +16,6 @@ const Terms = () => {
                 <div className="heroText">
                     <h2>Terms</h2>
                 </div>
-                <div className="heroText">
-                    <h2 className="bg">Terms</h2>
-                </div>
             </HeroImageStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />
