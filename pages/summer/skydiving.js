@@ -21,7 +21,7 @@ const Skydiving = () => {
                 <title>Epic Adventures | Skydiving</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="skydiving4">
+            <HeroImageStyles image="skydiving">
                 <div className="heroText">
                     <h2>Skydiving.</h2>
                 </div>
