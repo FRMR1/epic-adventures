@@ -3,6 +3,8 @@ import Image from "next/image"
 import Link from "next/link"
 import SuggestedCombo from "../../components/SuggestedCombo"
 import GoogleMap from "../../components/GoogleMap"
+import Divider from "../../components/Divider"
+import Divider2 from "../../components/Divider2"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
@@ -96,7 +98,8 @@ const Rafting = () => {
                     </div>
                 </div>
             </BookAdventureStyles>
-            <BookAdventureStyles>
+            <BookAdventureStyles grey={true}>
+                <Divider />
                 <h3>Avdventure Pass</h3>
                 <div className="twoCol">
                     <div className="left">
@@ -137,6 +140,7 @@ const Rafting = () => {
                         </Link>
                     </div>
                 </div>
+                <Divider2 />
             </BookAdventureStyles>
             <BookAdventureStyles>
                 <h3>Mountain Bike Pass</h3>

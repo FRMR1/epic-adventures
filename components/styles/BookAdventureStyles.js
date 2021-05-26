@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const BookAdventureStyles = styled.div`
-    background-color: #fafafa;
+    background-color: ${({ grey }) => (grey ? "#f3f3f3" : "#fafafa")};
     padding: 0 3rem;
     margin: 0;
     margin-bottom: -3rem;
@@ -35,6 +35,9 @@ export const BookAdventureStyles = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 8rem;
+        * {
+            z-index: 1;
+        }
         @media (max-width: 800px) {
             display: flex;
             flex-wrap: wrap;

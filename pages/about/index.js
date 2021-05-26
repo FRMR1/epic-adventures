@@ -1,10 +1,10 @@
 import Image from "next/image"
 import Head from "next/head"
 import ReadyToBook from "../../components/ReadyToBook"
+import Divider from "../../components/Divider"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
-import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
 import { AboutSectionStyles } from "../../components/styles/AboutSectionStyles"
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
@@ -70,6 +70,9 @@ const About = () => {
                         />
                     </div>
                 </div>
+            </AboutSectionStyles>
+            <AboutSectionStyles grey={true}>
+                <Divider />
                 <div className="bottomSection">
                     <h3 className="center">About Golden</h3>
                     <p className="center">

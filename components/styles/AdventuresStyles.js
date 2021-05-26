@@ -4,7 +4,9 @@ export const AdventuresStyles = styled.div`
     margin-bottom: -5rem;
     position: relative;
     top: -20rem;
-    padding: 0 3rem;
+    .grey {
+        background-color: #f3f3f3;
+    }
     @media (max-width: 800px) {
         margin-top: 15rem;
     }
@@ -25,14 +27,14 @@ export const AdventuresStyles = styled.div`
         font-size: 1.7rem;
         color: #b2b2b2;
         max-width: 70rem;
-        margin-bottom: 7rem;
+        margin-bottom: 17rem;
         @media (max-width: 800px) {
             font-size: 1.5rem;
         }
     }
     @media (max-width: 800px) {
         .reverse {
-            flex-direction: column-reverse;
+            /* flex-direction: column-reverse; */
         }
     }
     @media (min-width: 801px) {
@@ -47,6 +49,14 @@ export const AdventuresStyles = styled.div`
         }
     }
     .adventureSection {
+        padding: 5rem 3rem 0;
+        top: -15rem;
+        position: relative;
+    }
+    .heading {
+        padding: 0 3rem;
+    }
+    .adventureSectionInner {
         display: grid;
         margin: 0 auto;
         max-width: 1000px;
@@ -118,6 +128,7 @@ export const AdventuresStyles = styled.div`
             align-items: center;
             width: 100%;
             transform: rotate(-3deg);
+            z-index: 1;
             @media (max-width: 800px) {
                 margin-bottom: -10rem;
             }

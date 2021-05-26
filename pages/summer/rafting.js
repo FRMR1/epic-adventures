@@ -4,6 +4,8 @@ import Link from "next/link"
 import ReadyToBook from "../../components/ReadyToBook"
 import SuggestedCombo from "../../components/SuggestedCombo"
 import GoogleMap from "../../components/GoogleMap"
+import Divider from "../../components/Divider"
+import Divider2 from "../../components/Divider2"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -55,7 +57,7 @@ const Rafting = () => {
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
-            <BookAdventureStyles>
+            <BookAdventureStyles grey={false}>
                 <h3>White Water Discovery</h3>
                 <div className="twoCol">
                     <div className="left">
@@ -109,7 +111,8 @@ const Rafting = () => {
                     </div>
                 </div>
             </BookAdventureStyles>
-            <BookAdventureStyles>
+            <BookAdventureStyles grey={true}>
+                <Divider />
                 <h3>White Water Express</h3>
                 <div className="twoCol">
                     <div className="left">
@@ -161,6 +164,7 @@ const Rafting = () => {
                         </Link>
                     </div>
                 </div>
+                <Divider2 />
             </BookAdventureStyles>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />
@@ -180,7 +184,7 @@ const Rafting = () => {
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
-            <AdventureSectionStyles>
+            <AdventureSectionStyles grey={false}>
                 <div className="twoCol">
                     <div className="left">
                         <h3>Additional Details</h3>

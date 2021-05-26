@@ -43,11 +43,13 @@ const Adventures = () => {
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <AdventuresStyles>
-                <h3>Experience Epic Adventures</h3>
-                <p>
-                    We have teamed up with Canada's best local talent for
-                    quality, service, safety and value. Check them out!
-                </p>
+                <div className="heading">
+                    <h3>Experience Epic Adventures</h3>
+                    <p>
+                        We have teamed up with Canada's best local talent for
+                        quality, service, safety and value. Check them out!
+                    </p>
+                </div>
                 <Adventure
                     number="01"
                     title="Rafting"

@@ -2,9 +2,11 @@ import styled from "styled-components"
 
 export const ComboSectionStyles = styled.div`
     margin-bottom: -20rem;
-    padding: 0 3rem;
     @media (max-width: 800px) {
         margin-top: 15rem;
+    }
+    .grey {
+        background-color: #f3f3f3;
     }
     h3 {
         font-size: 4.5rem;
@@ -47,13 +49,16 @@ export const ComboSectionStyles = styled.div`
         }
     }
     .comboSection {
+        padding: 5rem 3rem 0;
+        top: -15rem;
+        position: relative;
+    }
+    .comboSectionInner {
         display: grid;
         margin: 0 auto;
         max-width: 1000px;
         grid-template-columns: 1fr 1fr;
-        position: relative;
         align-items: center;
-        top: -10rem;
         gap: 10rem;
         @media (max-width: 800px) {
             display: flex;
@@ -123,6 +128,7 @@ export const ComboSectionStyles = styled.div`
             margin-bottom: -20rem;
             width: 100%;
             transform: rotate(-3deg);
+            z-index: 1;
             @media (max-width: 800px) {
                 margin-bottom: -30rem;
             }

@@ -338,5 +338,42 @@ const GlobalStyles = createGlobalStyle`
             }
         }
     }
+    .custom-shape-divider-top-1622058599 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        z-index: 0;
+    }
+    .custom-shape-divider-top-1622058599 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 128px;
+    }
+    .custom-shape-divider-top-1622058599 .shape-fill {
+        fill: #fafafa;
+    }
+    .custom-shape-divider-bottom-1622061969 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        z-index: 0;
+    }
+    .custom-shape-divider-bottom-1622061969 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 128px;
+    }
+    .custom-shape-divider-bottom-1622061969 .shape-fill {
+        fill: #fafafa;
+    }
 `
 export default GlobalStyles
