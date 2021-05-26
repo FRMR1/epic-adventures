@@ -311,7 +311,7 @@ const GlobalStyles = createGlobalStyle`
                 height: 0.3rem;
                 margin-bottom: 0.7rem;
                 position: relative;
-                background: #666;
+                background: #fcfcfc;
                 border-radius: 0.2rem;
                 z-index: 9999;
                 transform-origin: top left;

@@ -5,6 +5,7 @@ import Nav from "../components/Nav"
 import Combo from "../components/Combo"
 import ReadyToBook from "../components/ReadyToBook"
 import { HeroVideoStyles } from "../components/styles/HeroVideoStyles"
+import { HeroImageStyles } from "../components/styles/HeroImageStyles"
 import { SectionStyles } from "../components/styles/SectionStyles"
 import { TopDividerStyles } from "../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../components/styles/BottomDividerStyles"
@@ -14,6 +15,7 @@ import { PhotoPackageStyles } from "../components/styles/PhotoPackageStyles"
 import { ComboSectionStyles } from "../components/styles/ComboSectionStyles"
 import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
 import { useMediaQuery } from "react-responsive"
+import MediaQuery from "react-responsive"
 import Card from "../components/Card"
 import dynamic from "next/dynamic"
 
@@ -32,15 +34,18 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <HeroVideoStyles>
-                <YoutubeEmbed />
-                {/* <div className="heroText">
-                    <h2>Live epic.</h2>
-                </div>
-                <div className="heroText">
-                    <h2 className="bg">Live epic.</h2>
-                </div> */}
-            </HeroVideoStyles>
+            <MediaQuery minWidth={801}>
+                <HeroVideoStyles>
+                    <YoutubeEmbed />
+                </HeroVideoStyles>
+            </MediaQuery>
+            <MediaQuery maxWidth={800}>
+                <HeroImageStyles image="combo9">
+                    <div className="heroText">
+                        <h2>Live epic.</h2>
+                    </div>
+                </HeroImageStyles>
+            </MediaQuery>
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>

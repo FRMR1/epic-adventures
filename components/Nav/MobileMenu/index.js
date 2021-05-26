@@ -22,23 +22,24 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/adventures">
-                            <a onClick={closeMenu}>Adventures</a>
+                        <Link href="/summer">
+                            <a onClick={closeMenu}>Summer</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/adventures/combos">
+                        <Link href="/summer/combos">
                             <a onClick={closeMenu}>Combos</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/contact">
-                            <a onClick={closeMenu}>Contact</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="bookings">
-                            <a onClick={closeMenu}>Book Now</a>
+                        <Link href="https://epicadventuregroup.rezdy.com/">
+                            <a
+                                onClick={closeMenu}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Book Now
+                            </a>
                         </Link>
                     </li>
                 </ul>

@@ -26,7 +26,7 @@ export const HeroImageStyles = styled.div`
         line-height: 13rem;
         color: #424242;
         @media (max-width: 800px) {
-            font-size: 5rem;
+            font-size: 7rem;
             line-height: 5rem;
         }
     }
