@@ -50,13 +50,14 @@ export default function Home() {
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
             <SectionStyles>
-                <h3>Make your next adventure epic.</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                <p className="quote">
+                    “Happiness and freedom begin with a clear understanding of
+                    one principle: some things are within our control, and some
+                    things are not.”
+                </p>
+                <p className="author">
+                    Epictetus, Greek Philosopher{" "}
+                    <span class="authorYear">(50AD - 130AD)</span>
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
@@ -65,9 +66,10 @@ export default function Home() {
             <CardSectionStyles>
                 <h3>Experience Epic Adventures</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    When it comes to adrenaline, adventure and experiencing all
+                    the elements, we want to connect you with the best! Check
+                    out some of our epic trips and exclusive combos that you
+                    won't forget.
                 </p>
                 <div className="cards">
                     <Card
