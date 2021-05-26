@@ -41,4 +41,18 @@ export const SectionStyles = styled.div`
         margin-bottom: 4rem;
         justify-items: center;
     }
+    .author {
+        color: var(--secColor);
+    }
+    .authorYear {
+        color: #656565;
+        font-size: 1.4rem;
+    }
+    .quote {
+        color: #979797;
+    }
+    .quote,
+    .authorYear {
+        font-style: italic;
+    }
 `

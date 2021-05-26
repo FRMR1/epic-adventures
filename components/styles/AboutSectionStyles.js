@@ -2,6 +2,8 @@ import styled from "styled-components"
 
 export const AboutSectionStyles = styled.div`
     background-color: #fafafa;
+    position: relative;
+    top: -8rem;
     padding: 0 3rem;
     margin-bottom: 18rem;
     @media (max-width: 800px) {
@@ -30,6 +32,16 @@ export const AboutSectionStyles = styled.div`
         @media (max-width: 800px) {
             font-size: 1.5rem;
         }
+    }
+    .bold {
+        font-weight: 600;
+    }
+    .small {
+        font-size: 1.5rem;
+    }
+    .big {
+        font-size: 2rem;
+        text-align: center;
     }
     .twoCol {
         margin-top: 3rem;
@@ -78,10 +90,14 @@ export const AboutSectionStyles = styled.div`
             h3 {
                 color: #6a6a6a;
             }
-            .imageRotate {
-                transform: rotate(5deg);
-            }
         }
+        .imageRotate {
+            transform: rotate(5deg);
+            /* img {
+                filter: drop-shadow(30px 10px 4px #4444dd);
+            } */
+        }
+
         .left,
         .right {
             align-self: center;

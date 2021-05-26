@@ -16,7 +16,7 @@ const About = () => {
                 <title>Epic Adventures | About</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles>
+            <HeroImageStyles image="combo1">
                 <div className="heroText">
                     <h2>About Epic.</h2>
                 </div>
@@ -28,13 +28,14 @@ const About = () => {
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
             <SectionStyles>
-                <h3>We're the best</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                <p className="quote">
+                    “Happiness and freedom begin with a clear understanding of
+                    one principle: some things are within our control, and some
+                    things are not.”
+                </p>
+                <p className="author">
+                    Epictetus, Greek Philosopher{" "}
+                    <span class="authorYear">(50AD - 130AD)</span>
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
@@ -42,39 +43,28 @@ const About = () => {
             </BottomDividerStyles>
             <AboutSectionStyles>
                 <div>
-                    <h3>Bla bla bla bla.</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                    <p className="big">
+                        Get outside and give up control. Whether by jumping out
+                        of an airplane or being guided through the rapids, allow
+                        yourself to trust – and{" "}
+                        <span className="bold">let go.</span>
                     </p>
                 </div>
                 <div className="twoCol">
                     <div className="left">
-                        <ul>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                            <li>
-                                <img src="/svg/checkmark.svg" width="15" />
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </li>
-                        </ul>
+                        <p className="small">
+                            Epic Adventure Group is operated out of Golden,
+                            British Columbia by humans who want you to
+                            experience more out of Canada’s Adventure Capital.
+                            We allow you to make combination packages of the
+                            best adventures Golden has to offer, giving you
+                            exclusive savings on experiences you’ll never
+                            forget.
+                        </p>
                     </div>
-                    <div className="right">
+                    <div className="right imageRotate">
                         <Image
-                            src="/images/epicsummer.png"
+                            src="/images/combo9.jpg"
                             layout="responsive"
                             width="100%"
                             height="auto"
@@ -84,27 +74,32 @@ const About = () => {
                     </div>
                 </div>
                 <div className="bottomSection">
-                    <h3 className="center">We want you to be epic.</h3>
+                    <h3 className="center">About Golden</h3>
                     <p className="center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        Golden is at the heart of the Canadian Rockies, where
+                        the Kicking Horse River and the Columbia River meet and
+                        offers access to some of the most pristine backcountry
+                        around. Surrounded by the vast mountain ranges of six
+                        incredible Canadian national parks, Golden is as
+                        picturesque as it is adventurous.
                     </p>
                     <p className="center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        Home of the Ktunaxa people, other indigenous peoples
+                        also harvested, hunted, fished and settled seasonally
+                        within the area, including the Shuswap peoples who for
+                        centuries have travelled to and inhabited the Ktunaxa
+                        homelands. It was the spirit of adventure that brought
+                        the first explorers over the Rocky Mountains in the 19
+                        th century, and Golden still holds that same feeling of
+                        discovery and exploration for visitors and the locals
+                        who call this valley home.
                     </p>
                     <p className="center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        Golden is located in southeastern British Columbia right
+                        on the Trans-Canada Highway, approximately 262
+                        kilometers west of Calgary or 713 kilometres east of
+                        Vancouver. Banff is a short 1 ½ hours or 4 hours to BC’s
+                        Okanagan Valley.
                     </p>
                 </div>
             </AboutSectionStyles>
