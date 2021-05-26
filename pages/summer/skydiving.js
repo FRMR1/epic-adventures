@@ -2,12 +2,14 @@ import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import GoogleMap from "../../components/GoogleMap"
+import SuggestedCombo from "../../components/SuggestedCombo"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
+import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
@@ -171,6 +173,47 @@ const Skydiving = () => {
                 location={{ lat: 51.30054, lng: -116.98498 }}
                 zoom={15}
             />
+            <SuggestedCombosStyles>
+                <h3>Suggested Combos</h3>
+                <div className="cards">
+                    <SuggestedCombo
+                        title="Stairway to Heaven"
+                        description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
+                        bullets={[
+                            "Skydiving and Golden Skybridge",
+                            "6 hours (approx.)",
+                            "Must be 19 years or older",
+                        ]}
+                        image="combo7"
+                        price="342"
+                        url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+                    />
+                    <SuggestedCombo
+                        title="Top of the World"
+                        description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
+                        bullets={[
+                            "Skydiving and Kicking Horse gondola",
+                            "6 hours (approx.)",
+                            "Must be 19 years or older",
+                        ]}
+                        price="351"
+                        image="combo8"
+                        url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+                    />
+                    <SuggestedCombo
+                        title="Double Trouble"
+                        description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
+                        bullets={[
+                            "Skydiving and rafting express",
+                            "6 hours (approx.)",
+                            "Must be 19 years or older",
+                        ]}
+                        price="387"
+                        image="combo6"
+                        url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
+                    />
+                </div>
+            </SuggestedCombosStyles>
             <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />

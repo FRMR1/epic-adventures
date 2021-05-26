@@ -2,10 +2,12 @@ import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import ReadyToBook from "../../components/ReadyToBook"
+import SuggestedCombo from "../../components/SuggestedCombo"
 import GoogleMap from "../../components/GoogleMap"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
+import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
@@ -223,6 +225,47 @@ const Rafting = () => {
                 location={{ lat: 51.30307, lng: -116.94781 }}
                 zoom={15}
             />
+            <SuggestedCombosStyles>
+                <h3>Suggested Combos</h3>
+                <div className="cards">
+                    <SuggestedCombo
+                        title="Don't Tell Mom!"
+                        description="Raft the Kicking Horse River and experience nature's highway with white knuckle fun with provided lunch: it's a Golden classic. Then finish the day experiencing human flight and a jump above the clouds at 10,000 ft above the town of Golden."
+                        bullets={[
+                            "Rafting and skydiving",
+                            "Duration: full day",
+                            "Must be 19 years or older",
+                        ]}
+                        image="combo9"
+                        price="445"
+                        url="https://epicadventuregroup.rezdy.com/444202/dont-tell-mom-raft-full-day-skydive-combo"
+                    />
+                    <SuggestedCombo
+                        title="Mud Express"
+                        description="Looking for an alternative way to travel? Take a morning ride through the mountains on an ATV, then take a trip on nature's highway on the Kicking Horse River half-day trip!"
+                        bullets={[
+                            "Rafting express and ATV off-road",
+                            "8 hours (approx.)",
+                            "Must be 12 years or older",
+                        ]}
+                        price="292"
+                        image="combo2"
+                        url="https://epicadventuregroup.rezdy.com/443893/mud-express-atv-raft-express-combo"
+                    />
+                    <SuggestedCombo
+                        title="Espresso"
+                        description="Get wet and scale the clouds. Raft Western Canada's epic Kicking Horse River, exhilarating rapids, river views and a gondola ride to 7,700 ft for panoramic views you won't forget."
+                        bullets={[
+                            "Rafting and Kicking Horse gondola",
+                            "6 hours (approx.)",
+                            "Must be 12 years or older",
+                        ]}
+                        price="141"
+                        image="combo10"
+                        url="https://epicadventuregroup.rezdy.com/444960/espresso-raft-express-gondola-kicking-horse-resort"
+                    />
+                </div>
+            </SuggestedCombosStyles>
             <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />

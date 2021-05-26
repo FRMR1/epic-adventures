@@ -242,10 +242,12 @@ const GlobalStyles = createGlobalStyle`
         button {
             font-family: Roboto Mono;
             font-weight: 400;
+            filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
         }
         a {
             font-family: "Futura Bold";
             font-size: 1.8rem;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
         }
         a:hover, .dropDownLink:hover {
             text-decoration: none;

@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import SuggestedCombo from "../../components/SuggestedCombo"
 import GoogleMap from "../../components/GoogleMap"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
@@ -9,6 +10,7 @@ import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
+import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
@@ -237,6 +239,47 @@ const Rafting = () => {
                 location={{ lat: 51.299869537353516, lng: -117.05529022216797 }}
                 zoom={15}
             />
+            <SuggestedCombosStyles>
+                <h3>Suggested Combos</h3>
+                <div className="cards">
+                    <SuggestedCombo
+                        title="Top of the World"
+                        description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
+                        bullets={[
+                            "Skydiving and Kicking Horse gondola",
+                            "6 hours (approx.)",
+                            "Must be 19 years or older",
+                        ]}
+                        price="351"
+                        image="combo8"
+                        url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+                    />
+                    <SuggestedCombo
+                        title="Espresso"
+                        description="Get wet and scale the clouds. Raft Western Canada's epic Kicking Horse River, exhilarating rapids, river views and a gondola ride to 7,700 ft for panoramic views you won't forget."
+                        bullets={[
+                            "Rafting and Kicking Horse gondola",
+                            "6 hours (approx.)",
+                            "Must be 12 years or older",
+                        ]}
+                        price="141"
+                        image="combo10"
+                        url="https://epicadventuregroup.rezdy.com/444960/espresso-raft-express-gondola-kicking-horse-resort"
+                    />
+                    <SuggestedCombo
+                        title="Mountaineer"
+                        description="Off-road ATV through the stunning Rocky Mountains with river crossings, dense mountain forests and maybe even encounter the local wildlife, then scale the clouds with a gondola ride to 7,700 ft for panoramic views you can't forget."
+                        bullets={[
+                            "ATV off-road and Kicking Horse gondola",
+                            "6 hours (approx.)",
+                            "Must be 13 years or older",
+                        ]}
+                        price="250"
+                        image="combo4"
+                        url="https://epicadventuregroup.rezdy.com/444963/the-mountaineer-atv-gondola-kicking-horse-resort"
+                    />
+                </div>
+            </SuggestedCombosStyles>
             <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />

@@ -2,11 +2,13 @@ import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import GoogleMap from "../../components/GoogleMap"
+import SuggestedCombo from "../../components/SuggestedCombo"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
+import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
@@ -164,6 +166,47 @@ const Swing = () => {
                 </div>
             </AdventureSectionStyles>
             <GoogleMap location={{ lat: 51.3049, lng: -116.97798 }} zoom={15} />
+            <SuggestedCombosStyles>
+                <h3>Suggested Combos</h3>
+                <div className="cards">
+                    <SuggestedCombo
+                        title="Ridge Rider"
+                        description="Off-road ATV through the stunning Rocky Mountains with river crossings, dense mountain forests and maybe even encounter the local wildlife. Then head over to Golden's newest adventure with trails, suspension bridges and treetop village."
+                        bullets={[
+                            "ATV off-road and Golden Skybridge",
+                            "6 hours (approx.)",
+                            "Must be 6 years or older",
+                        ]}
+                        image="combo5"
+                        price="242"
+                        url="https://epicadventuregroup.rezdy.com/444981/ridge-rider-atv-golden-skybridge"
+                    />
+                    <SuggestedCombo
+                        title="Dirt Dive"
+                        description="Get dusty 4x4 on your own ATV with river crossings, dense mountain forests and maybe even an encounter with local wildlife. Then test your ability to fly with a skydive over the beautiful town of Golden."
+                        bullets={[
+                            "ATV off-road and skydiving",
+                            "6 hours (approx.)",
+                            "Must be 19 years or older",
+                        ]}
+                        price="509"
+                        image="combo3"
+                        url="https://epicadventuregroup.rezdy.com/443897/dirt-dive-atv-skydive-combo"
+                    />
+                    <SuggestedCombo
+                        title="Mud Express"
+                        description="Looking for an alternative way to travel? Take a morning ride through the mountains on an ATV, then take a trip on nature's highway on the Kicking Horse River half-day trip!"
+                        bullets={[
+                            "Rafting express and ATV off-road",
+                            "8 hours (approx.)",
+                            "Must be 12 years or older",
+                        ]}
+                        price="292"
+                        image="combo2"
+                        url="https://epicadventuregroup.rezdy.com/443893/mud-express-atv-raft-express-combo"
+                    />
+                </div>
+            </SuggestedCombosStyles>
             <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />

@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import SuggestedCombo from "../../components/SuggestedCombo"
 import GoogleMap from "../../components/GoogleMap"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
@@ -8,6 +9,7 @@ import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
+import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
@@ -158,6 +160,47 @@ const Rafting = () => {
                 location={{ lat: 51.469390869140625, lng: -117.10696411132812 }}
                 zoom={15}
             />
+            <SuggestedCombosStyles>
+                <h3>Suggested Combos</h3>
+                <div className="cards">
+                    <SuggestedCombo
+                        title="Ridge Rider"
+                        description="Off-road ATV through the stunning Rocky Mountains with river crossings, dense mountain forests and maybe even encounter the local wildlife. Then head over to Golden's newest adventure with trails, suspension bridges and treetop village."
+                        bullets={[
+                            "ATV off-road and Golden Skybridge",
+                            "6 hours (approx.)",
+                            "Must be 6 years or older",
+                        ]}
+                        image="combo5"
+                        price="242"
+                        url="https://epicadventuregroup.rezdy.com/444981/ridge-rider-atv-golden-skybridge"
+                    />
+                    <SuggestedCombo
+                        title="Stairway to Heaven"
+                        description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
+                        bullets={[
+                            "Skydiving and Golden Skybridge",
+                            "6 hours (approx.)",
+                            "Must be 19 years or older",
+                        ]}
+                        image="combo7"
+                        price="342"
+                        url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+                    />
+                    <SuggestedCombo
+                        title="Canyon Fever"
+                        description="Raft Western Canada's epic Kicking Horse River, exhilarating rapids, river views and provided lunch. Then head over to the Golden's newest adventure with trails, suspension bridges and a treetop village."
+                        bullets={[
+                            "Rafting and Golden Skybridge",
+                            "6 hours (approx.)",
+                            "Must be 12 years or older",
+                        ]}
+                        price="182"
+                        image="combo11"
+                        url="https://epicadventuregroup.rezdy.com/444975/canyon-fever-raft-full-day-golden-skybridge"
+                    />
+                </div>
+            </SuggestedCombosStyles>
             <ReadyToBook />
             <FooterDividerStyles>
                 <img src="/svg/divider-top2.svg" width="100%" />

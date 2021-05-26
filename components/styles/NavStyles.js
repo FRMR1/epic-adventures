@@ -34,6 +34,7 @@ const NavStyles = styled.div`
     }
     a {
         color: var(--darkGrey);
+        text-shadow: 1px 0 1px rgba(0, 0, 0, 0.6);
     }
     button {
         color: #fff;
