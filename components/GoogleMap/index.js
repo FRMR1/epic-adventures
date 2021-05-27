@@ -13,7 +13,7 @@ const GoogleMap = ({ location, zoom, negMargin }) => {
             <div className="map" style={{ height: "400px", width: "100%" }}>
                 <GoogleMapReact
                     bootstrapURLKeys={{
-                        key: "AIzaSyBa3x7LRSVxUF_i3doAGlWdhwroHlYB9DQ",
+                        key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY,
                     }}
                     defaultCenter={center}
                     defaultZoom={zoom}
