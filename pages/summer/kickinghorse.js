@@ -15,7 +15,6 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
-import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
 
 const Rafting = () => {
     return (
@@ -104,7 +103,7 @@ const Rafting = () => {
             </BookAdventureStyles>
             <BookAdventureStyles grey={true}>
                 <Divider />
-                <h3>Avdventure Pass</h3>
+                <h3>Adventure Pass</h3>
                 <div className="twoCol">
                     <div className="left">
                         <div className="imageRotate">
