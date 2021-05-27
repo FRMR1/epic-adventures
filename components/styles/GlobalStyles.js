@@ -343,14 +343,14 @@ const GlobalStyles = createGlobalStyle`
             }
         }
     }
-    .mobileMenu {
+    .mobileMenuStyles {
         position: absolute;
         overflow: hidden;
         z-index: 9998;
         width: 100vw;
         height: 100vh;
         background-color: var(--mainColor);
-        left: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+        left: -100%;
         transition: left 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
         top: 0;
         margin: 0;
@@ -373,6 +373,9 @@ const GlobalStyles = createGlobalStyle`
                 }
             }
         }
+    }
+    .isOpen {
+        left: 0;
     }
     .custom-shape-divider-top-1622058599 {
         position: absolute;

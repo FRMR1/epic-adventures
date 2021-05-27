@@ -93,10 +93,12 @@ const Rafting = () => {
                             <span className="amount">46</span>
                             <span className="currency">CAD</span>
                         </div>
-                        <Link href="/bookings">
-                            <div className="button">
-                                <span>Book Now</span>
-                            </div>
+                        <Link href="https://epicadventuregroup.rezdy.com/catalog/433726/kicking-horse-mountain">
+                            <a target="_blank" rel="noreferrer">
+                                <div className="button">
+                                    <span>Book Now</span>
+                                </div>
+                            </a>
                         </Link>
                     </div>
                 </div>
@@ -136,10 +138,12 @@ const Rafting = () => {
                             <span className="amount">51</span>
                             <span className="currency">CAD</span>
                         </div>
-                        <Link href="/bookings">
-                            <div className="button">
-                                <span>Book Now</span>
-                            </div>
+                        <Link href="https://epicadventuregroup.rezdy.com/catalog/433726/kicking-horse-mountain">
+                            <a target="_blank" rel="noreferrer">
+                                <div className="button">
+                                    <span>Book Now</span>
+                                </div>
+                            </a>
                         </Link>
                     </div>
                 </div>
@@ -179,10 +183,12 @@ const Rafting = () => {
                             <span className="amount">62</span>
                             <span className="currency">CAD</span>
                         </div>
-                        <Link href="/bookings">
-                            <div className="button">
-                                <span>Book Now</span>
-                            </div>
+                        <Link href="https://epicadventuregroup.rezdy.com/catalog/433726/kicking-horse-mountain">
+                            <a target="_blank" rel="noreferrer">
+                                <div className="button">
+                                    <span>Book Now</span>
+                                </div>
+                            </a>
                         </Link>
                     </div>
                 </div>

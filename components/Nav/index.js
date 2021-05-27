@@ -1,11 +1,19 @@
 import Image from "next/image"
 import Link from "next/link"
-import MobileMenu from "./MobileMenu"
-import MediaQuery from "react-responsive"
+import { useMediaQuery } from "react-responsive"
 import { useMobileMenuState } from "../../lib/mobileMenuState"
 
 const Nav = () => {
+    // Menu state
     const { isOpen, setIsOpen } = useMobileMenuState()
+
+    // Close menu when nav item is clicked
+    const closeMenu = () => {
+        setIsOpen(false)
+    }
+
+    // Responsive
+    const isMobile = useMediaQuery({ query: "(max-width: 800px)" })
 
     return (
         <div className="header">
@@ -20,18 +28,56 @@ const Nav = () => {
                         />
                     </a>
                 </Link>
-                <MediaQuery maxWidth={768}>
-                    <div
-                        className="hamburgerMenu"
-                        onClick={() => setIsOpen(!isOpen)}
-                    >
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
-                </MediaQuery>
-                <MediaQuery minWidth={769}>
+                {isMobile && (
+                    <>
+                        <div
+                            className="hamburgerMenu"
+                            onClick={() => setIsOpen(!isOpen)}
+                        >
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div
+                            className={`mobileMenuStyles ${isOpen && "isOpen"}`}
+                        >
+                            <ul>
+                                <li>
+                                    <Link href="/">
+                                        <a onClick={closeMenu}>Home</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/about">
+                                        <a onClick={closeMenu}>About</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/summer">
+                                        <a onClick={closeMenu}>Summer</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/summer/combos">
+                                        <a onClick={closeMenu}>Combos</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="https://epicadventuregroup.rezdy.com/">
+                                        <a
+                                            onClick={closeMenu}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            Book Now
+                                        </a>
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                    </>
+                )}
+                {!isMobile && (
                     <div className="navRight">
                         <Link href="/about">About</Link>
                         <div className="dropdown">
@@ -63,7 +109,7 @@ const Nav = () => {
                             </a>
                         </Link>
                     </div>
-                </MediaQuery>
+                )}
             </div>
         </div>
     )

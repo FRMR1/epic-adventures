@@ -15,7 +15,6 @@ import { PhotoPackageStyles } from "../components/styles/PhotoPackageStyles"
 import { ComboSectionStyles } from "../components/styles/ComboSectionStyles"
 import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
 import { useMediaQuery } from "react-responsive"
-import MediaQuery from "react-responsive"
 import Card from "../components/Card"
 import dynamic from "next/dynamic"
 
