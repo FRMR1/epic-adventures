@@ -43,11 +43,15 @@ const About = () => {
                     <p className="big">
                         Get outside and give up control. Whether by jumping out
                         of an airplane or being guided through the rapids, allow
-                        yourself to trust – and{" "}
-                        <span className="bold">let go.</span>
+                        yourself to trust – and let go. Epic Adventure Group is
+                        operated out of Golden, British Columbia by humans who
+                        want you to experience more out of Canada’s Adventure
+                        Capital. We allow you to make combination packages of
+                        the best adventures Golden has to offer, giving you
+                        exclusive savings on experiences you’ll never forget.
                     </p>
                 </div>
-                <div className="twoCol">
+                {/* <div className="twoCol">
                     <div className="left">
                         <p className="small">
                             Epic Adventure Group is operated out of Golden,
@@ -69,7 +73,7 @@ const About = () => {
                             alt="Epic Adventures"
                         />
                     </div>
-                </div>
+                </div> */}
             </AboutSectionStyles>
             <AboutSectionStyles grey={true}>
                 <Divider />

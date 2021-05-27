@@ -34,18 +34,18 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <MediaQuery minWidth={801}>
+            {!isMobile && (
                 <HeroVideoStyles>
                     <YoutubeEmbed />
                 </HeroVideoStyles>
-            </MediaQuery>
-            <MediaQuery maxWidth={800}>
+            )}
+            {isMobile && (
                 <HeroImageStyles image="combo9">
                     <div className="heroText">
                         <h2>Live epic.</h2>
                     </div>
                 </HeroImageStyles>
-            </MediaQuery>
+            )}
             <TopDividerStyles>
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
