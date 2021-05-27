@@ -123,7 +123,7 @@ const Rafting = () => {
                             Get a guided tour to the home of local celebrity Boo
                             the Bear at his Grizzly Bear Refuge and scale the
                             mountain on the Golden Eagle Express Gondola for
-                            epic views of the Columbia wetland, the town of
+                            Epic views of the columbia wetland, the town of
                             Golden and surrounding Rocky Mountains.
                         </p>
                         <ul>
@@ -212,10 +212,20 @@ const Rafting = () => {
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Schueduled closures of the Trans-Canada Highway
-                                are planned through the late spring. Visit
-                                drivebc.ca for more information and for the
-                                latest road reports and conditions.
+                                <span>
+                                    Schueduled closures of the Trans-Canada
+                                    Highway are planned through the late spring.
+                                    Visit{" "}
+                                    <a
+                                        href="https://drivebc.ca"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        drivebc.ca
+                                    </a>{" "}
+                                    for more information and for the latest road
+                                    reports and conditions.
+                                </span>
                             </li>
                         </ul>
                     </div>

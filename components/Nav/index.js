@@ -42,7 +42,7 @@ const Nav = () => {
                                 <Link href="/summer/combos">Combos</Link>
                                 <Link href="/summer/rafting">Rafting</Link>
                                 <Link href="/summer/skydiving">Skydiving</Link>
-                                <Link href="/summer/atv">ATV Off Road</Link>
+                                <Link href="/summer/atv">ATV Off-Road</Link>
                                 <Link href="/summer/kickinghorse">
                                     Kicking Horse Resort
                                 </Link>
@@ -51,7 +51,12 @@ const Nav = () => {
                                 </Link>
                             </div>
                         </div>
-                        <Link href="/contact">Contact</Link>
+                        <div className="dropdown">
+                            <span className="dropDownLink">Winter</span>
+                            <div className="dropdownContent">
+                                <span>Stay tuned...</span>
+                            </div>
+                        </div>
                         <Link href="https://epicadventuregroup.rezdy.com/">
                             <a target="_blank" rel="noreferrer">
                                 <button className="bookNow">Book Now</button>

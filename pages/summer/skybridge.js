@@ -109,16 +109,13 @@ const Rafting = () => {
             </TopDividerStyles>
             <TestimonialStyles>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua."
+                    "The Golden Skybridge will soon become an iconic experience
+                    for Canadian and international visitors alike."
                 </p>
                 <div className="faceContainer">
                     <img src="/svg/face.svg" width="30px" />
                 </div>
-                <p className="customerName">
-                    Satisfied Epic Adventures Customer
-                </p>
+                <p className="customerName">Andrea Smith — Lonely Planet</p>
             </TestimonialStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
@@ -130,10 +127,28 @@ const Rafting = () => {
                         <ul>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Schueduled closures of the Trans-Canada Highway
-                                are planned through the late spring. Visit
-                                drivebc.ca for more information and for the
-                                latest road reports and conditions.
+                                June – September: 9AM – 9PM
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                September – October: 10AM – 6PM
+                            </li>
+                            <li>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                <span>
+                                    Schueduled closures of the Trans-Canada
+                                    Highway are planned through the late spring.
+                                    Visit{" "}
+                                    <a
+                                        href="https://drivebc.ca"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        drivebc.ca
+                                    </a>{" "}
+                                    for more information and for the latest road
+                                    reports and conditions.
+                                </span>
                             </li>
                         </ul>
                     </div>

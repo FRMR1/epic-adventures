@@ -225,7 +225,8 @@ const GlobalStyles = createGlobalStyle`
             text-align: center;
         }
         a,
-        button {
+        button, 
+        span {
             position: relative;
             text-transform: uppercase;
             font-weight: 400;
@@ -244,12 +245,15 @@ const GlobalStyles = createGlobalStyle`
             font-weight: 400;
             filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
         }
-        a {
+        a, span {
             font-family: "Futura Bold";
             font-size: 1.8rem;
             text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
         }
-        a:hover, .dropDownLink:hover {
+        span {
+            cursor: default;
+        }
+        a:hover, .dropDownLink:hover, span:hover {
             text-decoration: none;
             color: var(--secColor);
         }
@@ -266,7 +270,7 @@ const GlobalStyles = createGlobalStyle`
         .navRight {
             display: flex;
             align-items: center;
-            a {
+            a, span {
                 margin-left: 4rem;
             }
         }
@@ -281,17 +285,18 @@ const GlobalStyles = createGlobalStyle`
             width: 30rem;
             padding-top: 1rem;
         }
-        .dropdownContent a {
+        .dropdownContent a,
+        .dropdownContent span {
             padding: 0.5rem 0 0;
             text-decoration: none;
             display: block;
             text-align: left;
-            color: #9b9b9b;
+            color: #fff;
         }
         .dropdown:hover .dropdownContent {
             display: block;
         }
-        .dropdown:hover a {
+        .dropdown:hover a, .dropdown:hover span {
             color: #fff;
         }
         .dropdown:hover .dropDownLink,

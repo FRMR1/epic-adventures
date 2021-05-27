@@ -31,6 +31,9 @@ export const AdventureSectionStyles = styled.div`
             font-size: 1.5rem;
         }
     }
+    .driveBC {
+        display: inline;
+    }
     .twoCol {
         margin-top: 8rem;
         display: grid;

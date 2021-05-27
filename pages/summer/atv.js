@@ -120,7 +120,18 @@ const Swing = () => {
                 <div className="faceContainer">
                     <img src="/svg/face.svg" width="30px" />
                 </div>
-                <p className="customerName">Allison P, August 2020</p>
+                <p className="customerName">Allison P., August 2020</p>
+                <p>
+                    “Awesome tour up the mountain and off-road seeing some
+                    waterfalls. Our guide Chris was friendly, knowledgeable and
+                    fun, thank you for the great trip and engaging information.
+                    Great job keeping the kids having fun and the adults as
+                    well. Family fun!”
+                </p>
+                <div className="faceContainer">
+                    <img src="/svg/face.svg" width="30px" />
+                </div>
+                <p className="customerName">Tiffany T., August 2019</p>
             </TestimonialStyles>
             <BottomDividerStyles>
                 <img src="/svg/divider-bottom.svg" width="100%" />
@@ -142,10 +153,20 @@ const Swing = () => {
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Schueduled closures of the Trans-Canada Highway
-                                are planned through the late spring. Visit
-                                drivebc.ca for more information and for the
-                                latest road reports and conditions.
+                                <span>
+                                    Schueduled closures of the Trans-Canada
+                                    Highway are planned through the late spring.
+                                    Visit{" "}
+                                    <a
+                                        href="https://drivebc.ca"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        drivebc.ca
+                                    </a>{" "}
+                                    for more information and for the latest road
+                                    reports and conditions.
+                                </span>
                             </li>
                         </ul>
                     </div>

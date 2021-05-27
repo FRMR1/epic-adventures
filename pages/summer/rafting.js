@@ -45,10 +45,16 @@ const Rafting = () => {
                 <div className="pContainer">
                     <h2>Kicking Horse River</h2>
                     <p>
-                        With rapids like Shot Gun, Rollercoaster and Man Eater,
-                        your raft guide will teach you everything you need to
-                        know to get you and your team down the river safely,
-                        with all the laughs!
+                        Rafting on the mighty Kicking Horse River, Western
+                        Canada’s best rafting day trip is an experience you
+                        can’t miss. This Canadian classic will take you down
+                        exhilarating rapids through unforgettable scenery and
+                        gives you the chance to spot local wildlife as you
+                        travel down the Kicking Horse. Enjoy nature’s highway in
+                        a raft! With rapids like Shotgun Rapids, Roller Coaster
+                        & Man Eater, your raft guide will teach you everything
+                        you need to know to get you and your team down the river
+                        safely and with all the laughs.
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -209,10 +215,20 @@ const Rafting = () => {
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Schueduled closures of the Trans-Canada Highway
-                                are planned through the late spring. Visit
-                                drivebc.ca for more information and for the
-                                latest road reports and conditions.
+                                <span>
+                                    Schueduled closures of the Trans-Canada
+                                    Highway are planned through the late spring.
+                                    Visit{" "}
+                                    <a
+                                        href="https://drivebc.ca"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        drivebc.ca
+                                    </a>{" "}
+                                    for more information and for the latest road
+                                    reports and conditions.
+                                </span>
                             </li>
                         </ul>
                     </div>

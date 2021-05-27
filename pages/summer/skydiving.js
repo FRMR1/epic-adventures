@@ -141,10 +141,20 @@ const Skydiving = () => {
                             </li>
                             <li>
                                 <img src="/svg/checkmark.svg" width="15" />
-                                Schueduled closures of the Trans-Canada Highway
-                                are planned through the late spring. Visit
-                                drivebc.ca for more information and for the
-                                latest road reports and conditions.
+                                <span>
+                                    Schueduled closures of the Trans-Canada
+                                    Highway are planned through the late spring.
+                                    Visit{" "}
+                                    <a
+                                        href="https://drivebc.ca"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        drivebc.ca
+                                    </a>{" "}
+                                    for more information and for the latest road
+                                    reports and conditions.
+                                </span>
                             </li>
                         </ul>
                     </div>
