@@ -62,13 +62,13 @@ const Footer = ({ year }) => {
                     <div className="policyLinks">
                         <ul>
                             <li>
-                                <Link href="/about/refunds">
-                                    <a>Refund Policy</a>
+                                <Link href="/privacy">
+                                    <a>Privacy Policy</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/privacy">
-                                    <a>Privacy Policy</a>
+                                <Link href="/cancellations">
+                                    <a>Cancellation Policy</a>
                                 </Link>
                             </li>
                             <li>
