@@ -153,7 +153,7 @@ export default function Home() {
                     reverse={false}
                     price="656"
                     url="https://epicadventuregroup.rezdy.com/443894/epic-golden-pass-raft-skydive-atv-2day"
-                    save="42"
+                    save="698"
                     image="/images/combo1.jpg"
                     bullets={[
                         "Includes rafting, skydiving and ATV off-road (2 days)",
@@ -168,7 +168,7 @@ export default function Home() {
                     reverse={true}
                     price="292"
                     url="https://epicadventuregroup.rezdy.com/443893/mud-express-atv-raft-express-combo"
-                    save="26"
+                    save="318"
                     image="/images/combo2.jpg"
                     bullets={[
                         "Includes rafting express and ATV off-road",
@@ -183,7 +183,7 @@ export default function Home() {
                     reverse={false}
                     price="509"
                     url="https://epicadventuregroup.rezdy.com/443897/dirt-dive-atv-skydive-combo"
-                    save="30"
+                    save="539"
                     image="/images/combo3.jpg"
                     bullets={[
                         "Includes ATV off-road and skydiving",
@@ -198,7 +198,7 @@ export default function Home() {
                     reverse={true}
                     price="250"
                     url="https://epicadventuregroup.rezdy.com/444963/the-mountaineer-atv-gondola-kicking-horse-resort"
-                    save="14"
+                    save="265"
                     image="/images/combo4.jpg"
                     bullets={[
                         "Includes ATV off-road and Kicking Horse gondola",
@@ -212,7 +212,7 @@ export default function Home() {
                     description="Off-road ATV through the stunning Rocky Mountains with river crossings, dense mountain forests and maybe even encounter the local wildlife. Then head over to Golden's newest adventure with trails, suspension bridges and treetop village."
                     reverse={false}
                     price="242"
-                    save="14"
+                    save="256"
                     image="/images/combo5.jpg"
                     url="https://epicadventuregroup.rezdy.com/444981/ridge-rider-atv-golden-skybridge"
                     bullets={[
@@ -227,7 +227,7 @@ export default function Home() {
                     description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
                     reverse={true}
                     price="387"
-                    save="32"
+                    save="419"
                     image="/images/combo6.jpg"
                     url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
                     bullets={[

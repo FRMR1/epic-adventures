@@ -140,7 +140,7 @@ export const ComboSectionStyles = styled.div`
         }
         .save {
             position: relative;
-            top: -49.5rem;
+            top: -47.5rem;
             left: 0.3rem;
             span {
                 font-family: "Futura Bold", --apple-system, BlinkMacSystemFont,
@@ -155,21 +155,38 @@ export const ComboSectionStyles = styled.div`
                 text-align: center;
                 top: -3.8rem;
                 font-size: 2rem;
-                left: -1rem;
+                left: -1.8rem;
             }
             .amount {
                 font-size: 4rem;
                 letter-spacing: -0.3rem;
                 text-align: center;
                 position: relative;
-                left: -1.4rem;
+                left: -2.1rem;
                 top: -2.4rem;
             }
             .cents {
                 font-size: 1.5rem;
                 position: relative;
-                top: -4.2rem;
-                left: -1.1rem;
+                top: -3.9rem;
+                left: -1.5rem;
+            }
+            .strikeout {
+                display: block;
+                width: 5.9rem;
+                height: 0.2rem;
+                position: relative;
+                background: #f00;
+                border-radius: 0.1rem;
+                position: relative;
+                left: -1rem;
+                top: -6.7rem;
+            }
+            .strikeLeft {
+                transform: rotate(-20deg) !important;
+            }
+            .strikeRight {
+                transform: rotate(20deg) !important;
             }
         }
         .priceContainer {

@@ -12,8 +12,8 @@ const Combo = ({
     image,
     price,
     bullets,
-    cents,
     url,
+    cents,
 }) => {
     return (
         <div className={`${"comboSection"} ${reverse && "grey"}`}>
@@ -30,11 +30,11 @@ const Combo = ({
                     />
                     <img src="/images/star.svg" width="100" class="star" />
                     <div className="save">
-                        <span>Save</span>
-                        <br />
                         <span class="dollarSign">$</span>
                         <span class="amount">{save}</span>
                         {cents && <span class="cents">{cents}</span>}
+                        <span className="strikeout strikeLeft"></span>
+                        <span className="strikeout strikeRight"></span>
                     </div>
                 </div>
                 <div>
