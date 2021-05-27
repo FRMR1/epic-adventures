@@ -68,8 +68,7 @@ export default function Home() {
                 <p>
                     When it comes to adrenaline, adventure and experiencing all
                     the elements, we want to connect you with the best! Check
-                    out some of our epic trips and exclusive combos that you
-                    won't forget.
+                    out some of our unforgettably epic trips.
                 </p>
                 <div className="cards">
                     <Card
@@ -83,22 +82,20 @@ export default function Home() {
                         slug="rafting"
                     />
                     <Card
-                        title="Skydiving"
-                        description="Experience the thrill of free falling at over 120 MPH and a view of the Rocky Mountains from 10,000 ft!"
+                        title="Skybridge"
+                        description="Golden's newest must-visit attraction includes a Treetop Village, outdoor BBQ and entertainment plaza."
                         bullets={[
-                            "Must be 19 years or older",
-                            "Goggles will be provided",
-                            "Duration: 2 hours (approx.)",
+                            "Listed price is for adult ticket",
+                            "Swing and zipline coming soon",
                         ]}
-                        price="320"
-                        slug="skydiving"
+                        price="37"
+                        slug="skybridge"
                     />
                     <Card
                         title="ATV Off-Road"
                         description="Venture off the beaten path and experience Golden’s back country up close on your own all-terrain vehicle."
                         bullets={[
                             "No experience required",
-                            "Fun for all skill levels",
                             "Drive or ride as passenger",
                         ]}
                         price="219"
@@ -116,24 +113,26 @@ export default function Home() {
             </TopDividerStyles>
             <SectionStyles>
                 <div className="locationLogos">
-                    <img
+                    {/* <img
                         src="/svg/epicbanff.svg"
                         width={isMobile ? "110" : "150"}
                         alt="Epic Banff"
-                    />
+                    /> */}
                     <img
                         src="/svg/epicgolden.svg"
-                        width={isMobile ? "110" : "150"}
+                        width={isMobile ? "120" : "180"}
                         alt="Epic Golden"
                     />
                 </div>
-                <h3>Serving Banff and Golden</h3>
+                <h3>The Adventure Capital of Canada</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Our adventures are located in beautiful Golden, BC. To get
+                    here is easy: Golden is located on the Trans-Canada Highway
+                    1 and Highway 95, and is less than 3 hours from Calgary and
+                    1.5 hours from the Town of Banff. With all of our
+                    experiences within a fifteen minute drive from the centre of
+                    town, you'll see why Golden is the Adventure Capital of
+                    Canada!
                 </p>
             </SectionStyles>
             <BottomDividerStyles>

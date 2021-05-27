@@ -34,12 +34,12 @@ export const SectionStyles = styled.div`
     .locationLogos {
         margin: 0 auto;
         text-align: center;
-        grid-template-columns: auto auto;
+        /* grid-template-columns: auto auto;
         max-width: 350px;
         display: grid;
-        gap: 3rem;
+        gap: 3rem; */
         margin-bottom: 4rem;
-        justify-items: center;
+        /* justify-items: center; */
     }
     .author {
         color: var(--secColor);
