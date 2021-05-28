@@ -28,13 +28,15 @@ const Combo = ({
                         objectFit="contain"
                         alt={title}
                     />
-                    <img src="/images/star.svg" width="100" class="star" />
-                    <div className="save">
-                        <span class="dollarSign">$</span>
-                        <span class="amount">{save}</span>
-                        {cents && <span class="cents">{cents}</span>}
-                        <span className="strikeout strikeLeft"></span>
-                        <span className="strikeout strikeRight"></span>
+                    <div className="priceStrikeout">
+                        <img src="/images/star.svg" width="100" class="star" />
+                        <div className="save">
+                            <span class="dollarSign">$</span>
+                            <span class="amount">{save}</span>
+                            {cents && <span class="cents">{cents}</span>}
+                            <span className="strikeout strikeLeft"></span>
+                            <span className="strikeout strikeRight"></span>
+                        </div>
                     </div>
                 </div>
                 <div>

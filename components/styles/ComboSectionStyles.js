@@ -133,10 +133,22 @@ export const ComboSectionStyles = styled.div`
                 margin-bottom: -30rem;
             }
         }
+        @media (max-width: 800px) {
+            .priceStrikeout {
+                position: relative;
+                top: 10;
+            }
+        }
         .star {
             position: relative;
             top: -40rem;
             left: -3rem;
+        }
+        @media (max-width: 800px) {
+            .star {
+                position: relative;
+                top: -30rem;
+            }
         }
         .save {
             position: relative;
@@ -157,6 +169,12 @@ export const ComboSectionStyles = styled.div`
                 font-size: 2rem;
                 left: -1.8rem;
             }
+            @media (max-width: 800px) {
+                .dollarSign {
+                    position: relative;
+                    top: 6rem;
+                }
+            }
             .amount {
                 font-size: 4rem;
                 letter-spacing: -0.3rem;
@@ -164,6 +182,12 @@ export const ComboSectionStyles = styled.div`
                 position: relative;
                 left: -2.1rem;
                 top: -2.4rem;
+            }
+            @media (max-width: 800px) {
+                .amount {
+                    position: relative;
+                    top: 7.5rem;
+                }
             }
             .cents {
                 font-size: 1.5rem;
@@ -181,6 +205,12 @@ export const ComboSectionStyles = styled.div`
                 position: relative;
                 left: -1rem;
                 top: -6.7rem;
+            }
+            @media (max-width: 800px) {
+                .strikeout {
+                    position: relative;
+                    top: 3.5rem;
+                }
             }
             .strikeLeft {
                 transform: rotate(-20deg) !important;
