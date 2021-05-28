@@ -2,6 +2,9 @@ import styled from "styled-components"
 
 export const ComboSectionStyles = styled.div`
     margin-bottom: -20rem;
+    p {
+        padding: 0 3rem;
+    }
     @media (max-width: 800px) {
         margin-top: 15rem;
     }
@@ -50,7 +53,6 @@ export const ComboSectionStyles = styled.div`
     }
     .comboSection {
         padding: 5rem 3rem 0;
-        /* top: -15rem; */
         position: relative;
     }
     .comboSectionInner {
@@ -91,9 +93,8 @@ export const ComboSectionStyles = styled.div`
         ul {
             list-style: none;
             position: relative;
-            /* top: -6rem; */
             padding: 0;
-            margin: 0;
+            margin: 2rem 0 1rem;
             li {
                 font-size: 1.3rem;
                 color: #707070;
@@ -108,8 +109,6 @@ export const ComboSectionStyles = styled.div`
             text-align: center;
             cursor: pointer;
             position: relative;
-            /* margin: 0 auto; */
-            /* top: -9rem; */
             background-color: var(--secColor);
             border-radius: 3px;
             width: 12rem;
@@ -222,7 +221,7 @@ export const ComboSectionStyles = styled.div`
         .priceContainer {
             text-align: left;
             position: relative;
-            margin-bottom: -4rem;
+            margin-bottom: -3rem;
             @media (max-width: 800px) {
                 /* text-align: center; */
             }

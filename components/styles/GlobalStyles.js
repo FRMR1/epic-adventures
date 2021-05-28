@@ -430,7 +430,7 @@ const GlobalStyles = createGlobalStyle`
         fill: #fafafa;
     }
     .negMargin {
-        margin-top: -18rem;
+        /* margin-top: -18rem; */
     }
 `
 export default GlobalStyles

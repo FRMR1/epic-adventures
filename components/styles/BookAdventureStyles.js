@@ -4,16 +4,15 @@ export const BookAdventureStyles = styled.div`
     background-color: ${({ grey }) => (grey ? "#f3f3f3" : "#fafafa")};
     padding: 0 3rem;
     margin: 0;
-    margin-bottom: -3rem;
+    margin-bottom: ${({ marginBottom }) => (marginBottom ? "20rem" : "-3rem")};
     position: relative;
-    top: -20rem;
     h3 {
         margin: 5rem 0 3rem;
         font-size: 5rem;
         color: var(--mainColor);
         letter-spacing: -0.1rem;
         text-align: center;
-        padding-top: 12rem;
+        padding-top: ${({ paddingTop }) => (paddingTop ? "15rem" : "0")};
         @media (max-width: 800px) {
             font-size: 3.5rem;
             margin-bottom: 5rem;

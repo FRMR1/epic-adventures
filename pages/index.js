@@ -130,7 +130,11 @@ export default function Home() {
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
-                <img src="/svg/divider-bottom2.svg" width="100%" />
+                <img
+                    src="/svg/divider-bottom2.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <ComboSectionStyles>
                 <h3>Epic Combos</h3>

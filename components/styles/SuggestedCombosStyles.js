@@ -1,12 +1,14 @@
 import styled from "styled-components"
 
 export const SuggestedCombosStyles = styled.div`
-    margin-bottom: 15rem;
+    /* margin-bottom: 15rem; */
+    margin-top: 25rem;
+
     padding: 0 3rem;
     position: relative;
-    top: 20rem;
+    /* top: 20rem; */
     @media (max-width: 800px) {
-        margin-top: 15rem;
+        margin-top: 25rem;
     }
     h3 {
         font-size: 4.5rem;

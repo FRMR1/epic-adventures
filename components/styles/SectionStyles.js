@@ -2,13 +2,12 @@ import styled from "styled-components"
 
 export const SectionStyles = styled.div`
     background-color: var(--mainColor);
-    /* padding: 0 3rem; */
-    padding: 10rem 3rem 11rem;
-    margin: 0;
     position: relative;
-    top: -18rem;
+    margin: 0;
+    margin-top: -18rem;
+    padding: 10rem 3rem 11rem;
     @media (max-width: 800px) {
-        top: -7rem;
+        margin-top: -7rem;
     }
     h3 {
         margin: 0;

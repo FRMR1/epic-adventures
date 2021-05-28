@@ -4,12 +4,14 @@ export const AdventureSectionStyles = styled.div`
     background-color: ${({ grey }) => (grey ? "#f3f3f3" : "#fafafa")};
     padding: 5rem 3rem 5rem;
     margin: 0;
-    margin-bottom: -30rem;
+    margin-bottom: -12rem;
     text-align: center;
     position: relative;
-    top: -18rem;
+    z-index: -1;
+    /* top: -18rem; */
+    margin-top: -18rem;
     @media (max-width: 800px) {
-        top: -12rem;
+        /* top: -12rem; */
     }
     h3 {
         margin: 0;
@@ -35,7 +37,7 @@ export const AdventureSectionStyles = styled.div`
         display: inline;
     }
     .twoCol {
-        margin-top: 8rem;
+        margin-top: 18rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 3rem;
@@ -43,6 +45,7 @@ export const AdventureSectionStyles = styled.div`
             display: flex;
             flex-wrap: wrap;
             flex-direction: column-reverse;
+            margin-top: 28rem;
         }
         h3 {
             font-size: 4rem;

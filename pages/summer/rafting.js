@@ -58,7 +58,7 @@ const Rafting = () => {
                     </p>
                 </div>
             </AdventureHeadingStyles>
-            <BottomDividerStyles>
+            <BottomDividerStyles marginTop="4.7rem">
                 <img src="/svg/divider-bottom.svg" width="100%" />
             </BottomDividerStyles>
             <BookAdventureStyles grey={false}>
@@ -115,7 +115,11 @@ const Rafting = () => {
                     </div>
                 </div>
             </BookAdventureStyles>
-            <BookAdventureStyles grey={true}>
+            <BookAdventureStyles
+                grey={true}
+                paddingTop={true}
+                marginBottom={true}
+            >
                 <Divider />
                 <h3>White Water Express</h3>
                 <div className="twoCol">
@@ -195,8 +199,12 @@ const Rafting = () => {
                 </div>
                 <p className="customerName">David, September 2020</p>
             </TestimonialStyles>
-            <BottomDividerStyles>
-                <img src="/svg/divider-bottom.svg" width="100%" />
+            <BottomDividerStyles marginTopMobile="0rem" marginTop="5rem">
+                <img
+                    src="/svg/divider-bottom.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <AdventureSectionStyles grey={false}>
                 <div className="twoCol">

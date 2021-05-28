@@ -9,7 +9,7 @@ const GoogleMap = ({ location, zoom, negMargin }) => {
     const center = { lat: lat, lng: lng }
 
     return (
-        <div className={`${negMargin && "negMargin"}`}>
+        <div>
             <div className="map" style={{ height: "400px", width: "100%" }}>
                 <GoogleMapReact
                     bootstrapURLKeys={{

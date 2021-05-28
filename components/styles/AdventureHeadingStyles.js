@@ -1,19 +1,18 @@
 import styled from "styled-components"
 
 export const AdventureHeadingStyles = styled.div`
-    margin-bottom: -5rem;
     background-color: var(--mainColor);
     position: relative;
-    top: -18rem;
-    padding: 10rem 5rem;
+    margin-bottom: -5rem;
+    margin-top: -18rem;
+    padding: 10rem 5rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     @media (max-width: 800px) {
         display: flex;
         flex-wrap: wrap;
-        /* margin-bottom: 0rem; */
-        top: -7rem;
-        padding: 5rem 1rem;
+        margin-top: -7rem;
+        padding: 1rem;
     }
     .imageContainer {
         transform: rotate(-7deg);
@@ -25,8 +24,8 @@ export const AdventureHeadingStyles = styled.div`
         padding: 3rem;
         @media (max-width: 800px) {
             position: relative;
-            top: -5rem;
-            margin-bottom: -10rem;
+            /* top: -5rem; */
+            /* margin-bottom: -10rem; */
         }
     }
     h2 {

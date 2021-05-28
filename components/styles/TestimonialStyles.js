@@ -4,11 +4,12 @@ export const TestimonialStyles = styled.div`
     margin-bottom: -5rem;
     background-color: var(--mainColor);
     position: relative;
-    top: -18rem;
+    /* top: -18rem; */
+    margin-top: -18rem;
     padding: 10rem 5rem;
     @media (max-width: 800px) {
-        top: -7rem;
-
+        /* top: -7rem; */
+        margin-top: -7rem;
         margin-bottom: 0rem;
     }
     h2 {
