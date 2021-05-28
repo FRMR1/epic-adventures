@@ -32,18 +32,18 @@ export default function Home() {
                 <title>Epic Adventures | Banff & Golden</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            {!isMobile && (
+            <div className="heroVideo">
                 <HeroVideoStyles>
                     <YoutubeEmbed />
                 </HeroVideoStyles>
-            )}
-            {isMobile && (
+            </div>
+            <div className="heroImage">
                 <HeroImageStyles image="combo9">
                     <div className="heroText">
                         <h2>Live epic.</h2>
                     </div>
                 </HeroImageStyles>
-            )}
+            </div>
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"

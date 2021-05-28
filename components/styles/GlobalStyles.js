@@ -42,6 +42,16 @@ const GlobalStyles = createGlobalStyle`
     .noOverflow {
         overflow-x: hidden;
     }
+    @media (max-width: 800px) {
+        .heroVideo {
+            display: none;
+        }
+    }
+    @media (min-width: 801px) {
+        .heroImage {
+            display: none;
+        }
+    }
     h1, h2, h3, h4, h5, h6 {
         font-family: "Futura Bold";
         letter-spacing: -.1rem;
