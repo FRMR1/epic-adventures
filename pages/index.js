@@ -45,7 +45,11 @@ export default function Home() {
                 </HeroImageStyles>
             )}
             <TopDividerStyles>
-                <img src="/svg/divider-top.svg" width="100%" />
+                <img
+                    src="/svg/divider-top.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </TopDividerStyles>
             <SectionStyles>
                 <h3>Trust and Let Go</h3>

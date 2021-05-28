@@ -28,7 +28,11 @@ const Rafting = () => {
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
-                <img src="/svg/divider-top.svg" width="100%" />
+                <img
+                    src="/svg/divider-top.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </TopDividerStyles>
             <AdventureHeadingStyles>
                 <div className="imageContainer">
@@ -111,7 +115,11 @@ const Rafting = () => {
                 </div>
             </BookAdventureStyles>
             <TopDividerStyles>
-                <img src="/svg/divider-top.svg" width="100%" />
+                <img
+                    src="/svg/divider-top.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </TopDividerStyles>
             <TestimonialStyles>
                 <p>
