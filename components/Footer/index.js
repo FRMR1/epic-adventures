@@ -52,10 +52,18 @@ const Footer = ({ year }) => {
                 </div>
                 <div className="policies">
                     <div className="social">
-                        <a href="#" target="_blank">
+                        <a
+                            href="https://www.facebook.com/epicgoldenbc"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <img src="/svg/facebook.svg" width="22" />
                         </a>
-                        <a href="#" target="_blank">
+                        <a
+                            href="https://www.instagram.com/epicgolden_bc/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <img src="/svg/instagram.svg" width="22" />
                         </a>
                     </div>
