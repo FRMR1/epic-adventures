@@ -3,6 +3,8 @@ import styled from "styled-components"
 export const FooterStyles = styled.div`
     height: 750px;
     background-color: #303030;
+    position: relative;
+    z-index: 1;
     .footerInner {
         display: grid;
         grid-template-columns: 4fr 2fr 2fr 3fr;

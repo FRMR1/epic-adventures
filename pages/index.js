@@ -112,11 +112,6 @@ export default function Home() {
             </TopDividerStyles>
             <SectionStyles>
                 <div className="locationLogos">
-                    {/* <img
-                        src="/svg/epicbanff.svg"
-                        width={isMobile ? "110" : "150"}
-                        alt="Epic Banff"
-                    /> */}
                     <img
                         src="/svg/epicgolden.svg"
                         width={isMobile ? "120" : "180"}

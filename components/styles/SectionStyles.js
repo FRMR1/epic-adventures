@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const SectionStyles = styled.div`
     background-color: var(--mainColor);
+    /* padding: 0 3rem; */
     padding: 10rem 3rem 11rem;
     margin: 0;
     position: relative;

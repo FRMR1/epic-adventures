@@ -1,11 +1,13 @@
 import styled from "styled-components"
 
 export const AboutSectionStyles = styled.div`
-    background-color: ${(props) => (props.grey ? "#f3f3f3" : "#fafafa")};
+    background-color: ${({ grey }) => (grey ? "#f3f3f3" : "#fafafa")};
     position: relative;
-    top: -16rem;
+    z-index: -1;
+    margin-top: 0;
     padding: 8rem 3rem 0;
-    /* margin-bottom: 18rem; */
+    margin-bottom: ${({ bottom }) => (bottom ? "-50rem" : "0")};
+    padding-bottom: ${({ bottom }) => (bottom ? "50rem" : "0")};
     @media (max-width: 800px) {
         display: flex;
         flex-wrap: wrap;
@@ -15,6 +17,7 @@ export const AboutSectionStyles = styled.div`
     h3 {
         margin: 0;
         font-size: 5rem;
+        margin-top: 10rem;
         color: var(--mainColor);
         letter-spacing: -0.1rem;
         text-align: center;
@@ -104,13 +107,6 @@ export const AboutSectionStyles = styled.div`
             @media (max-width: 800px) {
                 padding: 0;
             }
-        }
-    }
-    .bottomSection {
-        margin-bottom: -52rem;
-        padding: 12rem 0 30rem;
-        @media (max-width: 800px) {
-            padding-top: 5rem;
         }
     }
 `

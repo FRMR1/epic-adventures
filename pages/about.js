@@ -37,7 +37,9 @@ const About = () => {
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
-                <img src="/svg/divider-bottom.svg" width="100%" />
+                <div className="inner">
+                    <img src="/svg/divider-bottom.svg" width="100%" />
+                </div>
             </BottomDividerStyles>
             <AboutSectionStyles>
                 <div>
@@ -76,7 +78,7 @@ const About = () => {
                     </div>
                 </div> */}
             </AboutSectionStyles>
-            <AboutSectionStyles grey={true}>
+            <AboutSectionStyles grey={true} bottom={true}>
                 <Divider />
                 <div className="bottomSection">
                     <h3 className="center">About Golden</h3>

@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const ReadyToBookStyles = styled.div`
     position: relative;
+    z-index: 1;
     top: 16rem;
     z-index: 5;
     background-color: #fff;

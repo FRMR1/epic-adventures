@@ -22,7 +22,7 @@ const Adventures = () => {
             </Head>
             <HeroImageStyles image="rafting5">
                 <div className="heroText">
-                    <h2>Summer Adventures.</h2>
+                    <h2>Summer.</h2>
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
