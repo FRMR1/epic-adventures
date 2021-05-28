@@ -53,6 +53,11 @@ export const ComboSectionStyles = styled.div`
         padding: 5rem 3rem 0;
         position: relative;
     }
+    @media (max-width: 800px) {
+        .comboDesc {
+            margin-top: 5rem;
+        }
+    }
     .comboSectionInner {
         display: grid;
         margin: 0 auto;

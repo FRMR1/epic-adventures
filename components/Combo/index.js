@@ -39,7 +39,7 @@ const Combo = ({
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="comboDesc">
                     <span className="number">{number}</span>
                     <h4>{title}</h4>
                     <p>{description}</p>
