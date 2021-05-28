@@ -2,11 +2,9 @@ import styled from "styled-components"
 
 export const ComboSectionStyles = styled.div`
     margin-bottom: -20rem;
-    p {
-        padding: 0 3rem;
-    }
     @media (max-width: 800px) {
         margin-top: 15rem;
+        margin-bottom: -10rem;
     }
     .grey {
         background-color: #f3f3f3;
@@ -25,10 +23,10 @@ export const ComboSectionStyles = styled.div`
     }
     p {
         position: relative;
-        /* top: -20rem; */
         text-align: center;
         margin: 0 auto;
         font-size: 1.7rem;
+        padding: 0 3rem;
         color: #b2b2b2;
         max-width: 70rem;
         @media (max-width: 800px) {
@@ -85,7 +83,7 @@ export const ComboSectionStyles = styled.div`
         }
         p {
             position: relative;
-            /* top: -8rem; */
+            padding: 0;
             font-size: 1.4rem;
             color: #b2b2b2;
             text-align: left;

@@ -60,7 +60,11 @@ export default function Home() {
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
-                <img src="/svg/divider-bottom.svg" width="100%" />
+                <img
+                    src="/svg/divider-bottom.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <CardSectionStyles>
                 <h3>Experience Epic Adventures</h3>
@@ -108,7 +112,11 @@ export default function Home() {
                 </Link>
             </CardSectionStyles>
             <TopDividerStyles>
-                <img src="/svg/divider-top2.svg" width="100%" />
+                <img
+                    src="/svg/divider-top2.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </TopDividerStyles>
             <SectionStyles>
                 <div className="locationLogos">
@@ -242,7 +250,11 @@ export default function Home() {
             </ComboSectionStyles>
             <ReadyToBook />
             <FooterDividerStyles>
-                <img src="/svg/divider-top2.svg" width="100%" />
+                <img
+                    src="/svg/divider-top2.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </FooterDividerStyles>
         </>
     )

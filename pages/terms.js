@@ -52,7 +52,11 @@ const Terms = () => {
                 </p>
             </PolicyStyles>
             <FooterDividerStyles>
-                <img src="/svg/divider-top2.svg" width="100%" />
+                <img
+                    src="/svg/divider-top2.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </FooterDividerStyles>
         </>
     )

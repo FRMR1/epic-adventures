@@ -52,8 +52,12 @@ const Skydiving = () => {
                     </p>
                 </div>
             </AdventureHeadingStyles>
-            <BottomDividerStyles>
-                <img src="/svg/divider-bottom.svg" width="100%" />
+            <BottomDividerStyles marginTop="4.7rem">
+                <img
+                    src="/svg/divider-bottom.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <BookAdventureStyles>
                 <h3>Tandem Skydive</h3>
@@ -120,7 +124,11 @@ const Skydiving = () => {
                 <p className="customerName">Mikey O., August 2020</p>
             </TestimonialStyles>
             <BottomDividerStyles>
-                <img src="/svg/divider-bottom.svg" width="100%" />
+                <img
+                    src="/svg/divider-bottom.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <AdventureSectionStyles>
                 <div className="twoCol">
@@ -219,7 +227,11 @@ const Skydiving = () => {
             </SuggestedCombosStyles>
             <ReadyToBook />
             <FooterDividerStyles>
-                <img src="/svg/divider-top2.svg" width="100%" />
+                <img
+                    src="/svg/divider-top2.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </FooterDividerStyles>
         </>
     )

@@ -13,6 +13,8 @@ export const BookAdventureStyles = styled.div`
         letter-spacing: -0.1rem;
         text-align: center;
         padding-top: ${({ paddingTop }) => (paddingTop ? "15rem" : "0")};
+        z-index: 3;
+        position: relative;
         @media (max-width: 800px) {
             font-size: 3.5rem;
             margin-bottom: 5rem;

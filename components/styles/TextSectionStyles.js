@@ -3,9 +3,11 @@ import styled from "styled-components"
 export const TextSectionStyles = styled.div`
     position: relative;
     padding: 0 3rem;
-    top: -10rem;
     margin-bottom: -8rem;
     margin-top: -20rem;
+    @media (max-width: 800px) {
+        margin-top: -10rem;
+    }
     h3 {
         text-align: center;
         font-size: 5rem;

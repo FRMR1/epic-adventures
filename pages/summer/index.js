@@ -40,7 +40,11 @@ const Adventures = () => {
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
-                <img src="/svg/divider-bottom.svg" width="100%" />
+                <img
+                    src="/svg/divider-bottom.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <AdventuresStyles>
                 <div className="heading">
@@ -135,7 +139,11 @@ const Adventures = () => {
             </TextSectionStyles>
             <ReadyToBook />
             <FooterDividerStyles>
-                <img src="/svg/divider-top2.svg" width="100%" />
+                <img
+                    src="/svg/divider-top2.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </FooterDividerStyles>
         </>
     )

@@ -52,8 +52,12 @@ const Swing = () => {
                     </p>
                 </div>
             </AdventureHeadingStyles>
-            <BottomDividerStyles>
-                <img src="/svg/divider-bottom.svg" width="100%" />
+            <BottomDividerStyles marginTop="4.7rem">
+                <img
+                    src="/svg/divider-bottom.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <BookAdventureStyles>
                 <h3>ATV Half Day Trip</h3>
@@ -136,7 +140,11 @@ const Swing = () => {
                 <p className="customerName">Tiffany T., August 2019</p>
             </TestimonialStyles>
             <BottomDividerStyles>
-                <img src="/svg/divider-bottom.svg" width="100%" />
+                <img
+                    src="/svg/divider-bottom.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <AdventureSectionStyles>
                 <div className="twoCol">
@@ -230,7 +238,11 @@ const Swing = () => {
             </SuggestedCombosStyles>
             <ReadyToBook />
             <FooterDividerStyles>
-                <img src="/svg/divider-top2.svg" width="100%" />
+                <img
+                    src="/svg/divider-top2.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </FooterDividerStyles>
         </>
     )

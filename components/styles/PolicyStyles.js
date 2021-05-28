@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const PolicyStyles = styled.div`
     background-color: #f0f0f0;
     position: relative;
-    /* top: -16rem; */
+    z-index: -1;
     padding: 15rem 3rem 25rem;
     margin-bottom: -18rem;
     @media (max-width: 800px) {

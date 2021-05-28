@@ -3,12 +3,12 @@ import styled from "styled-components"
 export const AdventuresStyles = styled.div`
     margin-bottom: -5rem;
     position: relative;
-    top: -20rem;
+    margin-top: -10rem;
     .grey {
         background-color: #f3f3f3;
     }
     @media (max-width: 800px) {
-        margin-top: 15rem;
+        margin-top: 0rem;
     }
     h3 {
         font-size: 4.5rem;

@@ -59,7 +59,11 @@ const Rafting = () => {
                 </div>
             </AdventureHeadingStyles>
             <BottomDividerStyles marginTop="4.7rem">
-                <img src="/svg/divider-bottom.svg" width="100%" />
+                <img
+                    src="/svg/divider-bottom.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </BottomDividerStyles>
             <BookAdventureStyles grey={false}>
                 <h3>White Water Discovery</h3>
@@ -301,7 +305,11 @@ const Rafting = () => {
             </SuggestedCombosStyles>
             <ReadyToBook />
             <FooterDividerStyles>
-                <img src="/svg/divider-top2.svg" width="100%" />
+                <img
+                    src="/svg/divider-top2.svg"
+                    width="101%"
+                    style={{ marginLeft: "-.1rem" }}
+                />
             </FooterDividerStyles>
         </div>
     )
