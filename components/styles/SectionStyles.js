@@ -4,10 +4,10 @@ export const SectionStyles = styled.div`
     background-color: var(--mainColor);
     position: relative;
     margin: 0;
-    margin-top: -18rem;
+    margin-top: -2rem;
     padding: 10rem 3rem 11rem;
     @media (max-width: 800px) {
-        margin-top: -7rem;
+        margin-top: -1rem;
     }
     h3 {
         margin: 0;

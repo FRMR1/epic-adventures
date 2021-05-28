@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const CardSectionStyles = styled.div`
-    margin-bottom: 17rem;
+    margin-bottom: 25rem;
     padding: 0 3rem;
     @media (max-width: 800px) {
         margin-top: 15rem;

@@ -44,7 +44,7 @@ export default function Home() {
                     </div>
                 </HeroImageStyles>
             </div>
-            <TopDividerStyles>
+            <TopDividerStyles home={true}>
                 <img
                     src="/svg/divider-top.svg"
                     width="101%"

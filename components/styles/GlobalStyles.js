@@ -378,7 +378,7 @@ const GlobalStyles = createGlobalStyle`
         width: 100vw;
         height: 100vh;
         background-color: var(--mainColor);
-        left: -200%;
+        left: -200vw;
         transition: left 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
         top: 0;
         margin: 0;

@@ -4,7 +4,7 @@ export const AdventureHeadingStyles = styled.div`
     background-color: var(--mainColor);
     position: relative;
     margin-bottom: -5rem;
-    margin-top: -18rem;
+    margin-top: -2rem;
     padding: 10rem 5rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
