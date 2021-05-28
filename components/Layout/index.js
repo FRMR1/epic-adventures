@@ -24,9 +24,11 @@ const Layout = ({ children }) => {
     return (
         <>
             <GlobalStyles isMobileMenuOpen={isOpen} />
-            <Nav />
-            <main>{children}</main>
-            <Footer year={year} />
+            <div className="noOverflow">
+                <Nav />
+                <main>{children}</main>
+                <Footer year={year} />
+            </div>
         </>
     )
 }
