@@ -274,6 +274,11 @@ const GlobalStyles = createGlobalStyle`
                 margin-left: 4rem;
             }
         }
+        @media (max-width: 800px) {
+            .navRight {
+                display: none;
+            }
+        }
         .dropdown {
             position: relative;
             display: inline-block;
@@ -307,6 +312,16 @@ const GlobalStyles = createGlobalStyle`
             /* width: 100%; */
             /* justify-content: center; */
             font-size: 1.5rem;
+        }
+        @media (max-width: 800px) {
+            .hamburgerMenu {
+                display: block;
+            }
+        }
+        @media (min-width: 801px) {
+            .hamburgerMenu {
+                display: none;
+            }
         }
         .hamburgerMenu {
             :hover {
@@ -350,7 +365,7 @@ const GlobalStyles = createGlobalStyle`
         width: 100vw;
         height: 100vh;
         background-color: var(--mainColor);
-        left: -100%;
+        left: -200%;
         transition: left 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
         top: 0;
         margin: 0;

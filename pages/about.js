@@ -25,6 +25,7 @@ const About = () => {
                 <img src="/svg/divider-top.svg" width="100%" />
             </TopDividerStyles>
             <SectionStyles>
+                <h3>Trust and Let Go</h3>
                 <p className="quote">
                     “Happiness and freedom begin with a clear understanding of
                     one principle: some things are within our control, and some
