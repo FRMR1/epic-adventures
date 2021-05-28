@@ -21,7 +21,7 @@ const Adventure = ({ number, title, reverse, description, image, slug }) => {
                         alt={title}
                     />
                 </div>
-                <div>
+                <div className="adventureDesc">
                     <span className="number">{number}</span>
                     <h4>{title}</h4>
                     <p>{description}</p>

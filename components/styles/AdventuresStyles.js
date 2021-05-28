@@ -48,6 +48,11 @@ export const AdventuresStyles = styled.div`
             }
         }
     }
+    @media (max-width: 800px) {
+        .adventureDesc {
+            margin-top: 5rem;
+        }
+    }
     .adventureSection {
         padding: 5rem 3rem 0;
         top: -15rem;
