@@ -5,6 +5,7 @@ export const TextSectionStyles = styled.div`
     padding: 0 3rem;
     top: -10rem;
     margin-bottom: -8rem;
+    margin-top: -20rem;
     h3 {
         text-align: center;
         font-size: 5rem;

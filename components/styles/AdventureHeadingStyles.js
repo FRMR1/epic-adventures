@@ -13,6 +13,7 @@ export const AdventureHeadingStyles = styled.div`
         flex-wrap: wrap;
         /* margin-bottom: 0rem; */
         top: -7rem;
+        padding: 5rem 1rem;
     }
     .imageContainer {
         transform: rotate(-7deg);
@@ -40,7 +41,7 @@ export const AdventureHeadingStyles = styled.div`
             line-height: 4rem;
             text-align: center;
             position: relative;
-            top: -15rem;
+            /* top: -15rem; */
         }
     }
     p {

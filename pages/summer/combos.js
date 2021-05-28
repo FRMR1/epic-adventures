@@ -1,15 +1,11 @@
 import Head from "next/head"
-import Link from "next/link"
 import Combo from "../../components/Combo"
-// import Divider from "../../components/Divider"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
 import { ComboSectionStyles } from "../../components/styles/ComboSectionStyles"
-import { TextSectionStyles } from "../../components/styles/TextSectionStyles"
-import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
 
 const Combos = ({}) => {
