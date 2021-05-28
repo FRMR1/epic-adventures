@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const CardSectionStyles = styled.div`
-    margin-bottom: 25rem;
+    margin-bottom: 17rem;
     padding: 0 3rem;
     @media (max-width: 800px) {
         margin-top: 15rem;
@@ -10,17 +10,15 @@ export const CardSectionStyles = styled.div`
         font-size: 4.5rem;
         text-align: center;
         position: relative;
-        top: -15rem;
         line-height: 4rem;
         margin-bottom: 8rem;
         color: var(--mainColor);
         @media (max-width: 800px) {
-            font-size: 3rem;
+            font-size: 4rem;
         }
     }
     p {
         position: relative;
-        top: -20rem;
         text-align: center;
         margin: 0 auto;
         font-size: 1.7rem;
@@ -28,7 +26,6 @@ export const CardSectionStyles = styled.div`
         max-width: 70rem;
         @media (max-width: 800px) {
             font-size: 1.4rem;
-            /* margin-bottom: 5rem; */
         }
     }
     .cards {
@@ -37,7 +34,7 @@ export const CardSectionStyles = styled.div`
         max-width: 1000px;
         grid-template-columns: 1fr 1fr 1fr;
         position: relative;
-        top: -10rem;
+        margin-top: 10rem;
         gap: 7%;
         @media (max-width: 800px) {
             display: flex;
@@ -108,9 +105,7 @@ export const CardSectionStyles = styled.div`
             .button {
                 text-align: center;
                 cursor: pointer;
-                /* position: relative; */
                 margin: 0 auto;
-                /* top: -12rem; */
                 background-color: var(--secColor);
                 border-radius: 3px;
                 width: 12rem;
@@ -128,7 +123,6 @@ export const CardSectionStyles = styled.div`
         text-align: center;
         cursor: pointer;
         position: relative;
-        /* top: -6rem; */
         background-color: var(--secColor);
         border-radius: 3px;
         width: 12rem;
@@ -141,6 +135,6 @@ export const CardSectionStyles = styled.div`
         }
     }
     .viewAll {
-        margin: -4rem auto;
+        margin: 5rem auto 0;
     }
 `

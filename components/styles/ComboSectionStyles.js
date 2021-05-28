@@ -12,7 +12,7 @@ export const ComboSectionStyles = styled.div`
         font-size: 4.5rem;
         text-align: center;
         position: relative;
-        top: -15rem;
+        /* top: -15rem; */
         color: var(--mainColor);
         @media (max-width: 800px) {
             font-size: 3.5rem;
@@ -22,7 +22,7 @@ export const ComboSectionStyles = styled.div`
     }
     p {
         position: relative;
-        top: -20rem;
+        /* top: -20rem; */
         text-align: center;
         margin: 0 auto;
         font-size: 1.7rem;
@@ -50,7 +50,7 @@ export const ComboSectionStyles = styled.div`
     }
     .comboSection {
         padding: 5rem 3rem 0;
-        top: -15rem;
+        /* top: -15rem; */
         position: relative;
     }
     .comboSectionInner {
@@ -76,14 +76,14 @@ export const ComboSectionStyles = styled.div`
         }
         h4 {
             font-size: 4rem;
+            margin-top: 0;
             position: relative;
-            top: -5rem;
             color: var(--mainColor);
             line-height: 4rem;
         }
         p {
             position: relative;
-            top: -8rem;
+            /* top: -8rem; */
             font-size: 1.4rem;
             color: #b2b2b2;
             text-align: left;
@@ -91,7 +91,7 @@ export const ComboSectionStyles = styled.div`
         ul {
             list-style: none;
             position: relative;
-            top: -6rem;
+            /* top: -6rem; */
             padding: 0;
             margin: 0;
             li {
@@ -109,7 +109,7 @@ export const ComboSectionStyles = styled.div`
             cursor: pointer;
             position: relative;
             /* margin: 0 auto; */
-            top: -9rem;
+            /* top: -9rem; */
             background-color: var(--secColor);
             border-radius: 3px;
             width: 12rem;
@@ -222,7 +222,7 @@ export const ComboSectionStyles = styled.div`
         .priceContainer {
             text-align: left;
             position: relative;
-            top: -6rem;
+            margin-bottom: -4rem;
             @media (max-width: 800px) {
                 /* text-align: center; */
             }
@@ -253,7 +253,7 @@ export const ComboSectionStyles = styled.div`
         text-align: center;
         cursor: pointer;
         position: relative;
-        top: -6rem;
+        /* top: -6rem; */
         background-color: var(--secColor);
         border-radius: 3px;
         width: 12rem;
@@ -266,6 +266,6 @@ export const ComboSectionStyles = styled.div`
         }
     }
     .viewAll {
-        margin: -4rem auto 10rem;
+        margin: 10rem auto;
     }
 `
