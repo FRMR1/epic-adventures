@@ -11,7 +11,7 @@ export const AdventureHeadingStyles = styled.div`
     @media (max-width: 800px) {
         display: flex;
         flex-wrap: wrap;
-        margin-top: -7rem;
+        margin-top: -1rem;
         padding: 1rem;
     }
     .imageContainer {

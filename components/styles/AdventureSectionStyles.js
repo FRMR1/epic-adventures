@@ -9,9 +9,9 @@ export const AdventureSectionStyles = styled.div`
     position: relative;
     z-index: -1;
     /* top: -18rem; */
-    margin-top: -18rem;
+    margin-top: -14rem;
     @media (max-width: 800px) {
-        /* top: -12rem; */
+        margin-top: -22rem;
     }
     h3 {
         margin: 0;
