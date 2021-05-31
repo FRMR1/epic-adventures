@@ -224,6 +224,7 @@ const Combos = ({}) => {
                         "6 hours (approx.)",
                     ]}
                 />
+                <div style={{ marginBottom: "10rem" }}></div>
             </ComboSectionStyles>
             <ReadyToBook />
             <FooterDividerStyles>
