@@ -101,7 +101,7 @@ const Rafting = () => {
                         </ul>
                         <div className="priceContainer">
                             <span className="dollarSign">$</span>
-                            <span className="amount">37</span>
+                            <span className="amount">34</span>
                             <span className="currency">CAD</span>
                         </div>
                         <Link href="https://epicadventuregroup.rezdy.com/catalog/434371/golden-skybridge">
@@ -200,7 +200,7 @@ const Rafting = () => {
                             "Must be 6 years or older",
                         ]}
                         image="combo5"
-                        price="242"
+                        price="239"
                         url="https://epicadventuregroup.rezdy.com/444981/ridge-rider-atv-golden-skybridge"
                     />
                     <SuggestedCombo
@@ -212,7 +212,7 @@ const Rafting = () => {
                             "Must be 19 years or older",
                         ]}
                         image="combo7"
-                        price="342"
+                        price="348"
                         url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
                     />
                     <SuggestedCombo
@@ -223,7 +223,7 @@ const Rafting = () => {
                             "6 hours (approx.)",
                             "Must be 12 years or older",
                         ]}
-                        price="182"
+                        price="179"
                         image="combo11"
                         url="https://epicadventuregroup.rezdy.com/444975/canyon-fever-raft-full-day-golden-skybridge"
                     />

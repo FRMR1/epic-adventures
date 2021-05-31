@@ -204,7 +204,7 @@ const Skydiving = () => {
                             "Must be 19 years or older",
                         ]}
                         image="combo7"
-                        price="351"
+                        price="348"
                         url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
                     />
                     <SuggestedCombo

@@ -109,8 +109,8 @@ const Combos = ({}) => {
                     title="Ridge Rider"
                     description="Off-road ATV through the stunning Rocky Mountains with river crossings, dense mountain forests and maybe even encounter the local wildlife. Then head over to Golden's newest adventure with trails, suspension bridges and treetop village."
                     reverse={false}
-                    price="242"
-                    save="256"
+                    price="239"
+                    save="253"
                     url="https://epicadventuregroup.rezdy.com/444981/ridge-rider-atv-golden-skybridge"
                     image="/images/combo5.jpg"
                     bullets={[
@@ -154,8 +154,8 @@ const Combos = ({}) => {
                     title="Stairway to Heaven"
                     description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
                     reverse={true}
-                    price="351"
-                    save="366"
+                    price="348"
+                    save="363"
                     url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
                     image="/images/combo7.jpg"
                     bullets={[
@@ -199,8 +199,8 @@ const Combos = ({}) => {
                     title="Canyon Fever"
                     description="Raft Western Canada's epic Kicking Horse River, exhilarating rapids, river views and provided lunch. Then head over to the Golden's newest adventure with trails, suspension bridges and a treetop village."
                     reverse={false}
-                    price="182"
-                    save="196"
+                    price="179"
+                    save="193"
                     url="https://epicadventuregroup.rezdy.com/444975/canyon-fever-raft-full-day-golden-skybridge"
                     image="/images/combo11.jpg"
                     bullets={[
@@ -214,8 +214,8 @@ const Combos = ({}) => {
                     title="The Sights"
                     description="Get epic views from both sides of the valley! Enjoy the trails, suspension bridges and tree-top village of the NEW Golden Skybridge and a gondola ride to 7,700 ft for panoramic views you won't forget. "
                     reverse={true}
-                    price="78"
-                    save="83"
+                    price="75"
+                    save="80"
                     url="https://epicadventuregroup.rezdy.com/443916/the-sights-golden-skybridge-and-gondola"
                     image="/images/combo12.jpg"
                     cents=".00"

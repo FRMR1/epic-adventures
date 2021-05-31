@@ -95,7 +95,7 @@ export default function Home() {
                             "Listed price is for adult ticket",
                             "Swing and zipline coming soon",
                         ]}
-                        price="37"
+                        price="34"
                         slug="skybridge"
                     />
                     <Card
@@ -221,8 +221,8 @@ export default function Home() {
                     title="Ridge Rider"
                     description="Off-road ATV through the stunning Rocky Mountains with river crossings, dense mountain forests and maybe even encounter the local wildlife. Then head over to Golden's newest adventure with trails, suspension bridges and treetop village."
                     reverse={false}
-                    price="242"
-                    save="256"
+                    price="239"
+                    save="253"
                     image="/images/combo5.jpg"
                     url="https://epicadventuregroup.rezdy.com/444981/ridge-rider-atv-golden-skybridge"
                     bullets={[
