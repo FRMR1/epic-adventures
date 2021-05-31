@@ -161,9 +161,9 @@ export default function Home() {
                     title="Epic Golden Pass"
                     description="Got a couple days? Why not do it all! Raft the Kicking Horse River, experience human flight and get dusty off-road on your own ATV!"
                     reverse={false}
-                    price="656"
+                    price="665"
                     url="https://epicadventuregroup.rezdy.com/443894/epic-golden-pass-raft-skydive-atv-2day"
-                    save="698"
+                    save="707"
                     image="/images/combo1.jpg"
                     bullets={[
                         "Includes rafting, skydiving and ATV off-road (2 days)",
@@ -191,9 +191,9 @@ export default function Home() {
                     title="Dirt Dive"
                     description="Get dusty 4x4 on your own ATV with river crossings, dense mountain forests and maybe even an encounter with local wildlife. Then test your ability to fly with a skydive over the beautiful town of Golden."
                     reverse={false}
-                    price="509"
+                    price="518"
                     url="https://epicadventuregroup.rezdy.com/443897/dirt-dive-atv-skydive-combo"
-                    save="539"
+                    save="548"
                     image="/images/combo3.jpg"
                     bullets={[
                         "Includes ATV off-road and skydiving",
@@ -236,8 +236,8 @@ export default function Home() {
                     title="Double Trouble"
                     description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
                     reverse={true}
-                    price="387"
-                    save="419"
+                    price="396"
+                    save="428"
                     image="/images/combo6.jpg"
                     url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
                     bullets={[

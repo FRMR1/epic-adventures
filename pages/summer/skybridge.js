@@ -65,7 +65,7 @@ const Rafting = () => {
                     style={{ marginLeft: "-.1rem" }}
                 />
             </BottomDividerStyles>
-            <BookAdventureStyles>
+            <BookAdventureStyles marginBottom={true}>
                 <h3>Golden Skybridge</h3>
                 <div className="twoCol">
                     <div className="left">

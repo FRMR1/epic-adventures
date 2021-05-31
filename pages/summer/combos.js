@@ -49,8 +49,8 @@ const Combos = ({}) => {
                     title="Epic Golden Pass"
                     description="Got a couple days? Why not do it all! Raft the Kicking Horse River, experience human flight and get dusty off-road on your own ATV!"
                     reverse={false}
-                    price="656"
-                    save="698"
+                    price="665"
+                    save="707"
                     url="https://epicadventuregroup.rezdy.com/443894/epic-golden-pass-raft-skydive-atv-2day"
                     image="/images/combo1.jpg"
                     bullets={[
@@ -79,8 +79,8 @@ const Combos = ({}) => {
                     title="Dirt Dive"
                     description="Get dusty 4x4 on your own ATV with river crossings, dense mountain forests and maybe even an encounter with local wildlife. Then test your ability to fly with a skydive over the beautiful town of Golden."
                     reverse={false}
-                    price="509"
-                    save="539"
+                    price="518"
+                    save="548"
                     image="/images/combo3.jpg"
                     url="https://epicadventuregroup.rezdy.com/443897/dirt-dive-atv-skydive-combo"
                     bullets={[
@@ -124,8 +124,8 @@ const Combos = ({}) => {
                     title="Double Trouble"
                     description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
                     reverse={true}
-                    price="387"
-                    save="419"
+                    price="396"
+                    save="428"
                     url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
                     image="/images/combo6.jpg"
                     bullets={[
@@ -139,8 +139,8 @@ const Combos = ({}) => {
                     title="Top of the World"
                     description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
                     reverse={false}
-                    price="351"
-                    save="366"
+                    price="360"
+                    save="375"
                     url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
                     image="/images/combo8.jpg"
                     bullets={[
@@ -154,8 +154,8 @@ const Combos = ({}) => {
                     title="Stairway to Heaven"
                     description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
                     reverse={true}
-                    price="342"
-                    save="357"
+                    price="351"
+                    save="366"
                     url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
                     image="/images/combo7.jpg"
                     bullets={[
@@ -169,8 +169,8 @@ const Combos = ({}) => {
                     title="Don't Tell Mom!"
                     description="Raft the Kicking Horse River and experience nature's highway with white knuckle fun with provided lunch: it's a Golden classic. Then finish the day experiencing human flight and a jump above the clouds at 10,000 ft above the town of Golden."
                     reverse={false}
-                    price="445"
-                    save="479"
+                    price="454"
+                    save="488"
                     url="https://epicadventuregroup.rezdy.com/444202/dont-tell-mom-raft-full-day-skydive-combo"
                     image="/images/combo9.jpg"
                     bullets={[

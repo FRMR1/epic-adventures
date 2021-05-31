@@ -204,7 +204,7 @@ const Skydiving = () => {
                             "Must be 19 years or older",
                         ]}
                         image="combo7"
-                        price="342"
+                        price="351"
                         url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
                     />
                     <SuggestedCombo
@@ -215,7 +215,7 @@ const Skydiving = () => {
                             "6 hours (approx.)",
                             "Must be 19 years or older",
                         ]}
-                        price="351"
+                        price="360"
                         image="combo8"
                         url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
                     />
@@ -227,7 +227,7 @@ const Skydiving = () => {
                             "6 hours (approx.)",
                             "Must be 19 years or older",
                         ]}
-                        price="387"
+                        price="396"
                         image="combo6"
                         url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
                     />

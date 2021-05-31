@@ -63,7 +63,7 @@ const Swing = () => {
                     style={{ marginLeft: "-.1rem" }}
                 />
             </BottomDividerStyles>
-            <BookAdventureStyles>
+            <BookAdventureStyles marginBottom={true}>
                 <h3>ATV Half Day Trip</h3>
                 <div className="twoCol">
                     <div className="left">

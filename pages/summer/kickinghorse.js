@@ -157,7 +157,7 @@ const Rafting = () => {
                 </div>
                 <Divider2 />
             </BookAdventureStyles>
-            <BookAdventureStyles>
+            <BookAdventureStyles marginBottom={true}>
                 <h3>Mountain Bike Pass</h3>
                 <div className="twoCol">
                     <div className="left">
