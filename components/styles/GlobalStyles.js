@@ -37,6 +37,8 @@ const GlobalStyles = createGlobalStyle`
         line-height:2;
         background-color: #fafafa;
         height: 100%;
+        overflow: ${({ isMobileMenuOpen }) =>
+            isMobileMenuOpen ? "hidden" : "visible"};
 
     }
     .noOverflow {
@@ -416,7 +418,7 @@ const GlobalStyles = createGlobalStyle`
                 font-family: "Futura Bold";
                 color: #eee;
                 position: relative;
-                bottom: -4rem;
+                bottom: -2.5rem;
             }
             li.mobileTel a {
                 font-size: 2.5rem;
