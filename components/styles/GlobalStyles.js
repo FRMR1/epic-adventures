@@ -266,7 +266,7 @@ const GlobalStyles = createGlobalStyle`
         span {
             cursor: default;
         }
-        a:hover, .dropDownLink:hover, span:hover {
+        a:hover, .dropDownLink:hover {
             text-decoration: none;
             color: var(--secColor);
         }
@@ -290,6 +290,9 @@ const GlobalStyles = createGlobalStyle`
         .topNavPhone {
             position: absolute;
             top: 0.5rem;
+            a:hover {
+                color: var(--secColor);
+            }
             span, a {
                 font-family: Roboto Mono, --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 font-size: 1.4rem;
@@ -407,6 +410,16 @@ const GlobalStyles = createGlobalStyle`
                         color: var(--secColor);
                     }
                 }
+            }
+            li.mobileTel span {
+                font-size: 2.5rem;
+                font-family: "Futura Bold";
+                color: #eee;
+                position: relative;
+                bottom: -4rem;
+            }
+            li.mobileTel a {
+                font-size: 2.5rem;
             }
         }
     }
