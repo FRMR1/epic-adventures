@@ -1,5 +1,4 @@
-import Document from "next/document"
-import { Head } from "next/document"
+import Document, { Html, Head, Main, NextScript } from "next/document"
 import { ServerStyleSheet } from "styled-components"
 
 export default class MyDocument extends Document {
@@ -30,23 +29,29 @@ export default class MyDocument extends Document {
     }
     render() {
         return (
-            <Head>
-                <script
-                    async
-                    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
-                />
+            <Html lang={this.props.lang || "en"}>
+                <Head>
+                    <script
+                        async
+                        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
+                    />
 
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `
                   window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
                   gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}', { page_path: window.location.pathname });
                 `,
-                    }}
-                />
-            </Head>
+                        }}
+                    />
+                </Head>
+                <body>
+                    <Main />
+                    <NextScript />
+                </body>
+            </Html>
         )
     }
 }
