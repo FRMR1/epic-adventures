@@ -72,6 +72,11 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className="navRight">
+                    <div class="topNavPhone">
+                        <span>
+                            Tel:<a href="tel:+12509398820">+1 250 939 9589</a>
+                        </span>
+                    </div>
                     <Link href="/about">About</Link>
                     <div className="dropdown">
                         <Link href="/summer">

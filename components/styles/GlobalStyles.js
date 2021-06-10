@@ -287,6 +287,14 @@ const GlobalStyles = createGlobalStyle`
                 margin-left: 4rem;
             }
         }
+        .topNavPhone {
+            position: absolute;
+            top: 0.5rem;
+            span, a {
+                font-family: Roboto Mono, --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 1.4rem;
+            }
+        }
         @media (max-width: 800px) {
             .navRight {
                 display: none;
