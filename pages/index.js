@@ -34,16 +34,16 @@ export default function Home() {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source="/video/video.mp4" />
+                    <YoutubeEmbed source="/video/video2.mp4" />
                 </HeroVideoStyles>
             </div>
-            <div className="heroImage">
+            {/* <div className="heroImage">
                 <HeroImageStyles image="combo9">
                     <div className="heroText">
                         <h2>Live epic.</h2>
                     </div>
                 </HeroImageStyles>
-            </div>
+            </div> */}
             <TopDividerStyles home={true}>
                 <img
                     src="/svg/divider-top.svg"
