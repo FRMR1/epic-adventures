@@ -34,7 +34,7 @@ export default function Home() {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed />
+                    <YoutubeEmbed source="/video/video.mp4" />
                 </HeroVideoStyles>
             </div>
             <div className="heroImage">

@@ -5,6 +5,7 @@ import GoogleMap from "../../components/GoogleMap"
 import SuggestedCombo from "../../components/SuggestedCombo"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
+import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
@@ -13,6 +14,11 @@ import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosSt
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
+import dynamic from "next/dynamic"
+
+const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
+    ssr: false,
+})
 
 const Skydiving = () => {
     return (
@@ -21,11 +27,11 @@ const Skydiving = () => {
                 <title>Epic Adventures | Skydiving</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="skydiving">
-                <div className="heroText">
-                    <h2>Skydiving.</h2>
-                </div>
-            </HeroImageStyles>
+            <div className="heroVideo">
+                <HeroVideoStyles>
+                    <YoutubeEmbed source="/video/skydive.mp4" />
+                </HeroVideoStyles>
+            </div>
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"

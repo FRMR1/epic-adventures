@@ -1,6 +1,6 @@
 import { DefaultPlayer as Video } from "react-html5video"
 
-const YoutubeEmbed = () => {
+const YoutubeEmbed = ({ source }) => {
     return (
         <Video
             autoPlay
@@ -12,7 +12,7 @@ const YoutubeEmbed = () => {
             // Do stuff
             // }}
         >
-            <source src="/video/video.mp4" type="video/mp4" />
+            <source src={source} type="video/mp4" />
         </Video>
     )
 }

@@ -4,7 +4,7 @@ import Link from "next/link"
 import GoogleMap from "../../components/GoogleMap"
 import SuggestedCombo from "../../components/SuggestedCombo"
 import ReadyToBook from "../../components/ReadyToBook"
-import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
+import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
@@ -13,6 +13,11 @@ import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
+import dynamic from "next/dynamic"
+
+const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
+    ssr: false,
+})
 
 const Swing = () => {
     return (
@@ -21,11 +26,11 @@ const Swing = () => {
                 <title>Epic Adventures | ATV Off-Road</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="atv">
-                <div className="heroText">
-                    <h2>ATV Off-Road</h2>
-                </div>
-            </HeroImageStyles>
+            <div className="heroVideo">
+                <HeroVideoStyles>
+                    <YoutubeEmbed source="/video/atv.mp4" />
+                </HeroVideoStyles>
+            </div>
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"
