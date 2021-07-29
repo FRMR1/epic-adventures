@@ -48,9 +48,15 @@ const GlobalStyles = createGlobalStyle`
         .heroVideo {
             display: none;
         }
+        .mobileImage {
+            display: none;
+        }
     }
     @media (min-width: 801px) {
         .heroImage {
+            display: none;
+        }
+        .mobileVideo {
             display: none;
         }
     }

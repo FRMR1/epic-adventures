@@ -15,12 +15,13 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import dynamic from "next/dynamic"
+import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 
 const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
     ssr: false,
 })
 
-const Swing = () => {
+const AtvOffRoad = () => {
     return (
         <>
             <Head>
@@ -47,7 +48,7 @@ const Swing = () => {
                 />
             </TopDividerStyles>
             <AdventureHeadingStyles>
-                <div className="imageContainer">
+                <div className="imageContainer mobileImage">
                     <Image
                         src="/images/atv4.jpg"
                         layout="responsive"
@@ -56,6 +57,11 @@ const Swing = () => {
                         objectFit="contain"
                         alt="ATV Off-Road"
                     />
+                </div>
+                <div className="mobileVideo">
+                    <MobileVideoStyles>
+                        <YoutubeEmbed source="/video/atv.mp4" />
+                    </MobileVideoStyles>
                 </div>
                 <div className="pContainer">
                     <h2>Explore</h2>
@@ -269,4 +275,4 @@ const Swing = () => {
     )
 }
 
-export default Swing
+export default AtvOffRoad

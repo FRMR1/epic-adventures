@@ -15,6 +15,7 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import dynamic from "next/dynamic"
+import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 
 const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
     ssr: false,
@@ -47,7 +48,7 @@ const Skydiving = () => {
                 />
             </TopDividerStyles>
             <AdventureHeadingStyles>
-                <div className="imageContainer">
+                <div className="imageContainer mobileImage">
                     <Image
                         src="/images/skydiving2.jpg"
                         layout="responsive"
@@ -56,6 +57,11 @@ const Skydiving = () => {
                         objectFit="contain"
                         alt="Skydiving"
                     />
+                </div>
+                <div className="mobileVideo">
+                    <MobileVideoStyles>
+                        <YoutubeEmbed source="/video/skydive.mp4" />
+                    </MobileVideoStyles>
                 </div>
                 <div className="pContainer">
                     <h2>Experience Human Flight</h2>
