@@ -32,6 +32,13 @@ const Skydiving = () => {
                     <YoutubeEmbed source="/video/skydive.mp4" />
                 </HeroVideoStyles>
             </div>
+            <div className="heroImage">
+                <HeroImageStyles image="skydiving">
+                    <div className="heroText">
+                        <h2>Skydiving.</h2>
+                    </div>
+                </HeroImageStyles>
+            </div>
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"

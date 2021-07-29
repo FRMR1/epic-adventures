@@ -44,11 +44,11 @@ const GlobalStyles = createGlobalStyle`
     .noOverflow {
         overflow-x: hidden;
     }
-    /* @media (max-width: 800px) {
+    @media (max-width: 800px) {
         .heroVideo {
             display: none;
         }
-    } */
+    }
     @media (min-width: 801px) {
         .heroImage {
             display: none;

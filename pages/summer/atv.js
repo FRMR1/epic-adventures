@@ -5,6 +5,7 @@ import GoogleMap from "../../components/GoogleMap"
 import SuggestedCombo from "../../components/SuggestedCombo"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
+import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
@@ -30,6 +31,13 @@ const Swing = () => {
                 <HeroVideoStyles>
                     <YoutubeEmbed source="/video/atv.mp4" />
                 </HeroVideoStyles>
+            </div>
+            <div className="heroImage">
+                <HeroImageStyles image="atv">
+                    <div className="heroText">
+                        <h2>ATV Off-Road.</h2>
+                    </div>
+                </HeroImageStyles>
             </div>
             <TopDividerStyles>
                 <img
