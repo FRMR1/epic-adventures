@@ -5,7 +5,6 @@ import GoogleMap from "../../components/GoogleMap"
 import SuggestedCombo from "../../components/SuggestedCombo"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
-import HeroImageSlider from "../../components/HeroImageSlider"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -21,6 +20,13 @@ import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
     ssr: false,
 })
+
+const HeroImageSlider = dynamic(
+    () => import("../../components/HeroImageSlider"),
+    {
+        ssr: false,
+    }
+)
 
 const AtvOffRoad = () => {
     // Cloudinary video URL

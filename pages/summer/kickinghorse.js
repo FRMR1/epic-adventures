@@ -14,7 +14,14 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
-import HeroImageSlider from "../../components/HeroImageSlider"
+import dynamic from "next/dynamic"
+
+const HeroImageSlider = dynamic(
+    () => import("../../components/HeroImageSlider"),
+    {
+        ssr: false,
+    }
+)
 
 const KickingHorse = () => {
     return (

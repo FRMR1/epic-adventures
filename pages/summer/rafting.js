@@ -16,13 +16,19 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
-import HeroImageSlider from "../../components/HeroImageSlider"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 import dynamic from "next/dynamic"
 
 const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
     ssr: false,
 })
+
+const HeroImageSlider = dynamic(
+    () => import("../../components/HeroImageSlider"),
+    {
+        ssr: false,
+    }
+)
 
 const Rafting = () => {
     // Cloudinary video URL

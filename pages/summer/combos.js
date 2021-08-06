@@ -8,13 +8,19 @@ import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles
 import { ComboSectionStyles } from "../../components/styles/ComboSectionStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
 import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
-import HeroImageSlider from "../../components/HeroImageSlider"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 import dynamic from "next/dynamic"
 
 const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
     ssr: false,
 })
+
+const HeroImageSlider = dynamic(
+    () => import("../../components/HeroImageSlider"),
+    {
+        ssr: false,
+    }
+)
 
 const Combos = ({}) => {
     // Cloudinary video URL

@@ -16,11 +16,17 @@ import { AdventureSectionStyles } from "../../components/styles/AdventureSection
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import dynamic from "next/dynamic"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
-import HeroImageSlider from "../../components/HeroImageSlider"
 
 const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
     ssr: false,
 })
+
+const HeroImageSlider = dynamic(
+    () => import("../../components/HeroImageSlider"),
+    {
+        ssr: false,
+    }
+)
 
 const Skydiving = () => {
     // Cloudinary URL for video
