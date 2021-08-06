@@ -9,8 +9,12 @@ import { ComboSectionStyles } from "../../components/styles/ComboSectionStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
 import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
 import { HeroImageSlider } from "../../components/HeroImageSlider"
-import YoutubeEmbed from "../../components/YoutubeEmbed"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
+import dynamic from "next/dynamic"
+
+const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
+    ssr: false,
+})
 
 const Combos = ({}) => {
     // Cloudinary video URL
