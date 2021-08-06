@@ -30,7 +30,7 @@ const AtvOffRoad = () => {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source="/video/atv.mp4" />
+                    <YoutubeEmbed source="https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270747/atv_ba04fh.mp4" />
                 </HeroVideoStyles>
             </div>
             <div className="heroImage">

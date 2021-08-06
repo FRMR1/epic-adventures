@@ -34,7 +34,7 @@ export default function Home() {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source="/video/video2.mp4" />
+                    <YoutubeEmbed source="https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270757/video2_zxhqt8.mp4" />
                 </HeroVideoStyles>
             </div>
             <div className="heroImage">
@@ -52,15 +52,14 @@ export default function Home() {
                 />
             </TopDividerStyles>
             <SectionStyles>
-                <h3>Trust and Let Go</h3>
-                <p className="quote">
-                    “Happiness and freedom begin with a clear understanding of
-                    one principle: some things are within our control, and some
-                    things are not.”
-                </p>
-                <p className="author">
-                    Epictetus, Greek Philosopher{" "}
-                    <span class="authorYear">(50AD - 130AD)</span>
+                <h3>Experience Epic Adventures</h3>
+                <p>
+                    When it comes to adrenaline, adventure and experiencing all
+                    the elements, we've got you covered! Tick off that bucket
+                    list and experience more in Canada's Adventure Capital. We
+                    connect you with the best and allow you to make unique
+                    combination packages with exclusive savings on experiences
+                    you'll never forget.
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
@@ -71,12 +70,7 @@ export default function Home() {
                 />
             </BottomDividerStyles>
             <CardSectionStyles>
-                <h3>Experience Epic Adventures</h3>
-                <p>
-                    When it comes to adrenaline, adventure and experiencing all
-                    the elements, we want to connect you with the best! Check
-                    out some of our unforgettably epic trips.
-                </p>
+                <h3>A Playground Awaits</h3>
                 <div className="cards">
                     <Card
                         title="Rafting"

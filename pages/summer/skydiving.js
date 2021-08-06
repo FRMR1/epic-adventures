@@ -30,7 +30,7 @@ const Skydiving = () => {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source="/video/skydive.mp4" />
+                    <YoutubeEmbed source="https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270752/skydive_vm7uai.mp4" />
                 </HeroVideoStyles>
             </div>
             <div className="heroImage">
