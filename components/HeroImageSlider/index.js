@@ -3,7 +3,7 @@ import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider"
 
 export const HeroImageSlider = ({ title, images, needsVideo }) => {
     return (
-        <div className={!needsVideo && "heroImage"}>
+        <div className={`webkitFill ${!needsVideo && "heroImage"}`}>
             <HeroSlider
                 slidingAnimation="left_to_right"
                 orientation="horizontal"
