@@ -27,7 +27,7 @@ export const HeroImageSlider = ({ title, images, needsVideo }) => {
                         alignItems: "center",
                         justifyContent: "center",
                         width: "100%",
-                        height: "100vh",
+                        height: "100%",
                         textAlign: "center",
                     }}
                 >
@@ -39,6 +39,7 @@ export const HeroImageSlider = ({ title, images, needsVideo }) => {
                             backgroundImage: `/images/hero/${image}.jpg`,
                             backgroundAttachment: "fixed",
                             backgroundPosition: "center center",
+                            backgroundSize: "cover",
                         }}
                     />
                 ))}
