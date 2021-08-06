@@ -16,6 +16,7 @@ import { AdventureSectionStyles } from "../../components/styles/AdventureSection
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import dynamic from "next/dynamic"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
+import { HeroImageSlider } from "../../components/HeroImageSlider"
 
 const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
     ssr: false,
@@ -37,17 +38,10 @@ const Skydiving = () => {
                     <YoutubeEmbed source={videoURL} />
                 </HeroVideoStyles>
             </div>
-            <div className="heroImage">
-                <HeroImageStyles image="skydiving">
-                    <div className="heroText">
-                        <h2>Skydiving.</h2>
-                    </div>
-                </HeroImageStyles>
-            </div>
-            {/* <HeroImageSlider
+            <HeroImageSlider
                 title="Skydiving"
                 images={["SKY1", "SKY2", "SKY3", "SKY4"]}
-            /> */}
+            />
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"
