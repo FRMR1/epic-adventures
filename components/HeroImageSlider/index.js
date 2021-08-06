@@ -2,6 +2,14 @@ import { HeroImageStyles } from "../styles/HeroImageStyles"
 import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider"
 
 export const HeroImageSlider = ({ title, images, needsVideo }) => {
+    // Get window inner height
+    let height
+    if (typeof window !== "undefined") {
+        height = window.innerHeight
+    }
+
+    console.log(height)
+
     return (
         <div className={`webkitFill ${!needsVideo && "heroImage"}`}>
             <HeroSlider
@@ -17,7 +25,8 @@ export const HeroImageSlider = ({ title, images, needsVideo }) => {
                     shouldAutoplay: true,
                     shouldDisplayButtons: false,
                     autoplayDuration: 3000,
-                    height: "100vh",
+                    height: `${height}px`,
+                    // height: "400px",
                 }}
             >
                 <OverlayContainer

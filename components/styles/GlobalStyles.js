@@ -52,10 +52,6 @@ const GlobalStyles = createGlobalStyle`
             display: none;
         }
     }
-    .webkitFill {
-        height: 100vh;  
-        max-height: -webkit-fill-available;
-    }
     @media (min-width: 801px) {
         .heroImage {
             display: none;
