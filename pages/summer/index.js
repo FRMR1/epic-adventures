@@ -3,7 +3,6 @@ import Image from "next/image"
 import Link from "next/link"
 import Adventure from "../../components/Adventure"
 import ReadyToBook from "../../components/ReadyToBook"
-
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"

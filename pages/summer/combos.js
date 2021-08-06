@@ -12,7 +12,7 @@ import { HeroImageSlider } from "../../components/HeroImageSlider"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 import dynamic from "next/dynamic"
 
-const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
+const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
     ssr: false,
 })
 
