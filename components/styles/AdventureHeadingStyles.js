@@ -8,6 +8,7 @@ export const AdventureHeadingStyles = styled.div`
     padding: 10rem 5rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    z-index: 3;
     @media (max-width: 800px) {
         display: flex;
         flex-wrap: wrap;

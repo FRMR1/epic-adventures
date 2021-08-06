@@ -15,19 +15,31 @@ import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
+import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
+import YoutubeEmbed from "../../components/YoutubeEmbed"
+import { HeroImageSlider } from "../../components/HeroImageSlider"
+import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 
 const Rafting = () => {
+    // Cloudinary video URL
+    const videoURL =
+        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628277188/EPIC-RAFTING-AD_lm8wbm.mp4"
+
     return (
         <div>
             <Head>
                 <title>Epic Adventures | Rafting</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="rafting">
-                <div className="heroText">
-                    <h2>Rafting.</h2>
-                </div>
-            </HeroImageStyles>
+            <div className="heroVideo">
+                <HeroVideoStyles>
+                    <YoutubeEmbed source={videoURL} />
+                </HeroVideoStyles>
+            </div>
+            <HeroImageSlider
+                title="Rafting"
+                images={["RAFT1", "RAFT2", "RAFT3", "RAFT4"]}
+            />
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"
@@ -36,7 +48,7 @@ const Rafting = () => {
                 />
             </TopDividerStyles>
             <AdventureHeadingStyles>
-                <div className="imageContainer">
+                <div className="imageContainer mobileImage">
                     <Image
                         src="/images/rafting3.jpg"
                         layout="responsive"
@@ -45,6 +57,11 @@ const Rafting = () => {
                         objectFit="contain"
                         alt="Rafting"
                     />
+                </div>
+                <div className="mobileVideo">
+                    <MobileVideoStyles>
+                        <YoutubeEmbed source={videoURL} />
+                    </MobileVideoStyles>
                 </div>
                 <div className="pContainer">
                     <h2>Kicking Horse River</h2>

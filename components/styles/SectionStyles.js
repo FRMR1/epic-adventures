@@ -6,6 +6,7 @@ export const SectionStyles = styled.div`
     margin: 0;
     margin-top: -2rem;
     padding: 10rem 3rem 11rem;
+    z-index: 5;
     @media (max-width: 800px) {
         margin-top: -1rem;
     }

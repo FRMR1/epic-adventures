@@ -5,7 +5,7 @@ export const TopDividerStyles = styled.div`
     margin: 0;
     position: relative;
     margin-top: ${({ home }) => (home ? "-17rem" : "-12rem")};
-    z-index: 2;
+    z-index: 5;
     @media (max-width: 800px) {
         margin-top: -10rem;
     }

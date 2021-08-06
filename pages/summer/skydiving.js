@@ -22,6 +22,10 @@ const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
 })
 
 const Skydiving = () => {
+    // Cloudinary URL for video
+    const videoURL =
+        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270752/skydive_vm7uai.mp4"
+
     return (
         <>
             <Head>
@@ -30,7 +34,7 @@ const Skydiving = () => {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source="https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270752/skydive_vm7uai.mp4" />
+                    <YoutubeEmbed source={videoURL} />
                 </HeroVideoStyles>
             </div>
             <div className="heroImage">
@@ -40,6 +44,10 @@ const Skydiving = () => {
                     </div>
                 </HeroImageStyles>
             </div>
+            {/* <HeroImageSlider
+                title="Skydiving"
+                images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+            /> */}
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"
@@ -60,7 +68,7 @@ const Skydiving = () => {
                 </div>
                 <div className="mobileVideo">
                     <MobileVideoStyles>
-                        <YoutubeEmbed source="/video/skydive.mp4" />
+                        <YoutubeEmbed source={videoURL} />
                     </MobileVideoStyles>
                 </div>
                 <div className="pContainer">

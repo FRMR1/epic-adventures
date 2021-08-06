@@ -17,6 +17,7 @@ import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
 import { useMediaQuery } from "react-responsive"
 import Card from "../components/Card"
 import dynamic from "next/dynamic"
+import { HeroImageSlider } from "../components/HeroImageSlider"
 
 const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
     ssr: false,
@@ -26,6 +27,10 @@ export default function Home() {
     // Responsive
     const isMobile = useMediaQuery({ query: "(max-width: 800px)" })
 
+    // Cloudinary video URL
+    const videoURL =
+        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270757/video2_zxhqt8.mp4"
+
     return (
         <>
             <Head>
@@ -34,16 +39,19 @@ export default function Home() {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source="https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270757/video2_zxhqt8.mp4" />
+                    <YoutubeEmbed source={videoURL} />
                 </HeroVideoStyles>
             </div>
-            <div className="heroImage">
-                <HeroImageStyles image="combo9">
-                    <div className="heroText">
-                        <h2>Live epic.</h2>
-                    </div>
-                </HeroImageStyles>
-            </div>
+            <HeroImageSlider
+                title="Live Epic"
+                images={[
+                    "LANDINGPG1",
+                    "LANDINGPG2",
+                    "LANDINGPG3",
+                    "LANDINGPG4",
+                    "LANDINGPG5",
+                ]}
+            />
             <TopDividerStyles home={true}>
                 <img
                     src="/svg/divider-top.svg"

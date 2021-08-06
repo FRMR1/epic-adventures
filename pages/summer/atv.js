@@ -5,6 +5,7 @@ import GoogleMap from "../../components/GoogleMap"
 import SuggestedCombo from "../../components/SuggestedCombo"
 import ReadyToBook from "../../components/ReadyToBook"
 import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
+import { HeroImageSlider } from "../../components/HeroImageSlider"
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
@@ -22,6 +23,10 @@ const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
 })
 
 const AtvOffRoad = () => {
+    // Cloudinary video URL
+    const videoURL =
+        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270747/atv_ba04fh.mp4"
+
     return (
         <>
             <Head>
@@ -30,16 +35,13 @@ const AtvOffRoad = () => {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source="https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270747/atv_ba04fh.mp4" />
+                    <YoutubeEmbed source={videoURL} />
                 </HeroVideoStyles>
             </div>
-            <div className="heroImage">
-                <HeroImageStyles image="atv">
-                    <div className="heroText">
-                        <h2>ATV Off-Road.</h2>
-                    </div>
-                </HeroImageStyles>
-            </div>
+            <HeroImageSlider
+                title="ATV Off-Road"
+                images={["ATV1", "ATV2", "ATV3", "ATV4"]}
+            />
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"
@@ -60,7 +62,7 @@ const AtvOffRoad = () => {
                 </div>
                 <div className="mobileVideo">
                     <MobileVideoStyles>
-                        <YoutubeEmbed source="/video/atv.mp4" />
+                        <YoutubeEmbed source={videoURL} />
                     </MobileVideoStyles>
                 </div>
                 <div className="pContainer">

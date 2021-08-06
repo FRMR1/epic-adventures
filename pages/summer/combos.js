@@ -7,19 +7,31 @@ import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
 import { ComboSectionStyles } from "../../components/styles/ComboSectionStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
+import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
+import { HeroImageSlider } from "../../components/HeroImageSlider"
+import YoutubeEmbed from "../../components/YoutubeEmbed"
+import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 
 const Combos = ({}) => {
+    // Cloudinary video URL
+    const videoURL =
+        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270757/video2_zxhqt8.mp4"
+
     return (
         <>
             <Head>
                 <title>Epic Adventures | Epic Combos</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="combo1">
-                <div className="heroText">
-                    <h2>Epic Combos.</h2>
-                </div>
-            </HeroImageStyles>
+            <div className="heroVideo">
+                <HeroVideoStyles>
+                    <YoutubeEmbed source={videoURL} />
+                </HeroVideoStyles>
+            </div>
+            <HeroImageSlider
+                title="Epic Combos"
+                images={["COMBOS1", "COMBOS2", "COMBOS3", "COMBOS4", "COMBOS5"]}
+            />
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"
@@ -28,6 +40,11 @@ const Combos = ({}) => {
                 />
             </TopDividerStyles>
             <SectionStyles>
+                <div className="mobileVideo">
+                    <MobileVideoStyles>
+                        <YoutubeEmbed source={videoURL} />
+                    </MobileVideoStyles>
+                </div>
                 <h3>Experience More.</h3>
                 <p>
                     Take advantage of our exclusive products and savings! We

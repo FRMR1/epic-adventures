@@ -86,6 +86,13 @@ const GlobalStyles = createGlobalStyle`
     main {
         min-height: 600px;
     }
+    .mobileHeading {
+        font-size: 8rem;
+        line-height: 7rem;
+        color: #fff;
+        text-shadow: 0 0 10px rgba(20, 20, 20, .5);
+        padding: 0 2rem;
+    }
     .footer {
         padding-bottom: 20rem;
         background-color: var(--mainColor);

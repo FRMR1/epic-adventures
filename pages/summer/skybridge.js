@@ -14,6 +14,7 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
+import { HeroImageSlider } from "../../components/HeroImageSlider"
 
 const Rafting = () => {
     return (
@@ -22,11 +23,16 @@ const Rafting = () => {
                 <title>Epic Adventures | Golden Skybridge</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="skybridge">
-                <div className="heroText">
-                    <h2>Golden Skybridge.</h2>
-                </div>
-            </HeroImageStyles>
+            <HeroImageSlider
+                title="Skybridge"
+                images={[
+                    "SKYBRIDGE1",
+                    "SKYBRIDGE2",
+                    "SKYBRIDGE3",
+                    "SKYBRIDGE4",
+                ]}
+                needsVideo={true}
+            />
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"

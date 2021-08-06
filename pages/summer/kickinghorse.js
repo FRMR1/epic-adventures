@@ -15,19 +15,20 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
+import { HeroImageSlider } from "../../components/HeroImageSlider"
 
-const Rafting = () => {
+const KickingHorse = () => {
     return (
         <>
             <Head>
                 <title>Epic Adventures | Kicking Horse Resort</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroImageStyles image="kickinghorse">
-                <div className="heroText">
-                    <h2>Kicking Horse Resort.</h2>
-                </div>
-            </HeroImageStyles>
+            <HeroImageSlider
+                title="Kicking Horse Resort"
+                images={["KHR1", "KHR2", "KHR3", "KHR4"]}
+                needsVideo={true}
+            />
             <TopDividerStyles>
                 <img
                     src="/svg/divider-top.svg"
@@ -322,4 +323,4 @@ const Rafting = () => {
     )
 }
 
-export default Rafting
+export default KickingHorse
