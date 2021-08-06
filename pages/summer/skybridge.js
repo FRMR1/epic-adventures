@@ -14,7 +14,7 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles"
-import { HeroImageSlider } from "../../components/HeroImageSlider"
+import HeroImageSlider from "../../components/HeroImageSlider"
 
 const Rafting = () => {
     return (

@@ -14,7 +14,7 @@ import { AdventureHeadingStyles } from "../../components/styles/AdventureHeading
 import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
 import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles"
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
-import { HeroImageSlider } from "../../components/HeroImageSlider"
+import HeroImageSlider from "../../components/HeroImageSlider"
 
 const KickingHorse = () => {
     return (

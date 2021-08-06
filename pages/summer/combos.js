@@ -8,7 +8,7 @@ import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles
 import { ComboSectionStyles } from "../../components/styles/ComboSectionStyles"
 import { SectionStyles } from "../../components/styles/SectionStyles"
 import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
-import { HeroImageSlider } from "../../components/HeroImageSlider"
+import HeroImageSlider from "../../components/HeroImageSlider"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 import dynamic from "next/dynamic"
 

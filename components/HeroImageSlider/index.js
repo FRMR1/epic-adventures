@@ -1,17 +1,22 @@
 import { HeroImageStyles } from "../styles/HeroImageStyles"
 import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider"
+import { useEffect } from "react"
+import styled from "styled-components"
 
-export const HeroImageSlider = ({ title, images, needsVideo }) => {
-    // Get window inner height
-    let height
-    if (typeof window !== "undefined") {
-        height = window.innerHeight
+const HeroImageContainer = styled.div`
+    height: ${(props) => props.height};
+    @media (min-width: 801px) {
+        display: ${(props) => (!props.needsVideo ? "none" : "initial")};
     }
+`
 
-    console.log(height)
+const HeroImageSlider = ({ title, images, needsVideo }) => {
+    // Get window inner height
+    let height = window.innerHeight
 
     return (
-        <div className={`webkitFill ${!needsVideo && "heroImage"}`}>
+        // <div className={`${!needsVideo && "heroImage"}`}>
+        <HeroImageContainer height={height} needsVideo={needsVideo}>
             <HeroSlider
                 slidingAnimation="left_to_right"
                 orientation="horizontal"
@@ -26,7 +31,6 @@ export const HeroImageSlider = ({ title, images, needsVideo }) => {
                     shouldDisplayButtons: false,
                     autoplayDuration: 3000,
                     height: `${height}px`,
-                    // height: "400px",
                 }}
             >
                 <OverlayContainer
@@ -54,6 +58,9 @@ export const HeroImageSlider = ({ title, images, needsVideo }) => {
                 ))}
                 <Nav />
             </HeroSlider>
-        </div>
+        </HeroImageContainer>
+        // </div>
     )
 }
+
+export default HeroImageSlider

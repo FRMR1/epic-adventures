@@ -17,9 +17,13 @@ import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
 import { useMediaQuery } from "react-responsive"
 import Card from "../components/Card"
 import dynamic from "next/dynamic"
-import { HeroImageSlider } from "../components/HeroImageSlider"
+// import HeroImageSlider from "../components/HeroImageSlider"
 
 const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
+    ssr: false,
+})
+
+const HeroImageSlider = dynamic(() => import("../components/HeroImageSlider"), {
     ssr: false,
 })
 
