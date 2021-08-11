@@ -54,10 +54,8 @@ const HeroImageSlider = ({ title, images, needsVideo }) => {
                     <Slide
                         background={{
                             backgroundImage: `/images/hero/${image}.jpg`,
-                            backgroundAttachment: "fixed",
-                            backgroundPosition: "center center",
-                            backgroundSize: `auto ${height}px`,
-                            backgroundRepeat: "no-repeat",
+                            backgroundPosition: "center top",
+                            // backgroundSize: `auto ${height}px`,
                         }}
                     />
                 ))}
