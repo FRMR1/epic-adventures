@@ -12,7 +12,10 @@ const HeroImageContainer = styled.div`
 
 const HeroImageSlider = ({ title, images, needsVideo }) => {
     // Get window inner height
-    let height = window.innerHeight
+    let height
+    useEffect(() => {
+        height = window.innerHeight
+    }, [])
 
     return (
         // <div className={`${!needsVideo && "heroImage"}`}>
