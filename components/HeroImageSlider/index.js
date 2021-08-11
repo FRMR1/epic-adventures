@@ -57,6 +57,7 @@ const HeroImageSlider = ({ title, images, needsVideo }) => {
                             backgroundAttachment: "fixed",
                             backgroundPosition: "center center",
                             backgroundSize: `auto ${height}px`,
+                            backgroundRepeat: "no-repeat",
                         }}
                     />
                 ))}
