@@ -1,6 +1,6 @@
 import { HeroImageStyles } from "../styles/HeroImageStyles"
 import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider"
-import { useEffect, useLayoutEffect } from "react"
+import { useEffect, useLayoutEffect, useState } from "react"
 import styled from "styled-components"
 
 const HeroImageContainer = styled.div`
