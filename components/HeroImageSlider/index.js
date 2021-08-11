@@ -1,6 +1,6 @@
 import { HeroImageStyles } from "../styles/HeroImageStyles"
 import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider"
-import { useEffect } from "react"
+import { useLayoutEffect } from "react"
 import styled from "styled-components"
 
 const HeroImageContainer = styled.div`
@@ -13,7 +13,7 @@ const HeroImageContainer = styled.div`
 const HeroImageSlider = ({ title, images, needsVideo }) => {
     // Get window inner height
     let height
-    useEffect(() => {
+    useLayoutEffect(() => {
         height = window.innerHeight
     }, [])
 
