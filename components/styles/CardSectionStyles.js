@@ -29,17 +29,6 @@ export const CardSectionStyles = styled.div`
         }
     }
     .cards {
-        /* margin: 0 8rem; */
-        /* display: grid;
-        max-width: 1000px;
-        grid-template-columns: 1fr 1fr 1fr;
-        position: relative;
-        margin-top: 10rem;
-        gap: 7%;
-        @media (max-width: 800px) {
-            display: flex;
-            flex-wrap: wrap;
-        } */
         .card {
             background-color: #eaeaea;
             margin: 0 5rem;
