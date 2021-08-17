@@ -274,6 +274,11 @@
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
 
+"@cloudflare/stream-react@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@cloudflare/stream-react/-/stream-react-1.2.0.tgz#7324ba93d8424460fbb0005a95cddb9f54a3a00b"
+  integrity sha512-uLsKstcNOrTH19UEFxHWUX6h8SM9Ytr1Qyo6dIObuDUQ40g/cJgNnNnFn4gcGWf3zPwXQN3LkRmVol5MU/rU2Q==
+
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
@@ -3398,6 +3403,11 @@ react-lazyload@^2.6.2:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/react-lazyload/-/react-lazyload-2.6.9.tgz#5a88c885bb98a3b6580759d51039867d1c97d198"
   integrity sha512-vB7WLp+ZlTEy6LEFFiMtCys7ShX4P64t/eUOAXt58qret6HCbwMY5f/cD0EPCXx1z/UZC3wb9kxPf2DVIQkc4Q==
+
+react-multi-carousel@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/react-multi-carousel/-/react-multi-carousel-2.6.3.tgz#9ec39110de17feb6075cb134d046ae2e02df6b98"
+  integrity sha512-fCe+I1BlhTUyNHm/fh3bWavDo8UzoolTd/zrKao/wvb/XFf9dvesfNOawx7ukAzptiHOQhGCWZiNao+J76Byfw==
 
 react-refresh@0.8.3:
   version "0.8.3"

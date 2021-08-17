@@ -1,12 +1,20 @@
 import Link from "next/link"
 import Image from "next/image"
 
-const Card = ({ title, description, price, bullets, slug }) => {
+const Card = ({
+    title,
+    description,
+    price,
+    bullets,
+    slug,
+    imageUrl,
+    comingSoon,
+}) => {
     return (
         <div className="card">
             <div className="cardImage">
                 <Image
-                    src={`/images/${slug}.jpg`}
+                    src={`/images/${imageUrl}.jpg`}
                     layout="responsive"
                     width="100%"
                     height="auto"
@@ -25,15 +33,20 @@ const Card = ({ title, description, price, bullets, slug }) => {
                         </li>
                     ))}
                 </ul>
-                <h5>
-                    <span>$</span>
-                    {price}
-                </h5>
-                <Link href={`/summer/${slug}`}>
-                    <div className="button">
-                        <span>More Info</span>
-                    </div>
-                </Link>
+                {price && (
+                    <>
+                        <h5>
+                            <span>$</span>
+                            {price}
+                        </h5>
+                        <Link href={`/summer/${slug}`}>
+                            <div className="button">
+                                <span>More Info</span>
+                            </div>
+                        </Link>
+                    </>
+                )}
+                {comingSoon && <h5 className="comingSoon">Coming soon</h5>}
             </div>
         </div>
     )

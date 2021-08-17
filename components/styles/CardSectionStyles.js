@@ -29,8 +29,8 @@ export const CardSectionStyles = styled.div`
         }
     }
     .cards {
-        display: grid;
-        margin: 0 auto;
+        /* margin: 0 8rem; */
+        /* display: grid;
         max-width: 1000px;
         grid-template-columns: 1fr 1fr 1fr;
         position: relative;
@@ -39,10 +39,11 @@ export const CardSectionStyles = styled.div`
         @media (max-width: 800px) {
             display: flex;
             flex-wrap: wrap;
-        }
+        } */
         .card {
             background-color: #eaeaea;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+            margin: 0 5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
             border-radius: 20px;
             padding-bottom: 3rem;
             min-width: 200px;
@@ -62,6 +63,7 @@ export const CardSectionStyles = styled.div`
                 text-align: center;
                 margin: 3rem 0;
                 color: #555;
+                line-height: 4rem;
             }
             h5 {
                 letter-spacing: -0.4rem;
@@ -80,6 +82,13 @@ export const CardSectionStyles = styled.div`
                     top: -1.8rem;
                     left: -0.5rem;
                 }
+            }
+            .comingSoon {
+                font-family: "Futura Bold";
+                font-size: 4.2rem;
+                letter-spacing: -0.2rem;
+                color: var(--secColor);
+                margin: 4rem 0 0;
             }
             p {
                 top: 0;
@@ -115,6 +124,7 @@ export const CardSectionStyles = styled.div`
                     font-weight: 400;
                     text-transform: uppercase;
                     font-size: 1.3rem;
+                    font-family: Roboto Mono;
                 }
             }
         }

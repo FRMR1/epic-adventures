@@ -17,9 +17,11 @@ import { FooterDividerStyles } from "../components/styles/FooterDividerStyles"
 import { useMediaQuery } from "react-responsive"
 import Card from "../components/Card"
 import dynamic from "next/dynamic"
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
 // import HeroImageSlider from "../components/HeroImageSlider"
 
-const YoutubeEmbed = dynamic(() => import("../components/YoutubeEmbed"), {
+const CloudflareVideo = dynamic(() => import("../components/CloudflareVideo"), {
     ssr: false,
 })
 
@@ -31,9 +33,28 @@ export default function Home() {
     // Responsive
     const isMobile = useMediaQuery({ query: "(max-width: 800px)" })
 
-    // Cloudinary video URL
-    const videoURL =
-        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270757/video2_zxhqt8.mp4"
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5,
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3,
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2,
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+        },
+    }
+
+    // Cloud flarevideo URL
+    const videoURL = "0e546742a408011586e2c14b6c67d5df"
 
     return (
         <>
@@ -43,7 +64,7 @@ export default function Home() {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source={videoURL} />
+                    <CloudflareVideo source={videoURL} />
                 </HeroVideoStyles>
             </div>
             <HeroImageSlider
@@ -84,36 +105,118 @@ export default function Home() {
             <CardSectionStyles>
                 <h3>A Playground Awaits</h3>
                 <div className="cards">
-                    <Card
-                        title="Rafting"
-                        description="Rafting on the mighty Kicking Horse River, Western Canada’s best rafting day trip is an experience you can’t miss."
-                        bullets={[
-                            "Full day and half-day trips",
-                            "No experience required",
-                        ]}
-                        price="99"
-                        slug="rafting"
-                    />
-                    <Card
-                        title="Skybridge"
-                        description="Golden's newest must-visit attraction includes a Treetop Village, outdoor BBQ and entertainment plaza."
-                        bullets={[
-                            "Listed price is for adult ticket",
-                            "Swing and zipline coming soon",
-                        ]}
-                        price="34"
-                        slug="skybridge"
-                    />
-                    <Card
-                        title="ATV Off-Road"
-                        description="Venture off the beaten path and experience Golden’s back country up close on your own all-terrain vehicle."
-                        bullets={[
-                            "No experience required",
-                            "Drive or ride as passenger",
-                        ]}
-                        price="219"
-                        slug="atv"
-                    />
+                    <Carousel
+                        responsive={responsive}
+                        infinite={true}
+                        swipeable={true}
+                        draggable={true}
+                        containerClass="margin-100-px"
+                    >
+                        <Card
+                            title="Rafting"
+                            description="Rafting on the mighty Kicking Horse River, Western Canada’s best rafting day trip is an experience you can’t miss."
+                            bullets={[
+                                "Full day and half-day trips",
+                                "No experience required",
+                            ]}
+                            price="99"
+                            slug="rafting"
+                            imageUrl="rafting"
+                        />
+                        <Card
+                            title="Skybridge"
+                            description="Golden's newest must-visit attraction includes a Treetop Village, outdoor BBQ and entertainment plaza."
+                            bullets={[
+                                "Listed price is for adult ticket",
+                                "Swing and zipline coming soon",
+                            ]}
+                            price="34"
+                            slug="skybridge"
+                            imageUrl="skybridge"
+                        />
+                        <Card
+                            title="ATV Off-Road"
+                            description="Venture off the beaten path and experience Golden’s back country up close on your own all-terrain vehicle."
+                            bullets={[
+                                "No experience required",
+                                "Drive or ride as passenger",
+                            ]}
+                            price="219"
+                            slug="atv"
+                            imageUrl="atv"
+                        />
+                        <Card
+                            title="Golden Eagle Express"
+                            description="Take in panoramic views of the Rocky Mountains, the Columbia River Wetlands and the town of Golden."
+                            bullets={["Family friendly", "Sightseeing"]}
+                            price="46"
+                            slug="kickinghorse"
+                            imageUrl="kickinghorse3"
+                        />
+                        <Card
+                            title="Mountain Bike Pass"
+                            description="Take on the Rocky Mountains and bike some of Canada's most epic trails!"
+                            bullets={[
+                                "Bike and gear rental available",
+                                "Kicking Horse Resort",
+                            ]}
+                            price="62"
+                            slug="kickinghorse"
+                            imageUrl="kickinghorse5"
+                        />
+                        <Card
+                            title="Adventure Pass"
+                            description="Get a guided tour to the home of the Grizzly Bear Refuge and scale the mountain on the Golden Eagle Express Gondola."
+                            bullets={["Family friendly", "Sightseeing"]}
+                            price="51"
+                            slug="kickinghorse"
+                            imageUrl="kickinghorse4"
+                        />
+                        <Card
+                            title="Tandem Skydive"
+                            description="Experience the thrill of free-falling at over 120MPH and a view of the Rocky Mountains from 10,000ft!"
+                            bullets={[
+                                "19 years or older",
+                                "The only skydiving in the Rockies",
+                            ]}
+                            price="348"
+                            slug="skydiving"
+                            imageUrl="skydiving5"
+                        />
+                        <Card
+                            title="Canyon Edge Challenge"
+                            description="Put your strength and stamina to the test with our fun-for-all-ages ropes course."
+                            bullets={[
+                                "Admission & ropes course",
+                                "Golden Skybridge",
+                            ]}
+                            price="54"
+                            slug="skybridge"
+                            imageUrl="ropecourse"
+                        />
+                        <Card
+                            title="Giant Canyon Swing"
+                            description="Freefall over the canyon edge before the swing kicks in, allowing thrill seekers to sway side to side above the canyon floor."
+                            bullets={[
+                                "Admission & ropes course",
+                                "Golden Skybridge",
+                            ]}
+                            slug="skybridge"
+                            comingSoon={true}
+                            imageUrl="swing1"
+                        />
+                        <Card
+                            title="Zipline"
+                            description="The adventure-seekers in the group won’t want to miss the 1,500-foot zipline that provides a thrilling ride across the canyon."
+                            bullets={[
+                                "Zipline and admission",
+                                "Golden Skybridge",
+                            ]}
+                            slug="skybridge"
+                            comingSoon={true}
+                            imageUrl="zipline"
+                        />
+                    </Carousel>
                 </div>
                 <Link href="/summer/">
                     <div className="button viewAll">

@@ -11,9 +11,12 @@ import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 import dynamic from "next/dynamic"
 
-const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
-    ssr: false,
-})
+const CloudflareVideo = dynamic(
+    () => import("../../components/CloudflareVideo"),
+    {
+        ssr: false,
+    }
+)
 
 const HeroImageSlider = dynamic(
     () => import("../../components/HeroImageSlider"),
@@ -24,8 +27,7 @@ const HeroImageSlider = dynamic(
 
 const Combos = ({}) => {
     // Cloudinary video URL
-    const videoURL =
-        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270757/video2_zxhqt8.mp4"
+    const videoURL = "0e546742a408011586e2c14b6c67d5df"
 
     return (
         <>
@@ -35,7 +37,7 @@ const Combos = ({}) => {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source={videoURL} />
+                    <CloudflareVideo source={videoURL} />
                 </HeroVideoStyles>
             </div>
             <HeroImageSlider
@@ -52,7 +54,7 @@ const Combos = ({}) => {
             <SectionStyles>
                 <div className="mobileVideo">
                     <MobileVideoStyles>
-                        <YoutubeEmbed source={videoURL} />
+                        <CloudflareVideo source={videoURL} />
                     </MobileVideoStyles>
                 </div>
                 <h3>Experience More.</h3>

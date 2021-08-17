@@ -17,9 +17,12 @@ import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles
 import dynamic from "next/dynamic"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 
-const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
-    ssr: false,
-})
+const CloudflareVideo = dynamic(
+    () => import("../../components/CloudflareVideo"),
+    {
+        ssr: false,
+    }
+)
 
 const HeroImageSlider = dynamic(
     () => import("../../components/HeroImageSlider"),
@@ -30,8 +33,7 @@ const HeroImageSlider = dynamic(
 
 const AtvOffRoad = () => {
     // Cloudinary video URL
-    const videoURL =
-        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628270747/atv_ba04fh.mp4"
+    const videoURL = "bc7116cd09666a03c092735de7090e19"
 
     return (
         <>
@@ -41,7 +43,7 @@ const AtvOffRoad = () => {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source={videoURL} />
+                    <CloudflareVideo source={videoURL} />
                 </HeroVideoStyles>
             </div>
             <HeroImageSlider
@@ -68,7 +70,7 @@ const AtvOffRoad = () => {
                 </div>
                 <div className="mobileVideo">
                     <MobileVideoStyles>
-                        <YoutubeEmbed source={videoURL} />
+                        <CloudflareVideo source={videoURL} />
                     </MobileVideoStyles>
                 </div>
                 <div className="pContainer">

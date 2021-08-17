@@ -19,9 +19,12 @@ import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
 import dynamic from "next/dynamic"
 
-const YoutubeEmbed = dynamic(() => import("../../components/YoutubeEmbed"), {
-    ssr: false,
-})
+const CloudflareVideo = dynamic(
+    () => import("../../components/CloudflareVideo"),
+    {
+        ssr: false,
+    }
+)
 
 const HeroImageSlider = dynamic(
     () => import("../../components/HeroImageSlider"),
@@ -32,8 +35,7 @@ const HeroImageSlider = dynamic(
 
 const Rafting = () => {
     // Cloudinary video URL
-    const videoURL =
-        "https://res.cloudinary.com/epicadventuregroup-com/video/upload/v1628277188/EPIC-RAFTING-AD_lm8wbm.mp4"
+    const videoURL = "ad1d8e9d786654e62cbe2681a546ba6c"
 
     return (
         <div>
@@ -43,7 +45,7 @@ const Rafting = () => {
             </Head>
             <div className="heroVideo">
                 <HeroVideoStyles>
-                    <YoutubeEmbed source={videoURL} />
+                    <CloudflareVideo source={videoURL} />
                 </HeroVideoStyles>
             </div>
             <HeroImageSlider
@@ -70,7 +72,7 @@ const Rafting = () => {
                 </div>
                 <div className="mobileVideo">
                     <MobileVideoStyles>
-                        <YoutubeEmbed source={videoURL} />
+                        <CloudflareVideo source={videoURL} />
                     </MobileVideoStyles>
                 </div>
                 <div className="pContainer">
