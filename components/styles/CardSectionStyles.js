@@ -48,6 +48,9 @@ export const CardSectionStyles = styled.div`
             padding-bottom: 3rem;
             min-width: 200px;
             margin-bottom: 3rem;
+            @media (max-width: 800px) {
+                margin: 0;
+            }
             .cardDesc {
                 padding: 2rem;
                 position: relative;
