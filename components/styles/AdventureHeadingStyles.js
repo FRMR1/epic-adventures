@@ -31,11 +31,11 @@ export const AdventureHeadingStyles = styled.div`
         }
     }
     h2 {
-        font-size: 10rem;
-        line-height: 9rem;
+        font-size: 6rem;
+        line-height: 6rem;
         color: var(--secColor);
         position: relative;
-        margin: 0 0 4rem;
+        margin: 0 0 2rem;
         @media (max-width: 800px) {
             font-size: 5rem;
             margin-bottom: 7rem;
@@ -47,7 +47,7 @@ export const AdventureHeadingStyles = styled.div`
     }
     p {
         margin: 0 auto;
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         max-width: 20%;
         color: #afafaf;
         max-width: 70rem;

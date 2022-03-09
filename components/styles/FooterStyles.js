@@ -44,8 +44,8 @@ export const FooterStyles = styled.div`
                 margin: 0;
                 margin-top: 1rem;
                 padding: 0;
+                line-height: 3rem;
                 li {
-                    line-height: 2.6rem;
                     a {
                         color: #7b7b7b;
                         font-size: 1.3rem;
@@ -53,7 +53,7 @@ export const FooterStyles = styled.div`
                             "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
                             "Open Sans", "Helvetica Neue", sans-serif;
                         font-weight: 200;
-                        letter-spacing: 0.15rem;
+                        letter-spacing: 0.1rem;
                     }
                 }
             }

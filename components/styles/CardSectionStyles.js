@@ -30,10 +30,10 @@ export const CardSectionStyles = styled.div`
     }
     .cards {
         .card {
-            background-color: #eaeaea;
-            margin: 0 5rem;
+            background-color: #f4f4f4;
+            margin: 0 2rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
-            border-radius: 20px;
+            border-radius: 10px;
             padding-bottom: 3rem;
             min-width: 200px;
             margin-bottom: 3rem;
@@ -47,7 +47,8 @@ export const CardSectionStyles = styled.div`
             }
             .cardImage {
                 img {
-                    border-radius: 20px 20px 0 0;
+                    border-radius: 10px 10px 0 0;
+                    width: 100%;
                 }
             }
             h4 {
@@ -85,7 +86,7 @@ export const CardSectionStyles = styled.div`
             p {
                 top: 0;
                 font-size: 1.4rem;
-                color: #aaa;
+                color: #797979;
                 margin-bottom: 4rem;
             }
             ul {

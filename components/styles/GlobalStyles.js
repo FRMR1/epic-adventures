@@ -101,7 +101,7 @@ const GlobalStyles = createGlobalStyle`
     }
         .footerInner {
             display: grid;
-            grid-template-columns: 4fr 2fr 2fr 3fr;
+            grid-template-columns: 3fr 2fr 2fr 2fr 2fr;
             grid-template-rows: auto auto;
             max-width: 1000px;
             margin: 0 auto;
@@ -145,6 +145,9 @@ const GlobalStyles = createGlobalStyle`
                         "Helvetica Neue", sans-serif;
                     font-weight: 400;
                     margin: 0;
+                    &.winter {
+                      margin-top: 40px;
+                    }
                 }
                 ul {
                     list-style: none;
@@ -152,17 +155,20 @@ const GlobalStyles = createGlobalStyle`
                     margin-top: 1rem;
                     padding: 0;
                     li {
-                        line-height: 2.6rem;
-                        a {
+                        line-height: 3rem;
+                        a, span {
                             color: #fff;
-                            font-size: 1.3rem;
+                            font-size: 1.2rem;
                             font-family: --apple-system, BlinkMacSystemFont,
                                 "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
                                 "Open Sans", "Helvetica Neue", sans-serif;
                             font-weight: 200;
-                            letter-spacing: 0.15rem;
+                            letter-spacing: 0.05rem;
                         }
                     }
+                }
+                .social {
+                  margin-top: 40px;
                 }
             }
             .policies {
@@ -305,6 +311,8 @@ const GlobalStyles = createGlobalStyle`
         .topNavPhone {
             position: absolute;
             top: 0.5rem;
+            right: 0;
+            margin-right: 30px;
             a:hover {
                 color: var(--secColor);
             }
@@ -326,8 +334,41 @@ const GlobalStyles = createGlobalStyle`
             display: none;
             position: absolute;
             z-index: 1;
-            width: 30rem;
-            padding-top: 1rem;
+            /* width: 30rem; */
+            padding: 3rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px  #00000033;
+            border-radius: 10px;
+            .gridContainer {
+              display: flex;
+              .col {
+                width: 150px;
+                border-right: 1px solid #e8e8e8;
+                padding-left: 30px;
+                &:first-child {
+                  padding: 0;
+                }
+                &:last-child {
+                  border-right: none;
+                  padding-right: -3rem;
+                }
+                h3 {
+                  text-align: left;
+                  letter-spacing: 0;
+                  margin: 0;
+                  margin-bottom: 1rem;
+                  &.topMargin {
+                    margin-top: 40px;
+                  }
+                }
+              }
+            }
+            .gridContainer2 .col {
+              width: 200px !important;
+            }
+        }
+        .adventures {
+          left: -420px;
         }
         .dropdownContent a,
         .dropdownContent span {
@@ -336,16 +377,26 @@ const GlobalStyles = createGlobalStyle`
             display: block;
             text-align: left;
             color: #fff;
+            font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
+                        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+                        "Helvetica Neue", sans-serif;
+            text-transform: none;
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: #bbb !important;
+            text-shadow: none;
+            margin-left: 0;
+
         }
         .dropdown:hover .dropdownContent {
             display: block;
         }
         .dropdown:hover a, .dropdown:hover span {
-            color: #fff;
+            color: #a8a8a8;
         }
         .dropdown:hover .dropDownLink,
         .dropdownContent a:hover {
-            color: var(--secColor);
+            color: var(--secColor) !important;
         }
         @media (max-width: 1300px) {
             /* width: 100%; */

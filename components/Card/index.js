@@ -13,26 +13,21 @@ const Card = ({
     return (
         <div className="card">
             <div className="cardImage">
-                <Image
-                    src={`/images/${imageUrl}.jpg`}
-                    layout="responsive"
-                    width="100%"
-                    height="auto"
-                    objectFit="cover"
-                    alt={title}
-                />
+                <img src={imageUrl} alt={title} />
             </div>
             <div className="cardDesc">
                 <h4>{title}</h4>
                 <p>{description}</p>
-                <ul>
-                    {bullets.map((bullet) => (
-                        <li key={bullet}>
-                            <img src="/svg/checkmark.svg" width="15" />
-                            {bullet}
-                        </li>
-                    ))}
-                </ul>
+                {bullets && (
+                    <ul>
+                        {bullets.map((bullet) => (
+                            <li key={bullet}>
+                                <img src="/svg/checkmark.svg" width="15" />
+                                {bullet}
+                            </li>
+                        ))}
+                    </ul>
+                )}
                 {price && (
                     <>
                         <h5>

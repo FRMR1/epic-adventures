@@ -18,7 +18,7 @@ const About = () => {
             </Head>
             <HeroImageStyles image="combo1">
                 <div className="heroText">
-                    <h2>About Epic.</h2>
+                    <h2>We Are Epic.</h2>
                 </div>
             </HeroImageStyles>
             <TopDividerStyles>
@@ -29,15 +29,15 @@ const About = () => {
                 />
             </TopDividerStyles>
             <SectionStyles>
-                <h3>Trust and Let Go</h3>
-                <p className="quote">
-                    “Happiness and freedom begin with a clear understanding of
-                    one principle: some things are within our control, and some
-                    things are not.”
-                </p>
-                <p className="author">
-                    Epictetus, Greek Philosopher{" "}
-                    <span class="authorYear">(50AD - 130AD)</span>
+                <p>
+                    With a focus on Adventure Tourism and the Canadian Rockies,
+                    our passion is the great outdoors. We work with the some of
+                    Canada's Premiere tour operators to give you the best
+                    quality products and authentic experiences throughout
+                    Canadas wild west. From Canmore, Banff, Jasper, Lake Louise
+                    and Golden our mission is to give you the best to save you
+                    time and money while you experience this playground with us
+                    and make it Epic.
                 </p>
             </SectionStyles>
             <BottomDividerStyles>
@@ -50,17 +50,15 @@ const About = () => {
                 </div>
             </BottomDividerStyles>
             <AboutSectionStyles>
+                <h3>Why Epic?</h3>
                 <div>
-                    <p className="big">
-                        Get outside and give up control. Whether by jumping out
-                        of an airplane or being guided through the rapids, allow
-                        yourself to trust – and let go. Epic Adventure Group is
-                        operated out of Golden, British Columbia by humans who
-                        want you to experience more out of Canada’s Adventure
-                        Capital. We allow you to make combination packages of
-                        the best adventures Golden has to offer, giving you
-                        exclusive savings on experiences you’ll never forget.
-                    </p>
+                    <ul>
+                        <li>Quality</li>
+                        <li>Value</li>
+                        <li>Tested</li>
+                        <li>Authentically Canadian</li>
+                        <li>Experience More</li>
+                    </ul>
                 </div>
                 {/* <div className="twoCol">
                     <div className="left">

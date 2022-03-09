@@ -8,6 +8,7 @@ import { HeroImageStyles } from "../../components/styles/HeroImageStyles"
 import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles"
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles"
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles"
+import { CardSectionStyles } from "../../components/styles/CardSectionStyles"
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles"
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles"
 import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles"
@@ -16,6 +17,9 @@ import { AdventureSectionStyles } from "../../components/styles/AdventureSection
 import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles"
 import dynamic from "next/dynamic"
 import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles"
+import Carousel from "react-multi-carousel"
+import Card from "../../components/Card"
+import "react-multi-carousel/lib/styles.css"
 
 const CloudflareVideo = dynamic(
     () => import("../../components/CloudflareVideo"),
@@ -32,8 +36,29 @@ const HeroImageSlider = dynamic(
 )
 
 const Skydiving = () => {
-    // Cloudinary URL for video
+    // Cloudflare URL for video
     const videoURL = "225299687d98d673503b19426a2955ef"
+
+    // Responsive breakpoints
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5,
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 4,
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2,
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+        },
+    }
 
     return (
         <>
@@ -59,29 +84,28 @@ const Skydiving = () => {
             </TopDividerStyles>
             <AdventureHeadingStyles>
                 <div className="imageContainer mobileImage">
-                    <Image
-                        src="/images/skydiving2.jpg"
-                        layout="responsive"
-                        width="100%"
-                        height="auto"
-                        objectFit="contain"
-                        alt="Skydiving"
-                    />
+                    <img src="/images/logos/extremeyeti.png" />
                 </div>
-                <div className="mobileVideo">
+                {/* <div className="mobileVideo">
                     <MobileVideoStyles>
                         <CloudflareVideo source={videoURL} />
                     </MobileVideoStyles>
-                </div>
+                </div> */}
                 <div className="pContainer">
-                    <h2>Experience Human Flight</h2>
+                    <h2>Skydive the Rockies</h2>
                     <p>
-                        Experience the thrill of free falling at over 120 MPH
-                        and a view of the Rocky Mountains from 10,000 ft! Expect
-                        sensory overload as your mind, body and soul fight
-                        against every natural self-preserving urge. Fit for
-                        anyone with the will to say yes, from the beginner ready
-                        to confront their fear to the experienced thrill seeker.
+                        Take the challenge and skydive over the Canadian
+                        Rockies. This unique and once in a lifetime opportunity
+                        to jump over one of the world's most beautiful
+                        locations. With Mountain views as far as the eye can
+                        see, the flight to altitude is unforgettable. Skydive
+                        Extreme Yeti has been offering Skydives over the Rocky
+                        Mountains for over 10 years. Operating out of Golden B.C
+                        Airport this unforgettable leap of faith is one to take
+                        home and tell your friends or bring them with you. The
+                        drop zone is located 1.5 hours drive west of the town of
+                        Banff and is the closest mountain skydiving in Banff,
+                        Jasper, Lake Louise and Canmore.
                     </p>
                 </div>
             </AdventureHeadingStyles>
@@ -92,6 +116,65 @@ const Skydiving = () => {
                     style={{ marginLeft: "-.1rem" }}
                 />
             </BottomDividerStyles>
+
+            <CardSectionStyles>
+                <div className="cards">
+                    <Carousel
+                        responsive={responsive}
+                        infinite={true}
+                        swipeable={true}
+                        draggable={true}
+                        containerClass="padding-100-px"
+                    >
+                        <Card
+                            title="Technology"
+                            description="Tandem skydiving is a safe activity, but it does have inherent risks. Having the highest quality, well-maintained, and state of the art equipment is essential to the operation."
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/0dd05d22-7277-4179-b81d-e5a424c71300/public"
+                        />
+                        <Card
+                            title="Training"
+                            description="Tandem skydiving is easy and accessible to anyone with a sense of adventure. The highly experienced skydive instructors will show you exactly what to do to make your dive safe and enjoyable."
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/8540f0ea-13db-45a9-2682-02fb152b3800/public"
+                        />
+                        <Card
+                            title="Flight"
+                            description="Enjoy the ride up, as the airport gets smaller and the mountains become more unbelievable! These views cannot be beat."
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/95a71a3f-6e3e-4451-e396-fecf4c437300/public"
+                        />
+                        <Card
+                            title="Skydive"
+                            description="One of the most memorable parts of the experience is when you leave the plane and take on the world. It's a feeling you will never forget, should we go again?"
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b523b875-ab5f-4259-3c1d-b9751d606500/public"
+                        />
+                        <Card
+                            title="Parachuting"
+                            description="And just like that, a parachute opens above your head and everything is quiet. You get time to take in those views, talk about what just happened and descend back to the airport."
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7ea0cf81-ca22-4524-23d6-a28eba164400/public"
+                        />
+                        <Card
+                            title="Landing"
+                            description="The landing is soft and easy, with a couple of practices in the sky, your instructor will safely land you both at the airport."
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/a45c1c16-675c-4e13-a3a5-5cee310af300/public"
+                        />
+                        <Card
+                            title="Safety"
+                            description="Customer experience and safety is a number one priority, using state of the art technology, highly experienced instructors and high industry standards, you can have confidence with your skydive."
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/a1bf0929-9986-4c96-df49-538f63d86400/public"
+                        />
+                        <Card
+                            title="Book in Advance"
+                            description="Slots fill fast as this experience is extremely popular, be sure to get your spot."
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/61423076-b46e-4905-23f4-6e59dc961300/public"
+                        />
+                        <Card
+                            title="Waiver Forms"
+                            description="Download and read waiver forms before your trip."
+                            imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e1ed9771-4ab4-4689-8257-3390a94ced00/public"
+                        />
+                    </Carousel>
+                </div>
+            </CardSectionStyles>
+
             <BookAdventureStyles marginBottom={true}>
                 <h3>Tandem Skydive</h3>
                 <div className="twoCol">
