@@ -72,7 +72,7 @@ const Skydiving = () => {
         </HeroVideoStyles>
       </div>
       <HeroImageSlider
-        title="Skydiving"
+        title="ATV Off-Road"
         images={["SKY1", "SKY2", "SKY3", "SKY4"]}
       />
       <TopDividerStyles>
@@ -83,29 +83,26 @@ const Skydiving = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+        <div className="imageContainer">
+          <img src="/images/logos/coa.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
-          <h2>ATV Off-Road Tour</h2>
-          <p>
-            Venture off the beaten path and experience Golden's back country up
-            close on your own all-terrain vehicle. Led by a seasoned adventure
-            tour guide, you'll come across winding rivers and streams, grand
-            expanses of native wildflowers, stunning mountain vistas and the
-            chance to spot local wildlife in their natural environment. Located
-            1.5 hours west of the town of Banff along the Trans-Canada Highway,
-            this trip is nestled in the Columbia Valley and is the closest ATV
-            trip to Banff, Lake Louise and Jasper. ATV's are fun, fast and a
-            great way to travel the road less travelled. With over ten years
-            operating in the Valley, this fantastic tour is a great escape from
-            busy tourist spots.
-          </p>
+          <div>
+            <h2>ATV Off-Road Tour</h2>
+            <p>
+              Venture off the beaten path and experience Golden's back country
+              up close on your own all-terrain vehicle. Led by a seasoned
+              adventure tour guide, you'll come across winding rivers and
+              streams, grand expanses of native wildflowers, stunning mountain
+              vistas and the chance to spot local wildlife in their natural
+              environment. Located 1.5 hours west of the town of Banff along the
+              Trans-Canada Highway, this trip is nestled in the Columbia Valley
+              and is the closest ATV trip to Banff, Lake Louise and Jasper.
+              ATV's are fun, fast and a great way to travel the road less
+              travelled. With over ten years operating in the Valley, this
+              fantastic tour is a great escape from busy tourist spots.
+            </p>
+          </div>
         </div>
       </AdventureHeadingStyles>
       <BottomDividerStyles marginTop="4.7rem">
@@ -160,10 +157,10 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Half Day ATV Trip (AM)</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
+            <div>
               <Image
                 src="/images/skydiving6.jpg"
                 layout="responsive"
@@ -176,25 +173,118 @@ const Skydiving = () => {
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              This trip takes you through dense forests and up into the
+              mountains, passing glacier fed streams and oceans of wildflowers
+              mid-season.
             </p>
             <ul>
               <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                <img src="/svg/checkmark.svg" width="15" />3 hours (approx.)
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                No experience required
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Two trips per day (10AM-1PM)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Passenger/driver combos
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Drivers 18+, Passengers 6+
               </li>
             </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
+        </div>
+        <h3>Half Day ATV Trip (PM)</h3>
+        <div className="twoCol">
+          <div className="left">
+            <div>
+              <Image
+                src="/images/skydiving6.jpg"
+                layout="responsive"
+                width="100%"
+                height="auto"
+                objectFit="contain"
+                alt="Skydiving"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <p>
+              This trip takes you through dense forests and up into the
+              mountains, passing glacier fed streams and oceans of wildflowers
+              mid-season.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />3 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                No experience required
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                2PM-5PM
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Passenger/driver combos
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Drivers 18+, Passengers 6+
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <div className="combo">
+          <h3>Combo This Trip</h3>
+          <p>Combo and experience more!</p>
+          <ul>
+            <li>
+              <img src="/svg/checkmark.svg" width="15" />
+              Save money
+            </li>
+            <li>
+              <img src="/svg/checkmark.svg" width="15" />
+              Save time
+            </li>
+            <li>
+              <img src="/svg/checkmark.svg" width="15" />
+              Exclusive products
+            </li>
+            <li>
+              <img src="/svg/checkmark.svg" width="15" />
+              Live EPIC!
+            </li>
+          </ul>
+          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+            <a target="_blank" rel="noreferrer">
+              <div className="button">
+                <span>More Info</span>
+              </div>
+            </a>
+          </Link>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>
@@ -206,24 +296,24 @@ const Skydiving = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “Had a blast! This trip was so much fun and the views were incredible.
+          The guides are excellent and know their stuff and all the places to
+          take you for the most memorable day. We will be back!”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Allison P., August 2020</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “Awesome tour up the mountain and off-road seeing some waterfalls. Our
+          guide Chris was friendly, knowledgeable and fun, thank you for the
+          great trip and engaging information. Great job keeping the kids having
+          fun and the adults as well. Family fun!”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">Tiffany T., August 2019</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -233,6 +323,74 @@ const Skydiving = () => {
         />
       </BottomDividerStyles>
       <AdventureSectionStyles>
+        <div className="whyEpic">
+          <h3>Why Epic?</h3>
+          <div className="container">
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Highest Standards</h4>
+                <p>
+                  All of our operators have the years of experience required to
+                  give you the best quality trip and highest industry standards.
+                  They know their stuff.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Hype Deals</h4>
+                <p>
+                  With every purchase you get access to local deals and offers
+                  on partnered hotels, restaurants and activities to save you
+                  money and connect you with local legends.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Authentically Canadian</h4>
+                <p>
+                  All of our adventures are operated and owned by local people
+                  and families. Your money stays local and that matters.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Best Value</h4>
+                <p>
+                  We hand pick the best value trips to save you time and
+                  research. Chosen by internationally experienced guides.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Experience More</h4>
+                <p>
+                  Our exclusive combos and adventures will save you money, time
+                  and research and let you experience more on your trip through
+                  the Rockies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="twoCol">
           <div className="left">
             <h3>Additional Details</h3>
