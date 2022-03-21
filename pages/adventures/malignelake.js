@@ -84,13 +84,8 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/malignelake.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Maligne Lake</h2>
           <p>
@@ -156,40 +151,38 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Classic Cruise</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
                 src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
+                layout="fill"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Maligne Lake"
               />
             </div>
           </div>
           <div className="right">
-            <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
-            </p>
+            <p>Cruise across the Maligne lake and spirit island.</p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Duration: 1.5 hours (approx.)
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -231,24 +224,25 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “AMAZING boat cruise of the most gorgeous lake!! Fabulous crew. They
+          LOVE their job and it's contagious. Some of the most gorgeous scenery
+          I have ever seen!! And perfectly accessed by this boat.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Marcia E., Jan. 2022</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “Our cruise was the last of the season and our guides went out of
+          their way to make it incredible! Their friendly banter and knowledge
+          of the area kept us entertained the entire cruise! The kids loved
+          learning from captain Meghan and Emily! Thanks again for an amazing
+          excursion!”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">Giordanofam, Oct. 2022</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -332,24 +326,20 @@ const MaligneLake = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Please bring appropriate clothing and footwear for the weather.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Must be 18+ years old with government ID for beer cruise.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
                 <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
+                  You can view our{" "}
+                  <a href="cancellations" target="_blank" rel="noreferrer">
+                    cancellation policy
                   </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
+                  here.
                 </span>
               </li>
             </ul>

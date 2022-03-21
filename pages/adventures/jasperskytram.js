@@ -84,13 +84,8 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/jasperskytram.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Jasper Skytram Above All Else</h2>
           <p>
@@ -158,40 +153,40 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Jasper Skytram Ticket</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Jasper Skytram"
+            />
           </div>
           <div className="right">
-            <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
-            </p>
+            <p>Ascend 7,400ft. above sea level in the unique Jasper Skytram.</p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Listed price for one adult
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Family and child prices available
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -233,24 +228,23 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “Excellent service and friendly staff. This is a must do in Jasper! Be
+          prepared and make the effort to the summit, you will be rewarded!”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Summer, Aug. 2021</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “Mind-blowing views in all directions on a clear day. Very smooth
+          ride. Definitely worth hiking up toward the summit from the top of the
+          tram. The tram is shared but ventilation is abundant with the windows
+          open and riders are masked.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">OttawaPhil, Sept. 2021</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -334,24 +328,21 @@ const MaligneLake = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Arrive 20 minutes before your departure time. Allow 1-2 Hours
+                for activity.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Children 6 and under are free.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
                 <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
+                  You can view our{" "}
+                  <a href="cancellations" target="_blank" rel="noreferrer">
+                    cancellation policy
                   </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
+                  here.
                 </span>
               </li>
             </ul>

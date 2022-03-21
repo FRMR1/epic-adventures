@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const BookAdventureStyles = styled.div`
   background-color: ${({ grey }) => (grey ? "#f3f3f3" : "#fafafa")};
-  padding: 0 3rem;
   margin: 0;
   margin-bottom: ${({ marginBottom }) => (marginBottom ? "20rem" : "-3rem")};
   position: relative;
@@ -36,7 +35,9 @@ export const BookAdventureStyles = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 8rem;
-    background-color: #f8f8f8;
+    background-color: #f0f0f0;
+    padding: 3rem;
+    min-height: 300px;
     * {
       z-index: 1;
     }
@@ -71,9 +72,11 @@ export const BookAdventureStyles = styled.div`
     .left,
     .right {
       align-self: center;
+      position: relative;
     }
     .left {
-      /* padding: 0 7rem; */
+      height: 100%;
+      width: 100%;
       @media (max-width: 800px) {
         padding: 0;
         width: 100%;
@@ -94,6 +97,9 @@ export const BookAdventureStyles = styled.div`
     }
     .priceContainer {
       text-align: left;
+      position: relative;
+      padding: 0;
+      margin: 0;
       @media (max-width: 800px) {
         text-align: center;
       }
@@ -102,7 +108,10 @@ export const BookAdventureStyles = styled.div`
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
         color: #5c5c5c;
         font-weight: 600;
-        line-height: 14rem;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        line-height: 10rem;
       }
       .dollarSign {
         font-size: 4rem;

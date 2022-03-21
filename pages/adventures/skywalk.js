@@ -84,13 +84,8 @@ const Skydiving = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/columbiaicefield.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Be Inspired</h2>
           <p>
@@ -152,40 +147,43 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Skywalk Experience</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              Explore the Sunwapta valley on this interpretive experience on a
+              cliff's edge.
             </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Includes shuttle
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Skywalk experience
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -218,7 +216,7 @@ const Skydiving = () => {
           </Link>
         </div>
       </BookAdventureStyles>
-      <TopDividerStyles>
+      {/* <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"
           width="101%"
@@ -252,7 +250,7 @@ const Skydiving = () => {
           width="101%"
           style={{ marginLeft: "-.1rem" }}
         />
-      </BottomDividerStyles>
+      </BottomDividerStyles> */}
       <AdventureSectionStyles>
         <div className="whyEpic">
           <h3>Why Epic?</h3>
@@ -328,25 +326,17 @@ const Skydiving = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Please bring ppropriate clothing and footwear for the weather.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Ages five and under ride for free but require a ticket.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
-                  </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
-                </span>
+                Tours start at the Columbia Icefields discovery centre, you will
+                be shuttled to the Skywalk. Shuttles leave every fifteen
+                minutes.
               </li>
             </ul>
           </div>

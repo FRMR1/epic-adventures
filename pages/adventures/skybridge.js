@@ -84,13 +84,8 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/skybridge.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Banff and Canmore Scenic Flights</h2>
           <p>
@@ -162,40 +157,45 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Park Entry</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
                 src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
+                layout="fill"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Golden Skybridge"
               />
             </div>
           </div>
           <div className="right">
-            <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
-            </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                All day park entry
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Price listed is for one adult
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Family and child prices available
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">34</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -237,24 +237,13 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “The Golden Skybridge will soon become an iconic experience for
+          Canadian and international visitors alike.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
-        <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
-        </p>
-        <div className="faceContainer">
-          <img src="/svg/face.svg" width="30px" />
-        </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">Andrea Smith, Lonely Planet</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -338,24 +327,33 @@ const MaligneLake = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Summer operating hours: June to September, 9am to 9pm.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Autumn operating hours: September to October, 10am to 6pm.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Park entry is valid for the full day of purchase.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Park Entry is valid for the full day of purchase.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Golden Skybridge Iis located 1.5 hours drive west of the town of
+                Banff along the Trans-Canada Highway.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
                 <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
+                  You can view our{" "}
+                  <a href="cancellations" target="_blank" rel="noreferrer">
+                    cancellation policy
                   </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
+                  here.
                 </span>
               </li>
             </ul>

@@ -84,13 +84,8 @@ const Skydiving = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/extremeyeti.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Skydive the Rockies</h2>
           <p>
@@ -177,37 +172,77 @@ const Skydiving = () => {
         <h3>Tandem Skydive</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
           </div>
           <div className="right">
-            <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
-            </p>
+            <p>Skydive the Rockies at 120MPH with Skydive Extreme Yeti.</p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                10,000 ft. skydive
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                No experience required
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Approx. 2+ hrs.
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">329</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Extreme Altitude</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
+          </div>
+          <div className="right">
+            <p>Add some more airtime and go as high as possible!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                13,000 ft. skydive
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Extra altitude
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">100</span>
+              <span className="currency">CAD/PERSON</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">

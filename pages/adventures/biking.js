@@ -84,13 +84,8 @@ const MountainBiking = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/kickinghorse.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Mountain Bike Park</h2>
           <p>
@@ -147,40 +142,78 @@ const MountainBiking = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Bike Lift Park Pass</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Bike Lift Park Pass"
+            />
           </div>
           <div className="right">
-            <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
-            </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Gondola and catamount access
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Full day pass
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Bike Lift Park Pass and Gear Rental</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Bike Lift Park Pass"
+            />
+          </div>
+          <div className="right">
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Gondola and catamount access
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Full day pass
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Safety equipment and bike rental
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -213,7 +246,7 @@ const MountainBiking = () => {
           </Link>
         </div>
       </BookAdventureStyles>
-      <TopDividerStyles>
+      {/* <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"
           width="101%"
@@ -247,7 +280,7 @@ const MountainBiking = () => {
           width="101%"
           style={{ marginLeft: "-.1rem" }}
         />
-      </BottomDividerStyles>
+      </BottomDividerStyles> */}
       <AdventureSectionStyles>
         <div className="whyEpic">
           <h3>Why Epic?</h3>

@@ -84,13 +84,8 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/minnewanka.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Lake Minnewanka</h2>
           <p>
@@ -163,40 +158,74 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Lake Minnewanka Classic Cruise</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Lake Minnewanka"
+            />
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              Take the Classic Lake Minnewanka Cruise and enjoy the beauty of
+              Banff National Park by water.
             </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Duration: 1 hour (approx.)
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Beer Voyage Cruise</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Lake Minnewanka"
+            />
+          </div>
+          <div className="right">
+            <p>
+              Join the Lake Minnewanka Cruise for an afternoon of boutique beers
+              and interpretive cruise.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 1.5 hours (approx.)
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -238,24 +267,26 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “We went on the 5 pm cruise and the views were beautiful. The stories
+          were fun to hear from the guide. The water was beautiful and was
+          another way to see the breathtaking scenery vs having to hike. We had
+          done two very long hikes b2b so this was an excellent way to see the
+          area. We were able to go a far distance down the lake and that was
+          cool!”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Kerwebb, Oct. 2022</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “Wonderful boat tour on the lake in a mountain setting. The tour guide
+          was excellent and very knowledgeable about the lake and region. Boat
+          captain was excellent and very safe.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">279raphaelt, Sept. 2021</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -339,24 +370,24 @@ const MaligneLake = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Please bring appropriate clothing and footwear for the weather.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Ages 5 and under ride for free but require a ticket.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Must be 18+ years old with government ID for beer cruise.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
                 <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
+                  You can view our{" "}
+                  <a href="cancellations" target="_blank" rel="noreferrer">
+                    cancellation policy
                   </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
+                  here.
                 </span>
               </li>
             </ul>

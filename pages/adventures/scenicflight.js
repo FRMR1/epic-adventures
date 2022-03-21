@@ -84,13 +84,8 @@ const Skydiving = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/scenicflights.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Kicking Horse Aviation Scenic Flights</h2>
           <p>
@@ -162,40 +157,132 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Columbia Icefield Tour</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
                 src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
+                layout="fill"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Scenic Flights"
               />
             </div>
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              On the Columbia Icefields flight-seeing tour, you will find
+              yourself looking over majestic valleys, and vast icefields in this
+              unforgettable tour.
             </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Duration: 1 hour
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Maximum four passengers
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">300</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>The Bugaboos Tour</h3>
+        <div className="twoCol">
+          <div className="left">
+            <div className="imageRotate">
+              <Image
+                src="/images/skydiving6.jpg"
+                layout="fill"
+                objectFit="contain"
+                alt="Scenic Flights"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <p>
+              The Bugaboos are a mountain range in the Purcell Mountains, with a
+              famed group of granite spires popular by mountaineers and rock
+              climbers. This flight takes you shoulder to shoulder alongside the
+              Bugaboo Spire and other surrounding spectacular spires.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 45 min.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Maximum four passengers
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">250</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Sir Donald Tour</h3>
+        <div className="twoCol">
+          <div className="left">
+            <div className="imageRotate">
+              <Image
+                src="/images/skydiving6.jpg"
+                layout="fill"
+                objectFit="contain"
+                alt="Scenic Flights"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <p>
+              Embark on an impressive flight tour to Glacier National Park to
+              take on spectacular views of Mount Sir Donald with its classic
+              Matterhorn shape. Mount Sir Donald is a mountain summit located in
+              the Rogers Pass area within the Selkirk Mountain Range.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 45 min.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Maximum four passengers
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">250</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -228,7 +315,7 @@ const Skydiving = () => {
           </Link>
         </div>
       </BookAdventureStyles>
-      <TopDividerStyles>
+      {/* <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"
           width="101%"
@@ -262,7 +349,7 @@ const Skydiving = () => {
           width="101%"
           style={{ marginLeft: "-.1rem" }}
         />
-      </BottomDividerStyles>
+      </BottomDividerStyles> */}
       <AdventureSectionStyles>
         <div className="whyEpic">
           <h3>Why Epic?</h3>
@@ -338,24 +425,31 @@ const Skydiving = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                It is the pilot's discretion to cancel anytime for flying in
+                unfavourable weather.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Please arrive 15 minutes prior of departure time.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Dress comfortably for weather on the day, sunglasses are
+                recommended.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                This tour runs all year round but has temperature requirements
+                for flying.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
                 <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
+                  You can view our{" "}
+                  <a href="cancellations" target="_blank" rel="noreferrer">
+                    cancellation policy
                   </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
+                  here.
                 </span>
               </li>
             </ul>

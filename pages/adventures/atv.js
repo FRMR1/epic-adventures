@@ -163,11 +163,9 @@ const Skydiving = () => {
             <div>
               <Image
                 src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
+                layout="fill"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="ATV Off-Road"
               />
             </div>
           </div>
@@ -213,11 +211,9 @@ const Skydiving = () => {
             <div>
               <Image
                 src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
+                layout="fill"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="ATV Off-Road"
               />
             </div>
           </div>
@@ -287,7 +283,7 @@ const Skydiving = () => {
           </Link>
         </div>
       </BookAdventureStyles>
-      <TopDividerStyles>
+      {/* <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"
           width="101%"
@@ -321,7 +317,7 @@ const Skydiving = () => {
           width="101%"
           style={{ marginLeft: "-.1rem" }}
         />
-      </BottomDividerStyles>
+      </BottomDividerStyles> */}
       <AdventureSectionStyles>
         <div className="whyEpic">
           <h3>Why Epic?</h3>
@@ -397,25 +393,28 @@ const Skydiving = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Bring appropriate warm clothing and closed toe shoes.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Drivers must be at least 18 years old with valid old drivers
+                license. Passengers must be at least six years old.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
+                Instructors will teach you everything you need to know, with no
+                experience required.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                <div>
+                  Download the{" "}
+                  <a href="/atvwaiver.pdf" target="_blank" rel="noreferrer">
+                    waiver form
                   </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
-                </span>
+                  here. View our <a href="cancellations">cancellation policy</a>{" "}
+                  here.
+                </div>
               </li>
             </ul>
           </div>

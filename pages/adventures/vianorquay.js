@@ -63,7 +63,7 @@ const Skydiving = () => {
   return (
     <>
       <Head>
-        <title>Epic Adventures | Skydiving</title>
+        <title>Epic Adventures | Via Ferrata Mt. Norquay</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="heroVideo">
@@ -84,22 +84,17 @@ const Skydiving = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/norquay.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
-          <h2>Skydive the Rockies</h2>
+          <h2>Pure Adventure</h2>
           <p>
             Adventure lover: this is the one for you! Get active and enjoy the
-            great outdoors of Banff National Park with this Via Ferrata
+            great outdoors of Banff National Park with this via ferrata
             adventure. Feel on top of the world, exhilarate your senses,
-            experience views of Banff rarely seen. Italian for “iron road”, Via
-            Ferrata is an assisted climbing experience along four breathtaking
-            routes on the cliffs above Mt Norquay. Climb ladders, cross
+            experience views of Banff rarely seen. Italian for “iron road”, ia
+            ferrata is an assisted climbing experience along four breathtaking
+            routes on the cliffs above Mt. Norquay. Climb ladders, cross
             suspension bridges and marvel at the grandeur of the mountain vistas
             that surround you.
           </p>
@@ -172,40 +167,293 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Explorer Route</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              Spend some time with your guide, get introduced to the equipment,
+              head up a few pitches and cross the suspension bridge. This is a
+              great choice for those who are slightly limited on time or looking
+              for an introduction to Via Ferrata.
             </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Duration: 2.5 hours (approx.)
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Minimum 12 years old
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 88 lbs.
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Ridgewalker Route</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
+          </div>
+          <div className="right">
+            <p>
+              To get a greater feel for heights, exposure and the full Via
+              Ferrata experience, become a Ridgewalker! This half-day excursion
+              takes you high up on the Norquay cliffs, climbing the Memorial,
+              Sunrise and Vista buttresses – and of course, traversing the
+              suspension bridge.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 4 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 12 years old
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 88 lbs.
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Alpinist Route</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
+          </div>
+          <div className="right">
+            <p>
+              Alpinists are continuously on the move. This 4-4.5 hr via ferrata
+              tour takes in all that the popular Ridgewalker tour offers but
+              continues out, and along the ridge to the epic Norquay
+              “Panoramadome”, then follows the scenic narrow crest of the
+              mountain for 600m. Expect continuous moderate to strenuous
+              exertion on this itinerary, with brief breaks.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 4 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 14 years old
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 88 lbs.
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Skyline Route</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
+          </div>
+          <div className="right">
+            <p>
+              The Skyline includes an exciting high traverse on a sheer rock
+              wall and crosses an “airy” 55m suspension bridge. Your effort is
+              amply rewarded at the top, with outstanding panoramic views where
+              the Rocky Mountains stretch out in every direction. With Banff as
+              a backdrop over 1000 metres below, enjoy the uber-scenic
+              ridge-crest descent as it leads you back to the Cliffhouse Bistro
+              to celebrate your mountaineering accomplishments.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 5 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 14 years old
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 88 lbs.
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Summiteer Route</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
+          </div>
+          <div className="right">
+            <p>
+              The Summiteer tops out at the highest point of Norquay's via
+              ferrata. A continuation of the Skyline route, this 6-hour
+              adventure traverses the alpine ridge and crosses an additional
+              three-wire suspension bridge over an impressive couloir. Be awed
+              by the breathtaking 360-degree views of the Canadian Rockies as
+              you enjoy a well-earned (and included) lunch on the East Summit of
+              Mt Norquay. After your tour, unwind and share in the stoke at the
+              Cliffhouse Bistro with a beverage and appetizers—also included in
+              your tour.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 6 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 14 years old
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 88 lbs.
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Mountaineer Route</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Skydiving"
+            />
+          </div>
+          <div className="right">
+            <p>
+              Mountaineers spend up to 8 hours on the via ferrata covering over
+              3km's of distance and nearly 500m of vertical gain, exploring the
+              entire length of the mountain crest between the SE and NE summits.
+              The longest tour, it includes all of Norquay's via ferrata routes
+              into one big day! Be prepared for moderate exertion all day with
+              picturesque rest stops and an included lunch up on the mountain.
+              Finish your tour with a well-deserved (included) beverage and
+              après at the Cliffhouse Bistro.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 8 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 14 years old
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 88 lbs.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Includes packed lunch
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -247,24 +495,27 @@ const Skydiving = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “Fantastic day, exhilarating, challenging and safe. Great staff. Our
+          guide, AJ, engaging, knowledgeable, outgoing and help our group really
+          enjoy the day and each other. Great way to see Mt Norquay, challenge
+          yourself, and enjoy a day in Banff.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Lawrence C., Sept. 2019</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “My husband and I did this in our first day in Banff. The weather was
+          beautiful, the guide was knowledgeable and personable. It can be
+          physically challenging and not for those if you're afraid of heights
+          at all. The views are wonderful. We had a great time. There is a
+          restaurant that you can also get a beer at afterwards. There are
+          several different levels to do the activity.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">January P., August 2020</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -348,25 +599,26 @@ const Skydiving = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Appropriate clothing for weather and sturdy closed toe shoes
+                will be required. Free rentals are available but not all sizes
+                are guaranteed.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Thirty minute check in prior to departure.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
-                  </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
-                </span>
+                Instructors will teach you everything you need to know with no
+                experience required.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                The trip will run during most weather conditions.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Groups sizes are 1-8 per guide.
               </li>
             </ul>
           </div>

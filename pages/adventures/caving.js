@@ -170,40 +170,103 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Explorer Cave Tour</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Caving"
+            />
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              This cave tour is two hours underground exploring the ancient
+              bones and cave formations. Full of fun, this tour is the more
+              accessible of the two trips.
             </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Duration: 4.5 hours (approx.)
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Year round activity
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Guided tour
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Moderate difficulty
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">135</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Adventurer Cave Tour</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Caving"
+            />
+          </div>
+          <div className="right">
+            <p>
+              This trip is a “Canadian Signature Experience” award holder and is
+              the longest trip with an 18m repel in the cave.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Signature tour
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 6 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Year round activity
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Guided tour
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Moderate difficulty
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">175</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -245,24 +308,25 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “This was an absolute riot! The cave is so raw and beautiful! The tour
+          itself was constantly exciting, challenging and unpredictable. It
+          offers some chances to push your comfort levels as well - which was
+          absolutely worth it. ”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Steve M., Jan. 2020</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “Got this tour for my girlfriend as her birthday present and we both
+          loved it. Our guide Brent was fantastic and worked well to accommodate
+          different skill and comfort levels in our small group. Would recommend
+          this tour to anyone!”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">Blair C., Dec. 2021</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -346,24 +410,43 @@ const MaligneLake = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Bring appropriate clothing for weather/season and closed toe
+                shoes. The cave is 5 degrees celcius all year round.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Please bring water and a durable snack to keep your energy
+                levels up during the trip (eg.nuts,energybar), camera (pocket
+                fit), and medication if required.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                You will be provided a backpack (shared between 2), helmet, head
+                lamp, coveralls, kneepads, gloves, harness and safety lanyard.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum age is 12 years old. Maximum weight size is generally
+                not an issue but you will need to fit a harness with a waist of
+                46” (116cm) and a maximum leg size of 33” (84cm).
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Instructors will teach you everything you need to know with no
+                experience required.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
                 <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
+                  You can download the{" "}
+                  <a href="/cavingwaiver.pdf" target="_blank" rel="noreferrer">
+                    wiaver form
                   </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
+                  here, and you can view our{" "}
+                  <a href="cancellations" target="_blank" rel="noreferrer">
+                    cancellation policy
+                  </a>{" "}
+                  here.
                 </span>
               </li>
             </ul>

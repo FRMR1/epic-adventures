@@ -63,7 +63,7 @@ const Skydiving = () => {
   return (
     <>
       <Head>
-        <title>Epic Adventures | Skydiving</title>
+        <title>Epic Adventures | Valley Zipline</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="heroVideo">
@@ -84,13 +84,8 @@ const Skydiving = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          {/* <img src="/images/logos/extremeyeti.png" /> */}
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>The Valley's Zipline and Adventure Park</h2>
           <p>
@@ -169,34 +164,72 @@ const Skydiving = () => {
             <div className="imageRotate">
               <Image
                 src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
+                layout="fill"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Zipline"
               />
             </div>
           </div>
           <div className="right">
-            <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
-            </p>
+            <p>Take the challenge and fly through the trees.</p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Duration: 1.5 hours (approx.)
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Gear included
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Guided trip
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Seven different ziplines
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Aerial Park</h3>
+        <div className="twoCol">
+          <div className="left">
+            <div className="imageRotate">
+              <Image
+                src="/images/skydiving6.jpg"
+                layout="fill"
+                objectFit="contain"
+                alt="Zipline"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <p>New aerial course coming soon.</p>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -238,24 +271,22 @@ const Skydiving = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “Great time. Everyone enjoyed themselves. We had a wide range of ages
+          in our party and a great time was had by all. Our tour guides Riley
+          and Caden were great.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Elizabeth S., Aug. 2021</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “Cass and Scott - best guides ever! Had so much fun. Thanks for such a
+          great experience, laughter and rescues! PS Have a great season Cass!”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">Lisa M., August 2021</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -339,25 +370,12 @@ const Skydiving = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Jump tower weight 45 lbs to 265 lbs. Climbing wall weight 22 lbs
+                to 330 lbs. Zipline course weight 65 lbs to 250 lbs.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
-                  </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
-                </span>
+                Please bring appropriate clothing for weather.
               </li>
             </ul>
           </div>

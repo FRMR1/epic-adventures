@@ -7,7 +7,7 @@ export const AdventureSectionStyles = styled.div`
   margin-bottom: -12rem;
   text-align: center;
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   /* top: -18rem; */
   margin-top: -14rem;
   @media (max-width: 800px) {

@@ -84,13 +84,8 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/alpineheli.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Banff and Canmore Scenic Flights</h2>
           <p>
@@ -154,40 +149,181 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Three Sisters Peak Tour</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Heli flights"
+            />
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              Your adventure will take you up to the three sisters peak and to
+              the magnificent spray lakes, witness the turquoise lakes and
+              surrounding mountains.
             </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Duration: 25 min.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Minimum 2 passengers
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Maximum 5 passengers
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">280</span>
+              <span className="currency">CAD/PERSON</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Mt. Assiniboine And Glaciers Tour</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Heli flights"
+            />
+          </div>
+          <div className="right">
+            <p>
+              Your adventure will take you up to the three sisters peak and
+              beyond into the “Matterhorn of the Canadian Rockies” with stunning
+              glacial views.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 35 min.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 2 passengers
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Maximum 5 passengers
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">380</span>
+              <span className="currency">CAD/PERSON</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Continental Divide Tour</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Heli flights"
+            />
+          </div>
+          <div className="right">
+            <p>
+              The Continental Divide is not only an extension of the Three
+              Sisters Peaks Tourm, it's a journey that will take you deeper into
+              the most majestic landscape Canada has to offer.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 45 min.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 2 passengers
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Maximum 5 passengers
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">480</span>
+              <span className="currency">CAD/PERSON</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Marvel Pass Tour</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Heli flights"
+            />
+          </div>
+          <div className="right">
+            <p>
+              Over the Spray Reservoir and the high ridges to Marvel Lake and
+              the famous Mount Assiniboine, also known as the “Matterhorn of the
+              Rockies”. Heading south to Marvel Pass, where you set down at 7200
+              feet, close to Aurora Lake.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 55 min.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum 2 passengers
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Maximum 5 passengers
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">700</span>
+              <span className="currency">CAD/PERSON</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -229,24 +365,24 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “Alpine Helicopters was amazing. We saw amazing sites and our pilot
+          was very knowledgeable and informative. It was an incredible
+          experience, highly recommend. It does get pretty warm inside the
+          helicopter. I had to shed 2 of my 3 layers I was wearing since it was
+          so cold out.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Clay, Dec. 2021</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “Amazing experience, very professional and safe. Would recommend to
+          anyone. Trip was without turbulence. Views are incredible.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">Cesar L., Nov. 2021</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -330,24 +466,30 @@ const MaligneLake = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                <span>
+                  You can view ther tour{" "}
+                  <a
+                    href="/heliflightterms.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    terms and conditions
+                  </a>{" "}
+                  here.
+                </span>
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Please book ahead, slots fill up fast.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
                 <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
+                  You can view our{" "}
+                  <a href="cancellations" target="_blank" rel="noreferrer">
+                    cancellation policy
                   </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
+                  here.
                 </span>
               </li>
             </ul>

@@ -63,7 +63,7 @@ const Skydiving = () => {
   return (
     <>
       <Head>
-        <title>Epic Adventures | Skydiving</title>
+        <title>Epic Adventures | Via Ferrata Kicking Horse</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="heroVideo">
@@ -84,18 +84,13 @@ const Skydiving = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
+          <img src="/images/logos/kickinghorse.svg" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
-          <h2>Skydive the Rockies</h2>
+          <h2>Pure Adventure</h2>
           <p>
             Adventure lover: this is the one for you! Get active and enjoy the
-            great outdoors of Banff National Park with this Via Ferrata
+            great outdoors of Banff National Park with this via ferrata
             adventure. Feel on top of the world, exhilarate your senses,
             experience views of Banff rarely seen. Italian for “iron road”, Via
             Ferrata is an assisted climbing experience along four breathtaking
@@ -177,29 +172,71 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Pioneer Route</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
                 src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
+                layout="fill"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Via Ferrata"
               />
             </div>
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              The most accessible route for those who aren't sure about via
+              ferrata and want to give it a try.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 1 hour (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Full resort access
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                All gear supplied
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Includes orientation and guide
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Discovery Route</h3>
+        <div className="twoCol">
+          <div className="left">
+            <div className="imageRotate">
+              <Image
+                src="/images/skydiving6.jpg"
+                layout="fill"
+                objectFit="contain"
+                alt="Via Ferrata"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <p>
+              The most accessible route for those who aren't sure about via
+              ferrata and want to give it a try.
             </p>
             <ul>
               <li>
@@ -208,9 +245,79 @@ const Skydiving = () => {
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Full resort access and bike pass
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                All gear supplied
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Includes orientation and guide
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Ascension Route</h3>
+        <div className="twoCol">
+          <div className="left">
+            <div className="imageRotate">
+              <Image
+                src="/images/skydiving6.jpg"
+                layout="fill"
+                objectFit="contain"
+                alt="Via Ferrata"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <p>
+              One of the most technical sections in North America this is host
+              to some serious views at 465 meters this is bliss at the top of
+              the Terminator Peak.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 3 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Full resort access and bike pass
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                All gear supplied
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Includes orientation and guide
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">TBD</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -251,25 +358,11 @@ const Skydiving = () => {
         />
       </TopDividerStyles>
       <TestimonialStyles>
-        <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
-        </p>
+        <p>“Fantastic mountain climbing. Must do activity.”</p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
-        <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
-        </p>
-        <div className="faceContainer">
-          <img src="/svg/face.svg" width="30px" />
-        </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">David M., July 2016</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -353,25 +446,26 @@ const Skydiving = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Please bring ppropriate clothing and footwear for the weather.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                Instructors will teach you everything you need to know with no
+                experience required.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
-                  </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
-                </span>
+                Please bring a small backpack, bug spray, sunscreen, camera,
+                water, snacks.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Must be at least 12 years old, and between 110 lbs. and 285 lbs.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                The trip will run during most weather events, but KHR reserves
+                the right to reschedule or cancel if weather is not permitting.
               </li>
             </ul>
           </div>

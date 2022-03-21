@@ -86,11 +86,6 @@ const MaligneLake = () => {
         <div className="imageContainer mobileImage">
           <img src="/images/logos/extremeyeti.png" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Canyoning In The Rockies</h2>
           <p>
@@ -161,40 +156,166 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Tandem Skydive</h3>
+        <h3>Heart Creek Canyon</h3>
         <div className="twoCol">
           <div className="left">
-            <div className="imageRotate">
-              <Image
-                src="/images/skydiving6.jpg"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Canyoning"
+            />
           </div>
           <div className="right">
             <p>
-              After a 20-minute scenic flight to altitude, you’ll nudge towards
-              the edge of the plane and make the jump with an experienced tandem
-              instructor. Keep your head up, smile at your personal hand cam and
-              take in the stunning surroundings. After an exhilarating freefall,
-              the five-minute canopy ride to earth will give you indescribable
-              360° views of glacier-capped mountain ranges and intersecting
-              rivers.
+              Looking to try canyoning for the first time? Then this is the trip
+              for you! An easy approach, an ideal location to learn rappelling,
+              and amazing scenery all make this trip the perfect choice for your
+              first canyoning experience. Heart Creek Canyon is also our closest
+              trip to the townsites of Banff and Canmore.
             </p>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Duration: 2 hours (approx.)
+                Duration: 4 hours (approx.)
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                9AM, 11AM, 1PM, 3PM, 5PM
+                Minimum age 12+
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Difficulty: beginner
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Group size 2-8
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                May—October
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">185</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Ghost Canyon</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Canyoning"
+            />
+          </div>
+          <div className="right">
+            <p>
+              The Ghost is our premier canyon experience and one of the most
+              secluded, wild and spectacular canyons you'll experience anywhere!
+              This all-day adventure has slides, rappels and phenomenal pool
+              jumps and is adventurous for veteran canyoneers and great for
+              thrill-seeking beginners.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 8 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum age 14+
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Beginner/intermediate
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Group size 2-8
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                June—late September
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">245</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <h3>Castle Canyon</h3>
+        <div className="twoCol">
+          <div className="left">
+            <Image
+              src="/images/skydiving6.jpg"
+              layout="fill"
+              objectFit="contain"
+              alt="Canyoning"
+            />
+          </div>
+          <div className="right">
+            <p>
+              If you are looking to take your canyoneering experience to the
+              next level then this advanced canyon is the trip for you. Castle
+              Canyon is an adrenaline trip from start to finish with five
+              challenging rappels, a 12ft jump and numerous pools to swim
+              through.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 6 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum age 17+
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Advanced difficulty
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Group size 2-5
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                August—October
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">245</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="combo">
@@ -236,24 +357,26 @@ const MaligneLake = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <p>
-          “I had an incredible time skydiving! I reccommend this to anyone
-          looking to skydive for the first time! It was one of the best life
-          experiences! The staff were very knowledgeable and knew what they were
-          doing! Made us all feel safe.”
+          “Canyoning was an amazing experience, I would do it again!! Mark was
+          our guide and made sure we had a safe fun experience! 😃 Hearts Creek
+          canyoning was the perfect intro to canyoning.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Juan G., July 2020</p>
+        <p className="customerName">Suraiya S., Sept. 2021</p>
         <p>
-          “Amazing views, amazing weather, amazing staff. Everybody there went
-          out of their way to make our experience memorable. Couldn't say enough
-          good things. 5 stars”
+          “What an unbelievable time we had!! We are a family of five and all of
+          us cannot stop talking about how fun and challenging this adventure
+          was for us! Our guide on the trip was Mark and he was excellent. Don't
+          hesitate to book your trip! You will never regret it! The experience
+          was a once in a lifetime adventure for each of us!! Completely
+          awesome!”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
         </div>
-        <p className="customerName">Mikey O., August 2020</p>
+        <p className="customerName">Yodeler123, Aug. 2019</p>
       </TestimonialStyles>
       <BottomDividerStyles>
         <img
@@ -337,25 +460,29 @@ const MaligneLake = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                Instructors will teach you everything you need to know with no
+                experience required
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                All safety and canyoning equipment will be provided.
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
-                  </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
-                </span>
+                Snacks, energy bars and water will be provided.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Please bring: Bathing suit, towel, a pair of sturdy runners or
+                light hikers that can get wet (for inside the canyon, no sandals
+                or open toed shoes), rain jacket or hardshell (optional if
+                available), day backpack to carry up gear, extra cloths to
+                change into after the trip (will remain in the vehicle),
+                waterproof camera or Gopro.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Minimum age 13, depending on trip.
               </li>
             </ul>
           </div>

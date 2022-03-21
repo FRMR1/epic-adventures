@@ -20,8 +20,11 @@ export const AdventureHeadingStyles = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 4rem;
+    padding: 0 8rem;
     width: 50%;
+    img {
+      max-width: 500px;
+    }
     @media (max-width: 800px) {
       width: 100%;
       padding: 2rem 10%;
