@@ -173,7 +173,7 @@ const Skydiving = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="/images/skydiving3.jpg"
               layout="fill"
               objectFit="contain"
               alt="Skydiving"

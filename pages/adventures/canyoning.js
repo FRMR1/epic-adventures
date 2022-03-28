@@ -66,14 +66,14 @@ const MaligneLake = () => {
         <title>Epic Adventures | Canyoning</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="heroVideo">
-        <HeroVideoStyles>
-          <CloudflareVideo source={videoURL} />
-        </HeroVideoStyles>
-      </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Canyoning"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c25f231a-10f0-46e1-e79a-2ef84910fd00/public",
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b57221d8-93b3-4524-d485-744d54b35700/public",
+        ]}
+        cdn={true}
+        needsVideo={true}
       />
       <TopDividerStyles>
         <img
@@ -160,7 +160,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/499cae02-772b-4a3e-3352-a1aee6845500/public"
               layout="fill"
               objectFit="contain"
               alt="Canyoning"
@@ -214,7 +214,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/abc59838-4ece-46fb-0445-15f0c4797500/public"
               layout="fill"
               objectFit="contain"
               alt="Canyoning"
@@ -268,7 +268,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d0ed441f-be15-403f-f51c-6a03d62e0300/public"
               layout="fill"
               objectFit="contain"
               alt="Canyoning"
@@ -489,7 +489,7 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/fe100df3-d433-44cc-c93e-3d9c43c0b400/public"
                 layout="responsive"
                 width="100%"
                 height="auto"

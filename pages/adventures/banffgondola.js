@@ -66,14 +66,14 @@ const MaligneLake = () => {
         <title>Epic Adventures | Banff Gondola</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="heroVideo">
-        <HeroVideoStyles>
-          <CloudflareVideo source={videoURL} />
-        </HeroVideoStyles>
-      </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Banff Gondola"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/a553efde-1ce7-4b3d-7e22-55cd64102100/public",
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e7968c06-7694-467f-4394-35ae61e94f00/public",
+        ]}
+        cdn={true}
+        needsVideo={true}
       />
       <TopDividerStyles>
         <img
@@ -156,7 +156,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e48dff61-bb52-48d1-bb24-37bf9e9cce00/public"
               layout="fill"
               objectFit="contain"
               alt="Banff Gondola"
@@ -343,7 +343,7 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/76628660-9a59-49c8-899f-32a347e42e00/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
@@ -354,7 +354,7 @@ const MaligneLake = () => {
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.149651, lng: -115.559192 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

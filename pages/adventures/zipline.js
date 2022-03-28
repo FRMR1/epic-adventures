@@ -37,7 +37,7 @@ const HeroImageSlider = dynamic(
 
 const Skydiving = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "f98cbb39f8de0b25973dd6f3436caad0";
 
   // Responsive breakpoints
   const responsive = {
@@ -72,8 +72,11 @@ const Skydiving = () => {
         </HeroVideoStyles>
       </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Valley Zipline"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/f7b6ead9-f3ba-4012-1681-3903c61db700/public",
+        ]}
+        cdn={true}
       />
       <TopDividerStyles>
         <img
@@ -91,12 +94,12 @@ const Skydiving = () => {
           <p>
             Hidden in the beautiful Columbia Valley, Valley Zipline Adventures
             offer a hands-on eco-tourism experience. With a course consisting of
-            7 different ziplines, Arial course, climbing wall and Jump Tower
+            7 different ziplines, aerial course, climbing wall and jump tower
             this family friendly adventure park is a perfect addition to your
             trip through the Rockies. Challenge yourself on the guided zipline
             course, zig-zagging through the trees with no experience required
             you will be taught everything you need to know. Awarded the “best
-            family activity” in radium you can’t go wrong with a visit to Valley
+            family activity” in Radium you can't go wrong with a visit to Valley
             Zipline Adventures.
           </p>
         </div>
@@ -163,10 +166,10 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/1c9fd6b9-977f-4f61-f36b-b5c76a854200/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Zipline"
+                alt="Valley Zipline"
               />
             </div>
           </div>
@@ -209,7 +212,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/dd342860-1249-471b-3858-e44fbd5ca500/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Zipline"
@@ -382,18 +385,18 @@ const Skydiving = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/40026ce8-d74c-40ea-8519-f4cacfc1ac00/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Valley Zipline"
               />
             </div>
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 50.585094, lng: -116.042102 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

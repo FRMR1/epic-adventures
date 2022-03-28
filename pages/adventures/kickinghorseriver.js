@@ -37,7 +37,7 @@ const HeroImageSlider = dynamic(
 
 const Skydiving = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "ad1d8e9d786654e62cbe2681a546ba6c";
 
   // Responsive breakpoints
   const responsive = {
@@ -72,7 +72,7 @@ const Skydiving = () => {
         </HeroVideoStyles>
       </div>
       <HeroImageSlider
-        title="Skydiving"
+        title="Kicking Horse River"
         images={["RAFT1", "RAFT2", "RAFT3", "RAFT4"]}
       />
       <TopDividerStyles>
@@ -221,7 +221,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/rafting3.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b77fab9d-2c77-4117-15b0-6892a96b8000/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kicking Horse River"
@@ -274,7 +274,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/rafting3.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/88bb309d-5c4a-4d5e-9c31-d1e72366a600/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kicking Horse River"
@@ -519,18 +519,18 @@ const Skydiving = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/dea3f523-7e6d-491b-e6c8-3e6bc9ce0400/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Kicking Horse River"
               />
             </div>
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.302704, lng: -116.947875 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

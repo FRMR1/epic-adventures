@@ -35,9 +35,9 @@ const HeroImageSlider = dynamic(
   }
 );
 
-const Skydiving = () => {
+const ATV = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "bc7116cd09666a03c092735de7090e19";
 
   // Responsive breakpoints
   const responsive = {
@@ -73,7 +73,7 @@ const Skydiving = () => {
       </div>
       <HeroImageSlider
         title="ATV Off-Road"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        images={["ATV1", "ATV2", "ATV3", "ATV4"]}
       />
       <TopDividerStyles>
         <img
@@ -162,7 +162,7 @@ const Skydiving = () => {
           <div className="left">
             <div>
               <Image
-                src="/images/skydiving6.jpg"
+                src="/images/atv4.jpg"
                 layout="fill"
                 objectFit="contain"
                 alt="ATV Off-Road"
@@ -210,7 +210,7 @@ const Skydiving = () => {
           <div className="left">
             <div>
               <Image
-                src="/images/skydiving6.jpg"
+                src="/images/atv3.jpg"
                 layout="fill"
                 objectFit="contain"
                 alt="ATV Off-Road"
@@ -283,7 +283,7 @@ const Skydiving = () => {
           </Link>
         </div>
       </BookAdventureStyles>
-      {/* <TopDividerStyles>
+      <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"
           width="101%"
@@ -317,7 +317,7 @@ const Skydiving = () => {
           width="101%"
           style={{ marginLeft: "-.1rem" }}
         />
-      </BottomDividerStyles> */}
+      </BottomDividerStyles>
       <AdventureSectionStyles>
         <div className="whyEpic">
           <h3>Why Epic?</h3>
@@ -421,12 +421,12 @@ const Skydiving = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="/images/atv2.jpg"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="ATV Off-Road"
               />
             </div>
           </div>
@@ -486,4 +486,4 @@ const Skydiving = () => {
   );
 };
 
-export default Skydiving;
+export default ATV;

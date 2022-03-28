@@ -66,14 +66,13 @@ const MountainBiking = () => {
         <title>Epic Adventures | Mountain Biking</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="heroVideo">
-        <HeroVideoStyles>
-          <CloudflareVideo source={videoURL} />
-        </HeroVideoStyles>
-      </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Mountain Biking"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b38452e2-948a-420a-3b97-0ff452cebe00/public",
+        ]}
+        needsVideo={true}
+        cdn={true}
       />
       <TopDividerStyles>
         <img
@@ -146,7 +145,7 @@ const MountainBiking = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/cce29ea2-1575-4c30-5fed-a8a131528b00/public"
               layout="fill"
               objectFit="contain"
               alt="Bike Lift Park Pass"
@@ -181,7 +180,7 @@ const MountainBiking = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/73a403fe-2474-4657-016b-9c97b5c38b00/public"
               layout="fill"
               objectFit="contain"
               alt="Bike Lift Park Pass"
@@ -356,32 +355,22 @@ const MountainBiking = () => {
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Must be at least 19 Years old and under 230 lbs.
+                TODO
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Skydiving is a very weather dependent activity and cancellations
-                due to unsuitable weather conditions may occur. Full refunds
-                will be provided if your time slot cannot be rescheduled.
+                TODO
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                <span>
-                  Schueduled closures of the Trans-Canada Highway are planned
-                  through the late spring. Visit{" "}
-                  <a href="https://drivebc.ca" target="_blank" rel="noreferrer">
-                    drivebc.ca
-                  </a>{" "}
-                  for more information and for the latest road reports and
-                  conditions.
-                </span>
+                TODO
               </li>
             </ul>
           </div>
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/11ac1508-8f13-4252-271f-ec41caf39600/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
@@ -392,7 +381,7 @@ const MountainBiking = () => {
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.29879, lng: -117.048391 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

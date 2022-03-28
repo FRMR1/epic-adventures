@@ -66,14 +66,10 @@ const MaligneLake = () => {
         <title>Epic Adventures | Golden Skybridge</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="heroVideo">
-        <HeroVideoStyles>
-          <CloudflareVideo source={videoURL} />
-        </HeroVideoStyles>
-      </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Golden Skybridge"
+        images={["SKYBRIDGE1", "SKYBRIDGE2", "SKYBRIDGE3", "SKYBRIDGE4"]}
+        needsVideo={true}
       />
       <TopDividerStyles>
         <img
@@ -87,7 +83,7 @@ const MaligneLake = () => {
           <img src="/images/logos/skybridge.svg" />
         </div>
         <div className="pContainer">
-          <h2>Banff and Canmore Scenic Flights</h2>
+          <h2>Canada's Highest Suspension Bridges</h2>
           <p>
             Golden's newest must-visit attraction includes a Treetop Village
             play park for families, an outdoor BBQ and entertainment plaza at
@@ -162,7 +158,7 @@ const MaligneLake = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/a6050d3f-869b-4dc9-cb0a-efe5e8234000/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Golden Skybridge"
@@ -361,18 +357,18 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/724f0594-c063-4ee7-7847-102b6f8da600/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Golden Skybridge"
               />
             </div>
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.31499, lng: -116.95826 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

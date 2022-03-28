@@ -37,7 +37,7 @@ const HeroImageSlider = dynamic(
 
 const Skydiving = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "0c0a5707e64775bfb51bc4e5045b3b3c";
 
   // Responsive breakpoints
   const responsive = {
@@ -72,8 +72,11 @@ const Skydiving = () => {
         </HeroVideoStyles>
       </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Via Ferrata Kicking Horse"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/9e4164c2-7377-4ba7-baaa-60f6ab1e9f00/public",
+        ]}
+        cdn={true}
       />
       <TopDividerStyles>
         <img
@@ -89,14 +92,13 @@ const Skydiving = () => {
         <div className="pContainer">
           <h2>Pure Adventure</h2>
           <p>
-            Adventure lover: this is the one for you! Get active and enjoy the
-            great outdoors of Banff National Park with this via ferrata
-            adventure. Feel on top of the world, exhilarate your senses,
-            experience views of Banff rarely seen. Italian for “iron road”, Via
-            Ferrata is an assisted climbing experience along four breathtaking
-            routes on the cliffs above Mt Norquay. Climb ladders, cross
-            suspension bridges and marvel at the grandeur of the mountain vistas
-            that surround you.
+            Challenge yourself on the Kicking Horse Resort's via ferrata. With
+            three routes on the south side of “Terminator” peak, this guided
+            adventure is perfect for the adventurer of all levels. You will get
+            a mountaineers view over the beautiful Columbia Valley as you scale
+            the peak with your guide and provided via ferrata equipment. This
+            experience starts with the Golden Eagle Express Gondola which gives
+            you full access to the resort trails and Boo the bear sanctuary.
           </p>
         </div>
       </AdventureHeadingStyles>
@@ -177,7 +179,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/856b75fc-a6f2-4b94-e8b7-38c62a457a00/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Via Ferrata"
@@ -226,7 +228,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/00f6c486-26b8-456b-e10f-b30570c12d00/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Via Ferrata"
@@ -275,7 +277,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e708634e-4a38-48ae-2faf-261a4bc82100/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Via Ferrata"
@@ -472,18 +474,18 @@ const Skydiving = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/4f452c2e-c08a-4077-50ac-5b958570c100/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Via Ferrata Kicking Horse"
               />
             </div>
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.297568, lng: -117.048252 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

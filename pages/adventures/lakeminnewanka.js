@@ -37,7 +37,7 @@ const HeroImageSlider = dynamic(
 
 const MaligneLake = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "c288eac10cb9c3b9e946692cc2b9a953";
 
   // Responsive breakpoints
   const responsive = {
@@ -72,8 +72,11 @@ const MaligneLake = () => {
         </HeroVideoStyles>
       </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Lake Minnewanka"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/45cadfc0-0235-4313-1afe-f96482b7c000/public",
+        ]}
+        cdn={true}
       />
       <TopDividerStyles>
         <img
@@ -162,7 +165,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/9e4d73ee-bea4-40b2-622b-3d741fd5c500/public"
               layout="fill"
               objectFit="contain"
               alt="Lake Minnewanka"
@@ -197,7 +200,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/48a796d7-8905-4e86-49d8-2e7bd342ec00/public"
               layout="fill"
               objectFit="contain"
               alt="Lake Minnewanka"
@@ -395,18 +398,18 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/48a796d7-8905-4e86-49d8-2e7bd342ec00/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Lake Minnewanka"
               />
             </div>
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.226673, lng: -115.504311 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

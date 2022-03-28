@@ -66,14 +66,13 @@ const MaligneLake = () => {
         <title>Epic Adventures | Caving</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="heroVideo">
-        <HeroVideoStyles>
-          <CloudflareVideo source={videoURL} />
-        </HeroVideoStyles>
-      </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Caving"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e7bb769d-9139-4008-c6a6-0d4b2d659100/public",
+        ]}
+        cdn={true}
+        needsVideo={true}
       />
       <TopDividerStyles>
         <img
@@ -86,11 +85,6 @@ const MaligneLake = () => {
         <div className="imageContainer mobileImage">
           <img src="/images/logos/extremeyeti.png" />
         </div>
-        {/* <div className="mobileVideo">
-                    <MobileVideoStyles>
-                        <CloudflareVideo source={videoURL} />
-                    </MobileVideoStyles>
-                </div> */}
         <div className="pContainer">
           <h2>Explore The Wild Things</h2>
           <p>
@@ -174,7 +168,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d0512068-b49e-4d5a-d895-84f47e50b600/public"
               layout="fill"
               objectFit="contain"
               alt="Caving"
@@ -222,7 +216,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/02b4f4b9-38ba-4a92-0723-c319e967dd00/public"
               layout="fill"
               objectFit="contain"
               alt="Caving"
@@ -454,7 +448,7 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ade85b67-9e1b-4c66-8ee3-9f47aa0e2900/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
@@ -465,7 +459,7 @@ const MaligneLake = () => {
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.077816, lng: -115.320025 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

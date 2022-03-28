@@ -37,7 +37,7 @@ const HeroImageSlider = dynamic(
 
 const MaligneLake = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "e37f7e4d920663107bc20cd23295fc9a";
 
   // Responsive breakpoints
   const responsive = {
@@ -72,8 +72,11 @@ const MaligneLake = () => {
         </HeroVideoStyles>
       </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Golden Gondola"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c8b39202-3eb1-44eb-ae50-03d88beadf00/public",
+        ]}
+        cdn={true}
       />
       <TopDividerStyles>
         <img
@@ -166,7 +169,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7c308cde-9fd7-4278-0257-08a65b716300/public"
               layout="fill"
               objectFit="contain"
               alt="Golden Gondola"
@@ -360,7 +363,7 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/54efb022-fe5d-4ac6-b505-d55d275a4300/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
@@ -371,7 +374,7 @@ const MaligneLake = () => {
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.2976, lng: -117.0483 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

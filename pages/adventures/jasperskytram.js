@@ -66,14 +66,13 @@ const MaligneLake = () => {
         <title>Epic Adventures | Jasper Skytram</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="heroVideo">
-        <HeroVideoStyles>
-          <CloudflareVideo source={videoURL} />
-        </HeroVideoStyles>
-      </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Jasper Skytram"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/32ec5ba7-db00-4a8b-6e9c-d9eda4952800/public",
+        ]}
+        cdn={true}
+        needsVideo={true}
       />
       <TopDividerStyles>
         <img
@@ -157,7 +156,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d961389c-2d5d-40cf-b016-221403499400/public"
               layout="fill"
               objectFit="contain"
               alt="Jasper Skytram"
@@ -350,18 +349,18 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d4b26156-1dc5-44d9-90ee-52620df5d300/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Jasper Skytram"
               />
             </div>
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 52.855237, lng: -118.103437 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

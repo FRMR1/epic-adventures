@@ -37,7 +37,7 @@ const HeroImageSlider = dynamic(
 
 const Skydiving = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "93bba7585e8e74907ffcf32b9b19d1fb";
 
   // Responsive breakpoints
   const responsive = {
@@ -72,8 +72,11 @@ const Skydiving = () => {
         </HeroVideoStyles>
       </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Via Ferrata Mt. Norquay"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/74b8fec9-35db-4abf-8e6b-1dbc6317b500/public",
+        ]}
+        cdn={true}
       />
       <TopDividerStyles>
         <img
@@ -171,10 +174,10 @@ const Skydiving = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d5b72e9c-91b3-4347-a88e-964a2bfc0b00/public"
               layout="fill"
               objectFit="contain"
-              alt="Skydiving"
+              alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
@@ -216,10 +219,10 @@ const Skydiving = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/190b5385-0e65-4643-0c33-f28268a74a00/public"
               layout="fill"
               objectFit="contain"
-              alt="Skydiving"
+              alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
@@ -262,10 +265,10 @@ const Skydiving = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/bd21a095-fdcd-4fa0-29da-d309dd221800/public"
               layout="fill"
               objectFit="contain"
-              alt="Skydiving"
+              alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
@@ -309,10 +312,10 @@ const Skydiving = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/6ee0a19b-23a0-4ca4-7c35-99d957833000/public"
               layout="fill"
               objectFit="contain"
-              alt="Skydiving"
+              alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
@@ -357,10 +360,10 @@ const Skydiving = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b7110615-8a9f-462c-da83-089ec30db900/public"
               layout="fill"
               objectFit="contain"
-              alt="Skydiving"
+              alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
@@ -407,10 +410,10 @@ const Skydiving = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e765c780-3e87-47bf-e989-37e9e6707a00/public"
               layout="fill"
               objectFit="contain"
-              alt="Skydiving"
+              alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
@@ -625,18 +628,18 @@ const Skydiving = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/83a759ea-9c39-44f4-1bf3-bd15192b7a00/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Via Ferrata Mt. Norquay"
               />
             </div>
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.20291, lng: -115.597805 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

@@ -66,14 +66,13 @@ const Skydiving = () => {
         <title>Epic Adventures | Skydiving</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="heroVideo">
-        <HeroVideoStyles>
-          <CloudflareVideo source={videoURL} />
-        </HeroVideoStyles>
-      </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Scenic Flight"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/eb89cc4a-ce37-4d50-3282-3811c0d83b00/public",
+        ]}
+        cdn={true}
+        needsVideo={true}
       />
       <TopDividerStyles>
         <img
@@ -137,11 +136,11 @@ const Skydiving = () => {
               description="Once you leave the ground and ascend into the air you get the best views with little effort, so you can relax and take it in."
               imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e3be2b9b-00f6-48b3-7c3f-61f632f2a200/public"
             />
-            <Card
+            {/* <Card
               title="Explore"
               description="There is no better way to get a real sense of the Canadian Rockies and how magnificent they really are."
               imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/1af4688e-b8ae-45ab-70bc-0a4973086400/public"
-            />
+            /> */}
             <Card
               title="Safety"
               description="Customer experience and safety is the number one priority. With high industry standards, you can have confidence with your journey into the sky."
@@ -162,7 +161,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/65cb3c30-de11-49c2-05bb-6ef7be716600/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Scenic Flights"
@@ -204,7 +203,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/62b98689-1c31-4f03-b992-9200bc8f1200/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Scenic Flights"
@@ -247,7 +246,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving6.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7c75459d-d070-48ad-5599-6d3297ff2d00/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Scenic Flights"
@@ -457,18 +456,18 @@ const Skydiving = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/6e43744d-2bac-4620-2cdd-976bc86cb900/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Scenic Flight"
               />
             </div>
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.297729, lng: -116.984237 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">

@@ -37,7 +37,7 @@ const HeroImageSlider = dynamic(
 
 const MaligneLake = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "56e51d33193853ced4b17bb6d65f58da";
 
   // Responsive breakpoints
   const responsive = {
@@ -72,8 +72,11 @@ const MaligneLake = () => {
         </HeroVideoStyles>
       </div>
       <HeroImageSlider
-        title="Skydiving"
-        images={["SKY1", "SKY2", "SKY3", "SKY4"]}
+        title="Heli Flights"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/dbb86c06-668d-4dc3-9e00-29ba001db000/public",
+        ]}
+        cdn={true}
       />
       <TopDividerStyles>
         <img
@@ -127,7 +130,7 @@ const MaligneLake = () => {
             <Card
               title="Views"
               description="Once you leave the ground and ascend into the air you get the best views with little effort so you can relax and take it in."
-              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/0f1cb974-9c86-486e-dbc7-d08c6d2d8300/public"
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/551717b9-68f7-4368-93e9-d678c16f4c00/public"
             />
             <Card
               title="Explore"
@@ -153,7 +156,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/944f2820-a2c4-465b-cb1f-6b85e2c76400/public"
               layout="fill"
               objectFit="contain"
               alt="Heli flights"
@@ -197,7 +200,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/f4439bb5-61a5-4bc5-87d1-6c3376f6cb00/public"
               layout="fill"
               objectFit="contain"
               alt="Heli flights"
@@ -241,7 +244,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d12356ed-a322-4fbc-5b39-e601843d8e00/public"
               layout="fill"
               objectFit="contain"
               alt="Heli flights"
@@ -285,7 +288,7 @@ const MaligneLake = () => {
         <div className="twoCol">
           <div className="left">
             <Image
-              src="/images/skydiving6.jpg"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/255c02c6-767c-445f-18a3-4c5395f6ce00/public"
               layout="fill"
               objectFit="contain"
               alt="Heli flights"
@@ -497,7 +500,7 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/skydiving5.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e53eb66e-4ae5-49af-c394-3fb5c2d39400/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
@@ -508,7 +511,7 @@ const MaligneLake = () => {
           </div>
         </div>
       </AdventureSectionStyles>
-      <GoogleMap location={{ lat: 51.30054, lng: -116.98498 }} zoom={15} />
+      <GoogleMap location={{ lat: 51.079041, lng: -115.338554 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>
         <div className="cards">
