@@ -508,7 +508,7 @@ const Skydiving = () => {
                 <img src="/svg/checkmark.svg" width="15" />
                 <span>
                   You can view our{" "}
-                  <a href="cancellations" target="_blank" rel="noreferrer">
+                  <a href="/cancellations" target="_blank" rel="noreferrer">
                     cancellation policy
                   </a>{" "}
                   here.

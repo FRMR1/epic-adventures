@@ -1,0 +1,429 @@
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import GoogleMap from "../../components/GoogleMap";
+import SuggestedCombo from "../../components/SuggestedCombo";
+import ReadyToBook from "../../components/ReadyToBook";
+import { HeroImageStyles } from "../../components/styles/HeroImageStyles";
+import { HeroVideoStyles } from "../../components/styles/HeroVideoStyles";
+import { TestimonialStyles } from "../../components/styles/TestimonialStyles";
+import { TopDividerStyles } from "../../components/styles/TopDividerStyles";
+import { CardSectionStyles } from "../../components/styles/CardSectionStyles";
+import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles";
+import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles";
+import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles";
+import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles";
+import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles";
+import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles";
+import dynamic from "next/dynamic";
+import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles";
+import Carousel from "react-multi-carousel";
+import Card from "../../components/Card";
+import "react-multi-carousel/lib/styles.css";
+
+const CloudflareVideo = dynamic(
+  () => import("../../components/CloudflareVideo"),
+  {
+    ssr: false,
+  }
+);
+
+const HeroImageSlider = dynamic(
+  () => import("../../components/HeroImageSlider"),
+  {
+    ssr: false,
+  }
+);
+
+const Skydiving = () => {
+  // Cloudflare URL for video
+  const videoURL = "ad1d8e9d786654e62cbe2681a546ba6c";
+
+  // Responsive breakpoints
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+
+  return (
+    <>
+      <Head>
+        <title>Epic Adventures | Kananaskis River</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <HeroImageSlider
+        title="Kananaskis River"
+        images={[
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e78000d6-1752-4ebc-7ad4-edb48de20300/public",
+        ]}
+        cdn={true}
+        needsVideo={true}
+      />
+      <TopDividerStyles>
+        <img
+          src="/svg/divider-top.svg"
+          width="101%"
+          style={{ marginLeft: "-.1rem" }}
+        />
+      </TopDividerStyles>
+      <AdventureHeadingStyles>
+        <div className="imageContainer mobileImage">
+          <img src="/images/logos/chinookrafting.svg" />
+        </div>
+        <div className="pContainer">
+          <h2>Kananaskis River White Water Rafting</h2>
+          <p>
+            With over 30 years of operating rafting trips on the Kananaskis
+            River, this trip is a great introduction to white water rafting. A
+            family friendly trip that will take you through grade 2 and 3 rapids
+            that will get everyone wet and experience a classic rafting trip in
+            the Canadian Rockies. With a focus on safety and experience, Chinook
+            Rafting has an exceptional safety record and are industry leaders in
+            rafting on the Kananaskis and take pride in what they do. This trip
+            is great for families, groups or anyone unsure about what white
+            water rafting is all about.
+          </p>
+        </div>
+      </AdventureHeadingStyles>
+      <BottomDividerStyles marginTop="4.7rem">
+        <img
+          src="/svg/divider-bottom.svg"
+          width="101%"
+          style={{ marginLeft: "-.1rem" }}
+        />
+      </BottomDividerStyles>
+
+      <CardSectionStyles>
+        <div className="cards">
+          <Carousel
+            responsive={responsive}
+            infinite={true}
+            swipeable={true}
+            draggable={true}
+            containerClass="padding-100-px"
+          >
+            <Card
+              title="The Gear"
+              description="Rafts, paddles, helmets, wetsuits, boots, splash tops and personal floatation devices are just some of the gear you will be provided for this adventure."
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/5d03b931-b28a-4455-0dba-29307a838b00/public"
+            />
+            <Card
+              title="Safety Talk"
+              description="Your guides will give you instructions on how to paddle and help yourself and the team get down the river safely."
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/a4cfbc05-2c1a-49c9-1a67-78c17fffd100/public"
+            />
+            <Card
+              title="Rafting Basics"
+              description="You will get a chance to practice everything you need with the instruction of your experienced guide."
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/a5858326-9b96-495f-2dc4-62b11ec4e200/public"
+            />
+            <Card
+              title="Unforgettable Scenery"
+              description="Take in the views on mother nature's highway. The Kicking Horse Canyon and beautiful river views is half the fun."
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e7aad868-4c83-40b4-7998-1dd443781f00/public"
+            />
+            <Card
+              title="White Water Fun"
+              description="Taking on the mighty Kicking Horse River, you will navigate through grade 3 and 4 rapids. Soak up the fun!"
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7878755f-332e-43ad-8e9b-98eeaf160100/public"
+            />
+            <Card
+              title="Book In Advance"
+              description="Slots fill fast as this experience is extremely popular, be sure to get your spot."
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/bd0ce2cc-f344-409d-4dbd-5d0d89a34e00/public"
+            />
+            <Card
+              title="Wavier Forms"
+              description="Download and read waiver forms before your trip."
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e6c81e94-c4d6-4af9-5e6e-5c6c0e4ce900/public"
+            />
+          </Carousel>
+        </div>
+      </CardSectionStyles>
+
+      <BookAdventureStyles marginBottom={true}>
+        <h3>Kananaskis River Rafting</h3>
+        <div className="twoCol">
+          <div className="left">
+            <div className="imageRotate">
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Kananaskis River"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <p>
+              A great introduction into white water rafting and an awesome
+              experience for the family and friends on the Kananaskis River.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />4 hours+ (1:30pm -
+                5:30pm)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                No experience required
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Must be at least 5 years old
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Children pricing available
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">110</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <div className="combo">
+          <h3>Combo This Trip</h3>
+          <p>Combo and experience more!</p>
+          <ul>
+            <li>
+              <img src="/svg/checkmark.svg" width="15" />
+              Save money
+            </li>
+            <li>
+              <img src="/svg/checkmark.svg" width="15" />
+              Save time
+            </li>
+            <li>
+              <img src="/svg/checkmark.svg" width="15" />
+              Exclusive products
+            </li>
+            <li>
+              <img src="/svg/checkmark.svg" width="15" />
+              Live EPIC!
+            </li>
+          </ul>
+          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+            <a target="_blank" rel="noreferrer">
+              <div className="button">
+                <span>More Info</span>
+              </div>
+            </a>
+          </Link>
+        </div>
+      </BookAdventureStyles>
+      <TopDividerStyles>
+        <img
+          src="/svg/divider-top.svg"
+          width="101%"
+          style={{ marginLeft: "-.1rem" }}
+        />
+      </TopDividerStyles>
+      <TestimonialStyles>
+        <div className="">
+          <CloudflareVideo source={"c86a97b2a0541d4e01cc67acd85a15ce"} />
+        </div>
+      </TestimonialStyles>
+      <BottomDividerStyles>
+        <img
+          src="/svg/divider-bottom.svg"
+          width="101%"
+          style={{ marginLeft: "-.1rem" }}
+        />
+      </BottomDividerStyles>
+      <AdventureSectionStyles>
+        <div className="whyEpic">
+          <h3>Why Epic?</h3>
+          <div className="container">
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Highest Standards</h4>
+                <p>
+                  All of our operators have the years of experience required to
+                  give you the best quality trip and highest industry standards.
+                  They know their stuff.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Hype Deals</h4>
+                <p>
+                  With every purchase you get access to local deals and offers
+                  on partnered hotels, restaurants and activities to save you
+                  money and connect you with local legends.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Authentically Canadian</h4>
+                <p>
+                  All of our adventures are operated and owned by local people
+                  and families. Your money stays local and that matters.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Best Value</h4>
+                <p>
+                  We hand pick the best value trips to save you time and
+                  research. Chosen by internationally experienced guides.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="icon">
+                <img src="/svg/checkmark.svg" width="25" />
+              </div>
+              <div className="desc">
+                <h4>Experience More</h4>
+                <p>
+                  Our exclusive combos and adventures will save you money, time
+                  and research and let you experience more on your trip through
+                  the Rockies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="twoCol">
+          <div className="left">
+            <h3>Additional Details</h3>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Please bring clothes appropriate for weather, including swimming
+                outfit. Cold water gear and rafting kit will be provided.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Instructors will teach you everything you need to know with no
+                experience required.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Must be at least five years old.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Photos and video of the day of rafting will be available.
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                <span>
+                  You can view our{" "}
+                  <a href="/cancellations" target="_blank" rel="noreferrer">
+                    cancellation policy
+                  </a>{" "}
+                  here.
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div className="right">
+            <div className="imageRotate">
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/dea3f523-7e6d-491b-e6c8-3e6bc9ce0400/public"
+                layout="responsive"
+                width="100%"
+                height="auto"
+                objectFit="contain"
+                alt="Kicking Horse River"
+              />
+            </div>
+          </div>
+        </div>
+      </AdventureSectionStyles>
+      <GoogleMap location={{ lat: 51.147928, lng: -114.843176 }} zoom={15} />
+      <SuggestedCombosStyles>
+        <h3>Suggested Combos</h3>
+        <div className="cards">
+          <SuggestedCombo
+            title="Stairway to Heaven"
+            description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
+            bullets={[
+              "Skydiving and Golden Skybridge",
+              "6 hours (approx.)",
+              "Must be 19 years or older",
+            ]}
+            image="combo7"
+            price="348"
+            url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+          />
+          <SuggestedCombo
+            title="Top of the World"
+            description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
+            bullets={[
+              "Skydiving and Kicking Horse gondola",
+              "6 hours (approx.)",
+              "Must be 19 years or older",
+            ]}
+            price="360"
+            image="combo8"
+            url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+          />
+          <SuggestedCombo
+            title="Double Trouble"
+            description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
+            bullets={[
+              "Skydiving and rafting express",
+              "6 hours (approx.)",
+              "Must be 19 years or older",
+            ]}
+            price="396"
+            image="combo6"
+            url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
+          />
+        </div>
+      </SuggestedCombosStyles>
+      <ReadyToBook />
+      <FooterDividerStyles>
+        <img
+          src="/svg/divider-top2.svg"
+          width="101%"
+          style={{ marginLeft: "-.1rem" }}
+        />
+      </FooterDividerStyles>
+    </>
+  );
+};
+
+export default Skydiving;

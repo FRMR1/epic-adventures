@@ -37,7 +37,7 @@ const HeroImageSlider = dynamic(
 
 const MaligneLake = () => {
   // Cloudflare URL for video
-  const videoURL = "225299687d98d673503b19426a2955ef";
+  const videoURL = "f96b56b0e32321e8fec3155a17346ed9";
 
   // Responsive breakpoints
   const responsive = {
@@ -66,13 +66,17 @@ const MaligneLake = () => {
         <title>Epic Adventures | Columbia Icefield</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="heroVideo">
+        <HeroVideoStyles>
+          <CloudflareVideo source={videoURL} />
+        </HeroVideoStyles>
+      </div>
       <HeroImageSlider
         title="Columbia Icefield"
         images={[
           "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/750135c1-ba48-4d12-0ff4-4f86ae521900/public",
         ]}
         cdn={true}
-        needsVideo={true}
       />
       <TopDividerStyles>
         <img
