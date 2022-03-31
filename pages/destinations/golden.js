@@ -117,7 +117,7 @@ const Golden = () => {
           />
           <ActivityTile
             location="Golden"
-            title="Skydive"
+            title="Skydiving"
             desc="Feel the wind under your wings as you take on the Rockies from above the clouds at 120MPH."
             img="a45c1c16-675c-4e13-a3a5-5cee310af300"
             url="/adventures/skydiving"

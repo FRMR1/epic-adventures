@@ -101,4 +101,27 @@ export const ActivityTilesStyles = styled.div`
       max-width: 300px;
     }
   }
+  .button {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--secColor);
+    border-radius: 3px;
+    width: 12rem;
+    padding: 1rem;
+    span {
+      color: #fff;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+    }
+  }
+  .viewAll {
+    margin: 5rem auto 0;
+    display: flex;
+    justify-content: center;
+  }
+  .marginBottom {
+    margin-bottom: 20rem;
+  }
 `;
