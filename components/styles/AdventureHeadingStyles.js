@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
 export const AdventureHeadingStyles = styled.div`
+  .oneCol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
   background-color: var(--mainColor);
   position: relative;
   margin-bottom: -5rem;

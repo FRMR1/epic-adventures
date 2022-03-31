@@ -92,22 +92,24 @@ const Nav = () => {
                   </Link>
                   <Link href="/destinations/canmore">Canmore</Link>
                   <Link href="/destinations/golden">Golden</Link>
+                  <Link href="/destinations/golden">Jasper</Link>
+                  <Link href="/destinations/golden">Lake Louise</Link>
                 </div>
                 <div className="col">
                   <h3>Stay</h3>
-                  <Link href="/stay/canadianrockies">Banff</Link>
-                  <Link href="/stay/banffnationalpark">Canmore</Link>
-                  <Link href="/stay/canmore">Jasper</Link>
+                  <Link href="/stay/banff">Banff</Link>
+                  <Link href="/stay/canmore">Canmore</Link>
+                  <Link href="/stay/jasper">Jasper</Link>
                   <Link href="/stay/golden">Golden</Link>
-                  <Link href="/stay/golden">Lake Louise</Link>
+                  <Link href="/stay/lakelouise">Lake Louise</Link>
                 </div>
                 <div className="col">
                   <h3>Eat</h3>
-                  <Link href="/stay/canadianrockies">Banff</Link>
-                  <Link href="/eat/banffnationalpark">Canmore</Link>
-                  <Link href="/eat/canmore">Jasper</Link>
+                  <Link href="/eat/banff">Banff</Link>
+                  <Link href="/eat/canmore">Canmore</Link>
+                  <Link href="/eat/jasper">Jasper</Link>
                   <Link href="/eat/golden">Golden</Link>
-                  <Link href="/eat/golden">Lake Louise</Link>
+                  <Link href="/eat/lakelouise">Lake Louise</Link>
                 </div>
               </div>
             </div>
@@ -136,6 +138,7 @@ const Nav = () => {
                 <div className="col">
                   <Link href="/adventures/caving">Caving</Link>
                   <Link href="/adventures/heliflight">Heli Flight</Link>
+                  <Link href="/adventures/paragliding">Paragliding</Link>
                   <Link href="/adventures/biking">Mountain Biking</Link>
                   <Link href="/adventures/vianorquay">
                     Via Ferrata Mt. Norquay

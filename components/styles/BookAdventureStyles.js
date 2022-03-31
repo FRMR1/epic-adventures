@@ -37,7 +37,7 @@ export const BookAdventureStyles = styled.div`
     margin-bottom: 8rem;
     background-color: #f0f0f0;
     padding: 3rem;
-    min-height: 300px;
+    min-height: 400px;
     * {
       z-index: 1;
     }
@@ -90,6 +90,11 @@ export const BookAdventureStyles = styled.div`
         li {
           text-align: center;
         }
+      }
+      .large {
+        font-size: 20px;
+        line-height: 30px;
+        color: #797979;
       }
       h3 {
         color: #6a6a6a;
@@ -202,4 +207,151 @@ export const BookAdventureStyles = styled.div`
       }
     }
   }
+  .paragraph {
+    margin: 15rem 0;
+    p {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  .summerCombos {
+    position: relative;
+    .custom-shape-divider-top-1622058599 {
+      top: initial;
+      z-index: 0;
+    }
+    .twoCol {
+      margin-top: 1rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 8rem;
+      background-color: #f0f0f0;
+      padding: 3rem;
+      min-height: 300px;
+      * {
+        z-index: 1;
+      }
+      @media (max-width: 800px) {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      h3 {
+        font-size: 4rem;
+        text-align: left;
+      }
+      ul {
+        list-style: none;
+        text-align: left;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          font-size: 1.2rem;
+          color: #707070;
+          margin-bottom: 1.5rem;
+          margin-right: 2rem;
+          line-height: 1rem;
+          width: 220px;
+          img {
+            margin-right: 1.2rem;
+            position: relative;
+            top: 0.3rem;
+          }
+        }
+      }
+      .left,
+      .right {
+        align-self: center;
+        position: relative;
+      }
+      .left {
+        height: 100%;
+        width: 100%;
+        padding: 3rem;
+        @media (max-width: 800px) {
+          padding: 0;
+          width: 100%;
+        }
+      }
+      .right {
+        padding: 10rem 4rem;
+        @media (max-width: 800px) {
+          padding: 0;
+          p,
+          li {
+            text-align: center;
+          }
+        }
+        .large {
+          font-size: 20px;
+          line-height: 30px;
+          color: #797979;
+        }
+        h3 {
+          color: #6a6a6a;
+        }
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      .button {
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        /* top: -2rem; */
+        background-color: var(--secColor);
+        border-radius: 3px;
+        width: 12rem;
+        padding: 1rem;
+        @media (max-width: 800px) {
+          margin: 0 auto;
+        }
+        span,
+        a {
+          color: #fff;
+          font-weight: 400;
+          text-transform: uppercase;
+          font-size: 1.3rem;
+          font-family: Roboto Mono;
+        }
+      }
+    }
+  }
+  .whyEpic {
+    margin-top: -5rem;
+    margin-bottom: 27rem;
+    h3 {
+      margin-bottom: 3rem;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      max-width: 80rem;
+      margin: 0 auto;
+      column-gap: 2rem;
+      row-gap: 4rem;
+      .item {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        column-gap: 2rem;
+      }
+      .icon {
+        justify-self: start;
+      }
+      .desc {
+        h4 {
+          text-align: left;
+          color: #505050;
+          margin: 0;
+          font-size: 3rem;
+          line-height: 3rem;
+        }
+        p {
+          text-align: left;
+          font-size: 1.5rem;
+          line-height: 3rem;
+        }
+      }
+    }
 `;

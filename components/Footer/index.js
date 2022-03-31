@@ -45,6 +45,9 @@ const Footer = ({ year }) => {
               <Link href="/adventures/heliflight">Heli Flight</Link>
             </li>
             <li>
+              <Link href="/adventures/paragliding">Paragliding</Link>
+            </li>
+            <li>
               <Link href="/adventures/biking">Mountain Biking</Link>
             </li>
             <li>
@@ -113,6 +116,12 @@ const Footer = ({ year }) => {
             </li>
             <li>
               <Link href="/destinations/golden">Golden</Link>
+            </li>
+            <li>
+              <Link href="/destinations/jasper">Jasper</Link>
+            </li>
+            <li>
+              <Link href="/destinations/lakelouise">Lake Louise</Link>
             </li>
           </ul>
           <h4 className="winter">Stay</h4>

@@ -36,7 +36,7 @@ const HeroImageSlider = dynamic(
   }
 );
 
-const Canmore = () => {
+const LakeLouise = () => {
   // Cloudflare URL for video
   const videoURL = "ad1d8e9d786654e62cbe2681a546ba6c";
 
@@ -64,13 +64,13 @@ const Canmore = () => {
   return (
     <>
       <Head>
-        <title>Epic Adventures | Canmore</title>
+        <title>Epic Adventures | Lake Louise</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroImageSlider
-        title="Canmore"
+        title="Lake Louise"
         images={[
-          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/9864fb75-30de-4bab-d676-8a77fcf3ad00/public",
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/27651aeb-f49b-44ca-d6c1-8e69b8673b00/public",
         ]}
         cdn={true}
         needsVideo={true}
@@ -84,17 +84,13 @@ const Canmore = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="oneCol">
-          <h2>A Mountain Getaway to Adventure</h2>
+          <h2>Purely Canadian</h2>
           <p>
-            Canmore is a metropolis within the Rockies and a gateway to many
-            adventures you can't do within a national park. Surrounded by
-            magical mountain peaks, this town is home to many Bow Valley locals
-            and wildlife. Here you can set up camp to experience the very
-            eastern stretch of the Rockies and Bow Valley. Take a heli-tour or
-            explore the caves, Canmore is an outdoors mecca bringing in rock
-            climbers, mountaineers, and hikers from all over the world. The town
-            is also host to large selection of boutique brewers and
-            restaurateurs.
+            With the beautiful Chateau overlooking the pristine waters of Lake
+            Louise, this mountain village within Banff National Park is a great
+            spot for a photo shoot, hike or take the Lake Louise Resort gondola
+            above the mountains to get the epic views. With Moraine Lake close
+            by, this is a fantastic stop over or stay.
           </p>
         </div>
       </AdventureHeadingStyles>
@@ -107,70 +103,49 @@ const Canmore = () => {
       </BottomDividerStyles>
 
       <ActivityTilesStyles>
-        <h2>Things To Do In Canmore</h2>
+        <h2>Things To Do In Lake Louise</h2>
         <div className="tiles">
           <ActivityTile
-            location="Canmore"
-            title="Canyoning"
-            desc="Repel waterfalls, swim the canyon waters and explore the mountains a little differently, this is a trip of a lifetime."
-            img="b38ca2d9-dbd2-4f6e-95ca-49b634538f00"
-            url="/adventures/canyoning"
+            location="Lake Louise"
+            title="Lake Louise Gondola"
+            desc="Take a higher perspective at Lake Louise Resorts Gondola to gain access to unreal views of the valley, Lake and access to hiking trails."
+            img="4b009846-f3cf-4c1f-e795-896e5c2b1000"
+            url="/adventures/lakelouisegondola"
           />
           <ActivityTile
-            location="Canmore"
-            title="Caving"
-            desc="Take yourself underground in this unique experience inside the bow valley mountains. This trip will expand your relationship with the mountains and local habitat. "
-            img="c3eff5e5-8bc1-45a6-8ab3-07dfb6cf5800"
-            url="/adventures/caving"
-          />
-          <ActivityTile
-            location="Canmore"
-            title="Heli Flight"
-            desc="Get the best seat above the mountains, take a helicopter over the Three Sisters mountain tops and experience the Rockies in style."
-            img="c5ed939e-308e-4c19-58a7-cb8e744d6b00"
-            url="/adventures/heliflight"
-          />
-          <ActivityTile
-            location="Canmore"
-            title="Kananaskis River"
-            desc="A classic rafting trip through the foot hills of the Rockies, blast the fun white-water and surf some waves."
-            img="e7aad868-4c83-40b4-7998-1dd443781f00"
-            url="/adventures/heliflight"
-          />
-          <ActivityTile
-            location="Canmore"
+            location="Lake Louise"
             title="Summer Combos"
             desc="Experience more and save with these exclusive combos."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
             url="/combos"
           />
           <ActivityTile
-            location="Canmore"
+            location="Lake Louise"
             title="Winter Adventures"
             desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
             url="/combos"
           />
           <ActivityTile
-            location="Canmore"
+            location="Lake Louise"
             title="Winter Combos"
             desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
             url="/combos"
           />
           <ActivityTile
-            location="Canmore"
-            title="Dine In Canmore"
-            desc="Check out our local picks for the best dining in Canmore."
+            location="Lake Louise"
+            title="Dine In Lake Louise"
+            desc="Check out our local picks for the best dining in Lake Louise."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-            url="/eat/canmore"
+            url="/eat/lakelouise"
           />
           <ActivityTile
-            location="Canmore"
-            title="Stay In Canmore"
-            desc="Check out our local picks for the best hotel and hostels in Canmore."
+            location="Lake Louise"
+            title="Stay In Lake Louise"
+            desc="Check out our local picks for the best hotel and hostels in Lake Louise."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-            url="/stay/canmore"
+            url="/stay/lakelouise"
           />
           <div className="hidden-flex-item" />
         </div>
@@ -284,10 +259,10 @@ const Canmore = () => {
               a="/destinations/jasper"
             />
             <Card
-              title="Lake Louise"
-              description="Take in the views on mother nature's highway. The Kicking Horse Canyon and beautiful river views is half the fun."
-              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/0943d0b7-a35f-45aa-ed5c-4256bc999e00/public"
-              a="/destinations/lakelouise"
+              title="Canmore"
+              description="You will get a chance to practice everything you need with the instruction of your experienced guide."
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/8be23e5e-7053-455f-9aad-446ed873f200/public"
+              a="/destinations/canmore"
             />
             <Card
               title="Banff"
@@ -310,4 +285,4 @@ const Canmore = () => {
   );
 };
 
-export default Canmore;
+export default LakeLouise;

@@ -38,6 +38,7 @@ export const CardSectionStyles = styled.div`
       padding-bottom: 3rem;
       min-width: 200px;
       margin-bottom: 3rem;
+      position: relative;
       @media (max-width: 800px) {
         margin: 0;
       }
@@ -45,6 +46,39 @@ export const CardSectionStyles = styled.div`
         padding: 2rem;
         position: relative;
         top: -12px;
+        height: 300px;
+        box-sizing: border-box;
+        h4 {
+          text-align: left;
+          font-size: 30px;
+        }
+        p {
+          text-align: left;
+          line-height: 25px;
+          height: 100px;
+          color: #a6a6a6;
+        }
+        a {
+          text-align: center;
+          cursor: pointer;
+          background-color: var(--secColor);
+          border-radius: 3px;
+          width: 12rem;
+          padding: 1rem;
+          color: #fff;
+          width: 100%;
+          color: #fff;
+          font-weight: 400;
+          text-transform: uppercase;
+          font-size: 1.3rem;
+          font-family: Roboto Mono;
+          display: inline-block;
+          position: relative;
+          bottom: 0;
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
       .cardImage {
         img {
@@ -112,6 +146,8 @@ export const CardSectionStyles = styled.div`
         border-radius: 3px;
         width: 12rem;
         padding: 1rem;
+        color: #fff;
+        width: 100%;
         span {
           color: #fff;
           font-weight: 400;

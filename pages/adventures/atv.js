@@ -20,6 +20,9 @@ import { MobileVideoStyles } from "../../components/styles/MobileVideoStyles";
 import Carousel from "react-multi-carousel";
 import Card from "../../components/Card";
 import "react-multi-carousel/lib/styles.css";
+import { DiningTwoColStyles } from "../../components/styles/DiningTwoColStyles";
+import Divider from "../../components/Divider";
+import Divider2 from "../../components/Divider2";
 
 const CloudflareVideo = dynamic(
   () => import("../../components/CloudflareVideo"),
@@ -158,53 +161,56 @@ const ATV = () => {
 
       <BookAdventureStyles marginBottom={true}>
         <h3>Half Day ATV Trip (AM)</h3>
-        <div className="twoCol">
-          <div className="left">
-            <div>
-              <Image
-                src="/images/atv4.jpg"
-                layout="fill"
-                objectFit="contain"
-                alt="ATV Off-Road"
-              />
+        <DiningTwoColStyles>
+          <Divider />
+          <div className="twoCol">
+            <div className="left">
+              <div>
+                <Image
+                  src="/images/atv2.jpg"
+                  layout="fill"
+                  objectFit="contain"
+                  alt="ATV Off-Road"
+                />
+              </div>
+            </div>
+            <div className="right">
+              <p>
+                This trip takes you through dense forests and up into the
+                mountains, passing glacier fed streams and oceans of wildflowers
+                mid-season.
+              </p>
+              <ul>
+                <li>
+                  <img src="/svg/checkmark.svg" width="15" />3 hours (approx.)
+                </li>
+                <li>
+                  <img src="/svg/checkmark.svg" width="15" />
+                  No experience required
+                </li>
+                <li>
+                  <img src="/svg/checkmark.svg" width="15" />
+                  Two trips per day (10AM-1PM)
+                </li>
+                <li>
+                  <img src="/svg/checkmark.svg" width="15" />
+                  Passenger/driver combos
+                </li>
+                <li>
+                  <img src="/svg/checkmark.svg" width="15" />
+                  Drivers 18+, Passengers 6+
+                </li>
+              </ul>
+              <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+                <a target="_blank" rel="noreferrer">
+                  <span>Book Now</span>
+                </a>
+              </Link>
             </div>
           </div>
-          <div className="right">
-            <p>
-              This trip takes you through dense forests and up into the
-              mountains, passing glacier fed streams and oceans of wildflowers
-              mid-season.
-            </p>
-            <ul>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />3 hours (approx.)
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                No experience required
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                Two trips per day (10AM-1PM)
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                Passenger/driver combos
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                Drivers 18+, Passengers 6+
-              </li>
-            </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>Book Now</span>
-                </div>
-              </a>
-            </Link>
-          </div>
-        </div>
+          <Divider2 />
+        </DiningTwoColStyles>
+
         <h3>Half Day ATV Trip (PM)</h3>
         <div className="twoCol">
           <div className="left">
@@ -421,7 +427,7 @@ const ATV = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="/images/atv2.jpg"
+                src="/images/atv4.jpg"
                 layout="responsive"
                 width="100%"
                 height="auto"

@@ -36,7 +36,7 @@ const HeroImageSlider = dynamic(
   }
 );
 
-const Canmore = () => {
+const Jasper = () => {
   // Cloudflare URL for video
   const videoURL = "ad1d8e9d786654e62cbe2681a546ba6c";
 
@@ -64,13 +64,13 @@ const Canmore = () => {
   return (
     <>
       <Head>
-        <title>Epic Adventures | Canmore</title>
+        <title>Epic Adventures | Jasper National Park</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroImageSlider
-        title="Canmore"
+        title="Jasper National Park"
         images={[
-          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/9864fb75-30de-4bab-d676-8a77fcf3ad00/public",
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/28304fd2-499a-4b2d-3021-86790e04ac00/public",
         ]}
         cdn={true}
         needsVideo={true}
@@ -84,17 +84,15 @@ const Canmore = () => {
       </TopDividerStyles>
       <AdventureHeadingStyles>
         <div className="oneCol">
-          <h2>A Mountain Getaway to Adventure</h2>
+          <h2>Where The Wild Roam</h2>
           <p>
-            Canmore is a metropolis within the Rockies and a gateway to many
-            adventures you can't do within a national park. Surrounded by
-            magical mountain peaks, this town is home to many Bow Valley locals
-            and wildlife. Here you can set up camp to experience the very
-            eastern stretch of the Rockies and Bow Valley. Take a heli-tour or
-            explore the caves, Canmore is an outdoors mecca bringing in rock
-            climbers, mountaineers, and hikers from all over the world. The town
-            is also host to large selection of boutique brewers and
-            restaurateurs.
+            Jasper National Park is full of wildlife and adventures you would
+            expect on a trip through the wild west. With access to the Columbia
+            Icefield and wild canyons, this park is a treat for the adventurer
+            with hiking, biking, and climbing throughout the park. Whether it's
+            a road trip or a boat cruise on the pristine Maligne lake,
+            everywhere you look will take your breath away. Jasper is a must
+            visit national park in the heart of the Canadian Rockies.
           </p>
         </div>
       </AdventureHeadingStyles>
@@ -107,75 +105,74 @@ const Canmore = () => {
       </BottomDividerStyles>
 
       <ActivityTilesStyles>
-        <h2>Things To Do In Canmore</h2>
+        <h2>Things To Do In Jasper</h2>
         <div className="tiles">
           <ActivityTile
-            location="Canmore"
-            title="Canyoning"
-            desc="Repel waterfalls, swim the canyon waters and explore the mountains a little differently, this is a trip of a lifetime."
-            img="b38ca2d9-dbd2-4f6e-95ca-49b634538f00"
-            url="/adventures/canyoning"
+            location="Jasper"
+            title="Columbia Icefield"
+            desc="An unforgettable tour onto the glaciers with this epic off road bus."
+            img="34a9b175-de9e-401a-91e4-a0bd3eac5a00"
+            url="/adventures/columbiaicefield"
           />
           <ActivityTile
-            location="Canmore"
-            title="Caving"
-            desc="Take yourself underground in this unique experience inside the bow valley mountains. This trip will expand your relationship with the mountains and local habitat. "
-            img="c3eff5e5-8bc1-45a6-8ab3-07dfb6cf5800"
-            url="/adventures/caving"
+            location="Jasper"
+            title="Skywalk"
+            desc="Take a glass floored experience over the edge and see the epic views of the glaciers."
+            img="e0b73138-6d65-4b1e-fc92-6f2c9631f800"
+            url="/adventures/skywalk"
           />
           <ActivityTile
-            location="Canmore"
-            title="Heli Flight"
-            desc="Get the best seat above the mountains, take a helicopter over the Three Sisters mountain tops and experience the Rockies in style."
-            img="c5ed939e-308e-4c19-58a7-cb8e744d6b00"
-            url="/adventures/heliflight"
+            location="Jasper"
+            title="Maligne Lake Cruise"
+            desc="A boutique cruise over the pristine lake and untouched scenery."
+            img="c20cd904-9f5d-41fd-5b55-47895cf87b00"
+            url="/adventures/malignelake"
           />
           <ActivityTile
-            location="Canmore"
-            title="Kananaskis River"
-            desc="A classic rafting trip through the foot hills of the Rockies, blast the fun white-water and surf some waves."
-            img="e7aad868-4c83-40b4-7998-1dd443781f00"
-            url="/adventures/heliflight"
+            location="Jasper"
+            title="Skytram"
+            desc="See the park from above and witness to the pure magnitude of the Rockies."
+            img="3fd3e00c-5d89-478c-a4be-26ec8fd99b00"
+            url="/adventures/skytram"
           />
           <ActivityTile
-            location="Canmore"
+            location="Jasper"
             title="Summer Combos"
             desc="Experience more and save with these exclusive combos."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
             url="/combos"
           />
           <ActivityTile
-            location="Canmore"
+            location="Jasper"
             title="Winter Adventures"
             desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
             url="/combos"
           />
           <ActivityTile
-            location="Canmore"
+            location="Jasper"
             title="Winter Combos"
             desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
             url="/combos"
           />
           <ActivityTile
-            location="Canmore"
-            title="Dine In Canmore"
-            desc="Check out our local picks for the best dining in Canmore."
+            location="Jasper"
+            title="Dine In Jasper"
+            desc="Check out our local picks for the best dining in Jasper."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-            url="/eat/canmore"
+            url="/eat/jasper"
           />
           <ActivityTile
-            location="Canmore"
-            title="Stay In Canmore"
-            desc="Check out our local picks for the best hotel and hostels in Canmore."
+            location="Jasper"
+            title="Stay In Jasper"
+            desc="Check out our local picks for the best hotel and hostels in Jasper."
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-            url="/stay/canmore"
+            url="/stay/jasper"
           />
           <div className="hidden-flex-item" />
         </div>
       </ActivityTilesStyles>
-
       <BookAdventureStyles>
         <div className="whyEpic">
           <h3>Why Epic?</h3>
@@ -278,16 +275,16 @@ const Canmore = () => {
               a="/destinations/golden"
             />
             <Card
-              title="Jasper"
-              description="At the heart of the Canadian Rockies, Jasper National Park is the ultimate mountain escape."
-              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/2d3202e9-d19a-4c57-ad70-68dec4fcd600/public"
-              a="/destinations/jasper"
-            />
-            <Card
               title="Lake Louise"
               description="Take in the views on mother nature's highway. The Kicking Horse Canyon and beautiful river views is half the fun."
               imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/0943d0b7-a35f-45aa-ed5c-4256bc999e00/public"
               a="/destinations/lakelouise"
+            />
+            <Card
+              title="Canmore"
+              description="You will get a chance to practice everything you need with the instruction of your experienced guide."
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/8be23e5e-7053-455f-9aad-446ed873f200/public"
+              a="/destinations/canmore"
             />
             <Card
               title="Banff"
@@ -310,4 +307,4 @@ const Canmore = () => {
   );
 };
 
-export default Canmore;
+export default Jasper;
