@@ -11,7 +11,7 @@ export const AdventureSectionStyles = styled.div`
   /* top: -18rem; */
   margin-top: -14rem;
   @media (max-width: 800px) {
-    margin-top: -22rem;
+    /* margin-top: -22rem; */
   }
   h3 {
     margin: 0;
@@ -38,6 +38,9 @@ export const AdventureSectionStyles = styled.div`
   }
   .twoCol {
     margin-top: 7rem;
+    @media (max-width: 800px) {
+      margin-top: 0;
+    }
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 3rem;
@@ -45,7 +48,6 @@ export const AdventureSectionStyles = styled.div`
       display: flex;
       flex-wrap: wrap;
       flex-direction: column-reverse;
-      margin-top: 28rem;
     }
     h3 {
       font-size: 4rem;
@@ -85,6 +87,7 @@ export const AdventureSectionStyles = styled.div`
       padding: 0 7rem;
       @media (max-width: 800px) {
         padding: 0;
+        margin: 0 0 100px;
         width: 100%;
       }
       h3 {
@@ -97,6 +100,9 @@ export const AdventureSectionStyles = styled.div`
   }
   .whyEpic {
     margin-top: 18rem;
+    @media (max-width: 800px) {
+      margin-top: 0;
+    }
     margin-bottom: 15rem;
     h3 {
       margin-bottom: 3rem;

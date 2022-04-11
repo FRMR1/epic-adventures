@@ -5,6 +5,7 @@ export const WhyEpicStyles = styled.div`
   margin: 0;
   margin-bottom: ${({ marginBottom }) => (marginBottom ? "20rem" : "-3rem")};
   position: relative;
+  padding: 0 3rem;
   h3 {
     margin: 5rem 0 0;
     font-size: 5rem;
@@ -34,7 +35,7 @@ export const WhyEpicStyles = styled.div`
     margin-top: -5rem;
     margin-bottom: 27rem;
     h3 {
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
     }
     .container {
       display: grid;
@@ -44,6 +45,10 @@ export const WhyEpicStyles = styled.div`
       margin: 0 auto;
       column-gap: 2rem;
       row-gap: 4rem;
+      @media (max-width: 800px) {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
       .item {
         display: grid;
         grid-template-columns: 20px 1fr;

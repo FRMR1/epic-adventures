@@ -140,6 +140,9 @@ const GlobalStyles = createGlobalStyle`
                     color: var(--secColor);
                     text-transform: none;
                     font-size: 1.4rem;
+                    @media (max-width: 800px) {
+                      font-size: 1.6rem !important;
+                    }
                     font-family: --apple-system, BlinkMacSystemFont, "Segoe UI",
                         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
                         "Helvetica Neue", sans-serif;
@@ -155,10 +158,16 @@ const GlobalStyles = createGlobalStyle`
                     margin-top: 1rem;
                     padding: 0;
                     li {
-                        line-height: 3rem;
+                        line-height: 2.8rem;
+                        @media (max-width: 800px) {
+                          line-height: 4rem;
+                        }
                         a, span {
                             color: #fff;
                             font-size: 1.2rem;
+                            @media (max-width: 800px) {
+                              font-size: 1.6rem;
+                            }
                             font-family: --apple-system, BlinkMacSystemFont,
                                 "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
                                 "Open Sans", "Helvetica Neue", sans-serif;
@@ -189,9 +198,17 @@ const GlobalStyles = createGlobalStyle`
                         margin: 0;
                         margin-top: 1rem;
                         li {
-                            line-height: 2.5rem;
+                            line-height: 2.8rem;
+                            @media (max-width: 800px) {
+                              line-height: 4rem;
+                              font-size: 1.6rem;
+                            }
                             a {
                                 font-size: 1rem;
+                                @media (max-width: 800px) {
+                                  line-height: 4rem;
+                                  font-size: 1.6rem;
+                                }
                                 color: #fff;
                                 text-transform: uppercase;
                                 letter-spacing: 0.1rem;
