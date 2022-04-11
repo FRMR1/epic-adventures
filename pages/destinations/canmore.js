@@ -1,5 +1,4 @@
 import Head from "next/head";
-import SuggestedCombo from "../../components/SuggestedCombo";
 import ReadyToBook from "../../components/ReadyToBook";
 import ActivityTile from "../../components/ActivityTile";
 import { TestimonialStyles } from "../../components/styles/TestimonialStyles";
@@ -7,27 +6,13 @@ import { TopDividerStyles } from "../../components/styles/TopDividerStyles";
 import { CardSectionStyles } from "../../components/styles/CardSectionStyles";
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles";
 import { FooterDividerStyles } from "../../components/styles/FooterDividerStyles";
-import { SuggestedCombosStyles } from "../../components/styles/SuggestedCombosStyles";
 import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles";
-import { AdventureSectionStyles } from "../../components/styles/AdventureSectionStyles";
-import { BookAdventureStyles } from "../../components/styles/BookAdventureStyles";
 import { ActivityTilesStyles } from "../../components/styles/ActivityTilesStyles";
 import dynamic from "next/dynamic";
 import "react-multi-carousel/lib/styles.css";
-import Divider from "../../components/Divider";
-import Divider2 from "../../components/Divider2";
-import { DiningTwoColStyles } from "../../components/styles/DiningTwoColStyles";
 import Carousel from "react-multi-carousel";
 import Card from "../../components/Card";
-import Link from "next/link";
-import Image from "next/image";
-
-const CloudflareVideo = dynamic(
-  () => import("../../components/CloudflareVideo"),
-  {
-    ssr: false,
-  }
-);
+import WhyEpic from "../../components/WhyEpic";
 
 const HeroImageSlider = dynamic(
   () => import("../../components/HeroImageSlider"),
@@ -37,9 +22,6 @@ const HeroImageSlider = dynamic(
 );
 
 const Canmore = () => {
-  // Cloudflare URL for video
-  const videoURL = "ad1d8e9d786654e62cbe2681a546ba6c";
-
   // Responsive breakpoints
   const responsive = {
     superLargeDesktop: {
@@ -132,10 +114,10 @@ const Canmore = () => {
           />
           <ActivityTile
             location="Canmore"
-            title="Kananaskis River"
+            title="Rafting Kananaskis River"
             desc="A classic rafting trip through the foot hills of the Rockies, blast the fun white-water and surf some waves."
             img="e7aad868-4c83-40b4-7998-1dd443781f00"
-            url="/adventures/heliflight"
+            url="/adventures/kananaskisriver"
           />
           <ActivityTile
             location="Canmore"
@@ -176,76 +158,8 @@ const Canmore = () => {
         </div>
       </ActivityTilesStyles>
 
-      <BookAdventureStyles>
-        <div className="whyEpic">
-          <h3>Why Epic?</h3>
-          <div className="container">
-            <div className="item">
-              <div className="icon">
-                <img src="/svg/checkmark.svg" width="25" />
-              </div>
-              <div className="desc">
-                <h4>Highest Standards</h4>
-                <p>
-                  All of our operators have the years of experience required to
-                  give you the best quality trip and highest industry standards.
-                  They know their stuff.
-                </p>
-              </div>
-            </div>
-            <div className="item">
-              <div className="icon">
-                <img src="/svg/checkmark.svg" width="25" />
-              </div>
-              <div className="desc">
-                <h4>Hype Deals</h4>
-                <p>
-                  With every purchase you get access to local deals and offers
-                  on partnered hotels, restaurants and activities to save you
-                  money and connect you with local legends.
-                </p>
-              </div>
-            </div>
-            <div className="item">
-              <div className="icon">
-                <img src="/svg/checkmark.svg" width="25" />
-              </div>
-              <div className="desc">
-                <h4>Authentically Canadian</h4>
-                <p>
-                  All of our adventures are operated and owned by local people
-                  and families. Your money stays local and that matters.
-                </p>
-              </div>
-            </div>
-            <div className="item">
-              <div className="icon">
-                <img src="/svg/checkmark.svg" width="25" />
-              </div>
-              <div className="desc">
-                <h4>Best Value</h4>
-                <p>
-                  We hand pick the best value trips to save you time and
-                  research. Chosen by internationally experienced guides.
-                </p>
-              </div>
-            </div>
-            <div className="item">
-              <div className="icon">
-                <img src="/svg/checkmark.svg" width="25" />
-              </div>
-              <div className="desc">
-                <h4>Experience More</h4>
-                <p>
-                  Our exclusive combos and adventures will save you money, time
-                  and research and let you experience more on your trip through
-                  the Rockies.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </BookAdventureStyles>
+      <WhyEpic />
+
       <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
@@ -38,7 +38,7 @@ const GlobalStyles = createGlobalStyle`
         background-color: #fafafa;
         height: 100%;
         overflow: ${({ isMobileMenuOpen }) =>
-            isMobileMenuOpen ? "hidden" : "visible"};
+          isMobileMenuOpen ? "hidden" : "visible"};
 
     }
     .noOverflow {
@@ -431,68 +431,101 @@ const GlobalStyles = createGlobalStyle`
                     opacity 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
                 :nth-child(1) {
                     transform: ${({ isMobileMenuOpen }) =>
-                        isMobileMenuOpen
-                            ? "rotate(45deg) translate(0, -1px)"
-                            : "rotate(0) translate(0, 0)"};
+                      isMobileMenuOpen
+                        ? "rotate(45deg) translate(0, -1px)"
+                        : "rotate(0) translate(0, 0)"};
                 }
                 :nth-child(2) {
                     opacity: ${({ isMobileMenuOpen }) =>
-                        isMobileMenuOpen && "0"};
+                      isMobileMenuOpen && "0"};
                 }
                 :nth-child(3) {
                     transform: ${({ isMobileMenuOpen }) =>
-                        isMobileMenuOpen
-                            ? "rotate(-45deg) translate(0, -1px)"
-                            : "rotate(0) translate(0, 0)"};
+                      isMobileMenuOpen
+                        ? "rotate(-45deg) translate(0, -1px)"
+                        : "rotate(0) translate(0, 0)"};
                 }
             }
         }
     }
     .mobileMenuStyles {
-        position: absolute;
-        overflow: hidden;
-        z-index: 9998;
-        width: 100vw;
-        height: 100vh;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      z-index: 9998;
+      left: -200vw;
+      transition: left 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
+      top: 0;
+      overflow: hidden;
+      .inner {
+        height: 100%;
         background-color: var(--mainColor);
-        left: -200vw;
-        transition: left 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
-        top: 0;
-        margin: 0;
-        padding: 0;
-        display: grid;
+        display: flex;
+        overflow-y: scroll;
+        align-items: flex-start;
+        text-align: left;
+        padding-top: 150px;
+        padding-left: 30px;
         ul {
-            align-self: center;
-            margin: 0;
+          margin: 0;
+          margin-bottom: 50px;
             padding: 0;
             li {
-                list-style: none;
-                line-height: 6rem;
-                a {
-                    font-size: 4.3rem;
-                    font-family: "Futura Bold";
-                    color: #eee;
-                    &:hover {
-                        color: var(--secColor);
-                    }
+              list-style: none;
+              /* line-height: 6rem; */
+              margin-top: 8px;
+              ul {
+                li {
+                  text-transform: none;
+                  line-height: 5rem;
+                  a {
+                    margin-left: 80px;
+                    font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+                    font-size: 20px;
+                    color: #BFBFBF;
+                    text-transform: none;
+                  }
                 }
+                .winter {
+                  margin-left: 80px;
+                  font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+                  font-size: 20px;
+                  color: #BFBFBF;
+                  text-transform: none;
+                }
+                li:first-child {
+                  font-family: "Roboto Mono";
+                  text-transform: uppercase;
+                  font-size: 20px;
+                  color: var(--secColor);
+                  margin-left: 40px;
+                }
+              }
+              a {
+                font-size: 4.3rem;
+                color: #eee;
+                &:hover {
+                  color: var(--secColor);
+                }
+              }
             }
             li.mobileTel span {
-                font-size: 2.5rem;
-                font-family: "Futura Bold";
-                color: #eee;
-                position: relative;
-                bottom: -2.5rem;
+              font-size: 2.5rem;
+              font-family: "Futura Bold";
+              color: #eee;
+              position: relative;
+              bottom: -2.5rem;
             }
             li.mobileTel a {
-                font-size: 2.5rem;
+              font-size: 2.5rem;
             }
+          }
         }
-    }
-    .isOpen {
+      }
+      .isOpen {
         left: 0;
-    }
-    .custom-shape-divider-top-1622058599 {
+      }
+      .custom-shape-divider-top-1622058599 {
         position: absolute;
         top: 0;
         left: 0;
@@ -532,5 +565,5 @@ const GlobalStyles = createGlobalStyle`
     .negMargin {
         /* margin-top: -18rem; */
     }
-`
-export default GlobalStyles
+`;
+export default GlobalStyles;

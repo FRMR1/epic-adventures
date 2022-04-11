@@ -178,7 +178,6 @@ const Golden = () => {
             img="e3be2b9b-00f6-48b3-7c3f-61f632f2a200"
             url="/adventures/scenicflight"
           />
-
           <ActivityTile
             location="Golden"
             title="Summer Combos"

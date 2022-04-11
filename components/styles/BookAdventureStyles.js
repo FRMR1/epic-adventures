@@ -91,6 +91,11 @@ export const BookAdventureStyles = styled.div`
           text-align: center;
         }
       }
+      h4 {
+        color: var(--mainColor);
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
       .large {
         font-size: 20px;
         line-height: 30px;

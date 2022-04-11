@@ -1,9 +1,17 @@
 import Image from "next/image";
 
-const ActivityTile = ({ img, title, desc, url, location }) => {
+const ActivityTile = ({ img, title, desc, url, location, save }) => {
   return (
     <div className="tile">
       <div className="img">
+        {save && (
+          <div className="save">
+            <div className="save">
+              <img src="/images/star.svg" width="100" class="star" />
+              <span class="amount">SAVE {save}%</span>
+            </div>
+          </div>
+        )}
         <Image
           src={`https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/${img}/public`}
           layout="responsive"

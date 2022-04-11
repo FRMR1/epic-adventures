@@ -83,10 +83,7 @@ const MaligneLake = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
-        </div>
-        <div className="pContainer">
+        <div className="oneCol">
           <h2>Canyoning In The Rockies</h2>
           <p>
             Experience the wild adventures with Bow Valley Canyon Tours which

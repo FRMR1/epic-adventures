@@ -34,40 +34,261 @@ const Nav = () => {
           <span></span>
         </div>
         <div className={`mobileMenuStyles ${isOpen && "isOpen"}`}>
-          <ul>
-            <li>
-              <Link href="/">
-                <a onClick={closeMenu}>Home</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/about">
-                <a onClick={closeMenu}>About</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/adventures">
-                <a onClick={closeMenu}>Adventures</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/adventures/combos">
-                <a onClick={closeMenu}>Combos</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://epicadventuregroup.rezdy.com/">
-                <a onClick={closeMenu} target="_blank" rel="noreferrer">
-                  Book Now
-                </a>
-              </Link>
-            </li>
-            <li className="mobileTel">
-              <span>
-                Tel: <a href="tel:+12509398820">+1 250 939 9589</a>
-              </span>
-            </li>
-          </ul>
+          <div className="inner">
+            <ul>
+              <li>
+                <Link href="/">
+                  <a onClick={closeMenu}>Home</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/about">
+                  <a onClick={closeMenu}>About</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/destinations/canadianrockies">
+                  <a onClick={closeMenu}>Canadian Rockies</a>
+                </Link>
+                <ul>
+                  <li>Destinations</li>
+                  <li>
+                    <Link href="/destinations/canadianrockies">
+                      <a onClick={closeMenu}>Canadian Rockies</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/destinations/banffnationalpark">
+                      <a onClick={closeMenu}>Banff National Park</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/destinations/canmore">
+                      <a onClick={closeMenu}>Canmore</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/destinations/golden">
+                      <a onClick={closeMenu}>Golden</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/destinations/jasper">
+                      <a onClick={closeMenu}>Jasper</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/destinations/lakelouise">
+                      <a onClick={closeMenu}>Lake Louise</a>
+                    </Link>
+                  </li>
+                </ul>
+                <ul>
+                  <li>Stay</li>
+                  <li>
+                    <Link href="/stay/banff">
+                      <a onClick={closeMenu}>Banff</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/stay/canmore">
+                      <a onClick={closeMenu}>Canmore</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/stay/golden">
+                      <a onClick={closeMenu}>Golden</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/stay/jasper">
+                      <a onClick={closeMenu}>Jasper</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/stay/lakelouise">
+                      <a onClick={closeMenu}>Lake Louise</a>
+                    </Link>
+                  </li>
+                </ul>
+                <ul>
+                  <li>Eat</li>
+                  <li>
+                    <Link href="/eat/banff">
+                      <a onClick={closeMenu}>Banff</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/eat/canmore">
+                      <a onClick={closeMenu}>Canmore</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/eat/golden">
+                      <a onClick={closeMenu}>Golden</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/eat/jasper">
+                      <a onClick={closeMenu}>Jasper</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/eat/lakelouise">
+                      <a onClick={closeMenu}>Lake Louise</a>
+                    </Link>
+                  </li>
+                </ul>
+                <li>
+                  <Link href="/adventures">
+                    <a onClick={closeMenu}>Adventures</a>
+                  </Link>
+                  <ul>
+                    <li>Summer</li>
+                    <li>
+                      <Link href="/adventures/skydiving">
+                        <a onClick={closeMenu}>Skydiving</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/kickinghorseriver">
+                        <a onClick={closeMenu}>Kicking Horse River</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/helirafting">
+                        <a onClick={closeMenu}>Heli Rafting</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/kananaskisriver">
+                        <a onClick={closeMenu}>Kananaskis River</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/atv">
+                        <a onClick={closeMenu}>ATV Off-Road</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/zipline">
+                        <a onClick={closeMenu}>Valley Zipline</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/scenicflight">
+                        <a onClick={closeMenu}>Scenic Flight</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/canyoning">
+                        <a onClick={closeMenu}>Canyoning</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/caving">
+                        <a onClick={closeMenu}>Caving</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/heliflight">
+                        <a onClick={closeMenu}>Heli Flight</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/paragliding">
+                        <a onClick={closeMenu}>Paragliding</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/biking">
+                        <a onClick={closeMenu}>Mountain Biking</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/vianorquay">
+                        <a onClick={closeMenu}>Via Ferrata Mt. Norquay</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/adventures/viakickinghorse">
+                        <a onClick={closeMenu}>Via Ferrata Kicking Horse</a>
+                      </Link>
+                    </li>
+                    <ul>
+                      <li>Winter</li>
+                      <li className="winter">Stay tuned...</li>
+                    </ul>
+                    <ul>
+                      <li>Sightseeing</li>
+                      <li>
+                        <Link href="/adventures/skybridge">
+                          <a onClick={closeMenu}>Golden Skyridge</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/adventures/banffgondola">
+                          <a onClick={closeMenu}>Banff Gondola</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/adventures/lakelouisegondola">
+                          <a onClick={closeMenu}>Lake Louise Gondola</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/adventures/goldengondola">
+                          <a onClick={closeMenu}>Golden Gondola</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/adventures/jasperskytram">
+                          <a onClick={closeMenu}>Jasper Skytram</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/adventures/columbiaicefield">
+                          <a onClick={closeMenu}>Columbia Icefield</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/adventures/skywalk">
+                          <a onClick={closeMenu}>Skywalk</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/adventures/lakeminnewanka">
+                          <a onClick={closeMenu}>Lake Minnewanka</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/adventures/malignelake">
+                          <a onClick={closeMenu}>Maligne Lake</a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </ul>
+                </li>
+              </li>
+              <li>
+                <Link href="/adventures/combos">
+                  <a onClick={closeMenu}>Combos</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://epicadventuregroup.rezdy.com/">
+                  <a onClick={closeMenu} target="_blank" rel="noreferrer">
+                    Book Now
+                  </a>
+                </Link>
+              </li>
+              <li className="mobileTel">
+                <span>
+                  Tel: <a href="tel:+12509398820">+1 250 939 9589</a>
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="navRight">
           <div class="topNavPhone">
@@ -170,7 +391,7 @@ const Nav = () => {
               </div>
             </div>
           </div>
-          <Link href="/adventures/combos">Combos</Link>
+          <Link href="/combos">Combos</Link>
           <Link href="https://epicadventuregroup.rezdy.com/">
             <a target="_blank" rel="noreferrer">
               <button className="bookNow">Book Now</button>

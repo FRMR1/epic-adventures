@@ -21,6 +21,16 @@ export const ActivityTilesStyles = styled.div`
       position: relative;
     }
   }
+  p {
+    max-width: 70rem;
+    margin: -5rem auto 6rem;
+    font-size: 1.7rem;
+    color: #a3a3a3;
+    text-align: center;
+    @media (max-width: 800px) {
+      font-size: 1.5rem;
+    }
+  }
   .tiles {
     width: 100%;
     max-width: 1200px;
@@ -42,10 +52,35 @@ export const ActivityTilesStyles = styled.div`
       flex: 1 0 350px;
       .img {
         width: 100%;
+        position: relative;
         img {
           border-radius: 10px 10px 0 0;
           height: 200px;
           max-height: 200px !important;
+        }
+        .save {
+          text-align: left;
+          position: absolute;
+          margin-bottom: -3rem;
+          z-index: 10;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          right: 20px;
+          text-align: center;
+          line-height: 25px;
+          transform: rotate(10deg);
+          font-family: "Futura Bold";
+          .amount {
+            position: absolute;
+            font-size: 2.5rem;
+            color: #fff;
+          }
+          img {
+            position: absolute;
+            -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.3));
+          }
         }
       }
       .desc {
@@ -66,10 +101,11 @@ export const ActivityTilesStyles = styled.div`
         }
         p {
           color: #9b9b9b;
-          margin-bottom: 40px;
+          margin: 1rem 0 4rem;
           font-size: 12px;
           line-height: 18px;
           height: 60px;
+          text-align: left;
         }
         a {
           background-color: var(--secColor);

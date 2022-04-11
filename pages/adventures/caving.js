@@ -82,10 +82,7 @@ const MaligneLake = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="imageContainer mobileImage">
-          <img src="/images/logos/extremeyeti.png" />
-        </div>
-        <div className="pContainer">
+        <div className="oneCol">
           <h2>Explore The Wild Things</h2>
           <p>
             With over 25 years in operation this underground sensation is packed
@@ -305,7 +302,7 @@ const MaligneLake = () => {
           “This was an absolute riot! The cave is so raw and beautiful! The tour
           itself was constantly exciting, challenging and unpredictable. It
           offers some chances to push your comfort levels as well - which was
-          absolutely worth it. ”
+          absolutely worth it.”
         </p>
         <div className="faceContainer">
           <img src="/svg/face.svg" width="30px" />
