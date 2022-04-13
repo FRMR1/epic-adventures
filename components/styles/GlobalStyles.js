@@ -88,6 +88,9 @@ const GlobalStyles = createGlobalStyle`
     }
     .mobileHeading {
         font-size: 8rem;
+        @media (max-width: 800px) {
+          font-size: 6rem;
+        }
         line-height: 7rem;
         color: #fff;
         text-shadow: 0 0 10px rgba(20, 20, 20, .5);
