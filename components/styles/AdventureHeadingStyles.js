@@ -23,6 +23,8 @@ export const AdventureHeadingStyles = styled.div`
     display: block;
     margin-top: -1rem;
     padding: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
   .imageContainer {
     display: flex;
@@ -32,6 +34,9 @@ export const AdventureHeadingStyles = styled.div`
     width: 50%;
     img {
       max-width: 500px;
+      @media (max-width: 800px) {
+        max-width: 350px;
+      }
     }
     @media (max-width: 800px) {
       width: 100%;
