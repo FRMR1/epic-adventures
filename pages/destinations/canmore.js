@@ -101,7 +101,7 @@ const Canmore = () => {
           <ActivityTile
             location="Canmore"
             title="Caving"
-            desc="Take yourself underground in this unique experience inside the bow valley mountains. This trip will expand your relationship with the mountains and local habitat. "
+            desc="Take yourself underground in this unique experience inside the bow valley mountains. This trip will expand your relationship with the mountains and local habitat."
             img="c3eff5e5-8bc1-45a6-8ab3-07dfb6cf5800"
             url="/adventures/caving"
           />

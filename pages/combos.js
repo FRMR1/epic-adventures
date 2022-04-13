@@ -136,7 +136,7 @@ const Combos = ({}) => {
             url="https://epicadventuregroup.rezdy.com/485638/combo-under-over-caving-skydive-multi-day"
           />
           <ActivityTile
-            location="Canmore, Golden"
+            location="Canmore"
             title="Rock Hunter"
             desc="Caving (Adventure Route), canyoning (Heart Creek Canyon)."
             img="a58fe96a-5510-4229-b4ef-420e3d325100"
@@ -208,7 +208,7 @@ const Combos = ({}) => {
             location="Coupon"
             title="Heli Flight"
             desc="Use promo code HELI5 when booking,"
-            img="255c02c6-767c-445f-18a3-4c5395f6ce00"
+            img="48693f6b-e791-4232-f528-806c02b4f400"
             url="https://epicadventuregroup.rezdy.com/485632/combo-golden-ultimate-raft-skydive-atv-via-ferrata-multi-day"
             save="5"
           />

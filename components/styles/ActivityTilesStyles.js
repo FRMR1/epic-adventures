@@ -85,6 +85,7 @@ export const ActivityTilesStyles = styled.div`
       }
       .desc {
         padding: 20px 20px 40px;
+        width: 100%;
         span {
           text-transform: uppercase;
           font-size: 10px;

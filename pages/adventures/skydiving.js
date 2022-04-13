@@ -373,40 +373,25 @@ const Skydiving = () => {
         <h3>Suggested Combos</h3>
         <div className="cards">
           <SuggestedCombo
-            title="Stairway to Heaven"
-            description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
-            bullets={[
-              "Skydiving and Golden Skybridge",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            image="combo7"
-            price="348"
-            url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+            title="Epic Golden Pass"
+            description="Rafting Kicking Horse river full day, skydiving, ATV half day."
+            image="595ec27a-72a8-45c6-99a4-d7c50fead200"
+            price="TBD"
+            url="https://epicadventuregroup.rezdy.com/443894/combo-epic-golden-pass-raft-skydive-atv-multi-day"
           />
           <SuggestedCombo
-            title="Top of the World"
-            description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
-            bullets={[
-              "Skydiving and Kicking Horse gondola",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="360"
-            image="combo8"
-            url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+            title="Golden Ultimate"
+            description="Rafting full day Kicking Horse river, skydiving, ATV half-day, via ferrata (Discovery route Kicking Horse)."
+            price="TBD"
+            image="379df31d-2ab4-495a-21d3-cce6e7585100"
+            url="https://epicadventuregroup.rezdy.com/485632/combo-golden-ultimate-raft-skydive-atv-via-ferrata-multi-day"
           />
           <SuggestedCombo
-            title="Double Trouble"
-            description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
-            bullets={[
-              "Skydiving and rafting express",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="396"
-            image="combo6"
-            url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
+            title="Dirt Dive"
+            description="Half-day ATV trip, skydiving."
+            price="TBD"
+            image="450331df-2fcb-4401-853a-4bf6bbd10f00"
+            url="https://epicadventuregroup.rezdy.com/443897/combo-dirt-dive-atv-skydive"
           />
         </div>
       </SuggestedCombosStyles>

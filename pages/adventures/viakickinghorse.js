@@ -434,43 +434,28 @@ const Skydiving = () => {
       </AdventureSectionStyles>
       <GoogleMap location={{ lat: 51.297568, lng: -117.048252 }} zoom={15} />
       <SuggestedCombosStyles>
-        <h3>Suggested Combos</h3>
+        <h3>Suggested Adventures</h3>
         <div className="cards">
           <SuggestedCombo
-            title="Stairway to Heaven"
-            description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
-            bullets={[
-              "Skydiving and Golden Skybridge",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            image="combo7"
-            price="348"
-            url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+            title="Via Ferrata Mt. Norquay"
+            description="Take on Mount Norquay and get the best views of the town of Banff and the bow valley, challenge yourself."
+            image="4b009846-f3cf-4c1f-e795-896e5c2b1000"
+            url="/adventures/vianorquay"
+            internal={true}
           />
           <SuggestedCombo
-            title="Top of the World"
-            description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
-            bullets={[
-              "Skydiving and Kicking Horse gondola",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="360"
-            image="combo8"
-            url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+            title="Mountain Biking"
+            description="Mountain biking at the Kicking Horse resort is an epic day on world-class trails, maintain and constructed by the trail crew of the resort."
+            image="69256104-8b47-41b1-48a2-d88cee247100"
+            url="/adventures/biking"
+            internal={true}
           />
           <SuggestedCombo
-            title="Double Trouble"
-            description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
-            bullets={[
-              "Skydiving and rafting express",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="396"
-            image="combo6"
-            url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
+            title="Valley Zipline"
+            description="As you navigate the course with your adventure guide this zipline course will take you through the tree tops at high speeds."
+            image="ac7427ae-cfaa-43c6-2a41-885cb7256700"
+            url="/adventures/zipline"
+            internal={true}
           />
         </div>
       </SuggestedCombosStyles>

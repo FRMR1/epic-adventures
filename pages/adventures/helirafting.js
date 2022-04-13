@@ -391,43 +391,28 @@ const MaligneLake = () => {
       </AdventureSectionStyles>
       <GoogleMap location={{ lat: 51.302704, lng: -116.947875 }} zoom={15} />
       <SuggestedCombosStyles>
-        <h3>Suggested Combos</h3>
+        <h3>Suggested Adventures</h3>
         <div className="cards">
           <SuggestedCombo
-            title="Stairway to Heaven"
-            description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
-            bullets={[
-              "Skydiving and Golden Skybridge",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            image="combo7"
-            price="348"
-            url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+            title="Kananaskis River"
+            description="A classic rafting trip through the foot hills of the Rockies, blast the fun white-water and surf some waves."
+            image="e7aad868-4c83-40b4-7998-1dd443781f00"
+            url="/adventures/kananaskisriver"
+            internal={true}
           />
           <SuggestedCombo
-            title="Top of the World"
-            description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
-            bullets={[
-              "Skydiving and Kicking Horse gondola",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="360"
-            image="combo8"
-            url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+            title="Kicking Horse River"
+            description="Take on the world famous Kicking Horse River. With rapids like Man Eater and Shot Gun, this river is an experience that can't be missed."
+            image="c61cf00a-32f2-41c0-09fe-b2c742189700"
+            url="/adventures/kickinghorseriver"
+            internal={true}
           />
           <SuggestedCombo
-            title="Double Trouble"
-            description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
-            bullets={[
-              "Skydiving and rafting express",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="396"
-            image="combo6"
-            url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
+            title="Heli Flight"
+            description="Get the best seat above the mountains, take a helicopter over the Three Sisters mountain tops and experience the Rockies in style."
+            image="c5ed939e-308e-4c19-58a7-cb8e744d6b00"
+            url="/adventures/heliflight"
+            internal={true}
           />
         </div>
       </SuggestedCombosStyles>

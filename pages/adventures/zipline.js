@@ -342,43 +342,28 @@ const Skydiving = () => {
       </AdventureSectionStyles>
       <GoogleMap location={{ lat: 50.585094, lng: -116.042102 }} zoom={15} />
       <SuggestedCombosStyles>
-        <h3>Suggested Combos</h3>
+        <h3>Suggested Adventures</h3>
         <div className="cards">
           <SuggestedCombo
-            title="Stairway to Heaven"
-            description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
-            bullets={[
-              "Skydiving and Golden Skybridge",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            image="combo7"
-            price="348"
-            url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+            title="Golden Gondola"
+            description="Take the Golden Eagle Express Gondola to the top of the resort to get those mountain views and access hiking trails."
+            image="545e27e2-072f-4e13-253f-40898912f800"
+            url="/adventures/goldengondola"
+            internal={true}
           />
           <SuggestedCombo
-            title="Top of the World"
-            description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
-            bullets={[
-              "Skydiving and Kicking Horse gondola",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="360"
-            image="combo8"
-            url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+            title="Via Ferrata Kicking Horse"
+            description="Challenge yourself on this guided trip on the side of the mountain peaks. With unforgettable views this outdoor adventure you won't forget."
+            image="11e9dbeb-b46d-4322-88e9-9172f64a2800"
+            url="/adventures/viakickinghorse"
+            internal={true}
           />
           <SuggestedCombo
-            title="Double Trouble"
-            description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
-            bullets={[
-              "Skydiving and rafting express",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="396"
-            image="combo6"
-            url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
+            title="Rafting Kicking Horse River"
+            description="Take on the world famous Kicking Horse River. With rapids like Man Eater and Shot Gun, this river is an experience that can't be missed."
+            image="c61cf00a-32f2-41c0-09fe-b2c742189700"
+            url="/adventures/kickinghorseriver"
+            internal={true}
           />
         </div>
       </SuggestedCombosStyles>

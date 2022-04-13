@@ -133,7 +133,7 @@ const Golden = () => {
             location="Golden"
             title="Paragliding"
             desc="Take off from the top of Mount 7 and soar like an eagle over the beautiful Columbia Valley and experience the Rockies like never before."
-            img="e7aad868-4c83-40b4-7998-1dd443781f00"
+            img="ae6d4f86-3be4-4e41-cbd6-6e6566c2bc00"
             url="/adventures/paragliding"
           />
           <ActivityTile

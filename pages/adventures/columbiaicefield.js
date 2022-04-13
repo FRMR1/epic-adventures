@@ -322,43 +322,28 @@ const MaligneLake = () => {
       </AdventureSectionStyles>
       <GoogleMap location={{ lat: 52.865406, lng: -118.092578 }} zoom={15} />
       <SuggestedCombosStyles>
-        <h3>Suggested Combos</h3>
+        <h3>Suggested Adventures</h3>
         <div className="cards">
           <SuggestedCombo
-            title="Stairway to Heaven"
-            description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
-            bullets={[
-              "Skydiving and Golden Skybridge",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            image="combo7"
-            price="348"
-            url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+            title="Skywalk"
+            description="Take a glass floored experience over the edge and see the epic views of the glaciers."
+            image="e0b73138-6d65-4b1e-fc92-6f2c9631f800"
+            url="/adventures/skywalk"
+            internal={true}
           />
           <SuggestedCombo
-            title="Top of the World"
-            description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
-            bullets={[
-              "Skydiving and Kicking Horse gondola",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="360"
-            image="combo8"
-            url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+            title="Maligne Lake Cruise"
+            description="A boutique cruise over the pristine lake and untouched scenery."
+            image="c20cd904-9f5d-41fd-5b55-47895cf87b00"
+            url="/adventures/malignelake"
+            internal={true}
           />
           <SuggestedCombo
-            title="Double Trouble"
-            description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
-            bullets={[
-              "Skydiving and rafting express",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="396"
-            image="combo6"
-            url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
+            title="Skytram"
+            description="See the park from above and witness to the pure magnitude of the Rockies."
+            image="3fd3e00c-5d89-478c-a4be-26ec8fd99b00"
+            url="/adventures/skytram"
+            internal={true}
           />
         </div>
       </SuggestedCombosStyles>

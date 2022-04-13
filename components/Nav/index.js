@@ -313,8 +313,8 @@ const Nav = () => {
                   </Link>
                   <Link href="/destinations/canmore">Canmore</Link>
                   <Link href="/destinations/golden">Golden</Link>
-                  <Link href="/destinations/golden">Jasper</Link>
-                  <Link href="/destinations/golden">Lake Louise</Link>
+                  <Link href="/destinations/jasper">Jasper</Link>
+                  <Link href="/destinations/lakelouise">Lake Louise</Link>
                 </div>
                 <div className="col">
                   <h3>Stay</h3>

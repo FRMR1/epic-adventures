@@ -585,7 +585,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <th className="combo">
-                    <div className="cell">Banff Ultimate Adventure</div>
+                    <div className="cell">Banff Ultimate Adventurer</div>
                   </th>
                   <td>
                     <div className="cell"></div>
@@ -653,7 +653,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <th className="combo">
-                    <div className="cell">Over and Under</div>
+                    <div className="cell">Under and Over</div>
                   </th>
                   <td>
                     <div className="cell"></div>

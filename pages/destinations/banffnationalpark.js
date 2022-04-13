@@ -112,8 +112,7 @@ const BanffNationalPark = () => {
           <ActivityTile
             location="Banff"
             title="Via Ferrata Mt. Norquay"
-            desc="Take on Mount Norquay and get the best views of the town of
-                Banff and the bow valley, challenge yourself."
+            desc="Take on Mount Norquay and get the best views of the town of Banff and the bow valley, challenge yourself."
             img="4b009846-f3cf-4c1f-e795-896e5c2b1000"
             url="/adventures/vianorquay"
           />

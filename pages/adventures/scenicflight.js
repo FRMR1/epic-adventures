@@ -416,43 +416,28 @@ const Skydiving = () => {
       </AdventureSectionStyles>
       <GoogleMap location={{ lat: 51.297729, lng: -116.984237 }} zoom={15} />
       <SuggestedCombosStyles>
-        <h3>Suggested Combos</h3>
+        <h3>Suggested Adventures</h3>
         <div className="cards">
           <SuggestedCombo
-            title="Stairway to Heaven"
-            description="Test your nerves with a jump from an airplane from 10,000 ft and enjoy the trails, suspension bridges and treetop village of the NEW Golden Skybridge."
-            bullets={[
-              "Skydiving and Golden Skybridge",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            image="combo7"
-            price="348"
-            url="https://epicadventuregroup.rezdy.com/444969/stairway-to-heaven-skydive-golden-skybridge"
+            title="Heli Flight"
+            description="Get the best seat above the mountains, take a helicopter over the Three Sisters mountain tops and experience the Rockies in style."
+            image="c5ed939e-308e-4c19-58a7-cb8e744d6b00"
+            url="/adventures/heliflight"
+            internal={true}
           />
           <SuggestedCombo
-            title="Top of the World"
-            description="A day above the clouds! A jump from an airplane from 10,000 ft above the beautiful town of Golden, then scale the kicking horse mountain to 7,700 ft for panoramic views you can't forget!"
-            bullets={[
-              "Skydiving and Kicking Horse gondola",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="360"
-            image="combo8"
-            url="https://epicadventuregroup.rezdy.com/444956/top-of-the-world-skydive-gondola-kicking-horse-resort"
+            title="Skydiving"
+            description="Feel the wind under your wings as you take on the Rockies from above the clouds at 120MPH."
+            image="a45c1c16-675c-4e13-a3a5-5cee310af300"
+            url="/adventures/skydiving"
+            internal={true}
           />
           <SuggestedCombo
-            title="Double Trouble"
-            description="Skydive for breakfast and raft the express (half day) trip in the afternoon. This day trip is an adrenaline filled memory, showcasing the best Golden has to offer!"
-            bullets={[
-              "Skydiving and rafting express",
-              "6 hours (approx.)",
-              "Must be 19 years or older",
-            ]}
-            price="396"
-            image="combo6"
-            url="https://epicadventuregroup.rezdy.com/443892/double-trouble-skydive-raft-express-combo"
+            title="Paragliding"
+            description="Take off from the top of Mount 7 and soar like an eagle over the beautiful Columbia Valley and experience the Rockies like never before."
+            image="ae6d4f86-3be4-4e41-cbd6-6e6566c2bc00"
+            url="/adventures/paragliding"
+            internal={true}
           />
         </div>
       </SuggestedCombosStyles>
