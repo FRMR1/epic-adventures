@@ -152,18 +152,19 @@ const MaligneLake = () => {
         </div>
       </CardSectionStyles>
 
-      <BookAdventureStyles marginBottom={true}>
-        <h3>Banff Gondola</h3>
+      <BookAdventureStyles>
+        <h3>Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e48dff61-bb52-48d1-bb24-37bf9e9cce00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/9ec520a4-ee6b-49b3-b501-f3fbbef8c000/public"
               layout="fill"
               objectFit="contain"
               alt="Banff Gondola"
             />
           </div>
           <div className="right">
+            <h3>Banff Gondola</h3>
             <p>Book your ticket to Banff's iconic mountain views.</p>
             <ul>
               <li>
@@ -180,7 +181,7 @@ const MaligneLake = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485232/banff-gondola">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -189,34 +190,46 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="ATV Off-Road"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       {/* <TopDividerStyles>

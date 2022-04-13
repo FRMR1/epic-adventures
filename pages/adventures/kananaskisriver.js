@@ -158,12 +158,12 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Kananaskis River Rafting</h3>
+        <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/470cb5d7-cf2d-460c-36ff-9c119dbaa400/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kananaskis River"
@@ -171,6 +171,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Kananaskis River Rafting</h3>
             <p>
               A great introduction into white water rafting and an awesome
               experience for the family and friends on the Kananaskis River.
@@ -207,34 +208,46 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>

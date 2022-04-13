@@ -163,12 +163,12 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>White Water Discovery</h3>
+        <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/rafting3.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/f2c78e0a-8243-4919-3448-c3e98ff91f00/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kicking Horse River"
@@ -176,6 +176,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>White Water Discovery</h3>
             <p>
               The Discovery trip takes you on a full-day journey from the calm
               upper canyon in the morning into big crashing white water in the
@@ -208,7 +209,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/145505/full-day-rafting-white-water-discovery">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -217,12 +218,11 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>White Water Express (AM)</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b77fab9d-2c77-4117-15b0-6892a96b8000/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/02812082-0a38-4c2a-0c97-477b8190e400/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kicking Horse River"
@@ -230,6 +230,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>White Water Express (AM)</h3>
             <p>
               Skip the easy waters and get right to it with an exhilarating
               half-day of white water rapids.
@@ -261,7 +262,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/145509/half-day-rafting-white-water-express-11-00-a-m">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -270,12 +271,11 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>White Water Express (PM)</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/88bb309d-5c4a-4d5e-9c31-d1e72366a600/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/10301521-e694-4d52-94c8-d7c76cb5e100/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kicking Horse River"
@@ -283,6 +283,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>White Water Express (PM)</h3>
             <p>
               Skip the easy waters and get right to it with an exhilarating
               half-day of white water rapids.
@@ -314,7 +315,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/147248/half-day-rafting-white-water-express-3-30-p-m">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -324,12 +325,11 @@ const Skydiving = () => {
           </div>
         </div>
 
-        <h3>Heli Rafting</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="/images/rafting3.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/335a4981-7ecd-4f28-96f9-973459809c00/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kicking Horse River"
@@ -337,6 +337,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Heli Rafting</h3>
             <p>
               Take on the “upper” sections of the kicking horse river, then
               experience the epic “lower” section of the river exclusively
@@ -349,8 +350,8 @@ const Skydiving = () => {
               </li>
             </ul>
 
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
-              <a target="_blank" rel="noreferrer">
+            <Link href="/adventures/helirafting">
+              <a>
                 <div className="button">
                   <span>More Info</span>
                 </div>
@@ -358,34 +359,46 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>

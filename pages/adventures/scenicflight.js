@@ -156,13 +156,13 @@ const Skydiving = () => {
         </div>
       </CardSectionStyles>
 
-      <BookAdventureStyles marginBottom={true}>
-        <h3>Columbia Icefield Tour</h3>
+      <BookAdventureStyles>
+        <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/65cb3c30-de11-49c2-05bb-6ef7be716600/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b4e4c7f2-94d3-4c64-a046-e948cacb2900/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Scenic Flights"
@@ -170,6 +170,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Columbia Icefield Tour</h3>
             <p>
               On the Columbia Icefields flight-seeing tour, you will find
               yourself looking over majestic valleys, and vast icefields in this
@@ -190,7 +191,7 @@ const Skydiving = () => {
               <span className="amount">300</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/484993/scenic-flight-columbia-icefields-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -199,12 +200,11 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>The Bugaboos Tour</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/62b98689-1c31-4f03-b992-9200bc8f1200/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/086112ff-30bd-4f28-e5d3-f792d58e9100/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Scenic Flights"
@@ -212,6 +212,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>The Bugaboos Tour</h3>
             <p>
               The Bugaboos are a mountain range in the Purcell Mountains, with a
               famed group of granite spires popular by mountaineers and rock
@@ -233,7 +234,7 @@ const Skydiving = () => {
               <span className="amount">250</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/484996/scenic-flight-the-bugaboos-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -242,12 +243,11 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Sir Donald Tour</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7c75459d-d070-48ad-5599-6d3297ff2d00/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/f0182fc6-c48e-472c-1a4b-30f6b232d400/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Scenic Flights"
@@ -255,6 +255,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Sir Donald Tour</h3>
             <p>
               Embark on an impressive flight tour to Glacier National Park to
               take on spectacular views of Mount Sir Donald with its classic
@@ -276,7 +277,7 @@ const Skydiving = () => {
               <span className="amount">250</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/484998/scenic-flight-mt-sir-donald-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -285,34 +286,46 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       {/* <TopDividerStyles>

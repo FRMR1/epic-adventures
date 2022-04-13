@@ -141,18 +141,19 @@ const MountainBiking = () => {
         </div>
       </CardSectionStyles>
 
-      <BookAdventureStyles marginBottom={true}>
-        <h3>Bike Lift Park Pass</h3>
+      <BookAdventureStyles>
+        <h3>Our Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/cce29ea2-1575-4c30-5fed-a8a131528b00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/5e6582e7-bd22-4576-fcf0-662aa1c84400/public"
               layout="fill"
               objectFit="contain"
               alt="Bike Lift Park Pass"
             />
           </div>
           <div className="right">
+            <h3>Bike Lift Park Pass</h3>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
@@ -168,7 +169,7 @@ const MountainBiking = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/444042/mountain-bike-park-pass-kicking-horse-resort">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -177,17 +178,17 @@ const MountainBiking = () => {
             </Link>
           </div>
         </div>
-        <h3>Bike Lift Park Pass and Gear Rental</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/73a403fe-2474-4657-016b-9c97b5c38b00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d8e05444-4d2f-4768-2a5e-ab733a021500/public"
               layout="fill"
               objectFit="contain"
               alt="Bike Lift Park Pass"
             />
           </div>
           <div className="right">
+            <h3>Bike Lift Park Pass and Gear Rental</h3>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
@@ -207,7 +208,7 @@ const MountainBiking = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/484986/mountain-bike-park-pass-gear-rental-kicking-horse-resort">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -216,34 +217,46 @@ const MountainBiking = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="ATV Off-Road"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       {/* <TopDividerStyles>
@@ -282,39 +295,6 @@ const MountainBiking = () => {
         />
       </BottomDividerStyles> */}
       <WhyEpic />
-      <AdventureSectionStyles>
-        <div className="twoCol">
-          <div className="left">
-            <h3>Additional Details</h3>
-            <ul>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                TODO
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                TODO
-              </li>
-              <li>
-                <img src="/svg/checkmark.svg" width="15" />
-                TODO
-              </li>
-            </ul>
-          </div>
-          <div className="right">
-            <div className="imageRotate">
-              <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/11ac1508-8f13-4252-271f-ec41caf39600/public"
-                layout="responsive"
-                width="100%"
-                height="auto"
-                objectFit="contain"
-                alt="Skydiving"
-              />
-            </div>
-          </div>
-        </div>
-      </AdventureSectionStyles>
       <GoogleMap location={{ lat: 51.29879, lng: -117.048391 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Combos</h3>

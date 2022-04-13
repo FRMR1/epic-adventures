@@ -154,17 +154,18 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Heart Creek Canyon</h3>
+        <h3>Our Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/499cae02-772b-4a3e-3352-a1aee6845500/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/0d6ffbe0-c184-4d02-ece8-fc83fdffed00/public"
               layout="fill"
               objectFit="contain"
               alt="Canyoning"
             />
           </div>
           <div className="right">
+            <h3>Heart Creek Canyon</h3>
             <p>
               Looking to try canyoning for the first time? Then this is the trip
               for you! An easy approach, an ideal location to learn rappelling,
@@ -199,7 +200,7 @@ const MaligneLake = () => {
               <span className="amount">185</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485223/bow-valley-canyoning-hearts-creek">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -208,17 +209,17 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <h3>Ghost Canyon</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/abc59838-4ece-46fb-0445-15f0c4797500/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/2ab39029-ebd9-4f21-aada-8010e1b52d00/public"
               layout="fill"
               objectFit="contain"
               alt="Canyoning"
             />
           </div>
           <div className="right">
+            <h3>Ghost Canyon</h3>
             <p>
               The Ghost is our premier canyon experience and one of the most
               secluded, wild and spectacular canyons you'll experience anywhere!
@@ -262,17 +263,17 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <h3>Castle Canyon</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d0ed441f-be15-403f-f51c-6a03d62e0300/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e1425caf-5bfe-4d0f-a980-e237ee56ac00/public"
               layout="fill"
               objectFit="contain"
               alt="Canyoning"
             />
           </div>
           <div className="right">
+            <h3>Castle Canyon</h3>
             <p>
               If you are looking to take your canyoneering experience to the
               next level then this advanced canyon is the trip for you. Castle
@@ -307,7 +308,7 @@ const MaligneLake = () => {
               <span className="amount">245</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485229/bow-valley-canyoning-castle-canyon">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -316,34 +317,46 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="ATV Off-Road"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>

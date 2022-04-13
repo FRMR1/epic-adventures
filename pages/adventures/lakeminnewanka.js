@@ -162,17 +162,18 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Lake Minnewanka Classic Cruise</h3>
+        <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/9e4d73ee-bea4-40b2-622b-3d741fd5c500/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/3e682879-757f-46c7-b66f-f16b03f16100/public"
               layout="fill"
               objectFit="contain"
               alt="Lake Minnewanka"
             />
           </div>
           <div className="right">
+            <h3>Lake Minnewanka Classic Cruise</h3>
             <p>
               Take the Classic Lake Minnewanka Cruise and enjoy the beauty of
               Banff National Park by water.
@@ -188,7 +189,7 @@ const MaligneLake = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485308/lake-miniwanka-classic-cruise">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -197,17 +198,17 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <h3>Beer Voyage Cruise</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/48a796d7-8905-4e86-49d8-2e7bd342ec00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/738175d1-cc2d-46ed-83cf-6483cef19a00/public"
               layout="fill"
               objectFit="contain"
               alt="Lake Minnewanka"
             />
           </div>
           <div className="right">
+            <h3>Beer Voyage Cruise</h3>
             <p>
               Join the Lake Minnewanka Cruise for an afternoon of boutique beers
               and interpretive cruise.
@@ -223,7 +224,7 @@ const MaligneLake = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485311/lake-miniwanka-beer-cruise">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -232,34 +233,46 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>
@@ -332,7 +345,7 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/48a796d7-8905-4e86-49d8-2e7bd342ec00/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/51832543-4ef8-4747-54ba-8d9fa847f800/public"
                 layout="responsive"
                 width="100%"
                 height="auto"

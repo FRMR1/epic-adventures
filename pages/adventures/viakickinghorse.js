@@ -175,12 +175,12 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Pioneer Route</h3>
+        <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/856b75fc-a6f2-4b94-e8b7-38c62a457a00/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/f119a330-859a-405b-a187-deb6baf29600/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Via Ferrata"
@@ -188,6 +188,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Pioneer Route</h3>
             <p>
               The most accessible route for those who aren't sure about via
               ferrata and want to give it a try.
@@ -215,7 +216,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/484982/via-ferrata-pioneer-route-kicking-horse">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -224,12 +225,11 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Discovery Route</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/00f6c486-26b8-456b-e10f-b30570c12d00/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/325ebbc1-3d2e-4581-a185-b3c0ea9af600/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Via Ferrata"
@@ -237,6 +237,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Discovery Route</h3>
             <p>
               The most accessible route for those who aren't sure about via
               ferrata and want to give it a try.
@@ -264,7 +265,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/484984/via-ferrata-discovery-route-kicking-horse">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -273,12 +274,11 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Ascension Route</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e708634e-4a38-48ae-2faf-261a4bc82100/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/61b713f4-7b91-44b7-733b-793350fa0800/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Via Ferrata"
@@ -286,6 +286,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Ascension Route</h3>
             <p>
               One of the most technical sections in North America this is host
               to some serious views at 465 meters this is bliss at the top of
@@ -314,7 +315,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/484985/via-ferrata-ascension-route-kicking-horse">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -323,34 +324,46 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>

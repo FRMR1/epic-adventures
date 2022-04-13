@@ -87,10 +87,7 @@ const Skydiving = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="imageContainer mobileImage">
-          {/* <img src="/images/logos/extremeyeti.png" /> */}
-        </div>
-        <div className="pContainer">
+        <div className="oneCol">
           <h2>The Valley's Zipline and Adventure Park</h2>
           <p>
             Hidden in the beautiful Columbia Valley, Valley Zipline Adventures
@@ -162,12 +159,12 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Zipline Tour</h3>
+        <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/1c9fd6b9-977f-4f61-f36b-b5c76a854200/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/6a4178d3-9848-4836-855f-addf3c734400/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Valley Zipline"
@@ -175,6 +172,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Zipline Tour</h3>
             <p>Take the challenge and fly through the trees.</p>
             <ul>
               <li>
@@ -199,7 +197,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485202/valley-zipline-zipline-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -208,12 +206,11 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Aerial Park</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/dd342860-1249-471b-3858-e44fbd5ca500/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/f9ebfc52-96d8-480d-7ebd-871a83139200/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Zipline"
@@ -221,13 +218,14 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Aerial Park</h3>
             <p>New aerial course coming soon.</p>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485202/valley-zipline-zipline-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -236,34 +234,46 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>

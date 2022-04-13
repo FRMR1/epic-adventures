@@ -171,17 +171,18 @@ const Skydiving = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Explorer Route</h3>
+        <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d5b72e9c-91b3-4347-a88e-964a2bfc0b00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c707e50c-ad85-4fae-a896-76bce5153a00/public"
               layout="fill"
               objectFit="contain"
               alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
+            <h3>Explorer Route</h3>
             <p>
               Spend some time with your guide, get introduced to the equipment,
               head up a few pitches and cross the suspension bridge. This is a
@@ -207,7 +208,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485207/mt-norquay-via-ferrata-explorer-route">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -216,17 +217,17 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Ridgewalker Route</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/190b5385-0e65-4643-0c33-f28268a74a00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7dfc0999-1493-44a7-9613-2e23d9555c00/public"
               layout="fill"
               objectFit="contain"
               alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
+            <h3>Ridgewalker Route</h3>
             <p>
               To get a greater feel for heights, exposure and the full Via
               Ferrata experience, become a Ridgewalker! This half-day excursion
@@ -253,7 +254,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485213/mt-norquay-via-ferrata-ridge-walker-route">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -262,17 +263,17 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Alpinist Route</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/bd21a095-fdcd-4fa0-29da-d309dd221800/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/768ddb50-4179-421b-5544-8818e04c0400/public"
               layout="fill"
               objectFit="contain"
               alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
+            <h3>Alpinist Route</h3>
             <p>
               Alpinists are continuously on the move. This 4-4.5 hr via ferrata
               tour takes in all that the popular Ridgewalker tour offers but
@@ -300,7 +301,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485215/mt-norquay-via-ferrata-alpinist-route">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -309,17 +310,17 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Skyline Route</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/6ee0a19b-23a0-4ca4-7c35-99d957833000/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/2d2e4391-9943-4adf-58cc-4f16d9b9ed00/public"
               layout="fill"
               objectFit="contain"
               alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
+            <h3>Skyline Route</h3>
             <p>
               The Skyline includes an exciting high traverse on a sheer rock
               wall and crosses an “airy” 55m suspension bridge. Your effort is
@@ -348,7 +349,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485218/mt-norquay-via-ferrata-skyline-route">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -357,17 +358,17 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Summiteer Route</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b7110615-8a9f-462c-da83-089ec30db900/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/a37a95c4-f889-4e1a-9f81-c75469920600/public"
               layout="fill"
               objectFit="contain"
               alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
+            <h3>Summiteer Route</h3>
             <p>
               The Summiteer tops out at the highest point of Norquay's via
               ferrata. A continuation of the Skyline route, this 6-hour
@@ -398,7 +399,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485219/mt-norquay-via-ferrata-summiteer-route">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -407,17 +408,17 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <h3>Mountaineer Route</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e765c780-3e87-47bf-e989-37e9e6707a00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/648ba7a4-5aae-4eb6-0718-9f8b6debe100/public"
               layout="fill"
               objectFit="contain"
               alt="Via Ferrata Mt. Norquay"
             />
           </div>
           <div className="right">
+            <h3>Mountaineer Route</h3>
             <p>
               Mountaineers spend up to 8 hours on the via ferrata covering over
               3km's of distance and nearly 500m of vertical gain, exploring the
@@ -451,7 +452,7 @@ const Skydiving = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485220/mt-norquay-via-ferrata-mountaineer-route">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -460,34 +461,46 @@ const Skydiving = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>

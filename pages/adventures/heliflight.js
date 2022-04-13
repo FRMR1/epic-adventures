@@ -153,17 +153,18 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Three Sisters Peak Tour</h3>
-        <div className="twoCol">
+        <h3>Our Epic Adventures</h3>
+        <div className="twoCol grey">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/944f2820-a2c4-465b-cb1f-6b85e2c76400/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/48693f6b-e791-4232-f528-806c02b4f400/public"
               layout="fill"
               objectFit="contain"
               alt="Heli flights"
             />
           </div>
           <div className="right">
+            <h3>Three Sisters Peak Tour</h3>
             <p>
               Your adventure will take you up to the three sisters peak and to
               the magnificent spray lakes, witness the turquoise lakes and
@@ -188,7 +189,7 @@ const MaligneLake = () => {
               <span className="amount">280</span>
               <span className="currency">CAD/PERSON</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485003/heli-flight-three-sisters-peak-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -197,17 +198,17 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <h3>Mt. Assiniboine And Glaciers Tour</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/f4439bb5-61a5-4bc5-87d1-6c3376f6cb00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b4753ea8-acc8-405c-22c9-f89212cf6c00/public"
               layout="fill"
               objectFit="contain"
               alt="Heli flights"
             />
           </div>
           <div className="right">
+            <h3>Mt. Assiniboine And Glaciers Tour</h3>
             <p>
               Your adventure will take you up to the three sisters peak and
               beyond into the “Matterhorn of the Canadian Rockies” with stunning
@@ -232,7 +233,7 @@ const MaligneLake = () => {
               <span className="amount">380</span>
               <span className="currency">CAD/PERSON</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485006/heli-flight-mt-assiniboine-and-glaciers-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -241,17 +242,17 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <h3>Continental Divide Tour</h3>
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d12356ed-a322-4fbc-5b39-e601843d8e00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/92c72285-ac88-404b-eba9-2ce4a7fead00/public"
               layout="fill"
               objectFit="contain"
               alt="Heli flights"
             />
           </div>
           <div className="right">
+            <h3>Continental Divide Tour</h3>
             <p>
               The Continental Divide is not only an extension of the Three
               Sisters Peaks Tourm, it's a journey that will take you deeper into
@@ -276,7 +277,7 @@ const MaligneLake = () => {
               <span className="amount">480</span>
               <span className="currency">CAD/PERSON</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485008/heli-flight-continental-divide-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -285,17 +286,17 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <h3>Marvel Pass Tour</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/255c02c6-767c-445f-18a3-4c5395f6ce00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/efaec509-b6a0-4499-251d-6c5c4621df00/public"
               layout="fill"
               objectFit="contain"
               alt="Heli flights"
             />
           </div>
           <div className="right">
+            <h3>Marvel Pass Tour</h3>
             <p>
               Over the Spray Reservoir and the high ridges to Marvel Lake and
               the famous Mount Assiniboine, also known as the “Matterhorn of the
@@ -321,7 +322,7 @@ const MaligneLake = () => {
               <span className="amount">700</span>
               <span className="currency">CAD/PERSON</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485009/heli-flight-marvel-pass-tour">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -330,34 +331,46 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>

@@ -171,17 +171,18 @@ const MaligneLake = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Ultimate Heli Full Day</h3>
-        <div className="twoCol">
+        <h3>Our Epic Adventures</h3>
+        <div className="twoCol grey">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/1592ac7e-52bf-4bd4-d66b-fd35743bff00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ea302c98-cb0a-4005-371e-9e1f090fbb00/public"
               layout="fill"
               objectFit="contain"
               alt="Heli Rafting"
             />
           </div>
           <div className="right">
+            <h3>Ultimate Heli Full Day</h3>
             <p>
               Challenge yourself and experience world-class white water and
               rafting on this exclusive day trip that will blow your mind.
@@ -218,17 +219,17 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <h3>Pure Heli Half Day</h3>
         <div className="twoCol">
           <div className="left">
             <Image
-              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b705a519-dd88-4268-37da-cd55b83a8c00/public"
+              src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/b51ad5fd-b5fb-420f-9753-0b7dbe6bed00/public"
               layout="fill"
               objectFit="contain"
               alt="Heli Rafting"
             />
           </div>
           <div className="right">
+            <h3>Pure Heli Half Day</h3>
             <p>
               Skip the easy waters and get right to it with an exhilarating
               half-day of white water rapids.
@@ -265,34 +266,46 @@ const MaligneLake = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Combo"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>
@@ -365,12 +378,12 @@ const MaligneLake = () => {
           <div className="right">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7aebb592-da7e-47d8-9ec9-78b0cd080000/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c2a7c315-df71-4cc9-fc3f-91f1e5add700/public"
                 layout="responsive"
                 width="100%"
                 height="auto"
                 objectFit="contain"
-                alt="Skydiving"
+                alt="Heli Rafting"
               />
             </div>
           </div>

@@ -161,63 +161,12 @@ const ATV = () => {
       </CardSectionStyles>
 
       <BookAdventureStyles marginBottom={true}>
-        <h3>Half Day ATV Trip (AM)</h3>
-        <DiningTwoColStyles>
-          <Divider />
-          <div className="twoCol">
-            <div className="left">
-              <div>
-                <Image
-                  src="/images/atv2.jpg"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="ATV Off-Road"
-                />
-              </div>
-            </div>
-            <div className="right">
-              <p>
-                This trip takes you through dense forests and up into the
-                mountains, passing glacier fed streams and oceans of wildflowers
-                mid-season.
-              </p>
-              <ul>
-                <li>
-                  <img src="/svg/checkmark.svg" width="15" />3 hours (approx.)
-                </li>
-                <li>
-                  <img src="/svg/checkmark.svg" width="15" />
-                  No experience required
-                </li>
-                <li>
-                  <img src="/svg/checkmark.svg" width="15" />
-                  Two trips per day (10AM-1PM)
-                </li>
-                <li>
-                  <img src="/svg/checkmark.svg" width="15" />
-                  Passenger/driver combos
-                </li>
-                <li>
-                  <img src="/svg/checkmark.svg" width="15" />
-                  Drivers 18+, Passengers 6+
-                </li>
-              </ul>
-              <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
-                <a target="_blank" rel="noreferrer">
-                  <span>Book Now</span>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <Divider2 />
-        </DiningTwoColStyles>
-
-        <h3>Half Day ATV Trip (PM)</h3>
+        <h3>Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
-            <div>
+            <div style={{ display: "block" }}>
               <Image
-                src="/images/atv3.jpg"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/4b5fe1d9-03de-49c7-b5ed-8e901ae9d100/public"
                 layout="fill"
                 objectFit="contain"
                 alt="ATV Off-Road"
@@ -225,6 +174,56 @@ const ATV = () => {
             </div>
           </div>
           <div className="right">
+            <h3>Half Day ATV Trip (AM)</h3>
+            <p>
+              This trip takes you through dense forests and up into the
+              mountains, passing glacier fed streams and oceans of wildflowers
+              mid-season.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />3 hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                No experience required
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Two trips per day (10AM-1PM)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Passenger/driver combos
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Drivers 18+, Passengers 6+
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/443886/off-road-atv-half-day">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="twoCol grey">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/96a731da-7931-4e7b-35f2-f7d102c6a500/public"
+                layout="fill"
+                objectFit="contain"
+                alt="ATV Off-Road"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Half Day ATV Trip (PM)</h3>
             <p>
               This trip takes you through dense forests and up into the
               mountains, passing glacier fed streams and oceans of wildflowers
@@ -251,7 +250,7 @@ const ATV = () => {
                 Drivers 18+, Passengers 6+
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/443886/off-road-atv-half-day">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -260,34 +259,47 @@ const ATV = () => {
             </Link>
           </div>
         </div>
-        <div className="combo">
-          <h3>Combo This Trip</h3>
-          <p>Combo and experience more!</p>
-          <ul>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save money
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Save time
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Exclusive products
-            </li>
-            <li>
-              <img src="/svg/checkmark.svg" width="15" />
-              Live EPIC!
-            </li>
-          </ul>
-          <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-            <a target="_blank" rel="noreferrer">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </a>
-          </Link>
+
+        <div className="twoCol">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="ATV Off-Road"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>More Info</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         </div>
       </BookAdventureStyles>
       <TopDividerStyles>

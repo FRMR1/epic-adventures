@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const BookAdventureStyles = styled.div`
   background-color: ${({ grey }) => (grey ? "#f3f3f3" : "#fafafa")};
   margin: 0;
-  margin-bottom: ${({ marginBottom }) => (marginBottom ? "20rem" : "-3rem")};
+  margin-bottom: ${({ marginBottom }) => (marginBottom ? "30rem" : "15rem")};
   position: relative;
   h3 {
-    margin: 5rem 0 0;
+    margin: 5rem 0;
     font-size: 5rem;
     color: var(--mainColor);
     letter-spacing: -0.1rem;
@@ -23,7 +23,7 @@ export const BookAdventureStyles = styled.div`
   p {
     max-width: 70rem;
     text-align: left;
-    margin: 1rem auto 3rem;
+    margin: 1rem 0;
     font-size: 1.4rem;
     color: #b2b2b2;
     @media (max-width: 800px) {
@@ -31,13 +31,14 @@ export const BookAdventureStyles = styled.div`
     }
   }
   .twoCol {
-    margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 8rem;
     background-color: #f0f0f0;
-    padding: 3rem;
     min-height: 400px;
+    position: relative;
+    &.grey {
+      background-color: #f7f7f7;
+    }
     * {
       z-index: 1;
     }
@@ -48,6 +49,8 @@ export const BookAdventureStyles = styled.div`
     h3 {
       font-size: 4rem;
       text-align: left;
+      margin: 0;
+      line-height: 40px;
     }
     ul {
       list-style: none;
@@ -84,7 +87,7 @@ export const BookAdventureStyles = styled.div`
       }
     }
     .right {
-      padding: 0 4rem;
+      padding: 4rem 4rem;
       @media (max-width: 800px) {
         padding: 0;
         ul {
@@ -130,16 +133,16 @@ export const BookAdventureStyles = styled.div`
       .dollarSign {
         font-size: 4rem;
         position: relative;
-        top: -3.7rem;
+        top: -2rem;
       }
       .amount {
-        font-size: 10rem;
+        font-size: 7rem;
         letter-spacing: -0.3rem;
       }
       .currency {
         font-size: 1.5rem;
         position: relative;
-        top: -5.5rem;
+        top: -4rem;
       }
     }
     a:hover {
@@ -154,6 +157,7 @@ export const BookAdventureStyles = styled.div`
       border-radius: 3px;
       width: 12rem;
       padding: 1rem;
+      display: inline-block;
       @media (max-width: 800px) {
         margin: 0 auto;
       }
@@ -230,13 +234,11 @@ export const BookAdventureStyles = styled.div`
       z-index: 0;
     }
     .twoCol {
-      margin-top: 1rem;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      margin-bottom: 8rem;
       background-color: #f0f0f0;
-      padding: 3rem;
       min-height: 300px;
+      border-bottom: 1px solid #777;
       * {
         z-index: 1;
       }
@@ -283,7 +285,11 @@ export const BookAdventureStyles = styled.div`
         }
       }
       .right {
-        padding: 10rem 4rem;
+        padding: 0 4rem;
+        h3 {
+          margin: none !important;
+          line-height: 40px !important;
+        }
         @media (max-width: 800px) {
           padding: 0;
           p,
@@ -295,9 +301,6 @@ export const BookAdventureStyles = styled.div`
           font-size: 20px;
           line-height: 30px;
           color: #797979;
-        }
-        h3 {
-          color: #6a6a6a;
         }
       }
       a:hover {
