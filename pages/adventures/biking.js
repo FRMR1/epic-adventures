@@ -49,7 +49,7 @@ const MountainBiking = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -294,7 +294,8 @@ const MountainBiking = () => {
           style={{ marginLeft: "-.1rem" }}
         />
       </BottomDividerStyles> */}
-      <WhyEpic />
+      <WhyEpic style={{ marginTop: "10rem" }} />
+
       <GoogleMap location={{ lat: 51.29879, lng: -117.048391 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Adventures</h3>

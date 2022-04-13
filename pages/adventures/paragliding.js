@@ -208,7 +208,8 @@ const Skydiving = () => {
           </div>
         </div>
       </BookAdventureStyles>
-      <WhyEpic />
+      <WhyEpic style={{ marginTop: "10rem" }} />
+
       <GoogleMap location={{ lat: 51.24284, lng: -116.9227 }} zoom={15} />
       <SuggestedCombosStyles>
         <h3>Suggested Adventures</h3>

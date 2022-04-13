@@ -1,9 +1,9 @@
 import { WhyEpicStyles } from "../styles/WhyEpicStyles";
 
-const WhyEpic = () => {
+const WhyEpic = ({ style }) => {
   return (
     <WhyEpicStyles>
-      <div className="whyEpic">
+      <div className="whyEpic" style={style}>
         <h3>Why Epic?</h3>
         <div className="container">
           <div className="item">

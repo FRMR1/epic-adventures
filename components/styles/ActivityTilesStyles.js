@@ -108,7 +108,8 @@ export const ActivityTilesStyles = styled.div`
           height: 60px;
           text-align: left;
         }
-        a {
+        a,
+        button {
           background-color: var(--secColor);
           color: #fff;
           padding: 1.2rem 2rem;
@@ -121,6 +122,7 @@ export const ActivityTilesStyles = styled.div`
           font-family: Roboto Mono;
           font-weight: 300;
           text-transform: uppercase;
+          border: none;
           cursor: pointer;
           &:hover {
             text-decoration: none;
@@ -159,6 +161,6 @@ export const ActivityTilesStyles = styled.div`
     justify-content: center;
   }
   .marginBottom {
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
   }
 `;

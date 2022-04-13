@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const WhyEpicStyles = styled.div`
   background-color: ${({ grey }) => (grey ? "#f3f3f3" : "#fafafa")};
   margin: 0;
-  margin-bottom: ${({ marginBottom }) => (marginBottom ? "20rem" : "-13rem")};
+  margin-bottom: 10rem;
   position: relative;
   padding: 0 3rem;
   h3 {

@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { useState } from "react";
 
-const ActivityTile = ({ img, title, desc, url, location, save }) => {
+const ActivityTile = ({ img, title, desc, url, location, save, code }) => {
+  const [copied, setCopied] = useState(false);
+
   return (
     <div className="tile">
       <div className="img">
@@ -25,7 +28,21 @@ const ActivityTile = ({ img, title, desc, url, location, save }) => {
         <span>{location}</span>
         <h4>{title}</h4>
         <p>{desc}</p>
-        <a href={url}>More Info</a>
+        {url && <a href={url}>More Info</a>}
+        {code && (
+          <button
+            onClick={() => {
+              if (navigator) {
+                if (navigator.clipboard) {
+                  navigator.clipboard.writeText(code);
+                  setCopied(true);
+                }
+              }
+            }}
+          >
+            {copied ? "Copied!" : "Click to copy"}
+          </button>
+        )}
       </div>
     </div>
   );

@@ -9,9 +9,6 @@ export const ComboTableStyles = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
-  @media (max-width: 800px) {
-    margin-top: -22rem;
-  }
   h3 {
     margin: 0;
     font-size: 5rem;

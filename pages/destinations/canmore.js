@@ -154,13 +154,13 @@ const Canmore = () => {
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
             url="/stay/canmore"
           />
-          <div className="hidden-flex-item" />
+          {/* <div className="hidden-flex-item" /> */}
         </div>
       </ActivityTilesStyles>
 
-      <WhyEpic />
+      <WhyEpic style={{ marginTop: "10rem" }} />
 
-      <TopDividerStyles>
+      {/* <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"
           width="101%"
@@ -174,7 +174,7 @@ const Canmore = () => {
           width="101%"
           style={{ marginLeft: "-.1rem" }}
         />
-      </BottomDividerStyles>
+      </BottomDividerStyles> */}
       <CardSectionStyles>
         <h3>Other Destinations</h3>
         <div className="cards">

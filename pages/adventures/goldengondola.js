@@ -277,7 +277,8 @@ const MaligneLake = () => {
           style={{ marginLeft: "-.1rem" }}
         />
       </BottomDividerStyles>
-      <WhyEpic />
+      <WhyEpic style={{ marginTop: "10rem" }} />
+
       <AdventureSectionStyles>
         <div className="twoCol">
           <div className="left">

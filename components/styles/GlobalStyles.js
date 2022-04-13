@@ -207,7 +207,7 @@ const GlobalStyles = createGlobalStyle`
                                 font-size: 1rem;
                                 @media (max-width: 800px) {
                                   line-height: 4rem;
-                                  font-size: 1.6rem;
+                                  font-size: 1.3rem;
                                 }
                                 color: #fff;
                                 text-transform: uppercase;
@@ -485,13 +485,14 @@ const GlobalStyles = createGlobalStyle`
         padding-left: 30px;
         ul {
           margin: 0;
-          margin-bottom: 50px;
+          margin-bottom: 150px;
             padding: 0;
             li {
               list-style: none;
               /* line-height: 6rem; */
               margin-top: 8px;
               ul {
+                margin-bottom: 0;
                 li {
                   text-transform: none;
                   line-height: 5rem;
@@ -519,7 +520,7 @@ const GlobalStyles = createGlobalStyle`
                 }
               }
               a {
-                font-size: 4.3rem;
+                font-size: 3.3rem;
                 color: #eee;
                 &:hover {
                   color: var(--secColor);

@@ -175,9 +175,9 @@ const Jasper = () => {
         </div>
       </ActivityTilesStyles>
 
-      <WhyEpic />
+      <WhyEpic style={{ marginTop: "10rem" }} />
 
-      <TopDividerStyles>
+      {/* <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"
           width="101%"
@@ -191,7 +191,7 @@ const Jasper = () => {
           width="101%"
           style={{ marginLeft: "-.1rem" }}
         />
-      </BottomDividerStyles>
+      </BottomDividerStyles> */}
       <CardSectionStyles>
         <h3>Other Destinations</h3>
         <div className="cards">

@@ -83,13 +83,23 @@ export const BookAdventureStyles = styled.div`
       @media (max-width: 800px) {
         padding: 0;
         width: 100%;
-        min-height: 400px;
+        min-height: 300px;
       }
     }
     .right {
       padding: 4rem 4rem;
       @media (max-width: 800px) {
-        padding: 0;
+        padding: 2rem;
+        h4, h3 {
+          text-align: center;
+        }
+        .button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+        }
         ul {
           justify-content: center;
         }
@@ -102,6 +112,7 @@ export const BookAdventureStyles = styled.div`
         color: var(--mainColor);
         font-size: 30px;
         margin-bottom: 20px;
+
       }
       .large {
         font-size: 20px;

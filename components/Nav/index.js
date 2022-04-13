@@ -216,10 +216,6 @@ const Nav = () => {
                       </Link>
                     </li>
                     <ul>
-                      <li>Winter</li>
-                      <li className="winter">Stay tuned...</li>
-                    </ul>
-                    <ul>
                       <li>Sightseeing</li>
                       <li>
                         <Link href="/adventures/skybridge">
@@ -271,7 +267,7 @@ const Nav = () => {
                 </li>
               </li>
               <li>
-                <Link href="/adventures/combos">
+                <Link href="/combos">
                   <a onClick={closeMenu}>Combos</a>
                 </Link>
               </li>

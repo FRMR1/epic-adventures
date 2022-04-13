@@ -102,16 +102,16 @@ const CanadianRockies = () => {
         />
       </BottomDividerStyles>
 
-      <BookAdventureStyles marginBottom={true}>
+      <BookAdventureStyles>
         <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7dfc0999-1493-44a7-9613-2e23d9555c00/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Kananaskis River"
+                alt="Summer"
               />
             </div>
           </div>
@@ -133,14 +133,14 @@ const CanadianRockies = () => {
           </div>
         </div>
 
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/5ad57caa-ebfa-4cce-df9e-402062476a00/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Kananaskis River"
+                alt="Sightseeing"
               />
             </div>
           </div>
@@ -164,10 +164,10 @@ const CanadianRockies = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/61e19ff1-7325-4d5c-0fee-275899612f00/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Kananaskis River"
+                alt="Winter"
               />
             </div>
           </div>
@@ -177,19 +177,14 @@ const CanadianRockies = () => {
               Stay tuned as we work on delivering you the best winter
               experiences for 2022/2023 season.
             </p>
-            <Link href="/adventures">
-              <div className="button">
-                <span>More Info</span>
-              </div>
-            </Link>
           </div>
         </div>
 
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kananaskis River"
@@ -215,16 +210,16 @@ const CanadianRockies = () => {
         </div>
       </BookAdventureStyles>
 
-      <BookAdventureStyles marginBottom={true}>
+      <BookAdventureStyles>
         <h3>Our Epic Destinations</h3>
         <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/d3a4485a-92b3-4ee5-e4a1-88a643bbe200/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Kananaskis River"
+                alt="Banff National Park"
               />
             </div>
           </div>
@@ -246,14 +241,14 @@ const CanadianRockies = () => {
           </div>
         </div>
 
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/51ceaae5-19a4-49ba-345e-7fcca6c35d00/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Kananaskis River"
+                alt="Lake Louise"
               />
             </div>
           </div>
@@ -279,10 +274,10 @@ const CanadianRockies = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/18da37d9-0358-473d-358c-f4cf56fe1200/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Kananaskis River"
+                alt="Jasper"
               />
             </div>
           </div>
@@ -296,7 +291,7 @@ const CanadianRockies = () => {
               roaming throughout the park. Here you can walk the icefields,
               repel the canyon waterfalls and cruise Maligne Lake in style.
             </p>
-            <Link href="/destinations/lakelouise">
+            <Link href="/destinations/jasper">
               <div className="button">
                 <span>More Info</span>
               </div>
@@ -304,14 +299,14 @@ const CanadianRockies = () => {
           </div>
         </div>
 
-        <div className="twoCol">
+        <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/7bfd9115-317e-4d7c-18b1-b21030c16b00/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Kananaskis River"
+                alt="Canmore"
               />
             </div>
           </div>
@@ -337,10 +332,10 @@ const CanadianRockies = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c64e7f50-fb47-4d57-9809-a9701b825700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/71fbd85a-461f-43c5-6119-a012e9ab0c00/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Kananaskis River"
+                alt="Golden"
               />
             </div>
           </div>

@@ -179,12 +179,12 @@ const BanffNationalPark = () => {
             img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
             url="/stay/golden"
           />
-          <div className="hidden-flex-item" />
+          {/* <div className="hidden-flex-item" /> */}
         </div>
       </ActivityTilesStyles>
 
-      <WhyEpic />
-
+      <WhyEpic style={{ marginTop: "10rem" }} />
+      {/* 
       <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"
@@ -199,7 +199,7 @@ const BanffNationalPark = () => {
           width="101%"
           style={{ marginLeft: "-.1rem" }}
         />
-      </BottomDividerStyles>
+      </BottomDividerStyles> */}
       <CardSectionStyles>
         <h3>Other Destinations</h3>
         <div className="cards">

@@ -7,6 +7,7 @@ export const AdventureHeadingStyles = styled.div`
     flex-direction: column;
     width: 100%;
     text-align: center;
+    margin: 5rem 0;
   }
   background-color: var(--mainColor);
   position: relative;

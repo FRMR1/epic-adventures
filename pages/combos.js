@@ -184,7 +184,7 @@ const Combos = ({}) => {
             img="5a0eb362-1e5f-4465-e16b-aafcdb251600"
             url="https://epicadventuregroup.rezdy.com/485655/combo-family-epic-pass-valley-zipline-tour-family-rafting-golden-skybridge-multi-day"
           />
-          <div className="hidden-flex-item" />
+          {/* <div className="hidden-flex-item" /> */}
         </div>
         <div className="marginBottom" />
       </ActivityTilesStyles>
@@ -201,64 +201,64 @@ const Combos = ({}) => {
             title="Golden Skybridge Park Entry"
             desc="Use promo code SKYBRIDGE10 when booking."
             img="a4d0b160-416f-4188-70b1-54ef7792ad00"
-            url="https://epicadventuregroup.rezdy.com/443894/combo-epic-golden-pass-raft-skydive-atv-multi-day"
             save="10"
+            code="SKYBRIDGE10"
           />
           <ActivityTile
             location="Coupon"
             title="Heli Flight"
             desc="Use promo code HELI5 when booking,"
             img="48693f6b-e791-4232-f528-806c02b4f400"
-            url="https://epicadventuregroup.rezdy.com/485632/combo-golden-ultimate-raft-skydive-atv-via-ferrata-multi-day"
             save="5"
+            code="HELI5"
           />
           <ActivityTile
             location="Coupon"
             title="Scenic Flight"
             desc="FUse promo code FLIGHT5 when booking."
             img="cc253092-6d49-4054-60d8-961ff3c9d600"
-            url="https://epicadventuregroup.rezdy.com/444202/combo-don-t-tell-mom-raft-full-day-skydive"
             save="5"
+            code="FLIGHT5"
           />
           <ActivityTile
             location="Coupon"
             title="Golden Eagle Express"
             desc="Use promo code GONDOLA10 when booking."
             img="545e27e2-072f-4e13-253f-40898912f800"
-            url="/https://epicadventuregroup.rezdy.com/443893/combo-mud-express-atv-raft-express"
             save="10"
+            code="GONDOLA10"
           />
           <ActivityTile
             location="Coupon"
             title="Banff Gondola"
             desc="Use promo code GONDOLA10 when booking."
             img="1fda534c-321e-4ba7-0eab-2d28446cae00"
-            url="https://epicadventuregroup.rezdy.com/443897/combo-dirt-dive-atv-skydive"
             save="10"
+            code="GONDOLA10"
           />
           <ActivityTile
             location="Coupon"
             title="Lake Louise Gondola"
             desc="Use promo code GONDOLA10 when booking."
-            img="05380fa9-b6cb-4696-9e23-e1dc6ba55000"
-            url="https://epicadventuregroup.rezdy.com/443892/combo-double-trouble-skydive-raft-express"
+            img="51ceaae5-19a4-49ba-345e-7fcca6c35d00"
             save="10"
+            code="GONDOLA10"
           />
           <ActivityTile
             location="Coupon"
             title="Jasper Skytram"
             desc="Use promo code GONDOLA10 when booking."
             img="3fd3e00c-5d89-478c-a4be-26ec8fd99b00"
-            url="https://epicadventuregroup.rezdy.com/485635/combo-banff-ultimate-adventurer-via-ferrata-canyoning-multi-day"
             save="10"
+            code="GONDOLA10"
           />
           <ActivityTile
             location="Coupon"
             title="Cruises"
             desc="Use promo code CRUISE10 when booking."
             img="1adbc0df-cf4c-4ecb-75f3-44b52f92e600"
-            url="https://epicadventuregroup.rezdy.com/485636/combo-banff-epic-adventurer-caving-via-ferrata-canyoning-multi-day"
             save="10"
+            code="CRUISE10"
           />
           <div className="hidden-flex-item" />
         </div>
