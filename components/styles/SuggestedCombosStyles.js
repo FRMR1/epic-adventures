@@ -117,6 +117,7 @@ export const SuggestedCombosStyles = styled.div`
           font-weight: 400;
           text-transform: uppercase;
           font-size: 1.3rem;
+          font-family: Roboto Mono;
         }
       }
     }
