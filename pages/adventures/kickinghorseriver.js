@@ -154,7 +154,7 @@ const Skydiving = () => {
               imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/bc4d965f-26ad-408b-5bdf-92dce473c200/public"
             />
             <Card
-              title="Wavier Forms"
+              title="Waiver Forms"
               description="Download and read waiver forms before your trip."
               imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/70cceb29-2205-4dd2-6a78-4adaad35d100/public"
             />
