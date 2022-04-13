@@ -24,7 +24,7 @@ const Footer = ({ year }) => {
               <Link href="/adventures/helirafting">Heli Rafting</Link>
             </li>
             <li>
-              <Link href="/adventures/kananaskis">Kananaskis River</Link>
+              <Link href="/adventures/kananaskisriver">Kananaskis River</Link>
             </li>
             <li>
               <Link href="/adventures/atv">Off-Road ATV</Link>
