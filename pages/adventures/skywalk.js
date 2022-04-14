@@ -75,7 +75,7 @@ const Skydiving = () => {
       <HeroImageSlider
         title="Skywalk"
         images={[
-          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/95a71a3f-6e3e-4451-e396-fecf4c437300/public",
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/0da08f7d-74c3-440a-e480-806ec1f2a300/public",
         ]}
         cdn={true}
       />
@@ -223,12 +223,10 @@ const Skydiving = () => {
                 Live EPIC!
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>More Info</span>
-                </div>
-              </a>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>

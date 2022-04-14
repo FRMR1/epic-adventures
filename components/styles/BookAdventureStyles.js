@@ -89,6 +89,7 @@ export const BookAdventureStyles = styled.div`
     .right {
       padding: 4rem 4rem;
       @media (max-width: 800px) {
+        margin: 0 auto;
         padding: 2rem;
         h4, h3 {
           text-align: center;

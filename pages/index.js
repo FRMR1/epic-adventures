@@ -70,13 +70,7 @@ export default function Home() {
       </div>
       <HeroImageSlider
         title="Live Epic"
-        images={[
-          "LANDINGPG1",
-          "LANDINGPG2",
-          "LANDINGPG3",
-          "LANDINGPG4",
-          "LANDINGPG5",
-        ]}
+        images={["SKY1", "COMBOS5", "COMBOS1", "KHR3", "SKYBRIDGE2", "RAFT3"]}
       />
       <TopDividerStyles home={true}>
         <img
@@ -151,71 +145,93 @@ export default function Home() {
             img="bdf4b029-7c13-4887-724a-b0cf7db54700"
             url="/adventures/atv"
           />
-          <ActivityTile
-            location="Banff"
-            title="Via Ferrata Mt. Norquay"
-            desc="Take on Mount Norquay and get the best views of the town of
-                Banff and the bow valley, challenge yourself."
-            img="4b009846-f3cf-4c1f-e795-896e5c2b1000"
-            url="/adventures/vianorquay"
-          />
-          <ActivityTile
-            location="Golden"
-            title="Valley Zipline"
-            desc="As you navigate the course with your adventure guide this zipline course will take you through the tree tops at high speeds."
-            img="ac7427ae-cfaa-43c6-2a41-885cb7256700"
-            url="/adventures/zipline"
-          />
-          <ActivityTile
-            location="Golden"
-            title="Mountain Biking"
-            desc="Mountain biking at the Kicking Horse resort is an epic day on world-class trails, maintain and constructed by the trail crew of the resort."
-            img="69256104-8b47-41b1-48a2-d88cee247100"
-            url="/adventures/biking"
-          />
-          <ActivityTile
-            location="Golden"
-            title="Via Ferrata Kicking Horse"
-            desc="Challenge yourself on this guided trip on the side of the mountain peaks. With unforgettable views this outdoor adventure you won't forget."
-            img="11e9dbeb-b46d-4322-88e9-9172f64a2800"
-            url="/adventures/viakickinghorse"
-          />
-          <ActivityTile
-            location="Golden"
-            title="Scenic Flight"
-            desc="Charter your own plane to glaciers and above the mountains for some serious views of the wild back country."
-            img="e3be2b9b-00f6-48b3-7c3f-61f632f2a200"
-            url="/adventures/scenicflight"
-          />
-          <ActivityTile
-            location="Golden"
-            title="Golden Skybridge"
-            desc="The new Golden Skybridge, home to Canada's highest suspension bridges, zipline, giant swing and treetop adventure park."
-            img="e4f24150-dfa8-4425-9ece-b3c0878e1a00"
-            url="/adventures/skybridge"
-          />
-          <ActivityTile
-            location="Banff"
-            title="Banff Gondola"
-            desc="Above the clouds and town of Banff, the gondola will give access to a bird's eye view as you breathe in the fresh mountain air, this is a must do while on your visit."
-            img="f9e93463-ee8e-4e91-9806-9187265d2d00"
-            url="/adventures/banffgondola"
-          />
-          <ActivityTile
-            location="Canadian Rockies"
-            title="Summer Combos"
-            desc="Experience more and save with these exclusive combos."
-            img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-            url="/combos"
-          />
-          <ActivityTile
-            location="Canadian Rockies"
-            title="Winter Combos"
-            desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
-            img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-            url="/combos"
-          />
-          <div className="hidden-flex-item" />
+          {isMobile && (
+            <>
+              <ActivityTile
+                location="Canadian Rockies"
+                title="Summer Combos"
+                desc="Experience more and save with these exclusive combos."
+                img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
+                url="/combos"
+              />
+              <ActivityTile
+                location="Canadian Rockies"
+                title="Winter Combos"
+                desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
+                img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
+                url="/combos"
+              />
+            </>
+          )}
+          {!isMobile && (
+            <>
+              <ActivityTile
+                location="Banff"
+                title="Via Ferrata Mt. Norquay"
+                desc="Take on Mount Norquay and get the best views of the town of
+            Banff and the bow valley, challenge yourself."
+                img="4b009846-f3cf-4c1f-e795-896e5c2b1000"
+                url="/adventures/vianorquay"
+              />
+              <ActivityTile
+                location="Golden"
+                title="Valley Zipline"
+                desc="As you navigate the course with your adventure guide this zipline course will take you through the tree tops at high speeds."
+                img="ac7427ae-cfaa-43c6-2a41-885cb7256700"
+                url="/adventures/zipline"
+              />
+              <ActivityTile
+                location="Golden"
+                title="Mountain Biking"
+                desc="Mountain biking at the Kicking Horse resort is an epic day on world-class trails, maintain and constructed by the trail crew of the resort."
+                img="69256104-8b47-41b1-48a2-d88cee247100"
+                url="/adventures/biking"
+              />
+              <ActivityTile
+                location="Golden"
+                title="Via Ferrata Kicking Horse"
+                desc="Challenge yourself on this guided trip on the side of the mountain peaks. With unforgettable views this outdoor adventure you won't forget."
+                img="11e9dbeb-b46d-4322-88e9-9172f64a2800"
+                url="/adventures/viakickinghorse"
+              />
+              <ActivityTile
+                location="Golden"
+                title="Scenic Flight"
+                desc="Charter your own plane to glaciers and above the mountains for some serious views of the wild back country."
+                img="e3be2b9b-00f6-48b3-7c3f-61f632f2a200"
+                url="/adventures/scenicflight"
+              />
+              <ActivityTile
+                location="Golden"
+                title="Golden Skybridge"
+                desc="The new Golden Skybridge, home to Canada's highest suspension bridges, zipline, giant swing and treetop adventure park."
+                img="e4f24150-dfa8-4425-9ece-b3c0878e1a00"
+                url="/adventures/skybridge"
+              />
+              <ActivityTile
+                location="Banff"
+                title="Banff Gondola"
+                desc="Above the clouds and town of Banff, the gondola will give access to a bird's eye view as you breathe in the fresh mountain air, this is a must do while on your visit."
+                img="f9e93463-ee8e-4e91-9806-9187265d2d00"
+                url="/adventures/banffgondola"
+              />
+              <ActivityTile
+                location="Canadian Rockies"
+                title="Summer Combos"
+                desc="Experience more and save with these exclusive combos."
+                img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
+                url="/combos"
+              />
+              <ActivityTile
+                location="Canadian Rockies"
+                title="Winter Combos"
+                desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
+                img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
+                url="/combos"
+              />
+              <div className="hidden-flex-item" />
+            </>
+          )}
         </div>
         <Link href="/adventures">
           <div className="button viewAll">
@@ -316,17 +332,17 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/skydiving.svg" width="30" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/atv.svg" width="40" />
                     </div>
                   </td>
                   <td>
@@ -351,22 +367,22 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/skydiving.svg" width="30" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/atv.svg" width="40" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -388,12 +404,12 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/skydiving.svg" width="30" />
                     </div>
                   </td>
                   <td>
@@ -421,7 +437,7 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -429,7 +445,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/atv.svg" width="40" />
                     </div>
                   </td>
                   <td>
@@ -457,12 +473,12 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/skydiving.svg" width="30" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/atv.svg" width="40" />
                     </div>
                   </td>
                   <td>
@@ -487,12 +503,12 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/skydiving.svg" width="30" />
                     </div>
                   </td>
                   <td>
@@ -529,12 +545,12 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -562,17 +578,17 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -591,7 +607,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/skydiving.svg" width="30" />
                     </div>
                   </td>
                   <td>
@@ -605,7 +621,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -633,12 +649,12 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -654,7 +670,7 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -671,7 +687,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -687,7 +703,7 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -701,7 +717,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -720,7 +736,7 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -731,7 +747,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -756,7 +772,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/skydiving.svg" width="30" />
                     </div>
                   </td>
                   <td>
@@ -764,7 +780,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -789,7 +805,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/skydiving.svg" width="30" />
                     </div>
                   </td>
                   <td>
@@ -800,7 +816,7 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/mountain.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -819,7 +835,7 @@ export default function Home() {
                   </th>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/rafting.svg" width="35" />
                     </div>
                   </td>
                   <td>
@@ -837,12 +853,12 @@ export default function Home() {
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/zipline.svg" width="35" />
                     </div>
                   </td>
                   <td>
                     <div className="cell">
-                      <img src="/svg/logo.svg" width="45" />
+                      <img src="/svg/sightseeing.svg" width="35" />
                     </div>
                   </td>
                 </tr>

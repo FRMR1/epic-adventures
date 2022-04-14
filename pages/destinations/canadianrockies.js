@@ -125,6 +125,7 @@ const CanadianRockies = () => {
               the best experiences through Banff, Jasper, Lake Louise, Canmore
               and Golden.
             </p>
+            <div style={{ marginTop: "20px" }} />
             <Link href="/adventures">
               <div className="button">
                 <span>More Info</span>
@@ -152,6 +153,7 @@ const CanadianRockies = () => {
               Jasper National park. Enjoy the parks your way with these awe
               inspiring activities you cant miss.
             </p>
+            <div style={{ marginTop: "20px" }} />
             <Link href="/adventures">
               <div className="button">
                 <span>More Info</span>
@@ -201,6 +203,7 @@ const CanadianRockies = () => {
               it was intended with combos like “Don't Tell Mom”, “Double
               Trouble” and more.
             </p>
+            <div style={{ marginTop: "20px" }} />
             <Link href="/combos">
               <div className="button">
                 <span>More Info</span>
@@ -233,6 +236,7 @@ const CanadianRockies = () => {
               have you covered from the Banff Gondola, Lake Miniwanka Cruise and
               more.
             </p>
+            <div style={{ marginTop: "20px" }} />
             <Link href="/destinations/banffnationalpark">
               <div className="button">
                 <span>More Info</span>
@@ -262,6 +266,7 @@ const CanadianRockies = () => {
               views. With Moraine Lake close by, this is a fantastic stop over
               or stay.
             </p>
+            <div style={{ marginTop: "20px" }} />
             <Link href="/destinations/lakelouise">
               <div className="button">
                 <span>More Info</span>
@@ -291,6 +296,7 @@ const CanadianRockies = () => {
               roaming throughout the park. Here you can walk the icefields,
               repel the canyon waterfalls and cruise Maligne Lake in style.
             </p>
+            <div style={{ marginTop: "20px" }} />
             <Link href="/destinations/jasper">
               <div className="button">
                 <span>More Info</span>
@@ -320,6 +326,7 @@ const CanadianRockies = () => {
               from Calgary this is your first major stop in your itinerary you
               can't miss.
             </p>
+            <div style={{ marginTop: "20px" }} />
             <Link href="/destinations/canmore">
               <div className="button">
                 <span>More Info</span>
@@ -350,6 +357,7 @@ const CanadianRockies = () => {
               ATV. This has become a must stop gem nestled in the middle of the
               Columbia Valley.
             </p>
+            <div style={{ marginTop: "20px" }} />
             <Link href="/destinations/golden">
               <div className="button">
                 <span>More Info</span>

@@ -138,7 +138,7 @@ const LakeLouise = () => {
             location="Lake Louise"
             title="Dine In Lake Louise"
             desc="Check out our local picks for the best dining in Lake Louise."
-            img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
+            img="6b848b34-823e-42a1-4144-13d5cd5fae00"
             url="/eat/lakelouise"
           />
           <ActivityTile

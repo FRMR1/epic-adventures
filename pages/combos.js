@@ -189,7 +189,7 @@ const Combos = ({}) => {
         <div className="marginBottom" />
       </ActivityTilesStyles>
       <ActivityTilesStyles>
-        <h2>Sightseeing Addons</h2>
+        <h2>Sightseeing Add-ons</h2>
         <p>
           Add any of these sight-seeing tours to any of our solo adventures or
           existing combos and save. Use the appropriate promo code in our check

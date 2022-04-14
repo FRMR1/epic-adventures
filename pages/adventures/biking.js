@@ -49,7 +49,7 @@ const MountainBiking = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -249,12 +249,10 @@ const MountainBiking = () => {
                 Live EPIC!
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>More Info</span>
-                </div>
-              </a>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>

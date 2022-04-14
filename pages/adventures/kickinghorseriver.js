@@ -329,7 +329,7 @@ const Skydiving = () => {
           <div className="left">
             <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/335a4981-7ecd-4f28-96f9-973459809c00/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/0bff6bd5-72fa-40b2-d24e-14f4c8429400/public"
                 layout="fill"
                 objectFit="contain"
                 alt="Kicking Horse River"
@@ -391,12 +391,10 @@ const Skydiving = () => {
                 Live EPIC!
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>More Info</span>
-                </div>
-              </a>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>
@@ -486,20 +484,17 @@ const Skydiving = () => {
             title="Epic Golden Pass"
             description="Rafting Kicking Horse river full day, skydiving, ATV half day."
             image="595ec27a-72a8-45c6-99a4-d7c50fead200"
-            price="TBD"
             url="https://epicadventuregroup.rezdy.com/443894/combo-epic-golden-pass-raft-skydive-atv-multi-day"
           />
           <SuggestedCombo
             title="Golden Ultimate"
             description="Rafting full day Kicking Horse river, skydiving, ATV half-day, via ferrata (Discovery route Kicking Horse)."
-            price="TBD"
             image="379df31d-2ab4-495a-21d3-cce6e7585100"
             url="https://epicadventuregroup.rezdy.com/485632/combo-golden-ultimate-raft-skydive-atv-via-ferrata-multi-day"
           />
           <SuggestedCombo
             title="Mud Express"
             description="Half-day ATV trip, rafting Kicking Horse river PM."
-            price="TBD"
             image="c20d505c-ac97-4e19-f2d0-12a55afce900"
             url="https://epicadventuregroup.rezdy.com/443893/mud-express-atv-raft-express-combo"
           />

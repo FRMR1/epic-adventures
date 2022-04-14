@@ -265,12 +265,10 @@ const MaligneLake = () => {
                 Live EPIC!
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>More Info</span>
-                </div>
-              </a>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>

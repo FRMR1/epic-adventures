@@ -240,12 +240,10 @@ const Skydiving = () => {
                 Live EPIC!
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>More Info</span>
-                </div>
-              </a>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>
@@ -259,7 +257,11 @@ const Skydiving = () => {
       </TopDividerStyles>
       <TestimonialStyles>
         <div className="">
-          <CloudflareVideo source={"c86a97b2a0541d4e01cc67acd85a15ce"} />
+          <CloudflareVideo
+            sound={true}
+            controls={true}
+            source={"c86a97b2a0541d4e01cc67acd85a15ce"}
+          />
         </div>
       </TestimonialStyles>
       <BottomDividerStyles>

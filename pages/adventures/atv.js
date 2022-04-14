@@ -292,12 +292,10 @@ const ATV = () => {
                 Live EPIC!
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>More Info</span>
-                </div>
-              </a>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>
@@ -393,7 +391,6 @@ const ATV = () => {
             title="Epic Golden Pass"
             description="Rafting Kicking Horse river full day, skydiving, ATV half day."
             image="595ec27a-72a8-45c6-99a4-d7c50fead200"
-            price="TBD"
             url="https://epicadventuregroup.rezdy.com/443894/combo-epic-golden-pass-raft-skydive-atv-multi-day"
           />
           <SuggestedCombo

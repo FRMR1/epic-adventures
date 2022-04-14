@@ -49,11 +49,11 @@ export const CardSectionStyles = styled.div`
         height: 300px;
         box-sizing: border-box;
         h4 {
-          text-align: left;
+          text-align: center;
           font-size: 30px;
         }
         p {
-          text-align: left;
+          text-align: center;
           line-height: 25px;
           height: 100px;
           color: #a6a6a6;

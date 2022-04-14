@@ -161,6 +161,21 @@ const MaligneLake = () => {
         </div>
       </CardSectionStyles>
 
+      <div
+        style={{
+          position: "relative",
+          width: "100%",
+          maxWidth: "800px",
+          margin: "40px auto 0",
+        }}
+      >
+        <CloudflareVideo
+          sound={true}
+          controls={true}
+          source={"29a66365f67636e64f905a6f07d2cb2e"}
+        />
+      </div>
+
       <BookAdventureStyles marginBottom={true}>
         <h3>Our Adventures</h3>
         <div className="twoCol">
@@ -294,12 +309,10 @@ const MaligneLake = () => {
                 Live EPIC!
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>More Info</span>
-                </div>
-              </a>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>
@@ -411,21 +424,18 @@ const MaligneLake = () => {
           <SuggestedCombo
             title="Banff Epic Adventurer"
             description="Caving (Adventure Route), via ferrata Mt. Noruqay, canyoning (Heart Creek Canyon)."
-            price="TBD"
             image="d9d4b234-8f74-41d1-099f-ac5d56ccba00"
             url="https://epicadventuregroup.rezdy.com/485636/combo-banff-epic-adventurer-caving-via-ferrata-canyoning-multi-day"
           />
           <SuggestedCombo
             title="Under and Over"
             description="Caving (Adventure Route), skydiving."
-            price="TBD"
             image="77c056a1-9c75-4d03-65a9-64e6f148a700"
             url="https://epicadventuregroup.rezdy.com/485638/combo-under-over-caving-skydive-multi-day"
           />
           <SuggestedCombo
             title="Rockies Explorer"
             description="Rafting Kicking Horse river full day, caving (Adventure Route)."
-            price="TBD"
             image="de77175d-b602-4e42-9d06-bdecdbdf1300"
             url="https://epicadventuregroup.rezdy.com/485641/combo-rockies-explorer-raft-caving-multi-day"
           />

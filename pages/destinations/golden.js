@@ -204,7 +204,7 @@ const Golden = () => {
             location="Golden"
             title="Dine In Golden"
             desc="Check out our local picks for the best dining in Golden."
-            img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
+            img="6b848b34-823e-42a1-4144-13d5cd5fae00"
             url="/eat/golden"
           />
           <ActivityTile

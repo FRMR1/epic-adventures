@@ -1,17 +1,17 @@
-import { Stream } from "@cloudflare/stream-react"
+import { Stream } from "@cloudflare/stream-react";
 
-const CloudflareVideo = ({ source }) => {
-    return (
-        <div>
-            <Stream
-                // controls
-                muted={true}
-                loop={true}
-                autoplay={true}
-                src={source}
-            />
-        </div>
-    )
-}
+const CloudflareVideo = ({ source, sound, controls }) => {
+  return (
+    <div>
+      <Stream
+        controls={controls}
+        muted={sound ? false : true}
+        loop={true}
+        autoplay={true}
+        src={source}
+      />
+    </div>
+  );
+};
 
-export default CloudflareVideo
+export default CloudflareVideo;

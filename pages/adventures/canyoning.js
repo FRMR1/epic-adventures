@@ -349,12 +349,10 @@ const MaligneLake = () => {
                 Live EPIC!
               </li>
             </ul>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>More Info</span>
-                </div>
-              </a>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>
@@ -453,20 +451,17 @@ const MaligneLake = () => {
             title="Banff Ultimate Adventurer"
             description="Via ferrata Mt. Norquay, canyoning Heart Creek canyon."
             image="5b9dc05e-dbbf-4396-1d3a-0f735ec71e00"
-            price="TBD"
             url="https://epicadventuregroup.rezdy.com/485635/combo-banff-ultimate-adventurer-via-ferrata-canyoning-multi-day"
           />
           <SuggestedCombo
             title="Banff Epic Adventurer"
             description="Caving (Adventure Route), via ferrata Mt. Noruqay, canyoning (Heart Creek Canyon)."
-            price="TBD"
             image="d9d4b234-8f74-41d1-099f-ac5d56ccba00"
             url="https://epicadventuregroup.rezdy.com/485636/combo-banff-epic-adventurer-caving-via-ferrata-canyoning-multi-day"
           />
           <SuggestedCombo
             title="Rock Hunter"
             description="Caving (Adventure Route), canyoning (Heart Creek Canyon)."
-            price="TBD"
             image="a58fe96a-5510-4229-b4ef-420e3d325100"
             url="https://epicadventuregroup.rezdy.com/485640/combo-rock-hunter-caving-canyoning-multi-day"
           />
