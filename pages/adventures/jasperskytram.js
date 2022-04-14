@@ -121,7 +121,7 @@ const MaligneLake = () => {
             <Card
               title="Skytram"
               description="Take a ride in the unique Skytram to ascend into the alpine mountain views."
-              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/3fd3e00c-5d89-478c-a4be-26ec8fd99b00/public"
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/fbdd031a-a208-4ee5-1e58-4de184c59900/public"
             />
             <Card
               title="Wildlife"
