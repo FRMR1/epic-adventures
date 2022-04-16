@@ -205,7 +205,7 @@ const Footer = ({ year }) => {
             contact@epicadventuregroup.com
           </a>
           <br />
-          <a href="tel:+12509398820">+1 250 939 9589</a>
+          <a href="tel:+12509399589">+1 250 939 9589</a>
         </div>
       </div>
     </div>

@@ -280,7 +280,7 @@ const Nav = () => {
               </li>
               <li className="mobileTel">
                 <span>
-                  Tel: <a href="tel:+12509398820">+1 250 939 9589</a>
+                  Tel: <a href="tel:+12509399589">+1 250 939 9589</a>
                 </span>
               </li>
             </ul>
