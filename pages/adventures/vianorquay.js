@@ -205,7 +205,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">180</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485207/mt-norquay-via-ferrata-explorer-route">
@@ -251,7 +251,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">235</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485213/mt-norquay-via-ferrata-ridge-walker-route">
@@ -298,7 +298,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">260</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485215/mt-norquay-via-ferrata-alpinist-route">
@@ -346,7 +346,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">290</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485218/mt-norquay-via-ferrata-skyline-route">
@@ -396,7 +396,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">370</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485219/mt-norquay-via-ferrata-summiteer-route">
@@ -449,7 +449,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">460</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485220/mt-norquay-via-ferrata-mountaineer-route">

@@ -193,7 +193,7 @@ const LakeLouise = () => {
             />
             <Card
               title="Canmore"
-              description="You will get a chance to practice everything you need with the instruction of your experienced guide."
+              description="A metropolitan mountain town in the Rockies, the gateway to your escape into the wild."
               imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/8be23e5e-7053-455f-9aad-446ed873f200/public"
               a="/destinations/canmore"
             />

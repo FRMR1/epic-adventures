@@ -219,7 +219,7 @@ const Nav = () => {
                       <li>Sightseeing</li>
                       <li>
                         <Link href="/adventures/skybridge">
-                          <a onClick={closeMenu}>Golden Skyridge</a>
+                          <a onClick={closeMenu}>Golden Skybridge</a>
                         </Link>
                       </li>
                       <li>

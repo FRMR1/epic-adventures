@@ -30,12 +30,12 @@ export const AdventureHeadingStyles = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 8rem;
+    /* padding: 0 8rem; */
     width: 50%;
     img {
-      max-width: 500px;
+      max-width: 350px;
       @media (max-width: 800px) {
-        max-width: 350px;
+        max-width: 300px;
       }
     }
     @media (max-width: 800px) {

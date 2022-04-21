@@ -201,6 +201,11 @@ const ATV = () => {
                 Drivers 18+, Passengers 6+
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">229</span>
+              <span className="currency">CAD</span>
+            </div>
             <Link href="https://epicadventuregroup.rezdy.com/443886/off-road-atv-half-day">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
@@ -250,6 +255,11 @@ const ATV = () => {
                 Drivers 18+, Passengers 6+
               </li>
             </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">229</span>
+              <span className="currency">CAD</span>
+            </div>
             <Link href="https://epicadventuregroup.rezdy.com/443886/off-road-atv-half-day">
               <a target="_blank" rel="noreferrer">
                 <div className="button">

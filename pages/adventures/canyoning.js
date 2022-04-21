@@ -84,7 +84,10 @@ const MaligneLake = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="oneCol">
+        <div className="imageContainer mobileImage">
+          <img src="/images/logos/canyoning.png" />
+        </div>
+        <div className="pContainer">
           <h2>Canyoning In The Rockies</h2>
           <p>
             Experience the wild adventures with Bow Valley Canyon Tours which
@@ -254,7 +257,7 @@ const MaligneLake = () => {
               <span className="amount">245</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/485225/bow-valley-canyoning-ghost-canyon">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>

@@ -87,7 +87,10 @@ const Skydiving = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="oneCol">
+        <div className="imageContainer mobileImage">
+          <img src="/images/logos/valleyzipline.png" />
+        </div>
+        <div className="pContainer">
           <h2>The Valley's Zipline and Adventure Park</h2>
           <p>
             Hidden in the beautiful Columbia Valley, Valley Zipline Adventures
@@ -194,7 +197,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">89</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485202/valley-zipline-zipline-tour">
@@ -220,18 +223,9 @@ const Skydiving = () => {
           <div className="right">
             <h3>Aerial Park</h3>
             <p>New aerial course coming soon.</p>
-            <div className="priceContainer">
-              <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
-              <span className="currency">CAD</span>
+            <div className="button">
+              <span>Coming soon</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/485202/valley-zipline-zipline-tour">
-              <a target="_blank" rel="noreferrer">
-                <div className="button">
-                  <span>Book Now</span>
-                </div>
-              </a>
-            </Link>
           </div>
         </div>
         <div className="twoCol">

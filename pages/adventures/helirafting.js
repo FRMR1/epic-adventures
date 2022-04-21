@@ -257,7 +257,7 @@ const MaligneLake = () => {
               <span className="amount">399</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/433390/atv-off-road">
+            <Link href="https://epicadventuregroup.rezdy.com/145516/half-day-heli-rafting-pure-white-water">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>

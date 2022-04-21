@@ -186,10 +186,10 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">62</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/485308/lake-miniwanka-classic-cruise">
+            <Link href="https://epicadventuregroup.rezdy.com/485308/lake-minnewanka-classic-cruise">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -224,7 +224,7 @@ const MaligneLake = () => {
               <span className="amount">TBD</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/485311/lake-miniwanka-beer-cruise">
+            <Link href="https://epicadventuregroup.rezdy.com/485311/lake-minnewanka-beer-cruise">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
