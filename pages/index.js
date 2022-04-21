@@ -96,7 +96,7 @@ export default function Home() {
         <img
           src="/svg/divider-bottom.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </BottomDividerStyles>
 
