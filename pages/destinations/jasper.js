@@ -134,7 +134,7 @@ const Jasper = () => {
             title="Skytram"
             desc="See the park from above and witness to the pure magnitude of the Rockies."
             img="3fd3e00c-5d89-478c-a4be-26ec8fd99b00"
-            url="/adventures/skytram"
+            url="/adventures/jasperskytram"
           />
           <ActivityTile
             location="Jasper"
