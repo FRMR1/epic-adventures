@@ -60,14 +60,14 @@ export const AdventureHeadingStyles = styled.div`
   }
   h2 {
     font-size: 6rem;
-    line-height: 6rem;
+    line-height: 6.5rem;
     color: var(--secColor);
     position: relative;
     margin: 0 0 2rem;
     @media (max-width: 800px) {
       font-size: 5rem;
       margin-bottom: 7rem;
-      line-height: 4rem;
+      line-height: 4.5rem;
       text-align: center;
       position: relative;
       /* top: -15rem; */

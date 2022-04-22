@@ -4,7 +4,7 @@ import Link from "next/link";
 import Adventure from "../../components/Adventure";
 import ReadyToBook from "../../components/ReadyToBook";
 import { HeroImageStyles } from "../../components/styles/HeroImageStyles";
-import { SectionStyles } from "../../components/styles/SectionStyles";
+import { AdventureHeadingStyles } from "../../components/styles/AdventureHeadingStyles";
 import { TopDividerStyles } from "../../components/styles/TopDividerStyles";
 import { ReadyToBookStyles } from "../../components/styles/ReadyToBookStyles";
 import { BottomDividerStyles } from "../../components/styles/BottomDividerStyles";
@@ -34,17 +34,19 @@ const Adventures = () => {
           style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
-      <SectionStyles>
-        <h3>A Playground Awaits</h3>
-        <p>
-          A Canadian summer in the mountains is like no other: spectacular
-          views, glacier fed rivers and lakes, majestic wildlife, wetlands and
-          steep canyons! Add human creativity, personality and a sense of
-          adventure, you get a wild opportunity to experience one of the world's
-          most beautiful locations in a very unique way!
-        </p>
-      </SectionStyles>
-      <BottomDividerStyles>
+      <AdventureHeadingStyles>
+        <div className="oneCol">
+          <h2>A Playground Awaits</h2>
+          <p>
+            A Canadian summer in the mountains is like no other: spectacular
+            views, glacier fed rivers and lakes, majestic wildlife, wetlands and
+            steep canyons! Add human creativity, personality and a sense of
+            adventure, you get a wild opportunity to experience one of the
+            world's most beautiful locations in a very unique way!
+          </p>
+        </div>
+      </AdventureHeadingStyles>
+      <BottomDividerStyles marginTop="4.7rem">
         <img
           src="/svg/divider-bottom.svg"
           width="101%"

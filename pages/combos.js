@@ -5,7 +5,7 @@ import { TopDividerStyles } from "../components/styles/TopDividerStyles";
 import { BottomDividerStyles } from "../components/styles/BottomDividerStyles";
 import { FooterDividerStyles } from "../components/styles/FooterDividerStyles";
 import { ComboSectionStyles } from "../components/styles/ComboSectionStyles";
-import { SectionStyles } from "../components/styles/SectionStyles";
+import { AdventureHeadingStyles } from "../components/styles/AdventureHeadingStyles";
 import { HeroVideoStyles } from "../components/styles/HeroVideoStyles";
 import { MobileVideoStyles } from "../components/styles/MobileVideoStyles";
 import dynamic from "next/dynamic";
@@ -47,22 +47,27 @@ const Combos = ({}) => {
           style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
-      <SectionStyles>
+      <AdventureHeadingStyles>
         <div className="mobileVideo">
           <MobileVideoStyles>
             <CloudflareVideo source={videoURL} />
           </MobileVideoStyles>
         </div>
-        <h3>Experience More And Combo Your Adventures</h3>
-        <p>
-          Experience more with our exclusive and unique summer combos and save.
-          These combos can be customized over multiple days and if there is
-          something you don't see but want to combo, get in touch with our agent
-          and we will set you up with your own unique combo for you and your
-          crew.
-        </p>
-      </SectionStyles>
-      <BottomDividerStyles>
+        <div className="oneCol">
+          <h2>
+            Experience More And
+            <br /> Combo Your Adventures
+          </h2>
+          <p>
+            Experience more with our exclusive and unique summer combos and
+            save. These combos can be customized over multiple days and if there
+            is something you don't see but want to combo, get in touch with our
+            agent and we will set you up with your own unique combo for you and
+            your crew.
+          </p>
+        </div>
+      </AdventureHeadingStyles>
+      <BottomDividerStyles marginTop="4.7rem">
         <img
           src="/svg/divider-bottom.svg"
           width="101%"

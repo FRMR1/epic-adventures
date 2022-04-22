@@ -3,7 +3,7 @@ import Head from "next/head";
 import ReadyToBook from "../components/ReadyToBook";
 import Divider from "../components/Divider";
 import { HeroImageStyles } from "../components/styles/HeroImageStyles";
-import { SectionStyles } from "../components/styles/SectionStyles";
+import { AdventureHeadingStyles } from "../components/styles/AdventureHeadingStyles";
 import { TopDividerStyles } from "../components/styles/TopDividerStyles";
 import { BottomDividerStyles } from "../components/styles/BottomDividerStyles";
 import { AboutSectionStyles } from "../components/styles/AboutSectionStyles";
@@ -29,25 +29,25 @@ const About = () => {
           style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
-      <SectionStyles>
-        <p>
-          With a focus on Adventure Tourism and the Canadian Rockies, our
-          passion is the great outdoors. We work with the some of Canada's
-          Premiere tour operators to give you the best quality products and
-          authentic experiences throughout Canadas wild west. From Canmore,
-          Banff, Jasper, Lake Louise and Golden our mission is to give you the
-          best to save you time and money while you experience this playground
-          with us and make it Epic.
-        </p>
-      </SectionStyles>
-      <BottomDividerStyles>
-        <div className="inner">
-          <img
-            src="/svg/divider-bottom.svg"
-            width="101%"
-            style={{ marginLeft: "-.2rem" }}
-          />
+      <AdventureHeadingStyles>
+        <div className="oneCol">
+          <p>
+            With a focus on Adventure Tourism and the Canadian Rockies, our
+            passion is the great outdoors. We work with the some of Canada's
+            Premiere tour operators to give you the best quality products and
+            authentic experiences throughout Canadas wild west. From Canmore,
+            Banff, Jasper, Lake Louise and Golden our mission is to give you the
+            best to save you time and money while you experience this playground
+            with us and make it Epic.
+          </p>
         </div>
+      </AdventureHeadingStyles>
+      <BottomDividerStyles marginTop="4.7rem">
+        <img
+          src="/svg/divider-bottom.svg"
+          width="101%"
+          style={{ marginLeft: "-.2rem" }}
+        />
       </BottomDividerStyles>
       <WhyEpic style={{ marginTop: "10rem" }} />
       <AboutSectionStyles grey={true} bottom={true}>
