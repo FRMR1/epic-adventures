@@ -79,7 +79,7 @@ const MaligneLake = () => {
         <img
           src="/svg/divider-top.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
@@ -99,7 +99,7 @@ const MaligneLake = () => {
         <img
           src="/svg/divider-bottom.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </BottomDividerStyles>
 
@@ -321,7 +321,7 @@ const MaligneLake = () => {
         <img
           src="/svg/divider-top.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
       <TestimonialStyles>
@@ -350,7 +350,7 @@ const MaligneLake = () => {
         <img
           src="/svg/divider-bottom.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </BottomDividerStyles>
       <WhyEpic style={{ marginTop: "10rem" }} />
@@ -446,7 +446,7 @@ const MaligneLake = () => {
         <img
           src="/svg/divider-top2.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </FooterDividerStyles>
     </>

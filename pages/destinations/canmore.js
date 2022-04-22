@@ -61,7 +61,7 @@ const Canmore = () => {
         <img
           src="/svg/divider-top.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
@@ -84,7 +84,7 @@ const Canmore = () => {
         <img
           src="/svg/divider-bottom.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </BottomDividerStyles>
 
@@ -164,7 +164,7 @@ const Canmore = () => {
         <img
           src="/svg/divider-top.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
       <TestimonialStyles></TestimonialStyles>
@@ -172,7 +172,7 @@ const Canmore = () => {
         <img
           src="/svg/divider-bottom.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </BottomDividerStyles> */}
       <CardSectionStyles>
@@ -217,7 +217,7 @@ const Canmore = () => {
         <img
           src="/svg/divider-top2.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </FooterDividerStyles>
     </>

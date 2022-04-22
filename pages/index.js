@@ -54,6 +54,13 @@ export default function Home() {
     },
   };
 
+  const maps = {
+    all: {
+      breakpoint: { max: 9999, min: 0 },
+      items: 1,
+    },
+  };
+
   // Cloud flarevideo URL
   const videoURL = "0e546742a408011586e2c14b6c67d5df";
 
@@ -76,7 +83,7 @@ export default function Home() {
         <img
           src="/svg/divider-top.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
       <SectionStyles>
@@ -240,7 +247,42 @@ export default function Home() {
         </Link>
         <div className="marginBottom" />
       </ActivityTilesStyles>
-      <WhyEpic marginBottom={true} />
+      <WhyEpic marginBottom={true} style={{ marginBottom: "30rem" }} />
+      <TopDividerStyles home={true}>
+        <img
+          src="/svg/divider-top.svg"
+          width="101%"
+          style={{ marginLeft: "-.2rem" }}
+        />
+      </TopDividerStyles>
+      <SectionStyles>
+        <Carousel
+          responsive={maps}
+          infinite={true}
+          swipeable={true}
+          draggable={true}
+        >
+          <div className="mapCarousel">
+            <img src="/images/locationsmap.png" />
+          </div>
+          <div className="mapCarousel">
+            <img className="mapImg" src="/images/banffmap.png" />
+          </div>
+          <div className="mapCarousel">
+            <img className="mapImg" src="/images/goldenmap.png" />
+          </div>
+          <div className="mapCarousel">
+            <img className="mapImg" src="/images/jaspermap.png" />
+          </div>
+        </Carousel>
+      </SectionStyles>
+      <BottomDividerStyles>
+        <img
+          src="/svg/divider-bottom.svg"
+          width="101%"
+          style={{ marginLeft: "-.2rem" }}
+        />
+      </BottomDividerStyles>
       <CardSectionStyles>
         <h3>The Canadian Rockies</h3>
         <div className="cards">
@@ -872,7 +914,7 @@ export default function Home() {
         <img
           src="/svg/divider-top2.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </FooterDividerStyles>
     </>

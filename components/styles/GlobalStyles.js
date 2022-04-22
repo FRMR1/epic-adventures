@@ -302,7 +302,7 @@ const GlobalStyles = createGlobalStyle`
         a, span {
             font-family: "Futura Bold";
             font-size: 1.8rem;
-            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
         }
         span {
             cursor: default;

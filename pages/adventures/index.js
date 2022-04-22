@@ -31,7 +31,7 @@ const Adventures = () => {
         <img
           src="/svg/divider-top.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </TopDividerStyles>
       <SectionStyles>
@@ -48,7 +48,7 @@ const Adventures = () => {
         <img
           src="/svg/divider-bottom.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </BottomDividerStyles>
 
@@ -150,8 +150,8 @@ const Adventures = () => {
           <ActivityTile
             location="Golden"
             title="Paragliding"
-            desc="TODO"
-            img="69256104-8b47-41b1-48a2-d88cee247100"
+            desc="Take your sense of adventure to new heights and soar like an eagle over the Canadian Rockies."
+            img="0b0fa6d5-1a82-4129-e8d4-560f1d0e2700"
             url="/adventures/paragliding"
           />
           <div className="hidden-flex-item" />
@@ -237,7 +237,7 @@ const Adventures = () => {
         <img
           src="/svg/divider-top2.svg"
           width="101%"
-          style={{ marginLeft: "-.1rem" }}
+          style={{ marginLeft: "-.2rem" }}
         />
       </FooterDividerStyles>
     </>
