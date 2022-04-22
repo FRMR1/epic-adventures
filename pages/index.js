@@ -87,7 +87,35 @@ export default function Home() {
         />
       </TopDividerStyles>
       <SectionStyles>
-        <h3>Experience Epic Adventures</h3>
+        <Carousel
+          responsive={maps}
+          infinite={true}
+          swipeable={true}
+          draggable={true}
+        >
+          <div className="mapCarousel">
+            <img src="/images/locationsmap.png" />
+          </div>
+          <div className="mapCarousel">
+            <img className="mapImg" src="/images/banffmap.png" />
+          </div>
+          <div className="mapCarousel">
+            <img className="mapImg" src="/images/goldenmap.png" />
+          </div>
+          <div className="mapCarousel">
+            <img className="mapImg" src="/images/jaspermap.png" />
+          </div>
+        </Carousel>
+      </SectionStyles>
+      <BottomDividerStyles>
+        <img
+          src="/svg/divider-bottom.svg"
+          width="101%"
+          style={{ marginLeft: "-.2rem" }}
+        />
+      </BottomDividerStyles>
+      <ActivityTilesStyles>
+        <h2>Experience Epic Adventures</h2>
         <p>
           When it comes to adventure and experiencing the Canadian Rockies,
           we've got you covered! Whether it's ticking off that bucket list or
@@ -98,16 +126,7 @@ export default function Home() {
           selected the best to save you time, money and hassle on your
           adventure.
         </p>
-      </SectionStyles>
-      <BottomDividerStyles>
-        <img
-          src="/svg/divider-bottom.svg"
-          width="101%"
-          style={{ marginLeft: "-.2rem" }}
-        />
-      </BottomDividerStyles>
 
-      <ActivityTilesStyles>
         <h2>Adventure Playground In The Rockies</h2>
         <div className="tiles">
           <ActivityTile
@@ -248,41 +267,6 @@ export default function Home() {
         <div className="marginBottom" />
       </ActivityTilesStyles>
       <WhyEpic marginBottom={true} style={{ marginBottom: "30rem" }} />
-      <TopDividerStyles home={true}>
-        <img
-          src="/svg/divider-top.svg"
-          width="101%"
-          style={{ marginLeft: "-.2rem" }}
-        />
-      </TopDividerStyles>
-      <SectionStyles>
-        <Carousel
-          responsive={maps}
-          infinite={true}
-          swipeable={true}
-          draggable={true}
-        >
-          <div className="mapCarousel">
-            <img src="/images/locationsmap.png" />
-          </div>
-          <div className="mapCarousel">
-            <img className="mapImg" src="/images/banffmap.png" />
-          </div>
-          <div className="mapCarousel">
-            <img className="mapImg" src="/images/goldenmap.png" />
-          </div>
-          <div className="mapCarousel">
-            <img className="mapImg" src="/images/jaspermap.png" />
-          </div>
-        </Carousel>
-      </SectionStyles>
-      <BottomDividerStyles>
-        <img
-          src="/svg/divider-bottom.svg"
-          width="101%"
-          style={{ marginLeft: "-.2rem" }}
-        />
-      </BottomDividerStyles>
       <CardSectionStyles>
         <h3>The Canadian Rockies</h3>
         <div className="cards">

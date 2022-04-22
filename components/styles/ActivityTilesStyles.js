@@ -16,7 +16,7 @@ export const ActivityTilesStyles = styled.div`
     @media (max-width: 800px) {
       font-size: 5rem;
       margin-bottom: 7rem;
-      line-height: 4rem;
+      line-height: 4.5rem;
       text-align: center;
       position: relative;
     }
