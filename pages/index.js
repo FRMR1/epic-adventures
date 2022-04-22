@@ -264,7 +264,7 @@ export default function Home() {
         </Link>
         <div className="marginBottom" />
       </ActivityTilesStyles>
-      <WhyEpic marginBottom={true} style={{ marginBottom: "30rem" }} />
+      <WhyEpic marginBottom={true} />
       <CardSectionStyles>
         <h3>The Canadian Rockies</h3>
         <div className="cards">
