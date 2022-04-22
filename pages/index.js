@@ -115,7 +115,7 @@ export default function Home() {
         />
       </BottomDividerStyles>
       <ActivityTilesStyles>
-        <h2>Experience Epic Adventures</h2>
+        <h2>Adventure Playground In The Rockies</h2>
         <p>
           When it comes to adventure and experiencing the Canadian Rockies,
           we've got you covered! Whether it's ticking off that bucket list or
@@ -126,8 +126,6 @@ export default function Home() {
           selected the best to save you time, money and hassle on your
           adventure.
         </p>
-
-        <h2>Adventure Playground In The Rockies</h2>
         <div className="tiles">
           <ActivityTile
             location="Golden"
