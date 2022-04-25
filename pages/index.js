@@ -94,16 +94,337 @@ export default function Home() {
           draggable={true}
         >
           <div className="mapCarousel">
-            <img src="/images/locationsmap.png" />
+            <div style={{ position: "relative" }}>
+              <img
+                src="/images/locationsmap.png"
+                style={{ width: "100%", height: "auto" }}
+              />
+              <a href="/destinations/golden">
+                <div
+                  style={{
+                    position: "absolute",
+                    left: "13.5%",
+                    top: "72.5%",
+                    width: "9.5%",
+                    height: "5%",
+                  }}
+                />
+              </a>
+              <a href="/destinations/jasper">
+                <div
+                  style={{
+                    position: "absolute",
+                    left: "14%",
+                    top: "30%",
+                    width: "8%",
+                    height: "5%",
+                  }}
+                />
+              </a>
+              <a href="/destinations/banff">
+                <div
+                  style={{
+                    position: "absolute",
+                    left: "32.5%",
+                    top: "74.5%",
+                    width: "8%",
+                    height: "5%",
+                  }}
+                />
+              </a>
+              <a href="/destinations/lakelouise">
+                <div
+                  style={{
+                    position: "absolute",
+                    left: "28%",
+                    top: "68.5%",
+                    width: "12%",
+                    height: "5%",
+                  }}
+                />
+              </a>
+              <a href="/destinations/canmore">
+                <div
+                  style={{
+                    position: "absolute",
+                    left: "36%",
+                    top: "79%",
+                    width: "10%",
+                    height: "6%",
+                  }}
+                />
+              </a>
+            </div>
           </div>
           <div className="mapCarousel">
-            <img className="mapImg" src="/images/banffmap.png" />
+            <div style={{ position: "relative" }}>
+              <img
+                src="/images/banffmap.png"
+                style={{ width: "100%", height: "auto" }}
+              />
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "23.25%",
+                  top: "28.5%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Via Ferrata Mt. Norquay</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "32.5%",
+                  top: "26.5%",
+                  width: "5%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Lake Minnewanka Cruise</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "29.5%",
+                  top: "49.5%",
+                  width: "5%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">Banff Gondola</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "40.75%",
+                  top: "63.5%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Canyoning</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "47.75%",
+                  top: "64%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Caving</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "43.75%",
+                  top: "69%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Heli Flight</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "81.5%",
+                  top: "48%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Rafting Kananaskis River</span>
+              </div>
+            </div>
           </div>
           <div className="mapCarousel">
-            <img className="mapImg" src="/images/goldenmap.png" />
+            <div style={{ position: "relative" }}>
+              <img className="mapImg" src="/images/goldenmap.png" />
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "2%",
+                  top: "39.5%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Golden Gondola</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "7%",
+                  top: "45.5%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Via Ferrata Kicking Horse</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "2%",
+                  top: "48.5%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Mountain Biking</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "43.25%",
+                  top: "44.5%",
+                  width: "4%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">Skydiving</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "45.25%",
+                  top: "53.5%",
+                  width: "4%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">ATV Off-Road</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "47.25%",
+                  top: "61.5%",
+                  width: "4%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">Scenic Flight</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "57.25%",
+                  top: "15.5%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Golden Skybridge</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "64.25%",
+                  top: "34.5%",
+                  width: "4%",
+                  height: "8%",
+                }}
+              >
+                <span className="tooltipText">Rafting Kicking Horse River</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "73.25%",
+                  top: "86.5%",
+                  width: "5%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">Valley Zipline</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "92.75%",
+                  top: "86%",
+                  width: "4%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">Paragliding</span>
+              </div>
+            </div>
           </div>
           <div className="mapCarousel">
-            <img className="mapImg" src="/images/jaspermap.png" />
+            <div style={{ position: "relative" }}>
+              <img className="mapImg" src="/images/jaspermap.png" />
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "63.75%",
+                  top: "80%",
+                  width: "4%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">Columbia Icefield</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "58%",
+                  top: "69%",
+                  width: "4%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">Skywalk</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "40%",
+                  top: "36%",
+                  width: "4%",
+                  height: "9%",
+                }}
+              >
+                <span className="tooltipText">Jasper Skytram</span>
+              </div>
+              <div
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "47%",
+                  top: "26%",
+                  width: "5%",
+                  height: "7%",
+                }}
+              >
+                <span className="tooltipText">Maligne Lake Cruise</span>
+              </div>
+            </div>
           </div>
         </Carousel>
       </SectionStyles>

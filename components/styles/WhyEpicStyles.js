@@ -38,35 +38,37 @@ export const WhyEpicStyles = styled.div`
       margin-bottom: 5rem;
     }
     .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      display: flex;
+      flex-wrap: wrap;
       max-width: 80rem;
       margin: 0 auto;
-      column-gap: 2rem;
-      row-gap: 4rem;
+      gap: 30px;
+      justify-content: space-around;
       @media (max-width: 800px) {
         grid-template-columns: 1fr;
         text-align: center;
     }
       .item {
-        display: grid;
-        grid-template-columns: 20px 1fr;
-        column-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 350px;
       }
       .icon {
         justify-self: start;
+        margin-bottom: 20px;
       }
       .desc {
         h4 {
-          text-align: left;
+          text-align: center;
           color: #505050;
           margin: 0;
           font-size: 3rem;
           line-height: 3rem;
         }
         p {
-          text-align: left;
+          text-align: center;
           font-size: 1.5rem;
           line-height: 3rem;
         }

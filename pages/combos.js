@@ -186,7 +186,7 @@ const Combos = ({}) => {
             location="Golden, Canmore"
             title="Family Epic Pass"
             desc="Valley zipline, rafting Kananaskis river, Golden Skybridge."
-            img="5a0eb362-1e5f-4465-e16b-aafcdb251600"
+            img="29684fe5-810d-4e6e-01a3-0157e64ff800"
             url="https://epicadventuregroup.rezdy.com/485655/combo-family-epic-pass-valley-zipline-tour-family-rafting-golden-skybridge-multi-day"
           />
           {/* <div className="hidden-flex-item" /> */}

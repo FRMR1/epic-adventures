@@ -8,7 +8,7 @@ const WhyEpic = ({ style }) => {
         <div className="container">
           <div className="item">
             <div className="icon">
-              <img src="/svg/checkmark.svg" width="25" />
+              <img src="/svg/standards.svg" width="50" />
             </div>
             <div className="desc">
               <h4>Highest Standards</h4>
@@ -21,7 +21,7 @@ const WhyEpic = ({ style }) => {
           </div>
           <div className="item">
             <div className="icon">
-              <img src="/svg/checkmark.svg" width="25" />
+              <img src="/svg/deals.svg" width="50" />
             </div>
             <div className="desc">
               <h4>Hype Deals</h4>
@@ -34,7 +34,7 @@ const WhyEpic = ({ style }) => {
           </div>
           <div className="item">
             <div className="icon">
-              <img src="/svg/checkmark.svg" width="25" />
+              <img src="/svg/canadian.svg" width="50" />
             </div>
             <div className="desc">
               <h4>Authentically Canadian</h4>
@@ -46,7 +46,7 @@ const WhyEpic = ({ style }) => {
           </div>
           <div className="item">
             <div className="icon">
-              <img src="/svg/checkmark.svg" width="25" />
+              <img src="/svg/value.svg" width="50" />
             </div>
             <div className="desc">
               <h4>Best Value</h4>
@@ -58,7 +58,7 @@ const WhyEpic = ({ style }) => {
           </div>
           <div className="item">
             <div className="icon">
-              <img src="/svg/checkmark.svg" width="25" />
+              <img src="/svg/experience.svg" width="45" />
             </div>
             <div className="desc">
               <h4>Experience More</h4>
