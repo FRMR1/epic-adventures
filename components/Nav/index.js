@@ -272,6 +272,11 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/hypedeals">
+                  <a onClick={closeMenu}>Hype Deals</a>
+                </Link>
+              </li>
+              <li>
                 <Link href="https://epicadventuregroup.rezdy.com/">
                   <a onClick={closeMenu} target="_blank" rel="noreferrer">
                     Book Now
@@ -383,6 +388,8 @@ const Nav = () => {
                 <div className="col">
                   <Link href="/adventures/lakeminnewanka">Lake Minnewanka</Link>
                   <Link href="/adventures/malignelake">Maligne Lake</Link>
+                  <h3 className="topMargin">Deals</h3>
+                  <Link href="/hypedeals">Hype Deals</Link>
                 </div>
               </div>
             </div>

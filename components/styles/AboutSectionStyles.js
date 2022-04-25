@@ -164,5 +164,8 @@ export const AboutSectionStyles = styled.div`
         width: 200px;
       }
     }
+    .grid2 {
+      gap: 60px !important;
+    }
   }
 `;

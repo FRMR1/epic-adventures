@@ -162,6 +162,12 @@ const Footer = ({ year }) => {
               <Link href="/eat/lakelouise">Lake Louise</Link>
             </li>
           </ul>
+          <h4 className="winter">Deals</h4>
+          <ul>
+            <li>
+              <Link href="/hypedeals">Hype Deals</Link>
+            </li>
+          </ul>
           <div className="social">
             <a
               href="https://www.facebook.com/epicgoldenbc"
