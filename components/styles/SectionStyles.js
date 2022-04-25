@@ -38,6 +38,7 @@ export const SectionStyles = styled.div`
     align-items: center;
     position: relative;
     width: 100%;
+    overflow: visible;
     img {
       width: 100%;
       max-width: 1000px;
@@ -87,5 +88,9 @@ export const SectionStyles = styled.div`
         gap: 3rem; */
     margin-bottom: 4rem;
     /* justify-items: center; */
+  }
+
+  .react-multi-carousel-list {
+    overflow: visible !important;
   }
 `;
