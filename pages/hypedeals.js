@@ -53,7 +53,7 @@ const CanadianRockies = () => {
       <HeroImageSlider
         title="Hype Deals"
         images={[
-          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/0da08f7d-74c3-440a-e480-806ec1f2a300/public",
+          "https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c25a8f27-585a-4791-2a7e-bc58fe23f300/public",
         ]}
         needsVideo={true}
         cdn={true}

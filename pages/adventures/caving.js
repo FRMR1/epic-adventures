@@ -83,7 +83,10 @@ const MaligneLake = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="oneCol">
+        <div className="imageContainer mobileImage">
+          <img src="/images/logos/caving.svg" />
+        </div>
+        <div className="pContainer">
           <h2>Explore The Wild Things</h2>
           <p>
             With over 25 years in operation this underground sensation is packed

@@ -69,6 +69,9 @@ const About = () => {
             <img src="/images/logos/norquay-dark.svg" />
             <img src="/images/logos/scenicflights-dark.svg" />
             <img src="/images/logos/skybridge-dark.svg" />
+            <img src="/images/logos/caving-dark.svg" />
+            <img src="/images/logos/canyoning.png" />
+            <img src="/images/logos/zipline-dark.png" />
           </div>
         </div>
       </AboutSectionStyles>
