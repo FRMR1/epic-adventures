@@ -177,7 +177,7 @@ const Footer = ({ year }) => {
               <img src="/svg/facebook.svg" width="22" />
             </a>
             <a
-              href="https://www.instagram.com/epicrockies"
+              href="https://www.instagram.com/epicrockies_ca"
               target="_blank"
               rel="noreferrer"
             >
