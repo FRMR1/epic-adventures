@@ -170,14 +170,14 @@ const Footer = ({ year }) => {
           </ul>
           <div className="social">
             <a
-              href="https://www.facebook.com/epicgoldenbc"
+              href="https://www.facebook.com/epicrockies"
               target="_blank"
               rel="noreferrer"
             >
               <img src="/svg/facebook.svg" width="22" />
             </a>
             <a
-              href="https://www.instagram.com/epicgolden_bc/"
+              href="https://www.instagram.com/epicrockies"
               target="_blank"
               rel="noreferrer"
             >

@@ -84,15 +84,68 @@ const LakeLouise = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="oneCol">
-          <h2>Purely Canadian</h2>
-          <p>
-            With the beautiful Chateau overlooking the pristine waters of Lake
-            Louise, this mountain village within Banff National Park is a great
-            spot for a photo shoot, hike or take the Lake Louise Resort gondola
-            above the mountains to get the epic views. With Moraine Lake close
-            by, this is a fantastic stop over or stay.
-          </p>
+        <div className="mapCarousel">
+          <div style={{ position: "relative" }}>
+            <img
+              src="/images/locationsmap.png"
+              style={{ width: "100%", height: "auto" }}
+            />
+            <a href="/destinations/golden">
+              <div
+                style={{
+                  position: "absolute",
+                  left: "13.5%",
+                  top: "72.5%",
+                  width: "9.5%",
+                  height: "5%",
+                }}
+              />
+            </a>
+            <a href="/destinations/jasper">
+              <div
+                style={{
+                  position: "absolute",
+                  left: "14%",
+                  top: "30%",
+                  width: "8%",
+                  height: "5%",
+                }}
+              />
+            </a>
+            <a href="/destinations/banff">
+              <div
+                style={{
+                  position: "absolute",
+                  left: "32.5%",
+                  top: "74.5%",
+                  width: "8%",
+                  height: "5%",
+                }}
+              />
+            </a>
+            <a href="/destinations/lakelouise">
+              <div
+                style={{
+                  position: "absolute",
+                  left: "28%",
+                  top: "68.5%",
+                  width: "12%",
+                  height: "5%",
+                }}
+              />
+            </a>
+            <a href="/destinations/canmore">
+              <div
+                style={{
+                  position: "absolute",
+                  left: "36%",
+                  top: "79%",
+                  width: "10%",
+                  height: "6%",
+                }}
+              />
+            </a>
+          </div>
         </div>
       </AdventureHeadingStyles>
       <BottomDividerStyles marginTop="4.7rem">
@@ -105,6 +158,13 @@ const LakeLouise = () => {
 
       <ActivityTilesStyles>
         <h2>Things To Do In Lake Louise</h2>
+        <p>
+          With the beautiful Chateau overlooking the pristine waters of Lake
+          Louise, this mountain village within Banff National Park is a great
+          spot for a photo shoot, hike or take the Lake Louise Resort gondola
+          above the mountains to get the epic views. With Moraine Lake close by,
+          this is a fantastic stop over or stay.
+        </p>
         <div className="tiles">
           <ActivityTile
             location="Lake Louise"

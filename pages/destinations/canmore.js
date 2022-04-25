@@ -65,19 +65,97 @@ const Canmore = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="oneCol">
-          <h2>A Mountain Getaway to Adventure</h2>
-          <p>
-            Canmore is a metropolis within the Rockies and a gateway to many
-            adventures you can't do within a national park. Surrounded by
-            magical mountain peaks, this town is home to many Bow Valley locals
-            and wildlife. Here you can set up camp to experience the very
-            eastern stretch of the Rockies and Bow Valley. Take a heli-tour or
-            explore the caves, Canmore is an outdoors mecca bringing in rock
-            climbers, mountaineers, and hikers from all over the world. The town
-            is also host to large selection of boutique brewers and
-            restaurateurs.
-          </p>
+        <div className="mapCarousel">
+          <div style={{ position: "relative" }}>
+            <img
+              src="/images/banffmap.png"
+              style={{ width: "100%", height: "auto" }}
+            />
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "23.25%",
+                top: "28.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Via Ferrata Mt. Norquay</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "32.5%",
+                top: "26.5%",
+                width: "5%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Lake Minnewanka Cruise</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "29.5%",
+                top: "49.5%",
+                width: "5%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Banff Gondola</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "40.75%",
+                top: "63.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Canyoning</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "47.75%",
+                top: "64%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Caving</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "43.75%",
+                top: "69%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Heli Flight</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "81.5%",
+                top: "48%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Rafting Kananaskis River</span>
+            </div>
+          </div>
         </div>
       </AdventureHeadingStyles>
       <BottomDividerStyles marginTop="4.7rem">
@@ -90,6 +168,16 @@ const Canmore = () => {
 
       <ActivityTilesStyles>
         <h2>Things To Do In Canmore</h2>
+        <p>
+          Canmore is a metropolis within the Rockies and a gateway to many
+          adventures you can't do within a national park. Surrounded by magical
+          mountain peaks, this town is home to many Bow Valley locals and
+          wildlife. Here you can set up camp to experience the very eastern
+          stretch of the Rockies and Bow Valley. Take a heli-tour or explore the
+          caves, Canmore is an outdoors mecca bringing in rock climbers,
+          mountaineers, and hikers from all over the world. The town is also
+          host to large selection of boutique brewers and restaurateurs.
+        </p>
         <div className="tiles">
           <ActivityTile
             location="Canmore"

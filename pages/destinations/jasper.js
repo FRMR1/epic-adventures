@@ -84,17 +84,58 @@ const Jasper = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="oneCol">
-          <h2>Where The Wild Roam</h2>
-          <p>
-            Jasper National Park is full of wildlife and adventures you would
-            expect on a trip through the wild west. With access to the Columbia
-            Icefield and wild canyons, this park is a treat for the adventurer
-            with hiking, biking, and climbing throughout the park. Whether it's
-            a road trip or a boat cruise on the pristine Maligne lake,
-            everywhere you look will take your breath away. Jasper is a must
-            visit national park in the heart of the Canadian Rockies.
-          </p>
+        <div className="mapCarousel">
+          <div style={{ position: "relative" }}>
+            <img className="mapImg" src="/images/jaspermap.png" />
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "63.75%",
+                top: "80%",
+                width: "4%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Columbia Icefield</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "58%",
+                top: "69%",
+                width: "4%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Skywalk</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "40%",
+                top: "36%",
+                width: "4%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Jasper Skytram</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "47%",
+                top: "26%",
+                width: "5%",
+                height: "7%",
+              }}
+            >
+              <span className="tooltipText">Maligne Lake Cruise</span>
+            </div>
+          </div>
         </div>
       </AdventureHeadingStyles>
       <BottomDividerStyles marginTop="4.7rem">
@@ -107,6 +148,15 @@ const Jasper = () => {
 
       <ActivityTilesStyles>
         <h2>Things To Do In Jasper</h2>
+        <p>
+          Jasper National Park is full of wildlife and adventures you would
+          expect on a trip through the wild west. With access to the Columbia
+          Icefield and wild canyons, this park is a treat for the adventurer
+          with hiking, biking, and climbing throughout the park. Whether it's a
+          road trip or a boat cruise on the pristine Maligne lake, everywhere
+          you look will take your breath away. Jasper is a must visit national
+          park in the heart of the Canadian Rockies.
+        </p>
         <div className="tiles">
           <ActivityTile
             location="Jasper"

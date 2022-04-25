@@ -84,18 +84,130 @@ const Golden = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="oneCol">
-          <h2>The Adventure Capital</h2>
-          <p>
-            Located in the beautiful Columbia Valley in British Columbia, this
-            rugged mountain town is an adventure hub. On the outside, its
-            industrial rail and logging history carves its streets, but home to
-            the Kicking Horse River and some of Canada's most notorious mountain
-            peaks, this place has it all within a 20 minute drive. From
-            skydiving over the Rockies, taking on Canada's highest suspension
-            bridge and giant swing, to the world-famous epic white water of the
-            Kicking Horse River. A hidden gem within the Canadian Rockies!
-          </p>
+        <div className="mapCarousel">
+          <div style={{ position: "relative" }}>
+            <img className="mapImg" src="/images/goldenmap.png" />
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "2%",
+                top: "39.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Golden Gondola</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "7%",
+                top: "45.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Via Ferrata Kicking Horse</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "2%",
+                top: "48.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Mountain Biking</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "43.25%",
+                top: "44.5%",
+                width: "4%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Skydiving</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "45.25%",
+                top: "53.5%",
+                width: "4%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">ATV Off-Road</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "47.25%",
+                top: "61.5%",
+                width: "4%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Scenic Flight</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "57.25%",
+                top: "15.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Golden Skybridge</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "64.25%",
+                top: "34.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Rafting Kicking Horse River</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "73.25%",
+                top: "86.5%",
+                width: "5%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Valley Zipline</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "92.75%",
+                top: "86%",
+                width: "4%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Paragliding</span>
+            </div>
+          </div>
         </div>
       </AdventureHeadingStyles>
       <BottomDividerStyles marginTop="4.7rem">
@@ -108,6 +220,16 @@ const Golden = () => {
 
       <ActivityTilesStyles>
         <h2>Things To Do In Golden</h2>
+        <p>
+          Located in the beautiful Columbia Valley in British Columbia, this
+          rugged mountain town is an adventure hub. On the outside, its
+          industrial rail and logging history carves its streets, but home to
+          the Kicking Horse River and some of Canada's most notorious mountain
+          peaks, this place has it all within a 20 minute drive. From skydiving
+          over the Rockies, taking on Canada's highest suspension bridge and
+          giant swing, to the world-famous epic white water of the Kicking Horse
+          River. A hidden gem within the Canadian Rockies!
+        </p>
         <div className="tiles">
           <ActivityTile
             location="Golden"

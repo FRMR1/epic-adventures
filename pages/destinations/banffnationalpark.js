@@ -84,18 +84,97 @@ const BanffNationalPark = () => {
         />
       </TopDividerStyles>
       <AdventureHeadingStyles>
-        <div className="oneCol">
-          <h2>A Canadian Icon</h2>
-          <p>
-            Banff National Park is one of the most beautiful places you will
-            ever visit. Filled with some of Canada's most famous postcard views.
-            The park and town of Banff is a must visit destination for world and
-            domestic travellers alike. The park is filled with famous mountain
-            peaks and a history that shaped a country. In the town of Banff you
-            will find world class restaurants and hotels and is your gateway to
-            some unique tours through the park. The Banff Gondola will give you
-            access to views of the town and the Bow Valley.
-          </p>
+        <div className="mapCarousel">
+          <div style={{ position: "relative" }}>
+            <img
+              src="/images/banffmap.png"
+              style={{ width: "100%", height: "auto" }}
+            />
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "23.25%",
+                top: "28.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Via Ferrata Mt. Norquay</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "32.5%",
+                top: "26.5%",
+                width: "5%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Lake Minnewanka Cruise</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "29.5%",
+                top: "49.5%",
+                width: "5%",
+                height: "9%",
+              }}
+            >
+              <span className="tooltipText">Banff Gondola</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "40.75%",
+                top: "63.5%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Canyoning</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "47.75%",
+                top: "64%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Caving</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "43.75%",
+                top: "69%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Heli Flight</span>
+            </div>
+            <div
+              className="tooltip"
+              style={{
+                position: "absolute",
+                left: "81.5%",
+                top: "48%",
+                width: "4%",
+                height: "8%",
+              }}
+            >
+              <span className="tooltipText">Rafting Kananaskis River</span>
+            </div>
+          </div>
         </div>
       </AdventureHeadingStyles>
       <BottomDividerStyles marginTop="4.7rem">
@@ -108,6 +187,16 @@ const BanffNationalPark = () => {
 
       <ActivityTilesStyles>
         <h2>Things To Do In Banff</h2>
+        <p>
+          Banff National Park is one of the most beautiful places you will ever
+          visit. Filled with some of Canada's most famous postcard views. The
+          park and town of Banff is a must visit destination for world and
+          domestic travellers alike. The park is filled with famous mountain
+          peaks and a history that shaped a country. In the town of Banff you
+          will find world class restaurants and hotels and is your gateway to
+          some unique tours through the park. The Banff Gondola will give you
+          access to views of the town and the Bow Valley.
+        </p>
         <div className="tiles">
           <ActivityTile
             location="Banff"

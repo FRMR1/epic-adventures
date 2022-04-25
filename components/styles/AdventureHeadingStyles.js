@@ -85,4 +85,55 @@ export const AdventureHeadingStyles = styled.div`
       text-align: center;
     }
   }
+
+  .mapCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    img {
+      width: 100%;
+      max-width: 1000px;
+    }
+  }
+
+  .tooltip {
+    .tooltipText {
+      visibility: hidden;
+      width: 120px;
+      background-color: #202020cc;
+      color: #fff;
+      text-align: center;
+      padding: 5px;
+      border-radius: 6px;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -60px;
+      line-height: 20px;
+
+      position: absolute;
+      z-index: 1;
+      font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-weight: 300;
+      letter-spacing: 0.05rem;
+    }
+  }
+
+  .tooltip:hover .tooltipText {
+    visibility: visible;
+  }
+
+  .tooltip .tooltipText::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #202020cc transparent transparent transparent;
+  }
 `;

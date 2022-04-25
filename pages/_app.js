@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
       <a href="/hypedeals">
         <div
           style={{
-            position: "sticky",
+            position: "fixed",
             left: "20px",
             bottom: "20px",
             zIndex: "9999",
