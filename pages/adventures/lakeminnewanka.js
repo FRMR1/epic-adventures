@@ -221,7 +221,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">85</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485311/lake-minnewanka-beer-cruise">
