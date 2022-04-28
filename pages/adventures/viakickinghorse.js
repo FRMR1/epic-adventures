@@ -176,7 +176,7 @@ const Skydiving = () => {
 
       <BookAdventureStyles marginBottom={true}>
         <h3>Our Epic Adventures</h3>
-        <div className="twoCol">
+        {/* <div className="twoCol">
           <div className="left">
             <div className="imageRotate">
               <Image
@@ -213,7 +213,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount"></span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/484982/via-ferrata-pioneer-route-kicking-horse">
@@ -224,7 +224,7 @@ const Skydiving = () => {
               </a>
             </Link>
           </div>
-        </div>
+        </div> */}
         <div className="twoCol grey">
           <div className="left">
             <div className="imageRotate">
@@ -262,7 +262,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">145</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/484984/via-ferrata-discovery-route-kicking-horse">
@@ -312,7 +312,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">TBD</span>
+              <span className="amount">185</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/484985/via-ferrata-ascension-route-kicking-horse">
