@@ -198,7 +198,7 @@ const ATV = () => {
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Drivers 18+, Passengers 6+
+                Drivers 19+, Passengers 6+
               </li>
             </ul>
             <div className="priceContainer">
@@ -252,7 +252,7 @@ const ATV = () => {
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Drivers 18+, Passengers 6+
+                Drivers 19+, Passengers 6+
               </li>
             </ul>
             <div className="priceContainer">
@@ -358,7 +358,7 @@ const ATV = () => {
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Drivers must be at least 18 years old with valid old drivers
+                Drivers must be at least 19 years old with valid old drivers
                 license. Passengers must be at least six years old.
               </li>
               <li>

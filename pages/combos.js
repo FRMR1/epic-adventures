@@ -220,7 +220,7 @@ const Combos = ({}) => {
           <ActivityTile
             location="Coupon"
             title="Scenic Flight"
-            desc="FUse promo code FLIGHT5 when booking."
+            desc="Use promo code FLIGHT5 when booking."
             img="cc253092-6d49-4054-60d8-961ff3c9d600"
             save="5"
             code="FLIGHT5"
