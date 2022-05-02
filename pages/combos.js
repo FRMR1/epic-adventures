@@ -194,11 +194,11 @@ const Combos = ({}) => {
         <div className="marginBottom" />
       </ActivityTilesStyles>
       <ActivityTilesStyles>
-        <h2>Sightseeing Add-ons</h2>
+        <h2>Sightseeing and Adventure Add-ons</h2>
         <p>
-          Add any of these sight-seeing tours to any of our solo adventures or
-          existing combos and save. Use the appropriate promo code in our check
-          out to add these Epic memories to your next adventure.
+          Add any of these activities to any of our solo adventures or existing
+          combos and save. Use the appropriate promo code in our checkout to add
+          these Epic memories to your next adventure.
         </p>
         <div className="tiles">
           <ActivityTile
@@ -264,6 +264,14 @@ const Combos = ({}) => {
             img="1adbc0df-cf4c-4ecb-75f3-44b52f92e600"
             save="10"
             code="CRUISE10"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Valley Zipline"
+            desc="Use promo code ZIP5 when booking."
+            img="ac7427ae-cfaa-43c6-2a41-885cb7256700"
+            save="5"
+            code="ZIP5"
           />
           <div className="hidden-flex-item" />
         </div>
