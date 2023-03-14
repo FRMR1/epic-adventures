@@ -334,11 +334,12 @@ const GlobalStyles = createGlobalStyle`
             right: 0;
             margin-right: 30px;
             a:hover {
-                color: var(--secColor);
+              color: var(--secColor);
             }
             span, a {
-                font-family: Roboto Mono, --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                font-size: 1.4rem;
+              font-family: Roboto Mono, --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+              font-size: 1.4rem;
+              /* text-transform: none; */
             }
         }
         @media (max-width: 800px) {
@@ -388,7 +389,10 @@ const GlobalStyles = createGlobalStyle`
             }
         }
         .adventures {
-          left: -420px;
+          left: -320px;
+        }
+        .combos {
+          left: -220px;
         }
         .dropdownContent a,
         .dropdownContent span {

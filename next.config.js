@@ -1,6 +1,6 @@
 const withFonts = require("next-fonts");
 module.exports = withFonts({
   images: {
-    domains: ["imagedelivery.net"],
+    domains: ["imagedelivery.net", "localhost"],
   },
 });

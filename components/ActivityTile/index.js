@@ -1,7 +1,17 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const ActivityTile = ({ img, title, desc, url, location, save, code }) => {
+const ActivityTile = ({
+  img,
+  title,
+  desc,
+  url,
+  location,
+  save,
+  code,
+  price,
+  rrsp,
+}) => {
   const [copied, setCopied] = useState(false);
 
   return (
@@ -12,6 +22,16 @@ const ActivityTile = ({ img, title, desc, url, location, save, code }) => {
             <div className="save">
               <img src="/images/star.svg" width="100" class="star" />
               <span class="amount">SAVE {save}%</span>
+            </div>
+          </div>
+        )}
+        {rrsp && (
+          <div className="save">
+            <div className="save">
+              <img src="/images/star.svg" width="100" class="star" />
+              <span class="amount">${rrsp}</span>
+              <span className="strikeout strikeLeft"></span>
+              <span className="strikeout strikeRight"></span>
             </div>
           </div>
         )}
@@ -28,6 +48,13 @@ const ActivityTile = ({ img, title, desc, url, location, save, code }) => {
         <span>{location}</span>
         <h4>{title}</h4>
         <p>{desc}</p>
+        {price && (
+          <div className="priceContainer">
+            <span className="dollarSign">$</span>
+            <span className="amount">{price}</span>
+            <span className="currency">CAD</span>
+          </div>
+        )}
         {url && <a href={url}>More Info</a>}
         {code && (
           <button

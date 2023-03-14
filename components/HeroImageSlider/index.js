@@ -61,7 +61,7 @@ const HeroImageSlider = ({ title, images, needsVideo, cdn }) => {
             />
           )}
           <h2 className="mobileHeading" style={{ zIndex: "9" }}>
-            {title}.
+            {title}
           </h2>
         </OverlayContainer>
         {images.length > 1 &&

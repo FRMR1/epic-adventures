@@ -21,6 +21,8 @@ import Carousel from "react-multi-carousel";
 import Card from "../../components/Card";
 import "react-multi-carousel/lib/styles.css";
 import WhyEpic from "../../components/WhyEpic";
+import { ActivityTilesStyles } from "../../components/styles/ActivityTilesStyles";
+import ActivityTile from "../../components/ActivityTile";
 
 const CloudflareVideo = dynamic(
   () => import("../../components/CloudflareVideo"),
@@ -137,7 +139,7 @@ const MaligneLake = () => {
             <Card
               title="Ziplines"
               description="Race your friends and family across the canyon on the exhilarating ziplines above the trees."
-              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/6d74b9fd-e099-4ac5-9faf-dcd7fe062e00/public"
+              imageUrl="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/cdc54b8e-adc3-4920-1fc7-a80a1a1ffd00/public"
             />
             <Card
               title="Explore"
@@ -153,7 +155,7 @@ const MaligneLake = () => {
         </div>
       </CardSectionStyles>
 
-      <BookAdventureStyles marginBottom={true}>
+      <BookAdventureStyles>
         <h3>Our Epic Adventures</h3>
         <div className="twoCol">
           <div className="left">
@@ -198,44 +200,102 @@ const MaligneLake = () => {
         </div>
         <div className="twoCol grey">
           <div className="left">
-            <div>
+            <div className="imageRotate">
               <Image
-                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/c3cd004d-c905-47df-e9c6-9c7cfe93b900/public"
                 layout="fill"
                 objectFit="contain"
-                alt="Combo"
+                alt="Golden Skybridge"
               />
             </div>
           </div>
           <div className="right">
-            <h3>Combo This Trip</h3>
-            <p>Combo and experience more!</p>
+            <h3>Adventure Pass</h3>
             <ul>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Save money
+                Includes general admission
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Save time
+                Rail Rider Mountain Coaster
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Exclusive products
+                Canyon Edge Course
               </li>
               <li>
                 <img src="/svg/checkmark.svg" width="15" />
-                Live EPIC!
+                Sky Zipline
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Climbing Wall
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Children pricing available
               </li>
             </ul>
-            <Link href="/combos">
-              <div className="button">
-                <span>More Info</span>
-              </div>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">71</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/551299/golden-skybridge-adventure-pass">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
             </Link>
           </div>
         </div>
       </BookAdventureStyles>
+      <ActivityTilesStyles style={{ marginBottom: "35rem" }}>
+        <div className="tiles">
+          <ActivityTile
+            location="Coupon"
+            title="Skydive + Skybridge Adventure Pass"
+            desc="Use promo code ADVENTURE25 when booking."
+            img="31818e58-2f12-404a-a739-fd1e9923e900"
+            save="25"
+            code="ADVENTURE25"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Raft + Skybridge Adventure Pass"
+            desc="Use promo code ADVENTURE25 when booking."
+            img="59a2e3e4-38d4-49de-1624-8ee154829500"
+            save="25"
+            code="ADVENTURE25"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="ATV + Skybridge Adventure Pass"
+            desc="Use promo code ADVENTURE25 when booking."
+            img="d8ac2c2b-f536-40fa-033d-20f475eae700"
+            save="25"
+            code="ADVENTURE25"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Epic Golden Pass + Skybridge"
+            desc="Use promo code SKYBRIDGE50 when booking."
+            img="94a05aa6-a7c7-4ecf-fda2-0198ccce2500"
+            save="50"
+            code="SKYBRIDGE50"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Don't Tell Mom + Skybridge"
+            desc="Use promo code SKYBRIDGE50 when booking."
+            img="fe50d6fe-1f53-4d2d-bcbd-e0e012347d00"
+            save="50"
+            code="SKYBRIDGE50"
+          />
+        </div>
+      </ActivityTilesStyles>
       <TopDividerStyles>
         <img
           src="/svg/divider-top.svg"

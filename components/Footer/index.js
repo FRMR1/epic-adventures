@@ -58,14 +58,14 @@ const Footer = ({ year }) => {
                 Via Ferrata Kicking Horse
               </Link>
             </li>
+            <li>
+              <Link href="/adventures/skybridge">Golden Skybridge</Link>
+            </li>
           </ul>
         </div>
         <div className="adventures">
           <h4>Sightseeing</h4>
           <ul>
-            <li>
-              <Link href="/adventures/skybridge">Golden Skybridge</Link>
-            </li>
             <li>
               <Link href="/adventures/banffgondola">Banff Gondola</Link>
             </li>
@@ -99,6 +99,12 @@ const Footer = ({ year }) => {
               <span>Stay tuned...</span>
             </li>
           </ul>
+          <h4 className="winter">Deals</h4>
+          <ul>
+            <li>
+              <Link href="/hypedeals">Hype Deals</Link>
+            </li>
+          </ul>
         </div>
         <div className="adventures">
           <h4>Destinations</h4>
@@ -122,6 +128,9 @@ const Footer = ({ year }) => {
             </li>
             <li>
               <Link href="/destinations/lakelouise">Lake Louise</Link>
+            </li>
+            <li>
+              <Link href="/lists">Top Lists</Link>
             </li>
           </ul>
           <h4 className="winter">Stay</h4>
@@ -162,12 +171,7 @@ const Footer = ({ year }) => {
               <Link href="/eat/lakelouise">Lake Louise</Link>
             </li>
           </ul>
-          <h4 className="winter">Deals</h4>
-          <ul>
-            <li>
-              <Link href="/hypedeals">Hype Deals</Link>
-            </li>
-          </ul>
+
           <div className="social">
             <a
               href="https://www.facebook.com/epicrockies"

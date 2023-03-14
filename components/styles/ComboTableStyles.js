@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ComboTableStyles = styled.div`
   padding: 5rem 3rem 5rem;
   margin: 0;
-  margin-bottom: -12rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -31,7 +30,7 @@ export const ComboTableStyles = styled.div`
   }
   .tableContainer {
     width: 100%;
-    max-width: 1000px;
+    max-width: 980px;
     position: relative;
     box-shadow: 0 0 10px #00000022;
     margin-top: 7rem;

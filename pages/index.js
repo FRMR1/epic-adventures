@@ -21,6 +21,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { ComboTableStyles } from "../components/styles/ComboTableStyles";
 import WhyEpic from "../components/WhyEpic";
+import { TestimonialStyles } from "../components/styles/TestimonialStyles";
 
 const CloudflareVideo = dynamic(() => import("../components/CloudflareVideo"), {
   ssr: false,
@@ -55,6 +56,13 @@ export default function Home() {
   };
 
   const maps = {
+    all: {
+      breakpoint: { max: 9999, min: 0 },
+      items: 1,
+    },
+  };
+
+  const quotes = {
     all: {
       breakpoint: { max: 9999, min: 0 },
       items: 1,
@@ -454,13 +462,7 @@ export default function Home() {
             desc="Take on the world famous Kicking Horse River, with rapids like Man Eater and Shot Gun this river is an experience that can't be missed."
             img="c61cf00a-32f2-41c0-09fe-b2c742189700"
             url="/adventures/kickinghorseriver"
-          />
-          <ActivityTile
-            location="Canmore"
-            title="Canyoning"
-            desc="Repel waterfalls, swim the canyon waters and explore the mountains a little differently, this is a trip of a lifetime."
-            img="b38ca2d9-dbd2-4f6e-95ca-49b634538f00"
-            url="/adventures/canyoning"
+            price="99"
           />
           <ActivityTile
             location="Golden"
@@ -468,20 +470,7 @@ export default function Home() {
             desc="Feel the wind under your wings as you take on the Rockies from above the clouds at 120MPH."
             img="a45c1c16-675c-4e13-a3a5-5cee310af300"
             url="/adventures/skydiving"
-          />
-          <ActivityTile
-            location="Banff"
-            title="Caving"
-            desc="Explore underground in this unique experience inside the Bow Valley mountains. This trip will expand your relationship with the mountains and local habitat."
-            img="66ee2fee-ee8a-4ac0-1454-3ab1da1e7100"
-            url="/adventures/caving"
-          />
-          <ActivityTile
-            location="Banff"
-            title="Heli Flight"
-            desc="Get the best seat above the mountains, take a helicopter over the Three Sisters mountain tops and experience the Rockies in style."
-            img="c5ed939e-308e-4c19-58a7-cb8e744d6b00"
-            url="/adventures/heliflight"
+            price="349"
           />
           <ActivityTile
             location="Golden"
@@ -489,94 +478,56 @@ export default function Home() {
             desc="Take on the Backcountry of the Columbia Valley on your own ATV and take the road less travelled."
             img="bdf4b029-7c13-4887-724a-b0cf7db54700"
             url="/adventures/atv"
+            price="229"
           />
-          {isMobile && (
-            <>
-              <ActivityTile
-                location="Canadian Rockies"
-                title="Summer Combos"
-                desc="Experience more and save with these exclusive combos."
-                img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-                url="/combos"
-              />
-              <ActivityTile
-                location="Canadian Rockies"
-                title="Winter Combos"
-                desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
-                img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-                url="/combos"
-              />
-            </>
-          )}
-          {!isMobile && (
-            <>
-              <ActivityTile
-                location="Banff"
-                title="Via Ferrata Mt. Norquay"
-                desc="Take on Mount Norquay and get the best views of the town of
-            Banff and the bow valley, challenge yourself."
-                img="4b009846-f3cf-4c1f-e795-896e5c2b1000"
-                url="/adventures/vianorquay"
-              />
-              <ActivityTile
-                location="Golden"
-                title="Valley Zipline"
-                desc="As you navigate the course with your adventure guide this zipline course will take you through the tree tops at high speeds."
-                img="ac7427ae-cfaa-43c6-2a41-885cb7256700"
-                url="/adventures/zipline"
-              />
-              <ActivityTile
-                location="Golden"
-                title="Mountain Biking"
-                desc="Mountain biking at the Kicking Horse resort is an epic day on world-class trails, maintain and constructed by the trail crew of the resort."
-                img="69256104-8b47-41b1-48a2-d88cee247100"
-                url="/adventures/biking"
-              />
-              <ActivityTile
-                location="Golden"
-                title="Via Ferrata Kicking Horse"
-                desc="Challenge yourself on this guided trip on the side of the mountain peaks. With unforgettable views this outdoor adventure you won't forget."
-                img="11e9dbeb-b46d-4322-88e9-9172f64a2800"
-                url="/adventures/viakickinghorse"
-              />
-              <ActivityTile
-                location="Golden"
-                title="Scenic Flight"
-                desc="Charter your own plane to glaciers and above the mountains for some serious views of the wild back country."
-                img="e3be2b9b-00f6-48b3-7c3f-61f632f2a200"
-                url="/adventures/scenicflight"
-              />
-              <ActivityTile
-                location="Golden"
-                title="Golden Skybridge"
-                desc="The new Golden Skybridge, home to Canada's highest suspension bridges, zipline, giant swing and treetop adventure park."
-                img="e4f24150-dfa8-4425-9ece-b3c0878e1a00"
-                url="/adventures/skybridge"
-              />
-              <ActivityTile
-                location="Banff"
-                title="Banff Gondola"
-                desc="Above the clouds and town of Banff, the gondola will give access to a bird's eye view as you breathe in the fresh mountain air, this is a must do while on your visit."
-                img="f9e93463-ee8e-4e91-9806-9187265d2d00"
-                url="/adventures/banffgondola"
-              />
-              <ActivityTile
-                location="Canadian Rockies"
-                title="Summer Combos"
-                desc="Experience more and save with these exclusive combos."
-                img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-                url="/combos"
-              />
-              <ActivityTile
-                location="Canadian Rockies"
-                title="Winter Combos"
-                desc="Stay tuned as we work on delivering you the best winter experiences for upcoming season."
-                img="ea465914-9570-4ebe-60d1-50dd6fda7d00"
-                url="/combos"
-              />
-              <div className="hidden-flex-item" />
-            </>
-          )}
+          <ActivityTile
+            location="Golden"
+            title="Golden Skybridge"
+            desc="The new Golden Skybridge, home to Canada's highest suspension bridges, zipline, giant swing and treetop adventure park."
+            img="e4f24150-dfa8-4425-9ece-b3c0878e1a00"
+            url="/adventures/skybridge"
+            price="36"
+          />
+          <ActivityTile
+            location="Golden"
+            title="Scenic Flight"
+            desc="Charter your own plane to glaciers and above the mountains for some serious views of the wild back country."
+            img="e3be2b9b-00f6-48b3-7c3f-61f632f2a200"
+            url="/adventures/scenicflight"
+            price="250"
+          />
+          <ActivityTile
+            location="Golden"
+            title="Via Ferrata Kicking Horse"
+            desc="Challenge yourself on this guided trip on the side of the mountain peaks. With unforgettable views this outdoor adventure you won't forget."
+            img="11e9dbeb-b46d-4322-88e9-9172f64a2800"
+            url="/adventures/viakickinghorse"
+            price="155"
+          />
+          <ActivityTile
+            location="Canmore"
+            title="Canyoning"
+            desc="Repel waterfalls, swim the canyon waters and explore the mountains a little differently, this is a trip of a lifetime."
+            img="b38ca2d9-dbd2-4f6e-95ca-49b634538f00"
+            url="/adventures/canyoning"
+            price="195"
+          />
+          <ActivityTile
+            location="Banff"
+            title="Heli Flight"
+            desc="Get the best seat above the mountains, take a helicopter over the Three Sisters mountain tops and experience the Rockies in style."
+            img="c5ed939e-308e-4c19-58a7-cb8e744d6b00"
+            url="/adventures/heliflight"
+            price="290"
+          />
+          <ActivityTile
+            location="Banff"
+            title="Caving"
+            desc="Explore underground in this unique experience inside the Bow Valley mountains. This trip will expand your relationship with the mountains and local habitat."
+            img="66ee2fee-ee8a-4ac0-1454-3ab1da1e7100"
+            url="/adventures/caving"
+            price="135"
+          />
         </div>
         <Link href="/adventures">
           <div className="button viewAll">
@@ -585,7 +536,488 @@ export default function Home() {
         </Link>
         <div className="marginBottom" />
       </ActivityTilesStyles>
-      <WhyEpic marginBottom={true} />
+      <ActivityTilesStyles>
+        <h2>Experience More With Epic</h2>
+        <p>
+          We have teamed up with the Rockies' most epic experiences and put them
+          together to save you time, money and hassle. Take a look at our
+          exciting combos and take advantage of the exclusive deals. Book online
+          today and save.
+        </p>
+        <div className="tiles">
+          <ActivityTile
+            location="Golden"
+            title="Epic Golden Pass"
+            desc="Rafting Kicking Horse river full day, skydiving, ATV half day."
+            img="595ec27a-72a8-45c6-99a4-d7c50fead200"
+            url="https://epicadventuregroup.rezdy.com/443894/combo-epic-golden-pass-raft-skydive-atv-multi-day"
+            rrsp="757"
+            price="707"
+          />
+          <ActivityTile
+            location="Golden"
+            title="Golden Ultimate"
+            desc="Rafting full day Kicking Horse river, skydiving, ATV half-day, via ferrata (Discovery route Kicking Horse)."
+            img="379df31d-2ab4-495a-21d3-cce6e7585100"
+            url="https://epicadventuregroup.rezdy.com/485632/combo-golden-ultimate-raft-skydive-atv-via-ferrata-multi-day"
+            rrsp="912"
+            price="841"
+          />
+          <ActivityTile
+            location="Golden"
+            title="Don't Tell Mom"
+            desc="Full day rafting Kicking Horse river, skydiving."
+            img="853d630c-43d8-484c-23fb-8bf1b9b23a00"
+            url="https://epicadventuregroup.rezdy.com/444202/combo-don-t-tell-mom-raft-full-day-skydive"
+            rrsp="528"
+            price="497"
+          />
+          <ActivityTile
+            location="Golden"
+            title="Mud Express"
+            desc="Half-day ATV trip, rafting Kicking Horse river PM."
+            img="c20d505c-ac97-4e19-f2d0-12a55afce900"
+            url="/https://epicadventuregroup.rezdy.com/443893/combo-mud-express-atv-raft-express"
+            rrsp="328"
+            price="302"
+          />
+          <ActivityTile
+            location="Golden"
+            title="Dirt Dive"
+            desc="Half-day ATV trip, skydiving."
+            img="450331df-2fcb-4401-853a-4bf6bbd10f00"
+            url="https://epicadventuregroup.rezdy.com/443897/combo-dirt-dive-atv-skydive"
+            rrsp="578"
+            price="543"
+          />
+          <ActivityTile
+            location="Golden"
+            title="Double Trouble"
+            desc="Skydiving, rafting Kicking Horse river PM."
+            img="05380fa9-b6cb-4696-9e23-e1dc6ba55000"
+            url="https://epicadventuregroup.rezdy.com/443892/combo-double-trouble-skydive-raft-express"
+            rrsp="448"
+            price="423"
+          />
+          <ActivityTile
+            location="Golden"
+            title="Family Epic Pass"
+            desc="Family rafting Kicking Horse, Golden Skyridbe Adventure Pass."
+            img="29684fe5-810d-4e6e-01a3-0157e64ff800"
+            url="https://epicadventuregroup.rezdy.com/485655/combo-family-epic-pass-valley-zipline-tour-family-rafting-golden-skybridge-multi-day"
+            rrsp="160"
+            price="151"
+          />
+        </div>
+      </ActivityTilesStyles>
+      <ActivityTilesStyles>
+        <h2>Sightseeing and Adventure Add-ons</h2>
+        <p>
+          Add any of these activities to any of our solo adventures or existing
+          combos and save. Use the appropriate promo code in our checkout to add
+          these Epic memories to your next adventure.
+        </p>
+        <div className="tiles">
+          <ActivityTile
+            location="Coupon"
+            title="Skybridge Park Entry"
+            desc="Use promo code SKYBRIDGE50 when booking."
+            img="a4d0b160-416f-4188-70b1-54ef7792ad00"
+            save="50"
+            code="SKYBRIDGE50"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Skybridge Adventure Pass"
+            desc="Use promo code ADVENTURE25 when booking."
+            img="724f0594-c063-4ee7-7847-102b6f8da600"
+            save="25"
+            code="ADVENUTRE25"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Scenic Flight"
+            desc="Use promo code FLIGHT10 when booking."
+            img="cc253092-6d49-4054-60d8-961ff3c9d600"
+            save="10"
+            code="FLIGHT10"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Golden Eagle Express"
+            desc="Use promo code GONDOLA10 when booking."
+            img="545e27e2-072f-4e13-253f-40898912f800"
+            save="10"
+            code="GONDOLA10"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Banff Gondola"
+            desc="Use promo code GONDOLA10 when booking."
+            img="1fda534c-321e-4ba7-0eab-2d28446cae00"
+            save="10"
+            code="GONDOLA10"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Lake Louise Gondola"
+            desc="Use promo code GONDOLA10 when booking."
+            img="51ceaae5-19a4-49ba-345e-7fcca6c35d00"
+            save="10"
+            code="GONDOLA10"
+          />
+        </div>
+      </ActivityTilesStyles>
+      <ActivityTilesStyles>
+        <h2>Hot Combo Ideas This Summer</h2>
+        <p>
+          Some Epic hot combo ideas for this summer to keep you cool and doing
+          it all. Add promo code to check out when finalising booking.
+        </p>
+        <div className="tiles">
+          <ActivityTile
+            location="Coupon"
+            title="Skydive + Skybridge Adventure Pass"
+            desc="Use promo code ADVENTURE25 when booking."
+            img="31818e58-2f12-404a-a739-fd1e9923e900"
+            save="25"
+            code="ADVENTURE25"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Raft + Skybridge Adventure Pass"
+            desc="Use promo code ADVENTURE25 when booking."
+            img="59a2e3e4-38d4-49de-1624-8ee154829500"
+            save="25"
+            code="ADVENTURE25"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="ATV + Skybridge Adventure Pass"
+            desc="Use promo code ADVENTURE25 when booking."
+            img="d8ac2c2b-f536-40fa-033d-20f475eae700"
+            save="25"
+            code="ADVENTURE25"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Epic Golden Pass + Skybridge"
+            desc="Use promo code SKYBRIDGE50 when booking."
+            img="94a05aa6-a7c7-4ecf-fda2-0198ccce2500"
+            save="50"
+            code="SKYBRIDGE50"
+          />
+          <ActivityTile
+            location="Coupon"
+            title="Don't Tell Mom + Skybridge"
+            desc="Use promo code SKYBRIDGE50 when booking."
+            img="fe50d6fe-1f53-4d2d-bcbd-e0e012347d00"
+            save="50"
+            code="SKYBRIDGE50"
+          />
+        </div>
+      </ActivityTilesStyles>
+      <ComboTableStyles>
+        <div className="tableContainer">
+          <div className="table">
+            <table>
+              <thead>
+                <tr>
+                  <th className="combo">
+                    <div className="cell"></div>
+                  </th>
+                  <th>
+                    <div className="cell">Rafting</div>
+                  </th>
+                  <th>
+                    <div className="cell">Skydiving</div>
+                  </th>
+                  <th>
+                    <div className="cell">ATV</div>
+                  </th>
+                  <th>
+                    <div className="cell">Via Ferrata</div>
+                  </th>
+                  <th>
+                    <div className="cell">Zipline</div>
+                  </th>
+                  <th>
+                    <div className="cell">Skybridge</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th className="combo">
+                    <div className="cell">Epic Golden Pass</div>
+                  </th>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/rafting.svg" width="35" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/skydiving.svg" width="30" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/atv.svg" width="40" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th className="combo">
+                    <div className="cell">Golden Ultimate</div>
+                  </th>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/rafting.svg" width="35" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/skydiving.svg" width="30" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/atv.svg" width="40" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/mountain.svg" width="35" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th className="combo">
+                    <div className="cell">Don't Tell Mom</div>
+                  </th>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/rafting.svg" width="35" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/skydiving.svg" width="30" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th className="combo">
+                    <div className="cell">Mud Express</div>
+                  </th>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/rafting.svg" width="35" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/atv.svg" width="40" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th className="combo">
+                    <div className="cell">Dirt Dive</div>
+                  </th>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/skydiving.svg" width="30" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/atv.svg" width="40" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th className="combo">
+                    <div className="cell">Double Trouble</div>
+                  </th>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/rafting.svg" width="35" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/skydiving.svg" width="30" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <th className="combo">
+                    <div className="cell">Family Epic Pass</div>
+                  </th>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/rafting.svg" width="35" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div className="cell"></div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/zipline.svg" width="35" />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell">
+                      <img src="/svg/sightseeing.svg" width="35" />
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </ComboTableStyles>
+      <TopDividerStyles>
+        <img
+          src="/svg/divider-top.svg"
+          width="101%"
+          style={{
+            marginLeft: "-.2rem",
+            marginTop: "30rem",
+          }}
+        />
+      </TopDividerStyles>
+      <TestimonialStyles>
+        <h2>What People Are Saying</h2>
+        <Carousel
+          responsive={quotes}
+          infinite={true}
+          swipeable={true}
+          draggable={true}
+          autoPlay
+          autoPlaySpeed={5000}
+        >
+          <>
+            <p>
+              “I surely had an Epic Adventure this weekend! Glad I booked
+              through this team! Lots of great package deals, a little bit of
+              everything and something for everyone! Highly recommend going
+              through them if you're looking for an Epic time 😎”
+            </p>
+            <div className="faceContainer">
+              <img src="/svg/face.svg" width="30px" />
+            </div>
+            <p className="customerName">Char Lene, Google review 5 stars</p>
+          </>
+          <>
+            <p>“Guess who had an "Epic" time... this guy!!!”</p>
+            <div className="faceContainer">
+              <img src="/svg/face.svg" width="30px" />
+            </div>
+            <p className="customerName">Sean Finnerty, Google review 5 stars</p>
+          </>
+          <>
+            <p>
+              “Booking was a breeze and very competitive pricing. Would highly
+              recommend.”
+            </p>
+            <div className="faceContainer">
+              <img src="/svg/face.svg" width="30px" />
+            </div>
+            <p className="customerName">Jesse Shaw, Google review 5 stars</p>
+          </>
+          <>
+            <p>
+              “Great company that made planning the adventure part of our trip
+              so easy. Really easy website to navigate and a lot of other
+              options and ideas for things to do that we didn't know about.”
+            </p>
+            <div className="faceContainer">
+              <img src="/svg/face.svg" width="30px" />
+            </div>
+            <p className="customerName">
+              Charlotte Schofield, Google review 5 stars
+            </p>
+          </>
+        </Carousel>
+      </TestimonialStyles>
+      <BottomDividerStyles>
+        <img
+          src="/svg/divider-bottom.svg"
+          width="101%"
+          style={{ marginLeft: "-.2rem" }}
+        />
+      </BottomDividerStyles>
       <CardSectionStyles>
         <h3>The Canadian Rockies</h3>
         <div className="cards">
@@ -629,589 +1061,7 @@ export default function Home() {
           </Carousel>
         </div>
       </CardSectionStyles>
-      <ComboTableStyles>
-        <h3>Experience More With Epic</h3>
-        <p>
-          We have teamed up with Canada's most epic experiences and put them
-          together to save you time, money and hassle. Take a look at our
-          exciting combos and take advantage of the exclusive deals.{" "}
-        </p>
-        <div className="tableContainer">
-          <div className="table">
-            <table>
-              <thead>
-                <tr>
-                  <th className="combo">
-                    <div className="cell"></div>
-                  </th>
-                  <th>
-                    <div className="cell">Rafting</div>
-                  </th>
-                  <th>
-                    <div className="cell">Skydiving</div>
-                  </th>
-                  <th>
-                    <div className="cell">ATV</div>
-                  </th>
-                  <th>
-                    <div className="cell">Via Ferrata</div>
-                  </th>
-                  <th>
-                    <div className="cell">Canyoning</div>
-                  </th>
-                  <th>
-                    <div className="cell">Caving</div>
-                  </th>
-                  <th>
-                    <div className="cell">Zipline</div>
-                  </th>
-                  <th>
-                    <div className="cell">Skybridge</div>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Epic Golden Pass</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/skydiving.svg" width="30" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/atv.svg" width="40" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Golden Ultimate</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/skydiving.svg" width="30" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/atv.svg" width="40" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Don't Tell Mom</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/skydiving.svg" width="30" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Mud Express</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/atv.svg" width="40" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Dirt Dive</div>
-                  </th>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/skydiving.svg" width="30" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/atv.svg" width="40" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Double Trouble</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/skydiving.svg" width="30" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Banff Ultimate Adventurer</div>
-                  </th>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Banff Epic Adventurer</div>
-                  </th>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Under and Over</div>
-                  </th>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/skydiving.svg" width="30" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Rock Hunter</div>
-                  </th>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Rockies Explorer</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Poseidon</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Mountaineer</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Zeus</div>
-                  </th>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/skydiving.svg" width="30" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Thrill Seeker</div>
-                  </th>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/skydiving.svg" width="30" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/mountain.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="combo">
-                    <div className="cell">Family Epic Pass</div>
-                  </th>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/rafting.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td></td>
-                  <td>
-                    <div className="cell"></div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/zipline.svg" width="35" />
-                    </div>
-                  </td>
-                  <td>
-                    <div className="cell">
-                      <img src="/svg/sightseeing.svg" width="35" />
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </ComboTableStyles>
+      <WhyEpic style={{ marginTop: "4rem", marginBottom: "-12rem" }} />
       <ReadyToBook />
       <FooterDividerStyles>
         <img

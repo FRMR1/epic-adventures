@@ -71,6 +71,19 @@ export const ActivityTilesStyles = styled.div`
           line-height: 25px;
           transform: rotate(10deg);
           font-family: "Futura Bold";
+          .strikeout {
+            position: absolute;
+            width: 5.9rem;
+            height: 0.2rem;
+            background: #d75a5a;
+            border-radius: 0.1rem;
+          }
+          .strikeLeft {
+            transform: rotate(-20deg) !important;
+          }
+          .strikeRight {
+            transform: rotate(20deg) !important;
+          }
           .amount {
             position: absolute;
             font-size: 2.5rem;
@@ -81,6 +94,37 @@ export const ActivityTilesStyles = styled.div`
             -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.3));
             filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.3));
           }
+        }
+      }
+      .priceContainer {
+        text-align: left;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        span {
+          font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+          color: #555 !important;
+          font-weight: 600;
+          display: inline;
+          padding: 0;
+          margin: 0;
+          line-height: 7rem;
+        }
+        .dollarSign {
+          font-size: 3rem;
+          position: relative;
+          top: -1.1rem;
+        }
+        .amount {
+          font-size: 5rem;
+          letter-spacing: -0.3rem;
+        }
+        .currency {
+          font-size: 1rem;
+          position: relative;
+          top: -2.8rem;
+          margin-left: 4px;
         }
       }
       .desc {
