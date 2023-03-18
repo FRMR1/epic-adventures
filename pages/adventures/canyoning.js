@@ -200,7 +200,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">185</span>
+              <span className="amount">195</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485223/bow-valley-canyoning-hearts-creek">
@@ -254,7 +254,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">245</span>
+              <span className="amount">295</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485225/bow-valley-canyoning-ghost-canyon">
@@ -308,7 +308,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">245</span>
+              <span className="amount">295</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485229/bow-valley-canyoning-castle-canyon">

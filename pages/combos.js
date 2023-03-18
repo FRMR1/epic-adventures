@@ -116,7 +116,7 @@ const Combos = ({}) => {
             title="Mud Express"
             desc="Half-day ATV trip, rafting Kicking Horse river PM."
             img="c20d505c-ac97-4e19-f2d0-12a55afce900"
-            url="/https://epicadventuregroup.rezdy.com/443893/combo-mud-express-atv-raft-express"
+            url="https://epicadventuregroup.rezdy.com/443893/combo-mud-express-atv-raft-express"
             rrsp="328"
             price="302"
           />

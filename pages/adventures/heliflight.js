@@ -186,7 +186,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">280</span>
+              <span className="amount">290</span>
               <span className="currency">CAD/PERSON</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485003/heli-flight-three-sisters-peak-tour">
@@ -230,7 +230,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">380</span>
+              <span className="amount">390</span>
               <span className="currency">CAD/PERSON</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485006/heli-flight-mt-assiniboine-and-glaciers-tour">
@@ -274,7 +274,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">480</span>
+              <span className="amount">490</span>
               <span className="currency">CAD/PERSON</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485008/heli-flight-continental-divide-tour">
@@ -319,7 +319,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">700</span>
+              <span className="amount">725</span>
               <span className="currency">CAD/PERSON</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/485009/heli-flight-marvel-pass-tour">

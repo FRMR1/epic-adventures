@@ -206,7 +206,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">169</span>
+              <span className="amount">179</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/145505/full-day-rafting-white-water-discovery">
@@ -316,6 +316,53 @@ const Skydiving = () => {
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/147248/half-day-rafting-white-water-express-3-30-p-m">
+              <a target="_blank" rel="noreferrer">
+                <div className="button">
+                  <span>Book Now</span>
+                </div>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="twoCol">
+          <div className="left">
+            <div className="imageRotate">
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/e4b05065-2a7a-415f-e20f-f3cb76941500/public"
+                layout="fill"
+                objectFit="contain"
+                alt="Kicking Horse River"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Family Adventure</h3>
+            <p>
+              Are you feeling a bit nervous about hopping in a raft, travelling
+              with young children, or just want to sit back and relax? This is
+              the trip for you.
+            </p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Duration: 3 Hours (approx.)
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                No experience required
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Fun for all ages
+              </li>
+            </ul>
+            <div className="priceContainer">
+              <span className="dollarSign">$</span>
+              <span className="amount">89</span>
+              <span className="currency">CAD</span>
+            </div>
+            <Link href="https://epicadventuregroup.rezdy.com/145513/family-adventure">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
