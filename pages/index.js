@@ -621,7 +621,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Skybridge Park Entry"
-            desc="Use promo code SKYBRIDGE50 when booking."
+            desc="Use promo code SKYBRIDGE50 when booking and save 50% on the Skybridge."
             img="a4d0b160-416f-4188-70b1-54ef7792ad00"
             save="50"
             code="SKYBRIDGE50"
@@ -629,7 +629,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Skybridge Adventure Pass"
-            desc="Use promo code ADVENTURE25 when booking."
+            desc="Use promo code ADVENTURE25 when booking and save 25% on the Skybridge Adventure Pass."
             img="724f0594-c063-4ee7-7847-102b6f8da600"
             save="25"
             code="ADVENUTRE25"
@@ -637,7 +637,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Scenic Flight"
-            desc="Use promo code FLIGHT10 when booking."
+            desc="Use promo code FLIGHT10 when booking and save 10% on Scenic Flight."
             img="cc253092-6d49-4054-60d8-961ff3c9d600"
             save="10"
             code="FLIGHT10"
@@ -645,7 +645,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Golden Eagle Express"
-            desc="Use promo code GONDOLA10 when booking."
+            desc="Use promo code GONDOLA10 when booking and save 10% on the Golden Eagle Express."
             img="545e27e2-072f-4e13-253f-40898912f800"
             save="10"
             code="GONDOLA10"
@@ -653,7 +653,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Banff Gondola"
-            desc="Use promo code GONDOLA10 when booking."
+            desc="Use promo code GONDOLA10 when booking and save 10% on the Banff Gondola."
             img="1fda534c-321e-4ba7-0eab-2d28446cae00"
             save="10"
             code="GONDOLA10"
@@ -661,7 +661,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Lake Louise Gondola"
-            desc="Use promo code GONDOLA10 when booking."
+            desc="Use promo code GONDOLA10 when booking and save 10% on the Lake Louise Gondola."
             img="51ceaae5-19a4-49ba-345e-7fcca6c35d00"
             save="10"
             code="GONDOLA10"
@@ -678,7 +678,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Skydive + Skybridge Adventure Pass"
-            desc="Use promo code ADVENTURE25 when booking."
+            desc="Use promo code ADVENTURE25 when booking and save 25% on the Skybridge Adventure Pass."
             img="31818e58-2f12-404a-a739-fd1e9923e900"
             save="25"
             code="ADVENTURE25"
@@ -686,7 +686,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Raft + Skybridge Adventure Pass"
-            desc="Use promo code ADVENTURE25 when booking."
+            desc="Use promo code ADVENTURE25 when booking and save 25% on the Skybridge Adventure Pass."
             img="59a2e3e4-38d4-49de-1624-8ee154829500"
             save="25"
             code="ADVENTURE25"
@@ -694,7 +694,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="ATV + Skybridge Adventure Pass"
-            desc="Use promo code ADVENTURE25 when booking."
+            desc="Use promo code ADVENTURE25 when booking and save 25% on the Skybridge Adventure Pass."
             img="d8ac2c2b-f536-40fa-033d-20f475eae700"
             save="25"
             code="ADVENTURE25"
@@ -702,7 +702,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Epic Golden Pass + Skybridge"
-            desc="Use promo code SKYBRIDGE50 when booking."
+            desc="Use promo code SKYBRIDGE50 when booking and save 50% on the Skybridge."
             img="94a05aa6-a7c7-4ecf-fda2-0198ccce2500"
             save="50"
             code="SKYBRIDGE50"
@@ -710,7 +710,7 @@ export default function Home() {
           <ActivityTile
             location="Coupon"
             title="Don't Tell Mom + Skybridge"
-            desc="Use promo code SKYBRIDGE50 when booking."
+            desc="Use promo code SKYBRIDGE50 when booking and save 50% on the Skybridge."
             img="fe50d6fe-1f53-4d2d-bcbd-e0e012347d00"
             save="50"
             code="SKYBRIDGE50"

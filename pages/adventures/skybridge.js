@@ -186,7 +186,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">34</span>
+              <span className="amount">36</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/443882/golden-skybridge-park-entry">

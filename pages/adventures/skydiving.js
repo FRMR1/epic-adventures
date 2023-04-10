@@ -199,10 +199,10 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">329</span>
+              <span className="amount">349</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+            <Link href="https://epicadventuregroup.rezdy.com/503419/tandem-skydive-skydive-extreme-yeti">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -238,7 +238,7 @@ const Skydiving = () => {
               <span className="amount">100</span>
               <span className="currency">CAD/PERSON</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/catalog/427160/combos">
+            <Link href="https://epicadventuregroup.rezdy.com/503419/tandem-skydive-skydive-extreme-yeti">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
