@@ -486,7 +486,7 @@ export default function Home() {
             desc="The new Golden Skybridge, home to Canada's highest suspension bridges, zipline, giant swing and treetop adventure park."
             img="e4f24150-dfa8-4425-9ece-b3c0878e1a00"
             url="/adventures/skybridge"
-            price="36"
+            price="39"
           />
           <ActivityTile
             location="Golden"
