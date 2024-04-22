@@ -259,7 +259,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
-            <h3>Combo This Trip</h3>
+            <h3>Combo This Trip and Save 10%</h3>
             <p>Combo and experience more!</p>
             <ul>
               <li>

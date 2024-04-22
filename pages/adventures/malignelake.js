@@ -177,7 +177,7 @@ const MaligneLake = () => {
               <span className="amount">75</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/485307/maligne-lake-classic-cruise">
+            <Link href="https://bookings.banffjaspercollection.com/RKY/activities/details/1/YJA-BTC-BA-MLC/Attraction?WebLink=maXNWI%2fPsHwiKNVnBzX8bg%3d%3d&agencyNumber=5007167&wlid=922&lob=Maligne+Lake+Cruise#/select-ticket/book-adventure">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>

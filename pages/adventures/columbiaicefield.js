@@ -183,7 +183,7 @@ const MaligneLake = () => {
               <span className="amount">92</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/485240/columbia-icefield-adventure">
+            <Link href="https://bookings.banffjaspercollection.com/RKY/activities/details/1/ICE-BTC-BA-GA/Attraction?WebLink=oPDTQF%2btXzLfsXkN1%2bt7bw%3d%3d&agencyNumber=5007167&wlid=919&lob=Glacier+Adventure#/select-ticket/book-adventure">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>

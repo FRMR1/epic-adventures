@@ -186,10 +186,10 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">39</span>
+              <span className="amount">45</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/443882/golden-skybridge-park-entry">
+            <Link href="https://bookings.banffjaspercollection.com/RKY/activities/details/1/YGE-GSB/Attraction?WebLink=8f0seDFyNaNxkm6y3D6isA%3d%3d&agencyNumber=5007167&wlid=920&lob=Golden+Skybridge#/select-ticket/book-adventure">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
@@ -239,15 +239,55 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">79</span>
+              <span className="amount">94</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/551299/golden-skybridge-adventure-pass">
+            <Link href="https://bookings.banffjaspercollection.com/RKY/activities/details/1/YGE-GSB/Attraction?WebLink=8f0seDFyNaNxkm6y3D6isA%3d%3d&agencyNumber=5007167&wlid=920&lob=Golden+Skybridge#/select-ticket/book-adventure">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>
                 </div>
               </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="twoCol">
+          <div className="left">
+            <div>
+              <Image
+                src="https://imagedelivery.net/cGGu211iAYkGzG2QT0_3cQ/ca20ab16-0d8c-44c5-fa99-49a07fcf0700/public"
+                layout="fill"
+                objectFit="contain"
+                alt="ATV Off-Road"
+              />
+            </div>
+          </div>
+          <div className="right">
+            <h3>Combo This Trip and Save 10%</h3>
+            <p>Combo and experience more!</p>
+            <ul>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save money
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Save time
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Exclusive products
+              </li>
+              <li>
+                <img src="/svg/checkmark.svg" width="15" />
+                Live EPIC!
+              </li>
+            </ul>
+            <Link href="/combos">
+              <div className="button">
+                <span>More Info</span>
+              </div>
             </Link>
           </div>
         </div>

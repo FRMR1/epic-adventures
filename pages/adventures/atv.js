@@ -203,7 +203,7 @@ const ATV = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">229</span>
+              <span className="amount">239</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/443886/off-road-atv-half-day">
@@ -257,7 +257,7 @@ const ATV = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">229</span>
+              <span className="amount">239</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/443886/off-road-atv-half-day">
@@ -282,7 +282,7 @@ const ATV = () => {
             </div>
           </div>
           <div className="right">
-            <h3>Combo This Trip</h3>
+            <h3>Combo This Trip and Save 10%</h3>
             <p>Combo and experience more!</p>
             <ul>
               <li>

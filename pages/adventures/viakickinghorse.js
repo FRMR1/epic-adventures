@@ -262,7 +262,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">155</span>
+              <span className="amount">156</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/484984/via-ferrata-discovery-route-kicking-horse">
@@ -312,7 +312,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">195</span>
+              <span className="amount">199</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/484985/via-ferrata-ascension-route-kicking-horse">
@@ -336,7 +336,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
-            <h3>Combo This Trip</h3>
+            <h3>Combo This Trip and Save 10%</h3>
             <p>Combo and experience more!</p>
             <ul>
               <li>

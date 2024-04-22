@@ -90,8 +90,8 @@ const Combos = ({}) => {
             desc="Rafting Kicking Horse river full day, skydiving, ATV half day."
             img="595ec27a-72a8-45c6-99a4-d7c50fead200"
             url="https://epicadventuregroup.rezdy.com/443894/combo-epic-golden-pass-raft-skydive-atv-multi-day"
-            rrsp="757"
-            price="707"
+            rrsp="777"
+            price="699"
           />
           <ActivityTile
             location="Golden"
@@ -99,8 +99,8 @@ const Combos = ({}) => {
             desc="Rafting full day Kicking Horse river, skydiving, ATV half-day, via ferrata (Discovery route Kicking Horse)."
             img="379df31d-2ab4-495a-21d3-cce6e7585100"
             url="https://epicadventuregroup.rezdy.com/485632/combo-golden-ultimate-raft-skydive-atv-via-ferrata-multi-day"
-            rrsp="912"
-            price="841"
+            rrsp="933"
+            price="840"
           />
           <ActivityTile
             location="Golden"
@@ -108,8 +108,8 @@ const Combos = ({}) => {
             desc="Full day rafting Kicking Horse river, skydiving."
             img="853d630c-43d8-484c-23fb-8bf1b9b23a00"
             url="https://epicadventuregroup.rezdy.com/444202/combo-don-t-tell-mom-raft-full-day-skydive"
-            rrsp="528"
-            price="497"
+            rrsp="538"
+            price="484"
           />
           <ActivityTile
             location="Golden"
@@ -117,8 +117,8 @@ const Combos = ({}) => {
             desc="Half-day ATV trip, rafting Kicking Horse river PM."
             img="c20d505c-ac97-4e19-f2d0-12a55afce900"
             url="https://epicadventuregroup.rezdy.com/443893/combo-mud-express-atv-raft-express"
-            rrsp="328"
-            price="302"
+            rrsp="338"
+            price="304"
           />
           <ActivityTile
             location="Golden"
@@ -126,8 +126,8 @@ const Combos = ({}) => {
             desc="Half-day ATV trip, skydiving."
             img="450331df-2fcb-4401-853a-4bf6bbd10f00"
             url="https://epicadventuregroup.rezdy.com/443897/combo-dirt-dive-atv-skydive"
-            rrsp="578"
-            price="543"
+            rrsp="588"
+            price="529"
           />
           <ActivityTile
             location="Golden"
@@ -136,7 +136,7 @@ const Combos = ({}) => {
             img="05380fa9-b6cb-4696-9e23-e1dc6ba55000"
             url="https://epicadventuregroup.rezdy.com/443892/combo-double-trouble-skydive-raft-express"
             rrsp="448"
-            price="423"
+            price="403"
           />
           <ActivityTile
             location="Golden"
@@ -144,8 +144,8 @@ const Combos = ({}) => {
             desc="Family rafting Kicking Horse, Golden Skyridbe Adventure Pass."
             img="29684fe5-810d-4e6e-01a3-0157e64ff800"
             url="https://epicadventuregroup.rezdy.com/485655/combo-family-epic-pass-valley-zipline-tour-family-rafting-golden-skybridge-multi-day"
-            rrsp="160"
-            price="151"
+            rrsp="183"
+            price="165"
           />
         </div>
       </ActivityTilesStyles>

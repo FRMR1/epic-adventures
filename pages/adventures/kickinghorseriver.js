@@ -206,7 +206,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">179</span>
+              <span className="amount">189</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/145505/full-day-rafting-white-water-discovery">
@@ -259,7 +259,7 @@ const Skydiving = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">119</span>
+              <span className="amount">129</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/145509/half-day-rafting-white-water-express-11-00-a-m">
@@ -418,7 +418,7 @@ const Skydiving = () => {
             </div>
           </div>
           <div className="right">
-            <h3>Combo This Trip</h3>
+            <h3>Combo This Trip and Save 10%</h3>
             <p>Combo and experience more!</p>
             <ul>
               <li>
