@@ -478,7 +478,7 @@ export default function Home() {
             desc="Take on the Backcountry of the Columbia Valley on your own ATV and take the road less travelled."
             img="bdf4b029-7c13-4887-724a-b0cf7db54700"
             url="/adventures/atv"
-            price="229"
+            price="239"
           />
           <ActivityTile
             location="Golden"
@@ -486,7 +486,7 @@ export default function Home() {
             desc="The new Golden Skybridge, home to Canada's highest suspension bridges, zipline, giant swing and treetop adventure park."
             img="e4f24150-dfa8-4425-9ece-b3c0878e1a00"
             url="/adventures/skybridge"
-            price="39"
+            price="45"
           />
           <ActivityTile
             location="Golden"
@@ -502,7 +502,7 @@ export default function Home() {
             desc="Challenge yourself on this guided trip on the side of the mountain peaks. With unforgettable views this outdoor adventure you won't forget."
             img="11e9dbeb-b46d-4322-88e9-9172f64a2800"
             url="/adventures/viakickinghorse"
-            price="155"
+            price="156"
           />
           <ActivityTile
             location="Canmore"
