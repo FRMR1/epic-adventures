@@ -149,7 +149,7 @@ const Combos = ({}) => {
           />
         </div>
       </ActivityTilesStyles>
-      <ActivityTilesStyles>
+      {/* <ActivityTilesStyles>
         <h2>Sightseeing and Adventure Add-ons</h2>
         <p>
           Add any of these activities to any of our solo adventures or existing
@@ -206,7 +206,7 @@ const Combos = ({}) => {
             code="GONDOLA10"
           />
         </div>
-      </ActivityTilesStyles>
+      </ActivityTilesStyles> */}
       <ActivityTilesStyles>
         <h2>Hot Combo Ideas This Summer</h2>
         <p>
