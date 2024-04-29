@@ -182,7 +182,7 @@ const Skydiving = () => {
               <span className="amount">34</span>
               <span className="currency">CAD</span>
             </div>
-            <Link href="https://epicadventuregroup.rezdy.com/485243/skywalk">
+            <Link href="https://bookings.banffjaspercollection.com/RKY/activities/1?WebLink=oNjpzZVGJKSAPMd24YCUsQ%3d%3d&agencyNumber=5007167&wlid=914">
               <a target="_blank" rel="noreferrer">
                 <div className="button">
                   <span>Book Now</span>

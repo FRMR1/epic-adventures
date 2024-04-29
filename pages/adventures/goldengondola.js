@@ -198,7 +198,7 @@ const MaligneLake = () => {
             </ul>
             <div className="priceContainer">
               <span className="dollarSign">$</span>
-              <span className="amount">50</span>
+              <span className="amount">56</span>
               <span className="currency">CAD</span>
             </div>
             <Link href="https://epicadventuregroup.rezdy.com/443871/golden-eagle-express">
