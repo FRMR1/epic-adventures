@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-      <a href="/hypedeals">
+      <a href="/combos">
         <div
           style={{
             position: "fixed",
