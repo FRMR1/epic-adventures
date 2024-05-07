@@ -636,7 +636,7 @@ export default function Home() {
           />
         </div>
       </ActivityTilesStyles> */}
-      <ActivityTilesStyles>
+      {/* <ActivityTilesStyles>
         <h2>Hot Combo Ideas This Summer</h2>
         <p>
           Some Epic hot combo ideas for this summer to keep you cool and doing
@@ -668,7 +668,7 @@ export default function Home() {
             code="ADVENTURE25"
           />
         </div>
-      </ActivityTilesStyles>
+      </ActivityTilesStyles> */}
       <ComboTableStyles>
         <div className="tableContainer">
           <div className="table">

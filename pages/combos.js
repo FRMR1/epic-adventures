@@ -207,7 +207,7 @@ const Combos = ({}) => {
           />
         </div>
       </ActivityTilesStyles> */}
-      <ActivityTilesStyles>
+      {/* <ActivityTilesStyles>
         <h2>Hot Combo Ideas This Summer</h2>
         <p>
           Some Epic hot combo ideas for this summer to keep you cool and doing
@@ -255,7 +255,7 @@ const Combos = ({}) => {
             code="SKYBRIDGE50"
           />
         </div>
-      </ActivityTilesStyles>
+      </ActivityTilesStyles> */}
       <ComboTableStyles>
         <div className="tableContainer">
           <div className="table">
