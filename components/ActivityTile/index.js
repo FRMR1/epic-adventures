@@ -11,6 +11,8 @@ const ActivityTile = ({
   code,
   price,
   rrsp,
+  skybridgeCombo,
+  addToCart,
 }) => {
   const [copied, setCopied] = useState(false);
 
@@ -55,7 +57,12 @@ const ActivityTile = ({
             <span className="currency">CAD</span>
           </div>
         )}
-        {url && <a href={url}>More Info</a>}
+        {skybridgeCombo && <div style={{ height: "85px" }}></div>}
+        {url && (
+          <>
+            <a href={url}>{addToCart ? "Add to cart" : "More Info"}</a>
+          </>
+        )}
         {code && (
           <button
             onClick={() => {

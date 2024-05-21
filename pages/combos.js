@@ -131,6 +131,15 @@ const Combos = ({}) => {
           />
           <ActivityTile
             location="Golden"
+            title="Family Epic Pass"
+            desc="Family rafting Kicking Horse, Golden Skyridbe Adventure Pass."
+            img="29684fe5-810d-4e6e-01a3-0157e64ff800"
+            url="https://epicadventuregroup.rezdy.com/485655/combo-family-epic-pass-valley-zipline-tour-family-rafting-golden-skybridge-multi-day"
+            rrsp="183"
+            price="165"
+          />
+          <ActivityTile
+            location="Golden"
             title="Double Trouble"
             desc="Skydiving, rafting Kicking Horse river PM."
             img="05380fa9-b6cb-4696-9e23-e1dc6ba55000"
@@ -140,12 +149,13 @@ const Combos = ({}) => {
           />
           <ActivityTile
             location="Golden"
-            title="Family Epic Pass"
-            desc="Family rafting Kicking Horse, Golden Skyridbe Adventure Pass."
+            title="Golden Skybridge"
+            desc="Adventure Pass Golden Skybridge Combo. Save 10% when booking with another tour or combo."
             img="29684fe5-810d-4e6e-01a3-0157e64ff800"
-            url="https://epicadventuregroup.rezdy.com/485655/combo-family-epic-pass-valley-zipline-tour-family-rafting-golden-skybridge-multi-day"
-            rrsp="183"
-            price="165"
+            url="https://epicadventuregroup.rezdy.com/641325/skybridge-adventure-pass-save-10"
+            save="10"
+            skybridgeCombo
+            addToCart
           />
         </div>
       </ActivityTilesStyles>

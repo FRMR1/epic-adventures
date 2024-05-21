@@ -292,7 +292,7 @@ const MaligneLake = () => {
           </div>
         </div>
       </BookAdventureStyles>
-      <ActivityTilesStyles style={{ marginBottom: "35rem" }}>
+      {/* <ActivityTilesStyles style={{ marginBottom: "35rem" }}>
         <div className="tiles">
           <ActivityTile
             location="Coupon"
@@ -335,8 +335,8 @@ const MaligneLake = () => {
             code="SKYBRIDGE50"
           />
         </div>
-      </ActivityTilesStyles>
-      <TopDividerStyles>
+      </ActivityTilesStyles> */}
+      <TopDividerStyles style={{ marginTop: "10rem" }}>
         <img
           src="/svg/divider-top.svg"
           width="101%"
