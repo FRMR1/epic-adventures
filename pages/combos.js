@@ -136,7 +136,7 @@ const Combos = ({}) => {
             img="29684fe5-810d-4e6e-01a3-0157e64ff800"
             url="https://epicadventuregroup.rezdy.com/485655/combo-family-epic-pass-valley-zipline-tour-family-rafting-golden-skybridge-multi-day"
             rrsp="183"
-            price="165"
+            price="174"
           />
           <ActivityTile
             location="Golden"
