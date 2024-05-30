@@ -76,7 +76,13 @@ const Combos = ({}) => {
         />
       </BottomDividerStyles>
       <ActivityTilesStyles>
-        <h2>Summer Adventure Combos</h2>
+        <h2>
+          Summer Adventure Combos
+          <div className="titlesave">
+            <img src="/images/star.svg" width="90" class="star" />
+            <span class="amount">SAVE 10%</span>
+          </div>
+        </h2>
         <p>
           We have teamed up with the Rockies' most epic experiences and put them
           together to save you time, money and hassle. Take a look at our
@@ -132,10 +138,10 @@ const Combos = ({}) => {
           <ActivityTile
             location="Golden"
             title="Family Epic Pass"
-            desc="Family rafting Kicking Horse, Golden Skyridbe Adventure Pass."
+            desc="Family rafting Kicking Horse, Golden Skybridge Adventure Pass."
             img="29684fe5-810d-4e6e-01a3-0157e64ff800"
             url="https://epicadventuregroup.rezdy.com/485655/combo-family-epic-pass-valley-zipline-tour-family-rafting-golden-skybridge-multi-day"
-            rrsp="183"
+            rrsp="193"
             price="174"
           />
           <ActivityTile

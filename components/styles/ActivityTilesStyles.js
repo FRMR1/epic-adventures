@@ -6,6 +6,36 @@ export const ActivityTilesStyles = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  .titlesave {
+    text-align: left;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -50px;
+    top: 0;
+    text-align: center;
+    line-height: 25px;
+    transform: rotate(10deg);
+    font-family: "Futura Bold";
+
+    @media (max-width: 450px) {
+      right: 20px;
+    }
+
+    .amount {
+      position: absolute;
+      font-size: 2.25rem;
+      color: #fff;
+    }
+    img {
+      position: absolute;
+      -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.3));
+      filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.3));
+    }
+  }
+
   h2 {
     font-size: 6rem;
     line-height: 6rem;

@@ -16,7 +16,7 @@ const ListPage = () => {
   return (
     <>
       <Head>
-        <title>Epic Adventures | Golden Skyridge</title>
+        <title>Epic Adventures | Golden Skybridge</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroImageSlider

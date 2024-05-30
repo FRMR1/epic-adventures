@@ -93,18 +93,31 @@ const Footer = ({ year }) => {
               <Link href="/adventures/skywalk">Skywalk</Link>
             </li>
           </ul>
-          <h4 className="winter">Winter</h4>
+          <h4 className="winter">Stay</h4>
           <ul>
             <li>
-              <span>Stay tuned...</span>
+              <Link href="/stay/banff">Banff</Link>
+            </li>
+            <li>
+              <Link href="/stay/canmore">Canmore</Link>
+            </li>
+            <li>
+              <Link href="/stay/jasper">Jasper</Link>
+            </li>
+            <li>
+              <Link href="/stay/golden">Golden</Link>
+            </li>
+            <li>
+              <Link href="/stay/lakelouise">Lake Louise</Link>
             </li>
           </ul>
-          <h4 className="winter">Deals</h4>
+
+          {/* <h4 className="winter">Deals</h4>
           <ul>
             <li>
               <Link href="/hypedeals">Hype Deals</Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="adventures">
           <h4>Destinations</h4>
@@ -133,22 +146,10 @@ const Footer = ({ year }) => {
               <Link href="/lists">Top Lists</Link>
             </li>
           </ul>
-          <h4 className="winter">Stay</h4>
+          <h4 className="winter">Winter</h4>
           <ul>
             <li>
-              <Link href="/stay/banff">Banff</Link>
-            </li>
-            <li>
-              <Link href="/stay/canmore">Canmore</Link>
-            </li>
-            <li>
-              <Link href="/stay/jasper">Jasper</Link>
-            </li>
-            <li>
-              <Link href="/stay/golden">Golden</Link>
-            </li>
-            <li>
-              <Link href="/stay/lakelouise">Lake Louise</Link>
+              <span>Stay tuned...</span>
             </li>
           </ul>
         </div>
